@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -e
+
+fab_house="jlcpcb"
+
+bd="$(basename "$(pwd)")"
+bf="${bd}.kicad_pcb"
+bp="${bd}/${bf}"
+
+if [ ! -f "${bf}" ]; then
+    echo "Missing board file \"${bf}\"" >&2
+    exit 1
+fi
+
+cd "$(dirname "${0}")"
+
+run_kikit() {
+    (
+        set -x
+        docker run -v .:/kikit yaqwsx/kikit "${@}"
+    )
+}
+
+run_kikit drc run "${bp}"
+run_kikit fab jlcpcb "${bp}" "${bd}/fab-${fab_house}"
+(
+    set -x
+    sudo chown -R "$(id -u -n):" "${bd}/fab-${fab_house}"
+)

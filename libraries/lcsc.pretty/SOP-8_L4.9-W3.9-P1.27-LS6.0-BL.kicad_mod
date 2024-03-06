@@ -1,0 +1,219 @@
+(footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.68 0)
+		(layer "F.SilkS")
+		(uuid "46e409be-1203-4049-8fdb-2192b27b27bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "af4ceec9-b469-42ed-b0be-b4c6b2493319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba9077b6-f481-4f44-afca-01ad3bbbe095")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18da5fb5-47b3-45ae-b0f6-e540b2f7c8a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68de7b37-f1bc-4932-9a7c-0e49d61370b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -1.52)
+		(end 2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e413815-ede9-4fa9-8061-72d6cba1c3a2")
+	)
+	(fp_line
+		(start -2.58 1.52)
+		(end -2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85177c7e-aa97-40ee-94bc-f4cbe6095f2e")
+	)
+	(fp_line
+		(start 2.58 -1.52)
+		(end 2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf52b066-2db9-47b8-8402-b26dabc2e2a8")
+	)
+	(fp_line
+		(start 2.58 1.52)
+		(end -2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0fc8e0e-8977-4051-a7d8-e2ff56438668")
+	)
+	(fp_circle
+		(center -2.67 2.68)
+		(end -2.52 2.68)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9819092e-0e94-4746-9dab-8768263d537d")
+	)
+	(fp_circle
+		(center -1.91 0.77)
+		(end -1.76 0.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6671be3d-80a5-4ab1-aed0-49ec2e6c346c")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "fc46a284-1947-4b54-a61f-1c7feed03343")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f070cb6e-67af-45ef-b6f5-3bf2d7361ccb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ee61e80d-c0c2-467f-aadb-e04fb88e6714")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3978e02f-b282-468b-bb76-1ac061d1d612")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb087544-5c89-4d06-8d31-4ebc05e5022c")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b46ac96-8b7c-4799-83e8-80c8010dc041")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7592f454-75fa-4a43-9ca6-c74b5027914d")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11b9ba12-4f2b-4978-9c0d-d8113a640482")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "261fb67f-8f61-4dbc-a343-8ef327e10251")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c7d2d116-9134-4906-93e8-17b8f3bc8f30")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc2b947e-4d76-4125-a1e3-9bf2a1766c31")
+	)
+	(model "${KIPRJMOD}/../libraries/lcsc.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+		(offset
+			(xyz 0 -0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
