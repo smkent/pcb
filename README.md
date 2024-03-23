@@ -19,15 +19,20 @@ different license(s).
   [Creative Commons Attribution-ShareAlike 4.0 International
   (CC-BY-SA-4.0)][license-cc-by-sa-4.0] ([text](/LICENSE.documentation))
 
-The KiCAD footprints in `lcsc.pretty` were created using
-[easyeda2kicad][easyeda2kicad] ([pypi][easyeda2kicad-pypi]), which are from
-[LCSC][lcsc]. [More info about easyeda2kicad][easyeda2kicad-post]
+The `lcsc` KiCAD [symbols][libraries-lcsc-symbols],
+[footprints][libraries-lcsc-pretty], and [3D models][libraries-lcsc-3dshapes]
+libraries were created using [easyeda2kicad][easyeda2kicad]
+([pypi][easyeda2kicad-pypi]), which are from [LCSC][lcsc]. [More info about
+easyeda2kicad][easyeda2kicad-post]
 
 
 [easyeda2kicad-post]: https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/
 [easyeda2kicad-pypi]: https://pypi.org/project/easyeda2kicad/
 [easyeda2kicad]: https://github.com/uPesy/easyeda2kicad.py
 [kicad]: https://kicad.org/
+[libraries-lcsc-3dshapes]: /libraries/lcsc.3dshapes
+[libraries-lcsc-pretty]: /libraries/lcsc.pretty
+[libraries-lcsc-symbols]: /libraries/lcsc.kicad_sym
 [license-cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [license-cern-ohl-p-2.0]: https://ohwr.org/cern_ohl_p_v2.pdf
 [license-gpl-3.0]: https://www.gnu.org/licenses/gpl-3.0.html
