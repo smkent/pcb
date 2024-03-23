@@ -25,6 +25,8 @@ jobs:
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
+        env:
+          CI: "true"
         run: |
           scons -u
 
