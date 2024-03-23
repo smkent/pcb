@@ -1,0 +1,42 @@
+---
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    container:
+      image: yaqwsx/kikit:latest
+    steps:
+      - name: 💾 Check out repository
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Install tools
+        shell: bash
+        run: |
+          apt update
+          apt install -y scons
+
+      - name: 🏗️ Create PCB fabrication outputs
+        shell: bash
+        env:
+          CI: "true"
+        run: |
+          scons -u
+
+      - name: 📦 Save artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: "Gerbers"
+          path: |
+            **/fab-*/gerbers.zip
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false

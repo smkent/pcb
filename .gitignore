@@ -35,3 +35,9 @@ fp-info-cache
 *.gbrjob
 *.drl
 */fab-*
+
+# Python bytecode
+__pycache__
+
+# scons
+.sconsign.dblite
