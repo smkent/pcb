@@ -23,6 +23,18 @@ jobs:
           apt update
           apt install -y scons
 
+      - name: 🏗️ Create PCB fabrication outputs
+        shell: bash
+        run: |
+          scons -u
+
+      - name: 📦 Save artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: "Gerbers"
+          path: |
+            **/fab-*/gerbers.zip
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
