@@ -1,0 +1,27 @@
+---
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/inti-cmnb/kicad8_auto:1.6.4
+    steps:
+      - name: 💾 Check out repository
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Install tools
+        shell: bash
+        run: |
+          python3 -m pip install scons
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
