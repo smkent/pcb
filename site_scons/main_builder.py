@@ -74,8 +74,6 @@ class MainBuilder:
         cmds = [str(c) for c in cmd]
         if not self.is_ci:
             cmds = _docker_cmd() + cmds
-        else:
-            cmds = ["kikit"] + cmds
         if not quiet:
             print("+", " ".join(cmds), file=sys.stderr)
         return subprocess.run(cmds, *args, check=check, **kwargs)
