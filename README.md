@@ -30,6 +30,7 @@ easyeda2kicad][easyeda2kicad-post]
 [easyeda2kicad-pypi]: https://pypi.org/project/easyeda2kicad/
 [easyeda2kicad]: https://github.com/uPesy/easyeda2kicad.py
 [kicad]: https://kicad.org/
+[lcsc]: https://lcsc.com
 [libraries-lcsc-3dshapes]: /libraries/lcsc.3dshapes
 [libraries-lcsc-pretty]: /libraries/lcsc.pretty
 [libraries-lcsc-symbols]: /libraries/lcsc.kicad_sym
