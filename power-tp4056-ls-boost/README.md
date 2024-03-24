@@ -4,7 +4,7 @@
 
 Features:
 
-* Li-Ion battery charger ([TP4056][tp4056])
+* 1A Li-Ion battery charger ([TP4056][tp4056])
 * Battery protection with 3V discharge cutoff ([XB5307H][xb5307h],
   [english translation](/datasheets/XySemi-XB5307H-en.pdf))
 * Load-sharing circuit
