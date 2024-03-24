@@ -466,6 +466,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17379"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e364a1e5-2df3-496e-8d13-821d6438fabb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d3f511b-453b-46c2-bd36-4f0424f023c4")
 		(sheetname "Root")
@@ -682,7 +695,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4431b03e-c7c2-4dbe-a2fd-7fa5f293024d")
+			(uuid "3ba97cdc-cc5a-416a-8925-8e7a06ad03e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741db909-87a3-4323-83e1-3c346c2a70dc")
 			(effects
 				(font
 					(size 1 1)
@@ -1541,6 +1567,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6563f602-15e0-4595-8d0a-420c05a72a29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8581bf1e-d39f-40a0-9309-c65859e442b5")
 		(sheetname "Root")
@@ -2187,6 +2226,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5c685d3-a020-4ea8-a5c9-e0bb353fda77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b68d21c0-8a47-48e4-bf81-2bca833de503")
 		(sheetname "Root")
@@ -2403,7 +2455,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c44e153-923f-4d0f-8942-d3f5030f3bf0")
+			(uuid "a5efdc50-ebe0-4005-a027-141583f8fc7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0219bf7-89f5-4690-ba93-1c4e4b11fc16")
 			(effects
 				(font
 					(size 1 1)
@@ -2695,6 +2760,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C28233"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe008083-0523-47e6-984f-22fadb9ab714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3903bb8c-a383-4a5d-85f3-4b6ee78321a7")
 		(sheetname "Root")
@@ -2903,6 +2981,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15127"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7e1cd1f-4009-4685-bbe2-166418373029")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3f26ea3-ca08-4055-81c9-389c6395a696")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3168,6 +3272,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8678"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2db1caa-c797-4acc-a6d0-af83feb64158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3700,6 +3817,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17408"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff6b143e-30be-4f4f-97f6-750026834134")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/88546d3f-9f0f-446a-961b-bce37ad7984a")
 		(sheetname "Root")
@@ -4158,6 +4288,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6788d31-7dcd-4a68-8727-f44d93fa1198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C29718"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24daf533-03f6-47e4-bb6c-70673efa6093")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1bb9a04-44b5-439b-82ab-40ed253e0a2b")
 			(effects
 				(font
 					(size 1 1)

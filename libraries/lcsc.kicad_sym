@@ -3990,6 +3990,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TP4056_0_1"
 			(rectangle
 				(start -10.16 20.32)
@@ -5313,6 +5322,15 @@
 		)
 		(property "LCSC Part" "C154942"
 			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
