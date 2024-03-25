@@ -5,7 +5,7 @@
 Features:
 
 * 1A Li-Ion battery charger ([TP4056][tp4056])
-* Battery protection with 3V discharge cutoff ([XB5307H][xb5307h],
+* Battery protection with 3V discharge cutoff ([XB5350D0][xb5350d0],
   [english translation](/datasheets/XySemi-XB5307H-en.pdf))
 * Load-sharing circuit
 * 5V boost converter ([MT3608][mt3608])
@@ -22,4 +22,4 @@ Built from scratch using the IC datasheet application circuits, but inspired by
 [wagiminator-mt3608-12v-boost-converter]: https://github.com/wagiminator/Power-Boards/tree/master/Boost_Converter_MT3608
 [wagiminator-power-boards]: https://github.com/wagiminator/Power-Boards
 [wagiminator-tp4056-lipo-charger-ls]: https://github.com/wagiminator/Power-Boards/tree/master/LiPo_Charger_LS_TP4056
-[xb5307h]: https://www.lcsc.com/datasheet/lcsc_datasheet_1811021123_XySemi-XB5307H_C154942.pdf
+[xb5350d0]: https://www.lcsc.com/datasheet/lcsc_datasheet_2106062205_XySemi-XB5350D0_C2760002.pdf

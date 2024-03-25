@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:XB5307H"
+		(symbol "lcsc:XB5350D0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2199,7 +2199,7 @@
 					)
 				)
 			)
-			(property "Value" "XB5307H"
+			(property "Value" "XB5350D0"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2207,7 +2207,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(property "Footprint" "lcsc:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2216,8 +2216,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Battery-Protection-ICs_XB5307H_C154942.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2234,8 +2234,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C154942"
-				(at 0 -15.24 0)
+			(property "LCSC Part" "C2760002"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2243,19 +2243,10 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_CORRECTION" "0; 0; 270"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XB5307H_0_1"
+			(symbol "XB5350D0_0_1"
 				(rectangle
-					(start -7.62 5.59)
-					(end 7.62 -5.59)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -2265,18 +2256,7 @@
 					)
 				)
 				(circle
-					(center -6.35 4.32)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -6.35 4.32)
+					(center -6.35 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -2287,11 +2267,11 @@
 					)
 				)
 			)
-			(symbol "XB5307H_1_1"
+			(symbol "XB5350D0_1_1"
 				(pin no_connect line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "NC"
+					(name "VT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2309,7 +2289,7 @@
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "VM"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2327,7 +2307,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2342,10 +2322,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin input line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "NC"
+					(name "VM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2361,9 +2341,9 @@
 					)
 				)
 				(pin input line
-					(at 10.16 0 180)
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "VDD"
+					(name "VM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2371,24 +2351,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2910,6 +2872,12 @@
 		(uuid "c701a0cb-7242-4dea-9424-26a6b5a0466c")
 	)
 	(junction
+		(at 228.6 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc278d26-4d5d-4792-bef7-4dcea03a58d4")
+	)
+	(junction
 		(at 54.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3003,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 67.31) (xy 227.33 67.31)
+			(xy 229.87 67.31) (xy 228.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3293,16 +3261,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 69.85) (xy 227.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7216036d-3863-4cb1-994d-1a1bd9fa971d")
-	)
-	(wire
-		(pts
 			(xy 52.07 31.75) (xy 64.77 31.75)
 		)
 		(stroke
@@ -3383,6 +3341,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 67.31) (xy 227.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c967336-3e9d-40e6-82e0-07777ce49612")
+	)
+	(wire
+		(pts
 			(xy 64.77 54.61) (xy 64.77 59.69)
 		)
 		(stroke
@@ -3410,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "91553045-6e87-47e7-a5e6-d9cead3bb0e7")
+	)
+	(wire
+		(pts
+			(xy 228.6 72.39) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bfef42-995c-4265-8418-3cc19487b149")
 	)
 	(wire
 		(pts
@@ -3500,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "a5535a1e-27d7-4a35-9170-d6457b3d2115")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a660bae4-a061-4223-9e77-42b65a532b5e")
 	)
 	(wire
 		(pts
@@ -4526,6 +4514,28 @@
 		)
 		(uuid "a58f4aa6-b869-4f06-978e-e5b72343d4ba")
 	)
+	(global_label "B-"
+		(shape input)
+		(at 204.47 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ab4e089-523a-40fe-8d90-9e44b8c8ff40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B+"
 		(shape output)
 		(at 114.3 175.26 0)
@@ -4570,24 +4580,24 @@
 			)
 		)
 	)
-	(global_label "B-"
+	(global_label "BATVDD"
 		(shape input)
-		(at 229.87 67.31 0)
+		(at 204.47 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9e5a0394-52fd-44da-9ee2-e25e09211fb5")
+		(uuid "7ccf79f3-cd30-4475-9d8b-83d93b970bef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.6976 67.31 0)
+			(at 194.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4680,28 +4690,6 @@
 			)
 		)
 	)
-	(global_label "B-"
-		(shape input)
-		(at 204.47 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1b23fe3-1b61-456e-84bf-7568b4d8de1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.6424 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BATVDD"
 		(shape output)
 		(at 251.46 66.04 180)
@@ -4720,28 +4708,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATVDD"
-		(shape input)
-		(at 229.87 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f89628d7-578e-4f49-bc71-7b203fc80199")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5886,7 +5852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:XB5307H")
+		(lib_id "lcsc:XB5350D0")
 		(at 217.17 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5903,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Value" "XB5307H"
+		(property "Value" "XB5350D0"
 			(at 217.17 62.23 0)
 			(effects
 				(font
@@ -5911,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "custom:SOT-23-5_simple"
 			(at 217.17 80.01 0)
 			(effects
 				(font
@@ -5921,7 +5887,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Battery-Protection-ICs_XB5307H_C154942.html"
-			(at 217.17 82.55 0)
+			(at 217.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,8 +5913,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C154942"
-			(at 217.17 85.09 0)
+		(property "LCSC Part" "C2760002"
+			(at 217.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,9 +5927,6 @@
 		)
 		(pin "2"
 			(uuid "fb0b3cd0-20a3-4419-9066-126e88878a61")
-		)
-		(pin "6"
-			(uuid "403a3eaa-be88-4ebb-8b1d-3e161dc9ad36")
 		)
 		(pin "1"
 			(uuid "06b72ca1-e74e-467e-b90d-eb82173bb731")
@@ -6998,6 +6961,73 @@
 				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
 					(reference "RN2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e572923-684e-41f6-a16e-d8bf40e5f424")
+		(property "Reference" "#PWR04"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f885b8-a44b-4b40-8baa-e421ff51cb7a")
+		)
+		(instances
+			(project "power-tp4056-ls"
+				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
+					(reference "#PWR04")
+					(unit 1)
 				)
 			)
 		)
@@ -8127,73 +8157,6 @@
 				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
 					(reference "RN2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae40758-6f1c-4ab5-aba6-0e212ab490a8")
-		(property "Reference" "#PWR021"
-			(at 198.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb15d4a5-4acc-4753-888f-130ffd95c380")
-		)
-		(instances
-			(project "power-tp4056-ls"
-				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
-					(reference "#PWR021")
-					(unit 1)
 				)
 			)
 		)
