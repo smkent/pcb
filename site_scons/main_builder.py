@@ -87,7 +87,20 @@ class MainBuilder:
         board_dir = Path(source[0].path).parent
         fab_dir = Path(target[0].path).parent
         self.run(["kikit", "drc", "run", source[0]])
-        self.run(["kikit", "fab", "jlcpcb", source[0], fab_dir])
+        self.run(
+            [
+                "kikit",
+                "fab",
+                "jlcpcb",
+                "--assembly",
+                "--field",
+                "LCSC Part",
+                "--schematic",
+                (board_dir / f"{board_dir.name}.kicad_sch"),
+                source[0],
+                fab_dir,
+            ]
+        )
         self.chown_project_dir(board_dir)
 
     def render_schematic(
