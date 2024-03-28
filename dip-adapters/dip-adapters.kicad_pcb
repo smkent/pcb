@@ -3950,16 +3950,36 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 140.716 94.996)
-		(end 156.464 115.824)
+	(gr_poly
+		(pts
+			(arc
+				(start 154.964 115.824)
+				(mid 156.02466 115.38466)
+				(end 156.464 114.324)
+			)
+			(arc
+				(start 156.464 96.496)
+				(mid 156.02466 95.43534)
+				(end 154.964 94.996)
+			)
+			(arc
+				(start 142.216 94.996)
+				(mid 141.15534 95.43534)
+				(end 140.716 96.496)
+			)
+			(arc
+				(start 140.716 114.324)
+				(mid 141.15534 115.38466)
+				(end 142.216 115.824)
+			)
+		)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "eb0aee0d-5e9a-4455-9170-918814c973fd")
+		(uuid "d257ab18-de83-40c5-8f49-72c579da9bc8")
 	)
 	(gr_text "6"
 		(at 143.51 99.06 0)
