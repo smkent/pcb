@@ -1,4 +1,4 @@
-(footprint "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_simple"
+(footprint "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_simple_pad2gnd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_simple"
+	(property "Value" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_simple_pad2gnd"
 		(at 1.25 4.6 0)
 		(layer "F.Fab")
 		(uuid "18108091-1621-4559-8aff-bbf40ad40eea")
@@ -423,12 +423,13 @@
 		(remove_unused_layers no)
 		(uuid "828b352a-6ec5-4e78-9340-d78ef24cd6db")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole roundrect
 		(at 2.5 0)
 		(size 1.7 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1470588235)
 		(uuid "1fbb2937-fbbc-475f-b804-5cef00e2c99b")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
