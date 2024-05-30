@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias_CustomVias_Large"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -323,7 +323,7 @@
 		(remove_unused_layers no)
 		(uuid "821e3e7e-2e42-45bc-8bd2-08744bda1ab2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
