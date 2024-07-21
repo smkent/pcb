@@ -139,6 +139,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -151,6 +152,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -163,6 +165,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -495,6 +498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -507,6 +511,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -519,6 +524,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -884,6 +890,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -896,6 +903,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -908,6 +916,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1562,6 +1571,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1574,6 +1584,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1586,6 +1597,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1772,6 +1784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1784,6 +1797,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1796,6 +1810,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2044,6 +2059,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2056,10 +2072,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 0 12 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2068,6 +2085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2487,7 +2505,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
-			(at 2.54 -4.27 270)
+			(at 2.54 -4.27 -90)
 			(layer "F.SilkS")
 			(uuid "788e9bce-80c5-46e4-a887-9b708697c9fa")
 			(effects
@@ -2498,7 +2516,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 2.54 2.5 270)
+			(at 2.54 2.5 -90)
 			(layer "F.Fab")
 			(uuid "ccf3e9e3-597e-4432-9645-e74201ea2082")
 			(effects
@@ -2517,6 +2535,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2529,6 +2548,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2541,6 +2561,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2730,7 +2751,7 @@
 			(uuid "a5685eba-3c30-4df6-b2b5-8cbd442c1e37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 270)
+			(at 2.54 -4.27 -90)
 			(layer "F.Fab")
 			(uuid "3ebea596-f275-46ab-9415-f5a5752bd6d4")
 			(effects
@@ -2793,7 +2814,7 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ed3cff6c-5347-4807-82b4-d823d9601db8")
+			(uuid "51dbc6bb-72a0-45ed-bede-bd651f87270c")
 			(effects
 				(font
 					(size 1 1)
@@ -2805,7 +2826,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0146e28c-83b2-4a0b-8740-c5607300c2e5")
+			(uuid "dec075c9-4aad-4244-866f-0b242f3c7f93")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2818,10 +2839,11 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fc0aef9-a198-4cb6-8ba4-60c84884f315")
+			(uuid "15d7abfb-8517-443d-a45d-6698125ddc7e")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2830,10 +2852,11 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "570c42d3-4a6d-4e0d-8a93-76335b47c6d8")
+			(uuid "1a9de5c6-3e6e-4217-b14b-87583dec0e85")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2842,10 +2865,11 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5ba61d1-ffbe-4cf4-b923-a326da04fe5c")
+			(uuid "67454e47-f7cb-4144-83dc-c2bcd1115eab")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2862,13 +2886,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "58580280-9f90-4631-9221-8681e87f676b")
+			(uuid "8f47d9bd-3eeb-49ab-949d-da7a93f7c500")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e1ef3027-68d4-4398-8c71-19e34ebbc6ee")
+			(uuid "56052693-8039-401f-8a21-bd0aa5935510")
 			(effects
 				(font
 					(size 1 1)
@@ -2884,7 +2908,7 @@
 			(remove_unused_layers no)
 			(net 16 "Net-(Q1-G)")
 			(pintype "passive")
-			(uuid "36d9de6b-58bd-4cb5-93d6-f0ce3bfe1a09")
+			(uuid "0082cb0d-c504-4e13-a405-a0687ee507a9")
 		)
 		(pad "1" thru_hole circle
 			(at 7.62 7.62)
@@ -2894,7 +2918,7 @@
 			(remove_unused_layers no)
 			(net 11 "unconnected-(U1-Pad1)")
 			(pintype "passive+no_connect")
-			(uuid "1ebaf5f4-59ae-4618-8774-ec2eee04ad48")
+			(uuid "40c675e7-786f-4c4c-b1af-1f3a429841c4")
 		)
 		(pad "2" thru_hole circle
 			(at 7.62 5.08)
@@ -2904,7 +2928,7 @@
 			(remove_unused_layers no)
 			(net 19 "G2")
 			(pintype "passive")
-			(uuid "2995fe95-d2e1-419f-bfa0-5ae944414043")
+			(uuid "ab176ba4-f186-4fd4-97a1-ed3c4074dddd")
 		)
 		(pad "3" thru_hole circle
 			(at 7.62 2.54)
@@ -2914,7 +2938,7 @@
 			(remove_unused_layers no)
 			(net 20 "G3")
 			(pintype "passive")
-			(uuid "939a3c7e-d402-4cff-a9ff-d2b3c997f2d1")
+			(uuid "410aafc1-f607-4699-aa32-eed59175f7bd")
 		)
 		(pad "3V3" thru_hole circle
 			(at 7.62 -2.54)
@@ -2924,7 +2948,7 @@
 			(remove_unused_layers no)
 			(net 5 "unconnected-(U1-Pad3V3)")
 			(pintype "power_in+no_connect")
-			(uuid "bee2c5f2-df9b-408d-8757-866aaa77efde")
+			(uuid "b0af4530-854b-4aef-a532-6a8be99ee00e")
 		)
 		(pad "4" thru_hole circle
 			(at 7.62 0)
@@ -2934,7 +2958,7 @@
 			(remove_unused_layers no)
 			(net 8 "unconnected-(U1-Pad4)")
 			(pintype "passive+no_connect")
-			(uuid "b767200d-0d0f-48fd-99d3-fe091bbb8228")
+			(uuid "29c5ea9d-17e0-47a2-ab38-786d748a71e7")
 		)
 		(pad "5" thru_hole circle
 			(at -7.62 -7.62)
@@ -2944,7 +2968,7 @@
 			(remove_unused_layers no)
 			(net 6 "unconnected-(U1-Pad5)")
 			(pintype "passive+no_connect")
-			(uuid "6e2858d0-a27d-4126-9618-260e7fe44413")
+			(uuid "15acfb16-dcf8-491b-9a02-0d4f799ccedb")
 		)
 		(pad "5V" thru_hole circle
 			(at 7.62 -7.62)
@@ -2954,7 +2978,7 @@
 			(remove_unused_layers no)
 			(net 1 "VCC")
 			(pintype "power_in")
-			(uuid "bb8e2c02-fb96-43df-b656-8779e03d8ca9")
+			(uuid "9a23b8d0-e2e7-479a-8e43-99478f301c33")
 		)
 		(pad "6" thru_hole circle
 			(at -7.62 -5.08)
@@ -2964,7 +2988,7 @@
 			(remove_unused_layers no)
 			(net 10 "unconnected-(U1-Pad6)")
 			(pintype "passive+no_connect")
-			(uuid "ed4bea93-6590-49b7-b38d-a64733433236")
+			(uuid "02cfc1d8-0ebb-4b0b-8a8f-3d559f10f8e3")
 		)
 		(pad "7" thru_hole circle
 			(at -7.62 -2.54)
@@ -2974,7 +2998,7 @@
 			(remove_unused_layers no)
 			(net 7 "unconnected-(U1-Pad7)")
 			(pintype "passive+no_connect")
-			(uuid "7c6a81c1-aa07-43a3-90b0-da5f27738e79")
+			(uuid "dd8f1da2-5d0f-4d35-b5e5-87baa804cfaf")
 		)
 		(pad "8" thru_hole circle
 			(at -7.62 0)
@@ -2984,7 +3008,7 @@
 			(remove_unused_layers no)
 			(net 4 "unconnected-(U1-Pad8)")
 			(pintype "passive+no_connect")
-			(uuid "8150561d-300d-4503-a625-433e87ef3e30")
+			(uuid "fb8a05de-70ed-4fc4-9683-039308cb5ce0")
 		)
 		(pad "9" thru_hole circle
 			(at -7.62 2.54)
@@ -2994,7 +3018,7 @@
 			(remove_unused_layers no)
 			(net 9 "unconnected-(U1-Pad9)")
 			(pintype "passive+no_connect")
-			(uuid "900d201f-2356-4894-b664-ec9d57822efb")
+			(uuid "eed74bd2-799f-4a7c-b1c6-8052ec81312e")
 		)
 		(pad "10" thru_hole circle
 			(at -7.62 5.08)
@@ -3004,7 +3028,7 @@
 			(remove_unused_layers no)
 			(net 12 "unconnected-(U1-Pad10)")
 			(pintype "passive+no_connect")
-			(uuid "b375fd1c-44d1-4d76-9cc3-60d90663aa76")
+			(uuid "7fffbf5e-c19b-4528-9ffa-0bc1c6e3f6a1")
 		)
 		(pad "20" thru_hole circle
 			(at -7.62 7.62)
@@ -3014,7 +3038,7 @@
 			(remove_unused_layers no)
 			(net 22 "unconnected-(U1-Pad20)")
 			(pintype "passive+no_connect")
-			(uuid "715406e6-1fd0-4c2b-9106-de4fa2652b3f")
+			(uuid "1de3db32-b4fe-4a11-8d50-53563d8a949e")
 		)
 		(pad "21" thru_hole circle
 			(at -7.62 10.16)
@@ -3024,7 +3048,7 @@
 			(remove_unused_layers no)
 			(net 21 "Net-(R2-Pad1)")
 			(pintype "passive")
-			(uuid "f4f39172-28f7-4e40-bc14-7d3377768be6")
+			(uuid "17decb89-2d1c-4b23-af3f-3fed4ee56620")
 		)
 		(pad "G" thru_hole circle
 			(at 7.62 -5.08)
@@ -3035,13 +3059,13 @@
 			(net 3 "GND")
 			(pinfunction "Ground")
 			(pintype "power_in")
-			(uuid "d51935a1-fcaf-42a0-8d45-7e384bd4067f")
+			(uuid "d6a6291e-a1a1-417a-a599-3bb3e97f84cc")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.SilkS")
-			(uuid "090a6f4e-370b-4620-83c3-660ce647352b")
+			(uuid "7c5347bf-8c66-4437-9019-2b1b58d4f72d")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -3065,6 +3089,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/../libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+			(offset
+				(xyz 0 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
@@ -3073,7 +3108,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J3"
-			(at 2.54 -6.26 270)
+			(at 2.54 -6.26 -90)
 			(layer "F.SilkS")
 			(uuid "cee2baa0-7698-4fdc-9b9d-402136a38883")
 			(effects
@@ -3084,7 +3119,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 2.54 5.66 270)
+			(at 2.54 5.66 -90)
 			(layer "F.Fab")
 			(uuid "38ab4f8f-8e76-465a-bc39-9102912ada54")
 			(effects
@@ -3103,6 +3138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3115,6 +3151,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3127,6 +3164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3514,7 +3552,7 @@
 			(uuid "ccdf6995-2888-4829-9e23-c10310af3339")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.2 270)
+			(at 2.54 3.2 -90)
 			(layer "F.Fab")
 			(uuid "8f78cc9f-a57c-4996-80a1-01c1dfac15af")
 			(effects
@@ -3595,6 +3633,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3607,6 +3646,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3619,6 +3659,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3771,6 +3812,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 59.563 84.582)
+		(end 147.193 120.142)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8f3ab500-1246-4fdc-82be-ae1a254129a2")
 	)
 	(segment
 		(start 132 99.5)

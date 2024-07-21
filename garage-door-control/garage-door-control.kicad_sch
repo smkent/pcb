@@ -1108,7 +1108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Monostable Relay SPDT, EN50005"
+			(property "Description" "Relay SPDT, monostable, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1117,7 +1117,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4707,7 +4707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 176.53 66.04 0)
 			(effects
 				(font
