@@ -1040,16 +1040,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 22.86 194.31 90)
+		(at 22.86 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5c3bd8fc-67c2-4bff-872f-f1c15ac3b35a")
+		(uuid "067088ad-7f9e-4783-93f9-e4a49e9cb4a6")
 		(property "Reference" "#PWR01"
-			(at 26.67 194.31 0)
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 19.05 194.3099 90)
+			(at 19.05 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 194.31 0)
+			(at 22.86 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 194.31 0)
+			(at 22.86 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 22.86 194.31 0)
+			(at 22.86 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1de56bd9-365e-4e15-a867-fa582bb853c7")
+			(uuid "522e1b3e-443a-4b53-8fae-9527a31d049e")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
@@ -1241,16 +1241,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 191.77 270)
+		(at 22.86 194.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1f7db6f-3147-4bb9-b1f4-003241646235")
+		(uuid "fd6af17b-1ab5-4c3e-9cd2-834c2ccab333")
 		(property "Reference" "#PWR02"
-			(at 16.51 191.77 0)
+			(at 16.51 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 191.7699 90)
+			(at 19.05 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 191.77 0)
+			(at 22.86 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 191.77 0)
+			(at 22.86 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 191.77 0)
+			(at 22.86 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c6e9492-3cb5-4098-b8ad-d1694b2249a9")
+			(uuid "96c695ef-a1c5-4b91-82f9-11c8e0c81856")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
