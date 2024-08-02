@@ -1040,16 +1040,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 22.86 191.77 90)
+		(at 27.94 191.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "067088ad-7f9e-4783-93f9-e4a49e9cb4a6")
+		(uuid "4c6c8409-95bc-4d94-be2e-46b2fe146a34")
 		(property "Reference" "#PWR01"
-			(at 26.67 191.77 0)
+			(at 24.13 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 19.05 191.7699 90)
+			(at 31.75 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 191.77 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 191.77 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 22.86 191.77 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "522e1b3e-443a-4b53-8fae-9527a31d049e")
+			(uuid "e4c9777b-3b98-4da0-ba45-bd09d99e7459")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
@@ -1106,17 +1106,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 22.86 191.77 270)
+		(lib_id "power:GND")
+		(at 27.94 194.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62a16972-63a0-41cd-ade8-1cabd4f11822")
-		(property "Reference" "#FLG01"
-			(at 24.765 191.77 0)
+		(uuid "6fc8d28a-e1dc-4a95-a7fb-9d8ce44f00c8")
+		(property "Reference" "#PWR02"
+			(at 34.29 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,17 +1124,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 26.67 191.7699 90)
+		(property "Value" "GND"
+			(at 31.75 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 191.77 0)
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,8 +1142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 22.86 191.77 0)
+		(property "Datasheet" ""
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,8 +1151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 22.86 191.77 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1161,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "7398d3ca-6d13-4cad-97a9-7db34b9eefb1")
+			(uuid "70673f94-9a7e-4fa8-ac6b-0b47f6df10e7")
+		)
+		(instances
+			(project "{{ cookiecutter.project_name }}"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ceab705-3760-4092-8728-3af8473301ae")
+		(property "Reference" "#FLG01"
+			(at 26.035 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 24.13 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0d53c2d-a030-4f55-9525-865a2cff4474")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
@@ -1174,16 +1241,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 22.86 194.31 270)
+		(at 27.94 194.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8e4ed6ee-9b76-4a71-a79c-577775d66414")
+		(uuid "ca5dbb40-7ea0-491e-9df8-018570b7e7c3")
 		(property "Reference" "#FLG02"
-			(at 24.765 194.31 0)
+			(at 26.035 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1259,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 26.67 194.3099 90)
+			(at 24.13 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 194.31 0)
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 194.31 0)
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1286,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 22.86 194.31 0)
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,79 +1295,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a50a3a34-18b4-48c2-a916-21c77bbf1183")
+			(uuid "3a05b382-8b95-4eb5-b321-0086e12596d8")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 22.86 194.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd6af17b-1ab5-4c3e-9cd2-834c2ccab333")
-		(property "Reference" "#PWR02"
-			(at 16.51 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 194.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96c695ef-a1c5-4b91-82f9-11c8e0c81856")
-		)
-		(instances
-			(project "{{ cookiecutter.project_name }}"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
