@@ -30,7 +30,7 @@
 	(pad 1 smd rect (at -1.78 -0.56 0.00) (size 1.10 0.80) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at -1.78 0.56 0.00) (size 1.10 0.80) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -2.33 -1.12) (end -2.30 -1.12) (layer F.Fab) (width 0.06))
-	(model "${KIPRJMOD}/../libraries/lcsc.3dshapes/SENSORS-SMD_TEMT6000X01.wrl"
+	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/SENSORS-SMD_TEMT6000X01.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

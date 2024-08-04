@@ -20,7 +20,7 @@
 	(pad 1 smd rect (at -3.00 0.00 0.00) (size 2.40 3.20) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at 3.00 0.00 0.00) (size 2.40 3.20) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -3.50 3.30) (end -3.47 3.30) (layer F.Fab) (width 0.06))
-	(model "${KIPRJMOD}/../libraries/lcsc.3dshapes/IND-SMD_L7.0-W6.6-H3.0.wrl"
+	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/IND-SMD_L7.0-W6.6-H3.0.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
