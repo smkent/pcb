@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -385,6 +386,30 @@
     [
       "76a56607-25e2-40a3-9282-ff279b153f75",
       "Root"
+    ],
+    [
+      "55621f2e-fef6-4acd-b876-232d1c469111",
+      "Battery Charger"
+    ],
+    [
+      "7ff8b12e-1c69-42b0-a172-ea1bc26ada19",
+      "Battery Protection (BMS)"
+    ],
+    [
+      "9d2cba9b-3531-4b6d-b482-3e045f725e7f",
+      "Load Sharing Circuit"
+    ],
+    [
+      "9b51b859-a880-4702-84e4-f51eae0f48fa",
+      "Load Power Switch"
+    ],
+    [
+      "c9756d7b-1761-4320-81e2-3f6f248aded5",
+      "Boost Converter"
+    ],
+    [
+      "e9856c0a-a313-44f2-8ddb-b0f951bb854a",
+      "Pins and Connectors"
     ]
   ],
   "text_variables": {}
