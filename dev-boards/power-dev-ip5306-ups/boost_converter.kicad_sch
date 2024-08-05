@@ -298,175 +298,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1072,12 +903,6 @@
 		(uuid "8dff6082-de73-41f9-af33-235af8f77632")
 	)
 	(junction
-		(at 180.34 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0ad2fb8-25ed-422b-bc9e-0d2c78e094a6")
-	)
-	(junction
 		(at 143.51 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1114,16 +939,6 @@
 			(type default)
 		)
 		(uuid "05ca5e36-1d50-4d05-8529-a66bc3101d45")
-	)
-	(wire
-		(pts
-			(xy 180.34 106.68) (xy 180.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3556da-c003-49c2-a5e5-a65c27ab5bf9")
 	)
 	(wire
 		(pts
@@ -1177,16 +992,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 180.34 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c66f8d9-bfce-4dcd-a5d6-82960ae6cf91")
-	)
-	(wire
-		(pts
 			(xy 125.73 86.36) (xy 132.08 86.36)
 		)
 		(stroke
@@ -1237,7 +1042,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 182.88 97.79)
+			(xy 167.64 97.79) (xy 176.53 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1284,16 +1089,6 @@
 			(type default)
 		)
 		(uuid "a38ac46d-d1c4-4c20-9df4-cbf7c4ad30ad")
-	)
-	(wire
-		(pts
-			(xy 167.64 97.79) (xy 180.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66ef730-c649-4f10-b502-da081c9a90c6")
 	)
 	(wire
 		(pts
@@ -1344,16 +1139,6 @@
 			(type default)
 		)
 		(uuid "c203b5ab-b440-43de-9348-5da41c32131a")
-	)
-	(wire
-		(pts
-			(xy 180.34 115.57) (xy 180.34 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce07060e-f4f6-4a62-a999-0fe929793671")
 	)
 	(wire
 		(pts
@@ -1431,7 +1216,7 @@
 	)
 	(hierarchical_label "LOAD"
 		(shape output)
-		(at 182.88 97.79 0)
+		(at 176.53 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1742,85 +1527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 180.34 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "361eaf77-f039-44d2-889b-59facb0632af")
-		(property "Reference" "LED6"
-			(at 184.15 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Boost"
-			(at 184.15 114.6174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple"
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d61bef5e-ab0f-4ac3-a986-107fd1d23cbd")
-		)
-		(pin "2"
-			(uuid "557273d5-aa60-4305-ac98-c863986a0961")
-		)
-		(instances
-			(project "power-dev-ip5306-ups"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75/c9756d7b-1761-4320-81e2-3f6f248aded5"
-					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc:MT3608")
 		(at 135.89 100.33 0)
 		(unit 1)
@@ -1998,83 +1704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 180.34 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b9223d1-41f7-429c-a2d4-1924e62fc21f")
-		(property "Reference" "R10"
-			(at 186.69 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 184.15 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.118 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 180.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20df3f32-674d-4f1d-9f53-48e130a3ef20")
-		)
-		(pin "2"
-			(uuid "14943ac2-7a95-4012-a1e2-d58e9a13d5be")
-		)
-		(instances
-			(project "power-dev-ip5306-ups"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75/c9756d7b-1761-4320-81e2-3f6f248aded5"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SS34")
 		(at 152.4 97.79 180)
 		(unit 1)
@@ -2146,72 +1775,6 @@
 			(project "power-dev-ip5306-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75/c9756d7b-1761-4320-81e2-3f6f248aded5"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866aa2d1-618e-48bf-bdd1-6643fd740cde")
-		(property "Reference" "#PWR012"
-			(at 180.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c05fb58d-c237-41de-9b5a-5dfdb62d791f")
-		)
-		(instances
-			(project "power-dev-ip5306-ups"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75/c9756d7b-1761-4320-81e2-3f6f248aded5"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
