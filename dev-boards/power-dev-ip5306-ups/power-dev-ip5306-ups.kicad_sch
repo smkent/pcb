@@ -932,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 138.43) (xy 144.78 138.43)
+			(xy 139.7 143.51) (xy 144.78 143.51)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 157.48 138.43)
+			(xy 152.4 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 138.43) (xy 165.1 138.43)
+			(xy 173.99 143.51) (xy 165.1 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2527,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 138.43 90)
+		(at 148.59 143.51 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2536,7 +2536,7 @@
 		(dnp no)
 		(uuid "3f253630-6f27-42f4-8675-7bdf4ee63b56")
 		(property "Reference" "R10"
-			(at 148.59 132.08 90)
+			(at 148.59 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 148.59 134.62 90)
+			(at 148.59 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.59 136.652 90)
+			(at 148.59 141.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 138.43 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2570,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 138.43 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "LCSC Part" "C25744"
-			(at 148.59 138.43 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2817,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 138.43 90)
+		(at 139.7 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2826,7 +2826,7 @@
 		(fields_autoplaced yes)
 		(uuid "69e77de1-b66f-4a30-b02d-637cf6b48f13")
 		(property "Reference" "#PWR017"
-			(at 143.51 138.43 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 135.89 138.4299 90)
+			(at 135.89 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 138.43 0)
+			(at 139.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 138.43 0)
+			(at 139.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 138.43 0)
+			(at 139.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2951,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 138.43 90)
+		(at 173.99 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2960,7 +2960,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a9e5458-1edd-4ffe-82c7-af952bc4a4b0")
 		(property "Reference" "#PWR012"
-			(at 180.34 138.43 0)
+			(at 180.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2969,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 138.4299 90)
+			(at 177.8 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +2978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 138.43 0)
+			(at 173.99 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 138.43 0)
+			(at 173.99 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 138.43 0)
+			(at 173.99 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3152,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 138.43 180)
+		(at 161.29 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3161,7 +3161,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8ac6ea9-2f2d-4732-a807-00d839fbbcb7")
 		(property "Reference" "LED6"
-			(at 162.8775 130.81 0)
+			(at 162.8775 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3169,7 @@
 			)
 		)
 		(property "Value" "Boost"
-			(at 162.8775 133.35 0)
+			(at 162.8775 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" "custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple"
-			(at 161.29 138.43 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 138.43 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 138.43 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3204,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 161.29 138.43 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

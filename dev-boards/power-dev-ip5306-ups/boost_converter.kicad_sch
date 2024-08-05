@@ -1192,7 +1192,7 @@
 			)
 		)
 	)
-	(global_label "SW"
+	(global_label "BOOST_SW"
 		(shape passive)
 		(at 151.13 86.36 0)
 		(fields_autoplaced yes)
@@ -1204,7 +1204,7 @@
 		)
 		(uuid "659b6d72-c565-49d3-aa74-31b6df977a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.6648 86.36 0)
+			(at 162.7405 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
