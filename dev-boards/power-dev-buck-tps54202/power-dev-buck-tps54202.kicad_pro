@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -213,6 +213,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.75
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -557,7 +569,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC Part",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
