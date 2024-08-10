@@ -3231,12 +3231,6 @@
 		(uuid "a0835e1d-ab61-4636-8862-3ba78f02ba56")
 	)
 	(junction
-		(at 146.05 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7eeefd7-a65a-4b7a-9c3d-b5fc3dd9708c")
-	)
-	(junction
 		(at 59.69 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3562,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 166.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33579044-50c1-484a-84ab-e4c058fa83fd")
-	)
-	(wire
-		(pts
 			(xy 217.17 29.21) (xy 223.52 29.21)
 		)
 		(stroke
@@ -3609,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "39c84d7e-0da2-4430-953d-15d7e1b9c7b1")
-	)
-	(wire
-		(pts
-			(xy 152.4 100.33) (xy 146.05 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d0a542e-ea6b-4f72-9313-d81b5c8fe6e8")
 	)
 	(wire
 		(pts
@@ -3752,16 +3726,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 146.05 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57558c99-902d-445e-bd8d-52fc6581dadf")
-	)
-	(wire
-		(pts
 			(xy 236.22 41.91) (xy 228.6 41.91)
 		)
 		(stroke
@@ -3839,16 +3803,6 @@
 			(type default)
 		)
 		(uuid "6dfd7a05-a134-4474-b55e-fe598e855356")
-	)
-	(wire
-		(pts
-			(xy 166.37 100.33) (xy 166.37 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec295ac-9f68-4d32-a1a8-ac0ceb1184a5")
 	)
 	(wire
 		(pts
@@ -7101,83 +7055,6 @@
 			(project "power-tp4056-5v-ups"
 				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 156.21 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c86fda8-a9d0-45c5-a7e5-efb262a54520")
-		(property "Reference" "D3"
-			(at 155.8925 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 155.8925 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:D_SMA_simple"
-			(at 156.21 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C8678"
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53567efd-a684-44d6-b61a-dce37567df55")
-		)
-		(pin "2"
-			(uuid "aa91bc57-063d-439a-b61c-6a306f58b941")
-		)
-		(instances
-			(project "power-tp4056-5v-ups"
-				(path "/f7334e40-25a3-4306-9a4a-47752c843a90"
-					(reference "D3")
 					(unit 1)
 				)
 			)
