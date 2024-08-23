@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 80.01) (xy 109.22 85.09)
+			(xy 109.22 80.01) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2833,6 +2833,16 @@
 			(type default)
 		)
 		(uuid "ecd28ff1-8ac9-4fe9-a9d9-6bf0b348ae30")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f499caf0-a877-4754-9c70-3c553aaee17c")
 	)
 	(text "LED1 = SCK\nLED2 = SDA"
 		(exclude_from_sim no)
@@ -4675,6 +4685,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.22 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ff4ed44-2593-4704-8652-90e34ae63a4a")
+		(property "Reference" "R20"
+			(at 102.87 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 105.41 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.442 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17477"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7484947-cfbe-4fbd-9845-e2b4d4cbec37")
+		)
+		(pin "2"
+			(uuid "159cae9e-e3d3-465b-aa27-bbd295dc1d10")
+		)
+		(instances
+			(project "power-dev-ip5209-ups"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75/55621f2e-fef6-4acd-b876-232d1c469111"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 96.52 115.57 0)
 		(unit 1)
@@ -5111,7 +5198,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 85.09 0)
+		(at 109.22 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5120,7 +5207,7 @@
 		(fields_autoplaced yes)
 		(uuid "b160039c-d4d6-4077-a75f-3c3f9aba534e")
 		(property "Reference" "#PWR024"
-			(at 109.22 91.44 0)
+			(at 109.22 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 90.17 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 85.09 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 85.09 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 85.09 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
