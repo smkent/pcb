@@ -4788,15 +4788,15 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 191.77 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a94fcb14-cabc-4e47-890f-f903667635b1")
 		(property "Reference" "SW1"
-			(at 191.77 91.44 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,14 +4804,14 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 191.77 93.98 0)
+			(at 191.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "custom:Push-Button-SMD-4x4x1.5mm_2P_Large_Pads"
+		(property "Footprint" "lcsc:SW-SMD_BZCN_TSA002A35XXX"
 			(at 191.77 93.98 0)
 			(effects
 				(font
