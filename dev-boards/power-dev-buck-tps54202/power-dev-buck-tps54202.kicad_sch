@@ -5,193 +5,6 @@
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
@@ -293,6 +106,145 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -716,6 +668,239 @@
 				)
 			)
 		)
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -888,6 +1073,239 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Pack04_Split_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_1_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1816,6 +2234,12 @@
 		(uuid "7d46ae42-60df-40e4-aa9d-9dc2d98fdb47")
 	)
 	(junction
+		(at 105.41 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e0ebd1c-a0d4-43db-bbfd-12ea0c4f9ccf")
+	)
+	(junction
 		(at 139.7 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1893,10 +2317,6 @@
 		(color 0 0 0 0)
 		(uuid "fbfd4833-ffb4-4461-89e0-2f75035a19c5")
 	)
-	(no_connect
-		(at 115.57 41.91)
-		(uuid "5c0ca444-853a-4a9d-a417-f4ba04ef998e")
-	)
 	(wire
 		(pts
 			(xy 251.46 52.07) (xy 214.63 52.07)
@@ -1919,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 52.07) (xy 271.78 52.07)
+			(xy 259.08 52.07) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2009,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 123.19) (xy 99.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24e4f37a-5030-4cd2-87c7-cad72db60a4a")
-	)
-	(wire
-		(pts
 			(xy 214.63 52.07) (xy 214.63 64.77)
 		)
 		(stroke
@@ -2049,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 41.91) (xy 118.11 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326b40ba-a7b7-4b3d-9b16-11e587de5aa3")
-	)
-	(wire
-		(pts
 			(xy 271.78 81.28) (xy 271.78 78.74)
 		)
 		(stroke
@@ -2086,6 +2486,16 @@
 			(type default)
 		)
 		(uuid "3adccd34-46ff-43f6-81ce-f53b229d0e22")
+	)
+	(wire
+		(pts
+			(xy 241.3 60.96) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3add4c3c-be30-4d62-a29d-94282f785496")
 	)
 	(wire
 		(pts
@@ -2179,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 52.07) (xy 271.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d07cf6-e702-47e1-955e-0b215c38a415")
+	)
+	(wire
+		(pts
 			(xy 194.31 64.77) (xy 191.77 64.77)
 		)
 		(stroke
@@ -2196,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "63edf1d0-b784-4c02-8044-e6716a91256f")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 118.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f98c0b-67d1-485e-8742-f34e67346f78")
 	)
 	(wire
 		(pts
@@ -2276,16 +2706,6 @@
 			(type default)
 		)
 		(uuid "8c2748ef-a67a-4ae8-96ab-7fb08c6df279")
-	)
-	(wire
-		(pts
-			(xy 48.26 125.73) (xy 50.8 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de59316-b31a-4c0c-9f4b-cde9bd982ad9")
 	)
 	(wire
 		(pts
@@ -2389,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 36.83) (xy 118.11 36.83)
+			(xy 93.98 36.83) (xy 105.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2416,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "a9401dc5-a060-4e16-a8de-e3f8843ea9e7")
+	)
+	(wire
+		(pts
+			(xy 105.41 41.91) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b203267a-73c4-416f-912f-9b9bbdc4399b")
 	)
 	(wire
 		(pts
@@ -2559,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 41.91) (xy 118.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d926aa97-cb11-40bc-a260-e02cb7ac7d9e")
+	)
+	(wire
+		(pts
 			(xy 251.46 78.74) (xy 214.63 78.74)
 		)
 		(stroke
@@ -2609,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 231.14 60.96)
+			(xy 251.46 60.96) (xy 248.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2626,26 +3066,6 @@
 			(type default)
 		)
 		(uuid "e64e7f03-be6d-4624-827c-b926bd62fb17")
-	)
-	(wire
-		(pts
-			(xy 99.06 125.73) (xy 101.6 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c17568-f45b-4555-a405-5cd081572e76")
-	)
-	(wire
-		(pts
-			(xy 50.8 123.19) (xy 48.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c77af8-819e-4c18-8ef0-c23e72e8d3ff")
 	)
 	(wire
 		(pts
@@ -3969,7 +4389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06bc75b9-971e-4bfc-9439-f11c335db197")
-		(property "Reference" "R1"
+		(property "Reference" "R0"
 			(at 194.31 44.4499 0)
 			(effects
 				(font
@@ -3987,7 +4407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.992 45.72 90)
 			(effects
 				(font
@@ -4014,7 +4434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25741"
+		(property "LCSC Part" ""
 			(at 191.77 45.72 0)
 			(effects
 				(font
@@ -4032,8 +4452,94 @@
 		(instances
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R1")
+					(reference "R0")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 255.27 69.85 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fad09be-c098-4ca6-9092-2f64bc50398d")
+		(property "Reference" "RN1"
+			(at 255.27 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 255.27 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 255.27 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ac267db9-a379-475a-a739-150e7f7c5b51")
+		)
+		(pin "1"
+			(uuid "a6b69f68-777d-4e74-9269-a7cda551f818")
+		)
+		(pin "4"
+			(uuid "7cc9c2fd-10f3-45b8-bc44-fa703340fcd8")
+		)
+		(pin "3"
+			(uuid "6ba41aeb-2eef-410f-b977-9194e6be3072")
+		)
+		(pin "2"
+			(uuid "8955ab6d-f687-49ac-9868-4acb74564b61")
+		)
+		(pin "8"
+			(uuid "f9c3378a-abc8-40fa-bc3b-84fd00ce8416")
+		)
+		(pin "7"
+			(uuid "0ab514b2-8122-4b10-a9eb-5376849e08d6")
+		)
+		(pin "6"
+			(uuid "57cd5bd1-77b0-4b6b-af17-94b7b0bed92f")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN1")
+					(unit 2)
 				)
 			)
 		)
@@ -4056,7 +4562,7 @@
 				)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "3K"
 			(at 265.43 57.15 90)
 			(effects
 				(font
@@ -4064,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.43 62.738 90)
 			(effects
 				(font
@@ -4091,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25862"
+		(property "LCSC Part" ""
 			(at 265.43 60.96 0)
 			(effects
 				(font
@@ -4110,76 +4616,6 @@
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 43.18 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12ca8d6d-1d88-46b3-8e81-cf088bed96cf")
-		(property "Reference" "J5"
-			(at 40.64 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 40.64 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:TerminalBlock_or_JST_2.54_1x02"
-			(at 43.18 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52b329d5-94f8-44e4-8963-0e3619567756")
-		)
-		(pin "1"
-			(uuid "3981cca9-2583-4f6c-9567-aaec74e980ad")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4259,6 +4695,153 @@
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 129.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "230ec2e0-fd80-414b-b13c-c0981dcd73bd")
+		(property "Reference" "#PWR019"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 105.41 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296cbb0a-6336-4869-9109-184e4aae5f4d")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 45.72 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "288737a0-1ff3-421a-b68e-fe64d840a895")
+		(property "Reference" "J5"
+			(at 43.18 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 43.18 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:JST_XH_S2B-XH-2AW_1x02_P2.50mm_pad2gnd_trim2"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e68e79c0-6f9d-492e-8162-2e723da0426f")
+		)
+		(pin "1"
+			(uuid "df561b5f-f0dc-42ce-838f-ac4c57098fab")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4550,74 +5133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 125.73 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4626b74b-0cd2-4b1a-9bbb-a5e0ae05be21")
-		(property "Reference" "#PWR016"
-			(at 57.15 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfdd1f3a-f982-4f7f-add3-366951490534")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 152.4 86.36 90)
 		(unit 1)
@@ -4756,6 +5271,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527633a2-31bb-4dfa-b7d3-6f8bd7bce794")
+		(property "Reference" "R1"
+			(at 265.43 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 265.43 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 265.43 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "345a70a8-22cd-4d94-a553-d6ce9b94455d")
+		)
+		(pin "1"
+			(uuid "6baf5dec-a352-4af1-8107-7e861737d329")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 255.27 60.96 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559bb7b7-28e3-472a-893c-d77befab1151")
+		(property "Reference" "RN1"
+			(at 255.27 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 255.27 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 255.27 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ac267db9-a379-475a-a739-150e7f7c5b4d")
+		)
+		(pin "1"
+			(uuid "a6b69f68-777d-4e74-9269-a7cda551f819")
+		)
+		(pin "4"
+			(uuid "7cc9c2fd-10f3-45b8-bc44-fa703340fcd4")
+		)
+		(pin "3"
+			(uuid "2aa1cf5e-b178-48fc-b6b2-11b2fc6b388b")
+		)
+		(pin "2"
+			(uuid "14cd799b-1df0-41da-8f3d-6cc3749fd83b")
+		)
+		(pin "8"
+			(uuid "c34075e1-c727-489d-ac1b-1c24c7bda5dc")
+		)
+		(pin "6"
+			(uuid "9a456b2e-9db1-49d5-b7d8-c19a49055589")
+		)
+		(pin "7"
+			(uuid "dce8caa1-3e70-4818-ba21-190baa8c1ad3")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 43.18 0)
 		(unit 1)
@@ -4835,6 +5513,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 132.08 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58c5b10c-6057-459d-ad28-a06153e55c91")
+		(property "Reference" "#PWR014"
+			(at 107.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ee1f76-76de-4c13-8300-5073872cce35")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 179.07 86.36 90)
 		(unit 1)
@@ -4900,6 +5645,93 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "JP2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Pack04_Split_1")
+		(lib_id "Device:R_Pack04_Split")
+		(at 245.11 60.96 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ef6dec8-49b8-4315-9df1-441aeef30c7b")
+		(property "Reference" "RN1"
+			(at 245.11 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 245.11 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 245.11 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 245.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4e513bd5-ec65-43de-8954-70098c6ff331")
+		)
+		(pin "1"
+			(uuid "a6b69f68-777d-4e74-9269-a7cda551f815")
+		)
+		(pin "4"
+			(uuid "a9d22b74-e6fa-4d25-b7e6-afd20d8baf23")
+		)
+		(pin "3"
+			(uuid "6ba41aeb-2eef-410f-b977-9194e6be306d")
+		)
+		(pin "2"
+			(uuid "14cd799b-1df0-41da-8f3d-6cc3749fd837")
+		)
+		(pin "6"
+			(uuid "f4395e07-683f-42fa-b06e-121d9bfbe970")
+		)
+		(pin "8"
+			(uuid "3605270a-1e35-49c7-82ee-d1d9649e8485")
+		)
+		(pin "7"
+			(uuid "12082e74-eacd-4eab-beff-38c23c1667ba")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN1")
+					(unit 4)
 				)
 			)
 		)
@@ -5041,83 +5873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 255.27 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "696261cf-6342-497b-b836-4d3f074719be")
-		(property "Reference" "R5"
-			(at 255.27 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8K"
-			(at 255.27 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25917"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e6ee4f8-5411-498f-a524-5b60d5a005f3")
-		)
-		(pin "1"
-			(uuid "da26e9bc-f8e0-4523-9dd7-d84f42d22771")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 144.78 90)
 		(mirror x)
@@ -5203,7 +5958,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "100R"
 			(at 265.43 74.93 90)
 			(effects
 				(font
@@ -5211,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.43 80.518 90)
 			(effects
 				(font
@@ -5238,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25079"
+		(property "LCSC Part" ""
 			(at 265.43 78.74 0)
 			(effects
 				(font
@@ -5427,16 +6182,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 255.27 78.74 90)
+		(lib_id "Device:R_Pack04_Split")
+		(at 255.27 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "793a1e14-8e32-459c-b282-4fb60c6cb29e")
-		(property "Reference" "R7"
+		(uuid "743e8df6-aedc-4dbf-b4a4-aa561f71c1a9")
+		(property "Reference" "RN1"
 			(at 255.27 72.39 90)
 			(effects
 				(font
@@ -5444,7 +6199,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5K1"
 			(at 255.27 74.93 90)
 			(effects
 				(font
@@ -5452,8 +6207,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 80.518 90)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 255.27 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4 resistor network, parallel topology, split"
 			(at 255.27 78.74 0)
 			(effects
 				(font
@@ -5479,25 +6234,34 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25905"
-			(at 255.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff48e305-fc6f-4706-80f1-1938a30636fb")
+		(pin "5"
+			(uuid "ac267db9-a379-475a-a739-150e7f7c5b4f")
 		)
 		(pin "1"
-			(uuid "53480cc1-1e3e-440d-9ef4-8c425d6f1cdc")
+			(uuid "250604f5-ad01-42a4-a85f-7ad755891e4d")
+		)
+		(pin "4"
+			(uuid "7cc9c2fd-10f3-45b8-bc44-fa703340fcd6")
+		)
+		(pin "3"
+			(uuid "6ba41aeb-2eef-410f-b977-9194e6be3070")
+		)
+		(pin "2"
+			(uuid "14cd799b-1df0-41da-8f3d-6cc3749fd83a")
+		)
+		(pin "6"
+			(uuid "910a0e7d-afab-42b2-adb1-0d1dd5c506d4")
+		)
+		(pin "7"
+			(uuid "7d9beee3-50bf-43a3-9739-b758832737bb")
+		)
+		(pin "8"
+			(uuid "cd1b72e0-efdc-4d5b-9f54-f93881d8406f")
 		)
 		(instances
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R7")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -5594,7 +6358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Inductor_Multi_5.2x5.7_2x2.5"
+		(property "Footprint" "custom:Inductor_Multi_7.0x6.6_plus"
 			(at 158.75 39.37 0)
 			(effects
 				(font
@@ -5613,6 +6377,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 158.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 158.75 39.37 0)
 			(effects
 				(font
@@ -5730,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 29.5148 0)
 			(effects
 				(font
@@ -5757,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -6228,7 +7001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.9452 46.99 0)
 			(effects
 				(font
@@ -6255,7 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 93.98 43.18 0)
 			(effects
 				(font
@@ -6297,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "12K"
 			(at 255.27 48.26 90)
 			(effects
 				(font
@@ -6305,7 +7078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.27 53.848 90)
 			(effects
 				(font
@@ -6332,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25768"
+		(property "LCSC Part" ""
 			(at 255.27 52.07 0)
 			(effects
 				(font
@@ -6357,35 +7130,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 93.98 123.19 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 50.8 132.08 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1d6488d-68c5-4559-b2f9-dd8eb261ceb6")
-		(property "Reference" "J6"
-			(at 91.44 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 91.44 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:TerminalBlock_or_JST_2.54_1x02"
-			(at 93.98 123.19 0)
+		(uuid "c32e8944-4ff1-4b92-be95-78a503306f06")
+		(property "Reference" "#PWR016"
+			(at 57.15 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,8 +7148,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 93.98 123.19 0)
+		(property "Value" "GND"
+			(at 54.61 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,8 +7166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 93.98 123.19 0)
+		(property "Datasheet" ""
+			(at 50.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,16 +7175,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "76e0a42b-585a-4f67-95f4-68290a46b21f")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9f9d928a-d869-4036-a925-af327f593f6a")
+			(uuid "b8449e5c-4698-44c7-b8bc-cddedabd9503")
 		)
 		(instances
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "J6")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6489,74 +7259,6 @@
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 101.6 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c75e61d4-1ae7-4cd8-a8e4-4aeb856b7d7a")
-		(property "Reference" "#PWR018"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VOUT"
-			(at 105.41 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54d478bf-6f30-4fe9-9044-b3ceab59fd4a")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6695,6 +7397,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 50.8 129.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dec55bc9-30ad-429a-b650-a383d7d7c6de")
+		(property "Reference" "#PWR018"
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 54.61 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "240584e1-6f71-40f3-86d9-6feaa6896014")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 144.78 90)
 		(mirror x)
@@ -6757,142 +7526,6 @@
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 50.8 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c6b197-be02-4945-83ef-e2322639ad71")
-		(property "Reference" "#PWR014"
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 54.61 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f925e3b7-8a2a-4aaa-b545-3281a0508800")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 125.73 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edb50619-5974-4dcd-bf76-57da9d508118")
-		(property "Reference" "#PWR019"
-			(at 107.95 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e6c6434-a359-4a3e-866e-4b3b51d956a6")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6969,83 +7602,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa253140-8574-4c30-b0f5-ac48a2f9ade4")
-		(property "Reference" "R3"
-			(at 255.27 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12K"
-			(at 255.27 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25752"
-			(at 255.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c341563-3d36-4bfa-b5b0-d972c428b7db")
-		)
-		(pin "1"
-			(uuid "e26c6f97-3be0-417a-846a-481991fc1d2a")
-		)
-		(instances
-			(project "power-dev-buck-tps54202"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 265.43 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7062,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1K8"
 			(at 265.43 66.04 90)
 			(effects
 				(font
@@ -7070,7 +7626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.43 71.628 90)
 			(effects
 				(font
@@ -7097,7 +7653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25091"
+		(property "LCSC Part" ""
 			(at 265.43 69.85 0)
 			(effects
 				(font
@@ -7184,6 +7740,86 @@
 			(project "power-dev-buck-tps54202"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 96.52 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe01ab98-0437-4826-a635-12bb7f655d70")
+		(property "Reference" "J6"
+			(at 93.98 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 93.98 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:JST_XH_S2B-XH-2AW_1x02_P2.50mm_pad2gnd_trim2"
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d21c4798-7742-4f88-a242-d57f2a0f8639")
+		)
+		(pin "1"
+			(uuid "4ebdb33d-814c-4796-9fb9-e86f347c667c")
+		)
+		(instances
+			(project "power-dev-buck-tps54202"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "J6")
 					(unit 1)
 				)
 			)
