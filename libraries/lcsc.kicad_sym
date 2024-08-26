@@ -8670,8 +8670,8 @@
 		)
 		(symbol "TEMT6000X01_0_1"
 			(rectangle
-				(start -2.54 3.81)
-				(end 2.54 -3.81)
+				(start -10.16 3.81)
+				(end 10.16 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -8680,23 +8680,12 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -1.27 2.54)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "TEMT6000X01_1_1"
 			(pin passive line
-				(at -5.08 1.27 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
-				(name "1"
+				(name "Emitter"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8711,10 +8700,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -1.27 0)
+			(pin no_connect line
+				(at -12.7 -1.27 0)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8730,9 +8719,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 12.7 0 180)
 				(length 2.54)
-				(name "3"
+				(name "Collector"
 					(effects
 						(font
 							(size 1.27 1.27)
