@@ -1,0 +1,169 @@
+(footprint "SENSOR-TH_HLK-LD2410C-P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "64894f3b-fcfa-4f4b-afaf-d7c308041517")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SENSOR-TH_HLK-LD2410C-P"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "13af9dee-9579-446a-ae09-84584b660623")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3606c6f6-29a0-435e-8eca-93acf36757d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43142a12-78c9-4cc3-ad37-8d18033584b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "795f95f6-8ca0-4f0d-a1c4-be6f4d48ff6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(arc
+				(start 9 13.46)
+				(mid 10.414214 12.874214)
+				(end 11 11.46)
+			)
+			(arc
+				(start 11 -0.54)
+				(mid 10.414214 -1.954214)
+				(end 9 -2.54)
+			)
+			(arc
+				(start -9 -2.54)
+				(mid -10.414214 -1.954214)
+				(end -11 -0.54)
+			)
+			(arc
+				(start -11 11.46)
+				(mid -10.414214 12.874214)
+				(end -9 13.46)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bfcd4bb8-efb3-4f2f-897a-02d28fca4567")
+	)
+	(fp_circle
+		(center -11 13.46)
+		(end -10.97 13.46)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e22decb2-dd4e-40e1-82ff-098ee3f57026")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "66d2d722-23a3-4f45-b0e7-524c5ad42a46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5.08 0)
+		(size 1.8 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3e3277d-bf04-4d49-94e4-ef4d4ff7db35")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5939e3d6-2dc1-4602-972e-a7e08b2d4d7c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df051f4a-b65d-4322-af18-0416e47a01c6")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5f245b0-46bf-4825-9967-6915f538c9fa")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2503c34f-2ec1-4bb5-a2b0-71ca168a740f")
+	)
+	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/SENSOR-TH_HLK-LD2410C-P.wrl"
+		(offset
+			(xyz 0 -5.46 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
