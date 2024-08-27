@@ -1,4 +1,4 @@
-(footprint "JST_XH_S3B-XH_1x03_P2.50mm_Horizontal"
+(footprint "JST_XH_S3B-XH_1x03_P2.50mm_Horizontal_pad2gnd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_XH_S3B-XH_1x03_P2.50mm_Horizontal"
+	(property "Value" "JST_XH_S3B-XH_1x03_P2.50mm_Horizontal_pad2gnd"
 		(at 2.5 8.8 0)
 		(layer "F.Fab")
 		(uuid "0e928163-5df4-4ee8-a277-2d266ef5c698")
@@ -411,21 +411,21 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 1.7 1.95)
 		(drill 0.95)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.147059)
 		(uuid "7835510f-1851-4667-b594-95368cd45e4b")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole roundrect
 		(at 2.5 0)
 		(size 1.7 1.95)
 		(drill 0.95)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1470588235)
 		(uuid "ab768741-f629-401b-83a7-37d64dd77351")
 	)
 	(pad "3" thru_hole oval
