@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+cwd = Path(os.path.realpath(__file__)).parent
+
+ap = argparse.ArgumentParser()
+ap.add_argument("lcsc_id", metavar="lcsc-id", help="LCSC Part ID (ex. C12345)")
+ap.add_argument(
+    "-f",
+    "--footprint",
+    dest="include_footprint",
+    action="store_true",
+    help="Include footprint",
+)
+ap.add_argument(
+    "-3",
+    "--3d",
+    dest="include_3d",
+    action="store_true",
+    help="Include 3D model",
+)
+ap.add_argument(
+    "-s",
+    "--symbol",
+    dest="include_symbol",
+    action="store_true",
+    help="Include symbol",
+)
+args = ap.parse_args()
+
+cmd = [
+    "easyeda2kicad",
+    "--lcsc_id",
+    args.lcsc_id,
+    "--output",
+    str(cwd / "lcsc.kicad_sym"),
+]
+
+if args.include_footprint:
+    cmd += ["--footprint"]
+if args.include_3d:
+    cmd += ["--3d"]
+if args.include_symbol:
+    cmd += ["--symbol"]
+
+print("+ {}".format(" ".join(cmd)), file=sys.stderr)
+subprocess.run(cmd)
+
+for fn in (cwd / "lcsc.pretty").glob("**/*.kicad_mod"):
+    if str(cwd) in (content := fn.read_text()):
+        content = content.replace(str(cwd), "${KIPRJMOD}/../../libraries")
+        fn.write_text(content)
+        print(f"Fixed library path in {fn}")
