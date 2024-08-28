@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "64894f3b-fcfa-4f4b-afaf-d7c308041517")
 		(effects
 			(font
@@ -93,6 +94,37 @@
 		(layer "F.SilkS")
 		(uuid "bfcd4bb8-efb3-4f2f-897a-02d28fca4567")
 	)
+	(fp_poly
+		(pts
+			(arc
+				(start 9 13.46)
+				(mid 10.414214 12.874214)
+				(end 11 11.46)
+			)
+			(arc
+				(start 11 -0.54)
+				(mid 10.414214 -1.954214)
+				(end 9 -2.54)
+			)
+			(arc
+				(start -9 -2.54)
+				(mid -10.414214 -1.954214)
+				(end -11 -0.54)
+			)
+			(arc
+				(start -11 11.46)
+				(mid -10.414214 12.874214)
+				(end -9 13.46)
+			)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "015e3e0a-2b06-4316-9ff7-aeb42261803e")
+	)
 	(fp_circle
 		(center -11 13.46)
 		(end -10.97 13.46)
@@ -103,6 +135,18 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "e22decb2-dd4e-40e1-82ff-098ee3f57026")
+	)
+	(fp_text user "LD2410C"
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa858fa3-4c45-44fb-8eba-946c52e6aa1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

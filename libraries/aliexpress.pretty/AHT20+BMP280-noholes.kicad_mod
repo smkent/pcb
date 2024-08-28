@@ -7,6 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "fc17412a-77fb-4f5c-a9bd-bed518081043")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,20 +63,21 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -8 -3.3)
-		(end 8 12.7)
+		(start -7.62 -2.54)
+		(end 7.62 12.7)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "db3aecaa-d1de-4bcc-95df-4a23c8eaf987")
+		(uuid "6e8f5168-eb7d-490b-8e94-78cd868efcd6")
 	)
 	(fp_rect
 		(start -5.08 10.16)
@@ -85,6 +89,18 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bb46ad6c-00b2-477a-bc28-5e65aa0f8c12")
+	)
+	(fp_text user "AHT20+BMP280"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72a9697c-65a8-4f63-95d9-0d3126434561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "VDD"
 		(at -3.175 10.16 90)
@@ -152,32 +168,32 @@
 	)
 	(pad "1" thru_hole circle
 		(at -3.81 11.43)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "10531725-2727-440c-a744-eab9c4b75b71")
 	)
 	(pad "2" thru_hole circle
 		(at -1.27 11.43)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "284c8382-4c3d-4324-8ddb-e21bd06a6ecf")
 	)
 	(pad "3" thru_hole circle
 		(at 1.27 11.43)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e578a6da-6313-4d7b-8445-762857260231")
 	)
 	(pad "4" thru_hole circle
 		(at 3.81 11.43)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "463fb408-bfae-44c3-b451-f7502a50704a")
