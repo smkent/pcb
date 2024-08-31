@@ -4360,6 +4360,12 @@
 		(uuid "673f91df-0627-4be7-a9f0-7af88757e63b")
 	)
 	(junction
+		(at 129.54 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfdfa17-7538-4e2f-b3a8-ff46233488b2")
+	)
+	(junction
 		(at 247.65 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4370,6 +4376,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82801617-d41c-404e-bf5a-4ccecfa31317")
+	)
+	(junction
+		(at 120.65 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8787211a-e08b-40fe-97f9-8cc8702bacb8")
 	)
 	(junction
 		(at 109.22 45.72)
@@ -4408,6 +4420,12 @@
 		(uuid "aa459eb9-23d0-4270-87d3-b0b946bfaaaf")
 	)
 	(junction
+		(at 120.65 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab52cfeb-92b6-4212-88ea-fc55e2066538")
+	)
+	(junction
 		(at 109.22 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4444,10 +4462,6 @@
 		(uuid "f88a7eba-33c1-4148-a62a-883fa28a3c79")
 	)
 	(no_connect
-		(at 109.22 24.13)
-		(uuid "00f7d6cb-e86d-4558-b8ad-3fbe2b60bf38")
-	)
-	(no_connect
 		(at 156.21 146.05)
 		(uuid "1457bd80-c866-4890-ad12-1e7c171a78c0")
 	)
@@ -4472,16 +4486,8 @@
 		(uuid "5ab84d9e-490c-4567-a99b-2ca158d5b6d8")
 	)
 	(no_connect
-		(at 120.65 16.51)
-		(uuid "764df7e8-2477-45ff-98d5-3282fff79135")
-	)
-	(no_connect
 		(at 125.73 156.21)
 		(uuid "787ffd02-8e05-4b30-a9ab-fad6272a7c83")
-	)
-	(no_connect
-		(at 156.21 148.59)
-		(uuid "79fc9bbf-a9f8-446c-97fc-2271e0900566")
 	)
 	(no_connect
 		(at 156.21 161.29)
@@ -4508,16 +4514,16 @@
 		(uuid "b6e5cb1b-d4bf-48ff-a0c2-9f94967b441d")
 	)
 	(no_connect
+		(at 125.73 153.67)
+		(uuid "b7d38ddb-431f-4fde-ad3b-745fcf5afa6a")
+	)
+	(no_connect
 		(at 71.12 168.91)
 		(uuid "b8e6c6de-047d-4f72-8022-b9268fa3ab79")
 	)
 	(no_connect
 		(at 45.72 156.21)
 		(uuid "c0986e2f-8718-4935-ab36-f46d8a32d776")
-	)
-	(no_connect
-		(at 109.22 16.51)
-		(uuid "c2af1b16-0d9a-4857-a9cb-fd6f3eda1838")
 	)
 	(no_connect
 		(at 45.72 158.75)
@@ -4538,10 +4544,6 @@
 	(no_connect
 		(at 45.72 166.37)
 		(uuid "fef12772-999b-49d0-b435-6dc76de845e5")
-	)
-	(no_connect
-		(at 120.65 24.13)
-		(uuid "ffbe58ce-9d8d-4619-b05c-7d6b2ec0c189")
 	)
 	(wire
 		(pts
@@ -4695,6 +4697,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 24.13) (xy 130.81 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205efded-ef65-43c2-a7b4-bec0377ff64e")
+	)
+	(wire
+		(pts
 			(xy 256.54 113.03) (xy 247.65 113.03)
 		)
 		(stroke
@@ -4712,6 +4724,16 @@
 			(type default)
 		)
 		(uuid "27b08f9d-2ce1-4221-a18d-97e7d5d70836")
+	)
+	(wire
+		(pts
+			(xy 109.22 24.13) (xy 120.65 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288ce60e-adc4-4e42-b25d-70c550a69f47")
 	)
 	(wire
 		(pts
@@ -4995,6 +5017,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 16.51) (xy 129.54 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eecb4e6-5163-47f6-ae2f-591be9a74b5b")
+	)
+	(wire
+		(pts
 			(xy 215.9 110.49) (xy 215.9 113.03)
 		)
 		(stroke
@@ -5125,6 +5157,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 16.51) (xy 129.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9028bc93-b50a-4d9e-8197-1b711acef1b1")
+	)
+	(wire
+		(pts
 			(xy 34.29 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -5162,6 +5204,16 @@
 			(type default)
 		)
 		(uuid "92ff09bf-806c-4043-8545-4b5685097c77")
+	)
+	(wire
+		(pts
+			(xy 109.22 16.51) (xy 120.65 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930c604f-6c02-41ef-9c49-de2f3494261f")
 	)
 	(wire
 		(pts
@@ -5212,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "995fdddb-b9e2-4d03-83be-244a4168cd30")
+	)
+	(wire
+		(pts
+			(xy 120.65 24.13) (xy 129.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b43ff9d-87be-4fac-ab51-22f1dca88da7")
 	)
 	(wire
 		(pts
@@ -6961,28 +7023,6 @@
 			)
 		)
 	)
-	(global_label "CAM_LED_STATUS"
-		(shape output)
-		(at 125.73 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7973f7ac-c659-4708-8761-4d4ff329811c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.7792 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO6"
 		(shape bidirectional)
 		(at 260.35 50.8 0)
@@ -7133,6 +7173,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAM_LED_STATUS"
+		(shape output)
+		(at 156.21 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a58ead24-116f-4255-a246-01cd9575a7e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1608 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12285,7 +12347,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 77.47 158.75 270)
+		(at 77.47 158.75 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12310,7 +12372,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 77.47 156.718 90)
+			(at 77.47 160.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,6 +12494,73 @@
 			(project "esp-door"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e26d20bc-7445-4e10-9d12-6a965b2c4f03")
+		(property "Reference" "#PWR037"
+			(at 137.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efc05e40-796a-44b5-8c45-e64f3acebbf1")
+		)
+		(instances
+			(project "esp-door"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
