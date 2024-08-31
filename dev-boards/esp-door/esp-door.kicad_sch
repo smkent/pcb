@@ -4907,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54143f77-64a7-4bcf-a637-3616766d5e89")
+	)
+	(wire
+		(pts
 			(xy 171.45 30.48) (xy 170.18 30.48)
 		)
 		(stroke
@@ -4924,16 +4934,6 @@
 			(type default)
 		)
 		(uuid "58e4edfc-647d-4dde-a003-afcf3a91a3a5")
-	)
-	(wire
-		(pts
-			(xy 168.91 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a39bcd1-7932-461a-8e59-fd6e31b4e1a0")
 	)
 	(wire
 		(pts
@@ -5677,13 +5677,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 179.07 93.98)
+			(xy 170.18 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbd45143-226f-4c42-b098-49f4943c7546")
+		(uuid "fa2d50ff-59f3-47c5-b0fa-ba11c80d74df")
 	)
 	(wire
 		(pts
@@ -6627,6 +6627,28 @@
 			)
 		)
 	)
+	(global_label "NEOPIXELS"
+		(shape input)
+		(at 162.56 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22d5a305-744f-457b-b731-232a066e853f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.2939 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOORBELL_RELAY"
 		(shape output)
 		(at 34.29 45.72 180)
@@ -6931,28 +6953,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NEOPIXELS"
-		(shape input)
-		(at 168.91 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cb68e7e-d470-45f2-a427-d069660369bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.6439 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7699,6 +7699,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15321cdb-71f7-4812-bc98-173d0513e9ae")
+		(property "Reference" "R3"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 167.64 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47b6fcf1-11a3-4f5f-af5c-025bf9b0dd5a")
+		)
+		(pin "1"
+			(uuid "b4aa6407-b0b4-4751-818f-3204379a6acf")
+		)
+		(instances
+			(project "esp-door"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 181.61 90)
 		(unit 1)
@@ -8257,13 +8325,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c60")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c61")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac18f")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac190")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b26")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b27")
 		)
 		(pin "7"
 			(uuid "216401f4-bf16-42a1-9871-9f7b6b12ee41")
@@ -8272,13 +8340,13 @@
 			(uuid "3f404ae3-5c41-4bf7-beef-28daf19c208d")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1c")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1d")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd01")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd02")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a714ff")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71500")
 		)
 		(instances
 			(project "esp-door"
@@ -8513,73 +8581,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "459397b8-0dff-489d-80bf-47e218c2e9ea")
-		(property "Reference" "#PWR029"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aeaffb4-9fb9-4700-bba2-8061376d7a03")
-		)
-		(instances
-			(project "esp-door"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 181.61 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8701,22 +8702,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c62")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c63")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac191")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac192")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b28")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b29")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e2")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e3")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b6")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b7")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1e")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1f")
 		)
 		(pin "6"
 			(uuid "89a0a024-28f7-415e-8d12-3f6ee4b095b3")
@@ -9240,7 +9241,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c61")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c64")
 		)
 		(pin "8"
 			(uuid "06d9051d-ff1f-4e5c-9fb7-0fa9ed384ed8")
@@ -9255,13 +9256,13 @@
 			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b5")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1d")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a20")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd02")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd03")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71500")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71501")
 		)
 		(instances
 			(project "esp-door"
@@ -9815,13 +9816,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c60")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c65")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac18f")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac193")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b26")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b2a")
 		)
 		(pin "7"
 			(uuid "83be2db5-cbdd-417a-bcbd-90497708c8a0")
@@ -9830,13 +9831,13 @@
 			(uuid "2496e5a6-c0af-404b-b2f8-95cccc970bd1")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1c")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a21")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd01")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd04")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a714ff")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71502")
 		)
 		(instances
 			(project "esp-door"
@@ -10157,74 +10158,6 @@
 			(project "esp-door"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 173.99 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8532fd9c-76fa-43a0-bce6-378a26fbe3e0")
-		(property "Reference" "R3"
-			(at 173.99 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 173.99 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 173.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "138c40d5-e397-4265-98a7-39c20ffc9a1f")
-		)
-		(pin "1"
-			(uuid "32af43d5-07c3-4e8d-9cb1-0143525e680c")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10788,22 +10721,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c62")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c66")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac191")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac194")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b28")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b2b")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e2")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e4")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b6")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b8")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1e")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a22")
 		)
 		(pin "6"
 			(uuid "ab476f84-e25a-4bc7-9102-68276d0d38da")
@@ -12180,7 +12113,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c61")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c67")
 		)
 		(pin "8"
 			(uuid "ea7ef7a2-ed8b-4f75-ade6-4b99a037aaa3")
@@ -12189,19 +12122,19 @@
 			(uuid "74e352eb-2169-4c9b-a0ca-dd3c3fa7b2c8")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e1")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e5")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b5")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b9")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1d")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a23")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd02")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd05")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71500")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71503")
 		)
 		(instances
 			(project "esp-door"
@@ -12402,25 +12335,25 @@
 			(uuid "84ba196c-adea-4f58-832c-9ae2f77ea587")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac18e")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac195")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b25")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b2c")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1df")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e0")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b3")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b4")
 		)
 		(pin "4"
 			(uuid "40cd431c-772f-4145-81d2-b01e065e312f")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd00")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd06")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a714fe")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71504")
 		)
 		(instances
 			(project "esp-door"
@@ -12762,31 +12695,98 @@
 			(uuid "524287ad-fd8a-4ce4-a5b7-6198d2f78db1")
 		)
 		(pin "8"
-			(uuid "88efe640-4a62-4a83-b60d-01c0cffac18e")
+			(uuid "88efe640-4a62-4a83-b60d-01c0cffac196")
 		)
 		(pin "1"
-			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b25")
+			(uuid "ba2e5116-b9a2-4f73-9681-e6826eeb2b2d")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1df")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e6")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b3")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8ba")
 		)
 		(pin "4"
 			(uuid "d3a37dad-ea1e-4613-880f-f553e5fd4c08")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd00")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd07")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a714fe")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71505")
 		)
 		(instances
 			(project "esp-door"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "RN2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54c066a-f4d3-49a9-a757-a87019813d33")
+		(property "Reference" "#PWR029"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a86def31-706e-4436-ba80-5054537b91af")
+		)
+		(instances
+			(project "esp-door"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR029")
+					(unit 1)
 				)
 			)
 		)
@@ -13238,7 +13238,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "d2813706-c485-4299-99ef-ab350f169c61")
+			(uuid "d2813706-c485-4299-99ef-ab350f169c68")
 		)
 		(pin "8"
 			(uuid "a575bc37-54ae-452b-8301-f4985fac2e07")
@@ -13247,19 +13247,19 @@
 			(uuid "c2a0136c-087a-40db-b932-db5799040e12")
 		)
 		(pin "7"
-			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e1")
+			(uuid "46a50c9d-70b9-4477-9a2b-96ffd9b3c1e7")
 		)
 		(pin "2"
-			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8b5")
+			(uuid "25df74ea-dca9-48ef-b0bc-f8fcf5f4c8bb")
 		)
 		(pin "4"
-			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a1d")
+			(uuid "74e1357f-3df6-4028-94c9-a805b1de1a24")
 		)
 		(pin "6"
-			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd02")
+			(uuid "bb6335eb-b143-48bf-8dd9-61f64ae0fd08")
 		)
 		(pin "3"
-			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71500")
+			(uuid "30efb23c-0c2a-4768-bd0f-f45a57a71506")
 		)
 		(instances
 			(project "esp-door"
