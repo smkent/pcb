@@ -69,8 +69,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -7.1 -7.62)
-		(end 7.1 11.18)
+		(start -7 -9.35)
+		(end 7 9.35)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,6 +78,123 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "3127801c-3c89-48c9-a96f-7af5b738554a")
+	)
+	(fp_text user "SCL"
+		(at 0 7 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "27081ae5-e926-4868-9e32-fcd1bd1e388d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "ADDR"
+		(at -5.08 7 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "4ace56a3-decb-4095-973d-d4ebb7a7bb08")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at 5.08 7 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "550ef20e-0b1a-48dc-8434-d52c49a95b61")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "SDA"
+		(at -2.54 7 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "645aabbe-b645-4354-ab15-9c9eca644e5d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.54 7 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d3f90acd-d566-4758-998e-d1aab3587f1c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at 5.08 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06346d84-62fe-4dfc-b947-3849e3e78e34")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "ADDR"
+		(at -5.08 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2e0fc524-d9f1-499c-93d8-7a9626bc2595")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.54 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4bbcc97a-cad4-4d09-8cea-f206ae2b0578")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SDA"
+		(at -2.54 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6086b3b9-ae44-4fb1-91d1-90b889fd7f34")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left)
+		)
 	)
 	(fp_text user "BH1750"
 		(at 0 0 0)
@@ -89,6 +206,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(fp_text user "SCL"
+		(at 0 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d25b83ec-f2df-4a8d-8841-0f524a37ce6c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+			(justify left)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -104,37 +234,39 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -4.66 -5.08)
-		(size 3.3 3.3)
-		(drill 3.1)
+		(at -4.5 -6.85)
+		(size 3 3)
+		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "4f3af25b-f837-4d07-9220-f0cd8f845032")
 	)
 	(pad "" np_thru_hole circle
-		(at 4.66 -5.08)
-		(size 3.3 3.3)
-		(drill 3.1)
+		(at 4.5 -6.85)
+		(size 3 3)
+		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "cdcf82e1-243b-4a82-81b0-0f46ec1814f2")
+		(uuid "a03a4c45-af9f-4edf-8a5b-2c420b72c888")
 	)
 	(pad "1" thru_hole circle
-		(at 5.08 9.525)
+		(at 5.08 8.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "58163f4b-8aa8-4f74-8185-3b34c0cdaaa2")
 	)
-	(pad "2" thru_hole circle
-		(at 2.54 9.525)
+	(pad "2" thru_hole roundrect
+		(at 2.54 8.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "1b828f1d-927d-4ba4-bbf0-45f61b1399c7")
 	)
 	(pad "3" thru_hole circle
-		(at 0 9.525)
+		(at 0 8.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -142,7 +274,7 @@
 		(uuid "956520ac-0977-4c0b-9c27-feef9ee33553")
 	)
 	(pad "4" thru_hole circle
-		(at -2.54 9.525)
+		(at -2.54 8.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -150,11 +282,22 @@
 		(uuid "b2f62cdf-f87f-4d04-9fdf-e922bfbbd549")
 	)
 	(pad "5" thru_hole circle
-		(at -5.08 9.525)
+		(at -5.08 8.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "65e52d65-2674-4b54-bbf5-8d8196ea66ef")
+	)
+	(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/BH1750-module.step"
+		(offset
+			(xyz 10.5 -13 -28.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
