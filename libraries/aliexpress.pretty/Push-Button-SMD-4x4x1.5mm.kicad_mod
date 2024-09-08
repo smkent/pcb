@@ -187,28 +187,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.85 -1.85)
 		(size 1.1 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "b5e3a1e9-5b5f-4f00-a2b8-de42ae9e0b2b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.85 -1.85)
 		(size 1.1 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "a7a6518c-3308-459c-b511-68d6cd83cd59")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -2.85 1.85)
 		(size 1.1 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "7c505238-f48c-48eb-8450-bcd2d48d72c1")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 2.85 1.85)
 		(size 1.1 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "d3d3495b-1c57-46cd-bf64-c5c453d4e839")
 	)
 	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/KEY-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl"
