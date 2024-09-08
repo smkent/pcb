@@ -2,6 +2,7 @@ import functools
 import os
 import subprocess
 import sys
+from contextlib import suppress
 from pathlib import Path
 from typing import Any, Sequence, Set
 
@@ -33,9 +34,26 @@ class MainBuilder:
             if not str(x).startswith("_")
         }
 
+    def ensure_lib_table_links(self, board_dir: Path) -> None:
+        libraries_path = Path(self.env.Dir("#").path) / "libraries"
+        link_root = libraries_path.relative_to(
+            board_dir.absolute(), walk_up=True
+        )
+        for lib in ["fp", "sym"]:
+            lib_file = f"{lib}-lib-table"
+            lib_link = board_dir / lib_file
+            with suppress(FileNotFoundError, OSError):
+                if lib_link.readlink() == link_root / lib_file:
+                    continue
+            with suppress(FileNotFoundError):
+                lib_link.unlink()
+            print(f"Resetting symlink {lib_link}")
+            lib_link.symlink_to(link_root / lib_file)
+
     def build(self) -> None:
         static_files = []
         for bd in self.board_dirs:
+            self.ensure_lib_table_links(bd)
             board_file = bd / f"{bd.name}.kicad_pcb"
             schematic_file = bd / f"{bd.name}.kicad_sch"
             if not board_file.is_file():

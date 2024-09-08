@@ -10,18 +10,31 @@ on:
 
 jobs:
   Build:
-    runs-on: ubuntu-latest
+    name: Python ${{ matrix.python-version }}
+
+    strategy:
+      matrix:
+        os:
+          - Ubuntu
+        python-version:
+          - "3.12"
+
+    runs-on: ${{ matrix.os }}-latest
     container:
       image: yaqwsx/kikit:latest
     steps:
       - name: 💾 Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
 
       - name: 🛠️ Install tools
         shell: bash
         run: |
-          apt update
-          apt install -y scons
+          python3 -m pip install --upgrade scons
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
