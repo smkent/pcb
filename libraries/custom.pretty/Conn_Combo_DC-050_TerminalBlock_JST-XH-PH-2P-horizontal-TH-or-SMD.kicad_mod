@@ -1,4 +1,4 @@
-(footprint "Conn_Combo_DC-050_TerminalBlock_JST-XH-PH-2P-horizontal-TH-or-SMD_1"
+(footprint "Conn_Combo_DC-050_TerminalBlock_JST-XH-PH-2P-horizontal-TH-or-SMD"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_Combo_DC-050_TerminalBlock_JST-XH-PH-2P-horizontal-TH-or-SMD_1"
+	(property "Value" "Conn_Combo_DC-050_TerminalBlock_JST-XH-PH-2P-horizontal-TH-or-SMD"
 		(at 0 9.75 0)
 		(layer "F.Fab")
 		(uuid "c57634d6-13f3-4ba3-9d08-11b6fe9ccee3")
@@ -298,8 +298,10 @@
 	)
 	(pad "1" thru_hole oval
 		(at 1.105 -1.27 180)
-		(size 1.5 2)
-		(drill oval 1.25 1)
+		(size 1.8 2)
+		(drill oval 1.25 1
+			(offset -0.15 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c115133b-a025-4f60-b081-611b35d9b515")
@@ -437,8 +439,10 @@
 	)
 	(pad "2" thru_hole roundrect
 		(at -1.145 -1.27 180)
-		(size 1.5 2)
-		(drill oval 1.25 1)
+		(size 1.8 2)
+		(drill oval 1.25 1
+			(offset 0.15 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
