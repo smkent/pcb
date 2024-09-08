@@ -1,4 +1,4 @@
-(footprint "Conn_Combo_TerminalBlock_JST-1x02-XH_PH-pad2gnd"
+(footprint "Conn_Combo_JST-1x02-XH_PH-THT_SMD-pad2gnd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_Combo_TerminalBlock_JST-1x02-XH_PH-pad2gnd"
+	(property "Value" "Conn_Combo_JST-1x02-XH_PH-THT_SMD-pad2gnd"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "95d96118-a780-4715-bf1f-8d87ced00a92")
@@ -65,16 +65,16 @@
 	(attr through_hole)
 	(fp_line
 		(start -3.73 0.34)
-		(end -3.73 1)
+		(end -3.73 3.7)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ed91e5fb-7ca3-4e62-be6c-ea024c27326d")
+		(uuid "be2ddc69-3b88-470c-969c-a63bccd28a56")
 	)
 	(fp_line
-		(start -1.48 4)
+		(start -1.48 2)
 		(end -1.48 6.2)
 		(stroke
 			(width 0.12)
@@ -94,8 +94,8 @@
 		(uuid "e42365c4-37fe-4de2-acab-ce094e04b32b")
 	)
 	(fp_line
-		(start -0.98 4)
-		(end -1.48 4)
+		(start -0.98 2)
+		(end -1.48 2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,7 +105,7 @@
 	)
 	(fp_line
 		(start -0.98 6.2)
-		(end -0.98 4)
+		(end -0.98 2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,7 +114,7 @@
 		(uuid "cf700799-ae7b-4c30-a3e4-dedcde1dcc36")
 	)
 	(fp_line
-		(start 1.02 4)
+		(start 1.02 2)
 		(end 1.02 6.2)
 		(stroke
 			(width 0.12)
@@ -134,8 +134,8 @@
 		(uuid "df25097f-1f57-472a-a0fd-051a412952fe")
 	)
 	(fp_line
-		(start 1.52 4)
-		(end 1.02 4)
+		(start 1.52 2)
+		(end 1.02 2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -145,7 +145,7 @@
 	)
 	(fp_line
 		(start 1.52 6.2)
-		(end 1.52 4)
+		(end 1.52 2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -155,18 +155,18 @@
 	)
 	(fp_line
 		(start 3.73 0.34)
-		(end 3.73 1)
+		(end 3.73 3.7)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6835da74-a68e-455a-a487-08acbe7ada3b")
+		(uuid "f1949e98-09e4-4f95-a66f-4681df8dd5fa")
 	)
 	(fp_poly
 		(pts
-			(xy -5.700256 7.881082) (xy 5.719744 7.881082) (xy 5.720028 -2.900141) (xy 2.4 -2.9) (xy 2.4 -3.4)
-			(xy -2.4 -3.4) (xy -2.4 -2.9) (xy -5.699972 -2.900141)
+			(xy -5.100256 7.881082) (xy 5.099744 7.881082) (xy 5.100028 -1.900141) (xy 2.4 -1.9) (xy 2.4 -3.4)
+			(xy -2.4 -3.4) (xy -2.4 -1.9) (xy -5.099972 -1.900141)
 		)
 		(stroke
 			(width 0.05)
@@ -174,7 +174,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "50b2acc2-6bf0-4bd8-90f1-88ef5eee4329")
+		(uuid "f20fab63-5151-4150-8a33-d2522e240efd")
 	)
 	(fp_circle
 		(center -3.75 0.32)
@@ -198,17 +198,6 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
-		(at -2.58 2.5)
-		(size 3.63 2.6)
-		(drill 1.5
-			(offset 0.515 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(uuid "1a31f7f1-c68f-4e49-9968-9387f5b95439")
-	)
 	(pad "1" smd roundrect
 		(at -1.25 -0.75)
 		(size 2 5)
@@ -218,23 +207,19 @@
 	)
 	(pad "1" thru_hole oval
 		(at -1.125 0)
-		(size 1.75 5.05)
-		(drill oval 1.25 1
-			(offset 0 1.275)
-		)
+		(size 1.7 2.5)
+		(drill 1.25 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9ec1ca1a-07d6-4a8e-90b3-ef4d3a9397a9")
 	)
 	(pad "2" thru_hole roundrect
 		(at 1.125 0)
-		(size 1.75 5.05)
-		(drill oval 1.25 1
-			(offset 0 1.275)
-		)
+		(size 1.7 2.5)
+		(drill oval 1.25 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1428571429)
+		(roundrect_rratio 0.1388888889)
 		(uuid "063996fe-7bf0-4509-a8ff-4130abe5e2b0")
 	)
 	(pad "2" smd roundrect
@@ -243,17 +228,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "1bbe306c-d55d-4b18-acdf-ee1e7380e62f")
-	)
-	(pad "2" thru_hole roundrect
-		(at 2.58 2.5)
-		(size 3.63 2.6)
-		(drill 1.5
-			(offset -0.515 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(uuid "f416cadd-07bd-4525-805f-40697d882db1")
 	)
 	(pad "MP" smd roundrect
 		(at -3.85 5.75)
@@ -309,18 +283,6 @@
 		(opacity 0.5000)
 		(offset
 			(xyz 1.25 -3.5 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.wrl"
-		(opacity 0.5000)
-		(offset
-			(xyz -2.54 -2.54 0)
 		)
 		(scale
 			(xyz 1 1 1)
