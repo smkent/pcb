@@ -1,4 +1,4 @@
-(footprint "Conn_Combo_JST-1x02-XH_PH-pad2gnd"
+(footprint "Conn_Combo_JST-1x02-XH_PH-THT-pad2gnd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_Combo_JST-1x02-XH_PH-pad2gnd"
+	(property "Value" "Conn_Combo_JST-1x02-XH_PH-THT-pad2gnd"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "95d96118-a780-4715-bf1f-8d87ced00a92")
@@ -65,7 +65,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -3.73 0.34)
-		(end -3.73 3.7)
+		(end -3.73 6)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "be2ddc69-3b88-470c-969c-a63bccd28a56")
 	)
 	(fp_line
-		(start -1.48 2)
-		(end -1.48 6.2)
+		(start -1.48 1.46)
+		(end -1.48 6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "d8d535b5-3b23-4894-a5fd-490c1af3694a")
 	)
 	(fp_line
-		(start -1.48 6.2)
-		(end -0.98 6.2)
+		(start -1.48 6)
+		(end -0.98 6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "e42365c4-37fe-4de2-acab-ce094e04b32b")
 	)
 	(fp_line
-		(start -0.98 2)
-		(end -1.48 2)
+		(start -0.98 1.46)
+		(end -1.48 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -104,8 +104,8 @@
 		(uuid "73579400-88dc-43e6-8f9b-98ed8e6fb15f")
 	)
 	(fp_line
-		(start -0.98 6.2)
-		(end -0.98 2)
+		(start -0.98 6)
+		(end -0.98 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "cf700799-ae7b-4c30-a3e4-dedcde1dcc36")
 	)
 	(fp_line
-		(start 1.02 2)
-		(end 1.02 6.2)
+		(start 1.02 1.46)
+		(end 1.02 6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -124,8 +124,8 @@
 		(uuid "a05b7202-2dc4-4fee-bd00-47cf079718fd")
 	)
 	(fp_line
-		(start 1.02 6.2)
-		(end 1.52 6.2)
+		(start 1.02 6)
+		(end 1.52 6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -134,8 +134,8 @@
 		(uuid "df25097f-1f57-472a-a0fd-051a412952fe")
 	)
 	(fp_line
-		(start 1.52 2)
-		(end 1.02 2)
+		(start 1.52 1.46)
+		(end 1.02 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -144,8 +144,8 @@
 		(uuid "a76db513-a57f-422a-a290-bee665e5bc6d")
 	)
 	(fp_line
-		(start 1.52 6.2)
-		(end 1.52 2)
+		(start 1.52 6)
+		(end 1.52 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -155,7 +155,7 @@
 	)
 	(fp_line
 		(start 3.73 0.34)
-		(end 3.73 3.7)
+		(end 3.73 6)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -163,10 +163,29 @@
 		(layer "F.SilkS")
 		(uuid "f1949e98-09e4-4f95-a66f-4681df8dd5fa")
 	)
+	(fp_line
+		(start -3.1 0.34)
+		(end -3.1 6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1b989eed-8fda-4d93-856f-e5d1e42711d7")
+	)
+	(fp_line
+		(start 3.1 0.34)
+		(end 3.1 6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b5f196a8-9b14-481a-aa1a-3effe77cdd51")
+	)
 	(fp_poly
 		(pts
-			(xy -5.100256 7.881082) (xy 5.099744 7.881082) (xy 5.100028 -1.900141) (xy 2.4 -1.9) (xy 2.4 -3.4)
-			(xy -2.4 -3.4) (xy -2.4 -1.9) (xy -5.099972 -1.900141)
+			(xy -4.299972 -1.500141) (xy 4.100028 -1.500141) (xy 4.099744 7.881082) (xy -4.300256 7.881082)
 		)
 		(stroke
 			(width 0.05)
@@ -174,7 +193,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "f20fab63-5151-4150-8a33-d2522e240efd")
+		(uuid "9bd5d6cd-d7ba-464f-afad-852526d5acfa")
 	)
 	(fp_circle
 		(center -3.75 0.32)
@@ -198,53 +217,25 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -1.25 -0.75)
-		(size 2 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "c8b6ecfa-58b6-492a-84df-392cb8130edd")
-	)
 	(pad "1" thru_hole oval
 		(at -1.125 0)
-		(size 1.7 2.5)
-		(drill 1.25 1)
+		(size 1.8 2)
+		(drill oval 1.25 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9ec1ca1a-07d6-4a8e-90b3-ef4d3a9397a9")
 	)
 	(pad "2" thru_hole roundrect
 		(at 1.125 0)
-		(size 1.7 2.5)
+		(size 1.8 2)
 		(drill oval 1.25 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
 		(uuid "063996fe-7bf0-4509-a8ff-4130abe5e2b0")
 	)
-	(pad "2" smd roundrect
-		(at 1.25 -0.75)
-		(size 2 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "1bbe306c-d55d-4b18-acdf-ee1e7380e62f")
-	)
-	(pad "MP" smd roundrect
-		(at -3.85 5.75)
-		(size 2.5 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.166667)
-		(uuid "8035c85a-a6ef-4f91-898c-8fef70fbc29a")
-	)
-	(pad "MP" smd roundrect
-		(at 3.85 5.75)
-		(size 2.5 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.166667)
-		(uuid "41db8eb2-f2a2-4ff9-b59d-ee81eb47f1f2")
-	)
 	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
-		(opacity 0.4000)
+		(opacity 0.5000)
 		(offset
 			(xyz -1.25 -4.65 -2.45)
 		)
@@ -256,33 +247,8 @@
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
-		(opacity 0.6000)
 		(offset
 			(xyz -1 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
-		(opacity 0.5000)
-		(offset
-			(xyz 1 -5.75 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
-		(opacity 0.5000)
-		(offset
-			(xyz 1.25 -3.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
