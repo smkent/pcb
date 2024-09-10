@@ -2,6 +2,365 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "2N7002DW"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002DW"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002dw-d.pdf"
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, Dual N-Channel MOSFET, SOT-23-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "N-Channel Switching MOSFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23?6*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2N7002DW_0_1"
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "2N7002DW_1_1"
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "2N7002DW_2_1"
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "CH224K"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1073,6 +1432,232 @@
 			)
 		)
 	)
+	(symbol "E6C0805RQBC2UDA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-RD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203301730_EKINGLUX-E6C0805RQBC2UDA_C375547.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual light emitting diodes, red and blue"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C375547"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "EKINGLUX Dual LED diode LEDs diodes red blue"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "E6C0805RQBC2UDA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "E6C0805RQBC2UDA_1_1"
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 0 0 1)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "RED_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "RED_K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "E6C0805RQBC2UDA_2_1"
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 0 0 255 1)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "BLUE_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "BLUE_K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ESP32-C3-WROOM-02-N4(4MB)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1483,6 +2068,404 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ETA6003"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.192 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ETA6003"
+			(at 4.064 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:ETA6003_QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304131730_etasolution-ETA6003Q3Q_C5455585.pdf"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5A, 3MHz Switching Charger with Dynamic Power Path Management"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5455585"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "etasolution Battery Management Charger QFN 16"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*3x3mm*P0.5mm*EP1.7mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ETA6003_0_1"
+			(rectangle
+				(start -11.43 10.16)
+				(end 11.43 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ETA6003_1_1"
+			(pin power_out line
+				(at -13.97 7.62 0)
+				(length 2.54)
+				(name "SYS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "ISET1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 2.54 180)
+				(length 2.54)
+				(name "ISET2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 12.7 270)
+				(length 2.54)
+				(name "USB_DET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 5.08 0)
+				(length 2.54)
+				(name "SYS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 12.7 270)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 2.54 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "ENB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -7.62 0)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "ENPPB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 13.97 7.62 180)
+				(length 2.54)
+				(name "STAT"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -2786,6 +3769,274 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HUSB238_002DD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HUSB238_002DD"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm_ThermalVias"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hynetek.com/uploadfiles/site/219/news/aabbbbdb-48c9-4a44-a6dc-2c15f53282e6.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type-C Power Delivery Sink Controller"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7471904"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HUSB238_002DD_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "VSET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -86,7 +86,15 @@ class MainBuilder:
             cexec = cmds.pop(0)
             if cexec != "kikit":
                 c += ["--entrypoint", cexec]
-            c += ["-v", ".:/kikit", "yaqwsx/kikit"]
+            c += [
+                "-v",
+                ".:/kikit",
+                "-v",
+                "{}:/usr/local/share/fonts".format(
+                    str(Path(self.env.Dir("#").path) / "fonts")
+                ),
+                "yaqwsx/kikit",
+            ]
             return c
 
         cmds = [str(c) for c in cmd]
