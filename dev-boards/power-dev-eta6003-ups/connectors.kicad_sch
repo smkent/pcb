@@ -5063,6 +5063,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 139.7 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0432b98-2c49-4a9d-b040-47ddfe63345e")
+		(property "Reference" "R103"
+			(at 142.24 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K1"
+			(at 142.24 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:R_0402_1005Metric_simple"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53a31f12-4ba8-4102-95d9-90d4c8aa95db")
+		)
+		(pin "2"
+			(uuid "04e8391b-a264-4b46-aa6d-059db903f8e9")
+		)
+		(instances
+			(project "power-dev-eta6003-ups"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 123.19 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5276,85 +5355,6 @@
 			(project "power-dev-eta6003-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8348e26-4b12-4646-8134-1492f7748907")
-		(property "Reference" "R103"
-			(at 142.24 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 142.24 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:R_0402_1005Metric_simple"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d01e81f-632a-447a-9ebd-07b48a38f41d")
-		)
-		(pin "2"
-			(uuid "7659e1bf-d9d9-4566-a4c3-0a0ebce7fcc5")
-		)
-		(instances
-			(project "power-dev-eta6003-ups"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
-					(reference "R103")
 					(unit 1)
 				)
 			)

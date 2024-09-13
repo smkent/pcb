@@ -1622,7 +1622,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5K1"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "17a98de0-22d1-4407-bfc0-69aeb11a6267")
@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C25905"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1686,7 +1686,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e9856c0a-a313-44f2-8ddb-b0f951bb854a/f8348e26-4b12-4646-8134-1492f7748907")
+		(path "/e9856c0a-a313-44f2-8ddb-b0f951bb854a/d0432b98-2c49-4a9d-b040-47ddfe63345e")
 		(sheetname "Pins and Connectors")
 		(sheetfile "connectors.kicad_sch")
 		(attr smd)
@@ -9381,7 +9381,7 @@
 		(at 131 153.25 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R26"
+		(property "Reference" "R3"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9393,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5K1"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "7a1ddff4-9bdc-4049-ac69-819dc5c99e56")
@@ -9443,7 +9443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C25905"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9457,7 +9457,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/aaa68b8c-a5e8-477a-bb12-edb7725f13f7")
+		(path "/c6e577a2-0458-4d7a-b533-05395882a42f")
 		(sheetname "Root")
 		(sheetfile "power-dev-eta6003-ups.kicad_sch")
 		(attr smd)
