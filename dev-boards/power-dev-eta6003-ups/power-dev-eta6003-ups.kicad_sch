@@ -8108,28 +8108,6 @@
 			)
 		)
 	)
-	(global_label "LOAD_SHUNT_OUT"
-		(shape input)
-		(at 123.19 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e579bd9-68d3-4fd9-8f5d-56cf4d0ce823")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9706 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EXT_POWER_SWITCH"
 		(shape output)
 		(at 113.03 181.61 0)
@@ -8456,6 +8434,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_SHUNT"
+		(shape input)
+		(at 123.19 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abae6280-0f31-4779-84e3-6ee14183e23f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6811 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
