@@ -1,0 +1,149 @@
+(footprint "LED-ARRAY-SMD_4P-L2.0-W1.3-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "ff688964-34ae-4f9e-92d6-f65d44f646ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-ARRAY-SMD_4P-L2.0-W1.3-RD"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "0b077c32-b4f6-4c97-880d-d224aeb92342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6d9198e-416e-403a-b621-2a8b2573ed2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "031ba9da-e438-41ef-a30c-7d34df9074a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf7a6f09-9e5f-456d-b026-b12fdaa290c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.208 -0.381) (xy 0.208 0.381) (xy -0.3 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2e88c598-4975-438f-bbf7-2d330368db32")
+	)
+	(fp_rect
+		(start -1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "de406836-fe6f-4f72-b05f-9418d1092fa8")
+	)
+	(fp_circle
+		(center 1 -0.62)
+		(end 1.03 -0.62)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0f19c3ed-bf7f-477e-8c5d-832063fe073b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6572790e-f7b0-46ab-b4ec-0b9d804000ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.9 -0.4 270)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "56a1e04b-ec17-4837-a91e-68af5372ab41")
+	)
+	(pad "2" smd roundrect
+		(at -0.9 -0.4 270)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "afc88480-fa80-4130-95c0-9062935c64f6")
+	)
+	(pad "3" smd roundrect
+		(at 0.9 0.4 270)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "600a07d5-08a7-4180-a108-d85bdc467349")
+	)
+	(pad "4" smd roundrect
+		(at -0.9 0.4 270)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1c469d09-ed9d-4b1a-9e2e-8aa10cbb4d60")
+	)
+	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/LED-ARRAY-SMD_4P-L2.0-W1.3-RD.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

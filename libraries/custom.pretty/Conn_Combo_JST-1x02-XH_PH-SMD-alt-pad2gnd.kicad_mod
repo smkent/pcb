@@ -1,4 +1,4 @@
-(footprint "Conn_Combo_JST-1x02-XH_PH-SMD-pad2gnd"
+(footprint "Conn_Combo_JST-1x02-XH_PH-SMD-alt-pad2gnd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_Combo_JST-1x02-XH_PH-SMD-pad2gnd"
+	(property "Value" "Conn_Combo_JST-1x02-XH_PH-SMD-alt-pad2gnd"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "95d96118-a780-4715-bf1f-8d87ced00a92")
@@ -64,7 +64,7 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.73 0.34)
+		(start -3.73 2.6)
 		(end -3.73 3.7)
 		(stroke
 			(width 0.25)
@@ -154,7 +154,7 @@
 		(uuid "22d066a3-54da-4b0b-9594-34f4ddc8f316")
 	)
 	(fp_line
-		(start 3.73 0.34)
+		(start 3.73 2.6)
 		(end 3.73 3.7)
 		(stroke
 			(width 0.25)
