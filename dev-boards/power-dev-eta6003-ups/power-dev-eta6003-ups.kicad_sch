@@ -4793,10 +4793,6 @@
 		(uuid "1cc4fa80-20ca-4ac8-bf32-a9e290f98cac")
 	)
 	(no_connect
-		(at 167.64 25.4)
-		(uuid "276efcc9-b04b-451d-9b9a-41b43b5f07b5")
-	)
-	(no_connect
 		(at 110.49 129.54)
 		(uuid "2b6fff7d-e7bc-420e-aedb-72c0d844edf5")
 	)
@@ -4811,10 +4807,6 @@
 	(no_connect
 		(at 100.33 149.86)
 		(uuid "8b5bcc84-7a89-47fa-9cd2-a0727889aba9")
-	)
-	(no_connect
-		(at 160.02 25.4)
-		(uuid "bd4ffb54-b695-4a75-8752-e80250ba6aa3")
 	)
 	(no_connect
 		(at 110.49 127)
@@ -5492,6 +5484,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 26.67) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dfd691-d493-4f51-a627-4be523573202")
+	)
+	(wire
+		(pts
+			(xy 167.64 24.13) (xy 170.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555df41f-a54b-42c6-a76d-2f3c6124564c")
+	)
+	(wire
+		(pts
 			(xy 71.12 137.16) (xy 73.66 137.16)
 		)
 		(stroke
@@ -5552,6 +5564,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 24.13) (xy 170.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3d56dc-d61f-4566-9f8f-b42e726635b6")
+	)
+	(wire
+		(pts
 			(xy 137.16 137.16) (xy 137.16 151.13)
 		)
 		(stroke
@@ -5559,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "5c8649b3-21d3-46e1-9836-1256681e3725")
+	)
+	(wire
+		(pts
+			(xy 157.48 24.13) (xy 160.02 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbb1b4a-6e9a-4456-badc-cef49afeb6d9")
 	)
 	(wire
 		(pts
@@ -9076,7 +9108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 111.76 48.26 90)
+		(at 168.91 41.91 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9085,7 +9117,7 @@
 		(fields_autoplaced yes)
 		(uuid "1455659d-8352-4db3-a624-059f4eb2ae82")
 		(property "Reference" "RN1"
-			(at 111.76 41.91 90)
+			(at 175.26 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9125,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 111.76 44.45 90)
+			(at 172.72 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 111.76 50.292 90)
+			(at 166.878 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 48.26 0)
+			(at 168.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9151,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 111.76 48.26 0)
+			(at 168.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9160,7 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
-			(at 111.76 48.26 0)
+			(at 168.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +11545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 163.83 25.4 90)
+		(at 148.59 41.91 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11522,23 +11554,25 @@
 		(fields_autoplaced yes)
 		(uuid "65bf0eaa-0ecc-4945-b08b-dcc81eb6ec22")
 		(property "Reference" "RN1"
-			(at 163.83 19.05 90)
+			(at 151.13 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5K1"
-			(at 163.83 21.59 90)
+			(at 151.13 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 163.83 27.432 90)
+			(at 146.558 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +11581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 25.4 0)
+			(at 148.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +11590,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 163.83 25.4 0)
+			(at 148.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,7 +11599,7 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
-			(at 163.83 25.4 0)
+			(at 148.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 168.91 41.91 0)
+		(at 163.83 24.13 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12069,7 +12103,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7444e9-15c2-465d-ba1c-e9f2eecc3c6f")
 		(property "Reference" "RN1"
-			(at 171.45 40.6399 0)
+			(at 162.5599 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12112,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 171.45 43.1799 0)
+			(at 165.0999 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +12121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 166.878 41.91 90)
+			(at 163.83 26.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 41.91 0)
+			(at 163.83 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,7 +12139,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 168.91 41.91 0)
+			(at 163.83 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12148,7 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
-			(at 168.91 41.91 0)
+			(at 163.83 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12544,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 148.59 41.91 0)
+		(at 111.76 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12519,7 +12553,7 @@
 		(fields_autoplaced yes)
 		(uuid "99afe99e-8236-4f98-a5c5-50777a74283c")
 		(property "Reference" "RN1"
-			(at 151.13 40.6399 0)
+			(at 110.4899 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12528,7 +12562,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 151.13 43.1799 0)
+			(at 113.0299 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 146.558 41.91 90)
+			(at 111.76 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 41.91 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12589,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 148.59 41.91 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12598,7 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
-			(at 148.59 41.91 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,6 +13804,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4f8624b-9045-4fa5-a734-8fa709750b89")
+		(property "Reference" "#PWR029"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5f3a68-5d93-4cbd-808a-13218f390c36")
+		)
+		(instances
+			(project "power-dev-eta6003-ups"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 124.46 151.13 270)
 		(unit 1)
@@ -14410,6 +14510,72 @@
 			(project "power-dev-eta6003-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf268a0b-fb72-465f-ba7f-7470a38a7533")
+		(property "Reference" "#PWR028"
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb441218-6539-41a4-816b-b35c7bd7ac96")
+		)
+		(instances
+			(project "power-dev-eta6003-ups"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
