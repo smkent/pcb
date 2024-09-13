@@ -1814,6 +1814,14 @@
 					(hide yes)
 				)
 			)
+			(property "JLCPCB_CORRECTION" "0; 0; 270"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "HUSB238_002DD_0_1"
 				(rectangle
 					(start -7.62 7.62)
@@ -3967,6 +3975,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2927029"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B5"
 			(uuid "f5b8be3f-41a3-460d-b416-27b155bfbdfa")
 		)
@@ -4202,6 +4219,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "9083b1aa-d6b7-42a1-aa97-e84050472b20")
 		)
@@ -4368,6 +4393,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7433423"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -4605,6 +4639,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7433425"
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "492b1ad6-9fea-4aaa-80a3-0e27086f2098")
 		)
@@ -4682,7 +4725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C2927029"
 			(at 229.87 45.72 0)
 			(effects
 				(font
@@ -4716,76 +4759,6 @@
 			(project "power-dev-ip5306-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
 					(reference "J200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 139.7 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce47129-90d4-4091-ae48-871d142b80bd")
-		(property "Reference" "LED8"
-			(at 142.24 39.3064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "White"
-			(at 142.24 41.8464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple"
-			(at 139.7 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77e2b24f-c69c-4be3-ad3e-7bd349104097")
-		)
-		(pin "2"
-			(uuid "cddaeecf-5599-48b1-ac71-a1f28c6a3c81")
-		)
-		(instances
-			(project "power-dev-eta6003-ups"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
-					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -4838,6 +4811,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7433423"
 			(at 134.62 173.99 0)
 			(effects
 				(font
@@ -4917,7 +4899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C31850"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -4936,6 +4918,76 @@
 			(project "power-dev-eta6003-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
 					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 139.7 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa74d2f6-eb1b-4a18-a50e-f24a96f6affc")
+		(property "Reference" "LED3"
+			(at 142.24 39.3064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "White"
+			(at 142.24 41.8464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e56d2c8a-bca5-4665-ba9e-83208235dbda")
+		)
+		(pin "2"
+			(uuid "fd00f280-0f48-4888-94d0-189157df3277")
+		)
+		(instances
+			(project "power-dev-eta6003-ups"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75/e9856c0a-a313-44f2-8ddb-b0f951bb854a"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -5064,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -5284,7 +5336,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 139.7 34.29 0)
 			(effects
 				(font

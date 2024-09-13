@@ -2705,6 +2705,24 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part" "C5190214"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_CORRECTION" "0; 0; 270"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -3895,6 +3913,15 @@
 			)
 			(property "LCSC Part" "C2759992"
 				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_CORRECTION" "0; 0; 180"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8721,7 +8748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C319020"
 			(at 228.6 80.01 0)
 			(effects
 				(font
@@ -8804,7 +8831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C5832372"
 			(at 40.64 53.34 0)
 			(effects
 				(font
@@ -8949,7 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 30.48 33.02 0)
 			(effects
 				(font
@@ -9160,6 +9187,15 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -9563,7 +9599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 129.54 90)
+		(at 68.58 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9760,7 +9796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C19702"
 			(at 208.28 135.89 0)
 			(effects
 				(font
@@ -9995,7 +10031,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 137.16 90)
+		(at 68.58 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10630,7 +10666,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 148.59 120.65 0)
 			(effects
 				(font
@@ -10927,6 +10963,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2985725"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfecfbf9-ac1d-4134-88c8-4c4476aa12df")
 		)
@@ -11062,7 +11107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 33.02 21.59 0)
 			(effects
 				(font
@@ -11141,7 +11186,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -11446,6 +11491,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5190214"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42ad10a5-8ff6-49d4-ab44-ea29bdbcb8d6")
 		)
@@ -11528,7 +11591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 140.97 115.57 0)
 			(effects
 				(font
@@ -11608,6 +11671,15 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
 			(at 148.59 41.91 0)
 			(effects
 				(font
@@ -11848,7 +11920,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 245.11 138.43 0)
 			(effects
 				(font
@@ -12077,7 +12149,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -12157,6 +12229,15 @@
 			)
 		)
 		(property "LCSC Part" "C2991336"
+			(at 163.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -12615,6 +12696,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5892fc4e-808f-4289-a553-ebb314b3c525")
 		)
@@ -12650,7 +12740,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 158.75 90)
+		(at 68.58 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12771,6 +12861,24 @@
 		)
 		(property "Description" "500mA low dropout linear regulator, shutdown pin, 6.5V max input voltage, 3.3V fixed positive output, SOT-23-5"
 			(at 269.748 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C82942"
+			(at 267.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 267.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,7 +13257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C19702"
 			(at 252.73 128.27 0)
 			(effects
 				(font
@@ -13304,7 +13412,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25804"
+		(property "LCSC Part" "C25744"
 			(at 261.62 129.54 0)
 			(effects
 				(font
@@ -13381,7 +13489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" " C21190"
 			(at 120.65 60.96 0)
 			(effects
 				(font
@@ -13452,6 +13560,15 @@
 			)
 		)
 		(property "Description" "Triple-Channel High-Side Shunt and Bus Voltage Monitor with I2C and SMBUS Compatible Interface, QFN-16"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C181255"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -13567,6 +13684,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2985725"
 			(at 58.42 154.94 0)
 			(effects
 				(font
@@ -13711,7 +13837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C45783"
 			(at 34.29 64.77 0)
 			(effects
 				(font
@@ -13737,7 +13863,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 151.13 90)
+		(at 68.58 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14003,6 +14129,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5190214"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 270"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9786193c-34e8-4588-9356-72c5d6307a8f")
 		)
@@ -14087,6 +14231,15 @@
 		)
 		(property "LCSC Part" "C2759992"
 			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0; 0; 180"
+			(at 250.19 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,7 +14653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" " C22975"
 			(at 111.76 60.96 0)
 			(effects
 				(font
@@ -14737,6 +14890,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2985725"
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -15122,7 +15284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2016848-d617-4d27-8363-597c01eccf2a")
-		(property "Reference" "LED10"
+		(property "Reference" "LED5"
 			(at 267.97 138.3665 0)
 			(effects
 				(font
@@ -15183,7 +15345,7 @@
 		(instances
 			(project "power-dev-eta6003-ups"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED10")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -15242,7 +15404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C5307631"
 			(at 220.98 113.03 0)
 			(effects
 				(font
