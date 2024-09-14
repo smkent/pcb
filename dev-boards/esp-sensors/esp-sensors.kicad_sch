@@ -626,7 +626,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -640,8 +640,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_MountingPin"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -667,7 +667,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -694,7 +694,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_MountingPin_1_1"
+			(symbol "Conn_01x06_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -752,7 +763,7 @@
 				)
 				(rectangle
 					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -763,7 +774,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
 					)
 					(stroke
 						(width 0.1524)
@@ -774,7 +785,7 @@
 					)
 				)
 				(text "Mounting"
-					(at 0 -6.731 0)
+					(at 0 -9.271 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -872,7 +883,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -6261,7 +6290,7 @@
 	)
 	(global_label "SR_CS"
 		(shape input)
-		(at 166.37 52.07 180)
+		(at 168.91 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6271,7 +6300,7 @@
 		)
 		(uuid "21fb45c6-2768-42f0-8fe8-aa94c8e7cba3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8772 52.07 0)
+			(at 162.4172 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6312,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape bidirectional)
-		(at 166.37 49.53 180)
+		(at 168.91 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6293,7 +6322,7 @@
 		)
 		(uuid "238ceaaa-2437-4cd8-a75e-6f2e613ef28c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6773 49.53 0)
+			(at 160.2173 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6400,7 @@
 	)
 	(global_label "SPI_CLK"
 		(shape input)
-		(at 166.37 46.99 180)
+		(at 168.91 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6381,7 +6410,7 @@
 		)
 		(uuid "3dfc991b-fd3a-4ae8-b364-c12b31a41a0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8167 46.99 0)
+			(at 162.3567 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,6 +6785,28 @@
 		(uuid "b594b208-df1e-44a4-b4c2-a19a509507e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 32.8167 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_RESET"
+		(shape input)
+		(at 168.91 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "beb5320b-66d0-4cd6-ab8d-b6eb35ee4caa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.644 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,6 +8167,72 @@
 			(project "esp-sensors"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40172e5c-b715-487b-b577-ab1122b1f0ce")
+		(property "Reference" "#PWR036"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baebbd52-4a97-407f-9836-e58e58efa5c3")
+		)
+		(instances
+			(project "esp-sensors"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10114,72 +10231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ec7eb13-e0ad-4fe4-8182-d38477a33ab0")
-		(property "Reference" "#PWR036"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c47dcbc-894c-488f-8584-6e840436373f")
-		)
-		(instances
-			(project "esp-sensors"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 208.28 124.46 0)
 		(unit 1)
@@ -10477,88 +10528,6 @@
 			(project "esp-sensors"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
-		(at 171.45 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a049303c-01b1-458c-9689-40696919d9a0")
-		(property "Reference" "J5"
-			(at 173.99 51.1555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST SH"
-			(at 173.99 53.6955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "42b8b24c-62e8-450a-a0f6-afae0aea2999")
-		)
-		(pin "2"
-			(uuid "ad9ad858-749e-43bc-b6e7-62524c05ab4e")
-		)
-		(pin "1"
-			(uuid "43b62f1a-8df5-44ac-986f-a56266b4020e")
-		)
-		(pin "MP"
-			(uuid "1a21bc02-5848-4869-bab4-77f2b81ede12")
-		)
-		(pin "4"
-			(uuid "dbab247e-2c7c-4da9-961a-3a8120a072ab")
-		)
-		(pin "3"
-			(uuid "ff43b090-bc00-4aa9-ba47-b1ced20ceadb")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11164,7 +11133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 57.15 270)
+		(at 168.91 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11173,7 +11142,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc4a9bf1-bbc7-47ee-9471-6a4529da8457")
 		(property "Reference" "#PWR035"
-			(at 160.02 57.15 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 57.1499 90)
+			(at 165.1 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11191,7 +11160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 57.15 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,7 +11169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 57.15 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 57.15 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11364,7 +11333,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 166.37 54.61 90)
+		(at 168.91 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11373,7 +11342,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2a6231d-0ded-42a7-80a4-8b86d10a3fb6")
 		(property "Reference" "#PWR034"
-			(at 170.18 54.61 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11382,7 +11351,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 54.6099 90)
+			(at 165.1 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +11360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 54.61 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 54.61 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +11378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 54.61 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,6 +12295,91 @@
 			(project "esp-sensors"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 173.99 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa17ceb5-6f78-438c-af7a-aed8e5cfe17d")
+		(property "Reference" "J5"
+			(at 176.53 51.1555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST SH"
+			(at 176.53 53.6955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e468efdb-43cd-4bc5-888a-29b57cc95f5b")
+		)
+		(pin "5"
+			(uuid "5da77964-c7b1-4328-9bea-6df20f4abbdb")
+		)
+		(pin "3"
+			(uuid "d0252030-fa49-44da-9ac8-d1eade6a8654")
+		)
+		(pin "4"
+			(uuid "091954fb-28de-4536-b60c-6c9b8a6da1be")
+		)
+		(pin "1"
+			(uuid "80e55588-7006-45da-98f6-091dd4c78750")
+		)
+		(pin "2"
+			(uuid "3b0a5a36-a428-4772-848f-b654ecdc61ff")
+		)
+		(pin "MP"
+			(uuid "df970f7f-90e4-45c7-806a-0cb93bd0ac36")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "J5")
 					(unit 1)
 				)
 			)
