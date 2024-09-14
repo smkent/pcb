@@ -101,7 +101,7 @@
 		(descr "Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)")
 		(tags "resistor array")
 		(property "Reference" "RN1"
-			(at 0 -2.8 360)
+			(at 0 -2.8 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5794fa97-2d3b-4bfa-9f97-03eb2653988e")
@@ -113,7 +113,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 2.8 360)
+			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "26d7b491-d0dd-481f-aaeb-721f27a6a8df")
 			(effects
@@ -1435,7 +1435,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdcb867b-b5ea-463f-88ee-a5d926fa9d5f")
@@ -1447,7 +1447,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "9fd2bb11-f943-4b3b-8afe-4a5500d24f23")
 			(effects
@@ -1636,7 +1636,7 @@
 		(uuid "f5c3da7d-623d-4151-861b-3294d7f8f3c0")
 		(at 134.075 99.06 180)
 		(property "Reference" "LED0"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "Dwgs.User")
 			(hide yes)
 			(uuid "7f54b390-4803-4606-98e7-a0f304382a6f")
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Value" "LED_RGAB"
-			(at 0 4.4 360)
+			(at 0 4.4 0)
 			(layer "F.Fab")
 			(uuid "1e169d84-f769-4073-96e6-864fe552805a")
 			(effects
@@ -1659,7 +1659,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-BR_HandSolder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a880ed83-a61c-41dd-9ade-1cf02061176b")
@@ -1671,7 +1671,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211030000_XINGLIGHT-XL-2012RGBC_C965848.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cf1c3a9-3779-462b-a3a8-e29923da879e")
@@ -1683,7 +1683,7 @@
 			)
 		)
 		(property "Description" "RGB LED, red/green/anode/blue"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24a09b89-ec7b-418b-aff8-c2f144ee91b8")
@@ -1777,7 +1777,7 @@
 			(uuid "7b8f42e0-6fc7-435f-a6cb-bcf06f6638fe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7b808f3b-bba5-43cb-af1a-01ce7b7541e1")
 			(effects
@@ -1846,7 +1846,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "43f88dc7-c4d7-4027-bed1-4bb87c3a44f6")
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "1edb6afb-ac52-4eff-b64a-9e55e0ea6489")
 			(effects
@@ -2018,7 +2018,7 @@
 			(uuid "fe0e5678-8037-48c8-9379-466344dfc37e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "68696322-1cb6-4694-aca1-1fec98925225")
 			(effects
@@ -2538,7 +2538,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fcfd59fa-678a-4ce0-aee1-36d96cb26a50")
@@ -2551,7 +2551,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "e27df398-9685-453a-9ac8-5db0df761ba6")
 			(effects
@@ -2710,7 +2710,7 @@
 			(uuid "4b88a29c-5ad6-4f42-b79a-081496053e2b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c1aacd09-2bb6-4f7d-9b4f-b84b2bcc77cc")
 			(effects
@@ -2758,7 +2758,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fba11232-1c03-47e0-96f0-43aac29f45e7")
@@ -2771,7 +2771,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "625b82e8-1913-42ba-bf14-90a1d06b5a7c")
 			(effects
@@ -2930,7 +2930,7 @@
 			(uuid "f55abbb0-90a1-4f6f-805e-ff441fda205f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2950b865-642e-452c-8bb8-557dde96177d")
 			(effects
@@ -2978,7 +2978,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "083bb356-e6ef-4a46-902c-44519550a3b4")
@@ -2991,7 +2991,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "b9451038-0429-495e-9ba4-ff319d5c6778")
 			(effects
@@ -3150,7 +3150,7 @@
 			(uuid "c8909e28-666e-472f-aace-23c7402523b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ae296776-0679-4ea1-83fe-9eedfeddf608")
 			(effects
@@ -3618,24 +3618,24 @@
 	(gr_poly
 		(pts
 			(arc
-				(start 127.08 94.83)
-				(mid 126.01934 95.26934)
-				(end 125.58 96.33)
+				(start 127.063 95.119)
+				(mid 126.00234 95.55834)
+				(end 125.563 96.619)
 			)
 			(arc
-				(start 125.58 104.33)
-				(mid 126.01934 105.39066)
-				(end 127.08 105.83)
+				(start 125.563 104.119)
+				(mid 126.00234 105.17966)
+				(end 127.063 105.619)
 			)
 			(arc
-				(start 137.08 105.83)
-				(mid 138.14066 105.39066)
-				(end 138.58 104.33)
+				(start 137.063 105.619)
+				(mid 138.12366 105.17966)
+				(end 138.563 104.119)
 			)
 			(arc
-				(start 138.58 96.33)
-				(mid 138.14066 95.26934)
-				(end 137.08 94.83)
+				(start 138.563 96.619)
+				(mid 138.12366 95.55834)
+				(end 137.063 95.119)
 			)
 		)
 		(stroke
@@ -3644,7 +3644,7 @@
 		)
 		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "678c40cc-9569-4b6a-a471-22ee5d81d661")
+		(uuid "51d6325e-440d-412e-b918-1c46bf3a14e9")
 	)
 	(gr_text "github.com/smkent/pcb"
 		(at 128.778 100.33 270)
