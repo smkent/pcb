@@ -19722,16 +19722,6 @@
 		(layer "F.SilkS")
 		(uuid "c3866ccf-67dc-47f7-b4e3-4e7fea35c6ef")
 	)
-	(gr_line
-		(start 164.606 68.254)
-		(end 164.606 69.143)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d45748be-8aa8-4e20-975f-ca95ff9dc48b")
-	)
 	(gr_poly
 		(pts
 			(xy 153 95) (xy 152.5 94.5) (xy 152.5 95.5)
@@ -19743,16 +19733,6 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "e2f8a72d-ecdc-4ed4-b755-db476e971a46")
-	)
-	(gr_line
-		(start 172.226 68.254)
-		(end 172.226 70.286)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e8cf1e25-3ff7-47ce-a87c-24809d3db50e")
 	)
 	(gr_poly
 		(pts
@@ -19856,19 +19836,6 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
-				(bold yes)
-			)
-			(justify right mirror)
-		)
-	)
-	(gr_text "OE"
-		(at 171.21 68 -90)
-		(layer "B.SilkS")
-		(uuid "6d8bbbcc-5b35-474a-8bf3-f7ecbd9fdd24")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
 				(bold yes)
 			)
 			(justify right mirror)
@@ -20483,45 +20450,6 @@
 			(justify top)
 		)
 	)
-	(gr_text "VCC"
-		(at 178.83 68 -90)
-		(layer "F.SilkS")
-		(uuid "483574c8-2f06-4fc8-a7cc-2d527ef656c1")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "X"
-		(at 163.59 68 -90)
-		(layer "F.SilkS")
-		(uuid "61f63bfd-e1d1-41b5-ab6a-ae84f8d60c4b")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "LCH"
-		(at 168.670002 68 -90)
-		(layer "F.SilkS")
-		(uuid "6360298c-b79b-45a7-aec4-abeab31269d0")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "OE"
 		(at 173.863 77.978 0)
 		(layer "F.SilkS")
@@ -20876,19 +20804,6 @@
 			)
 		)
 	)
-	(gr_text "D.IN"
-		(at 173.75 68 -90)
-		(layer "F.SilkS")
-		(uuid "7f97f349-21ad-41e3-8b42-dc3febc68055")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "LCH"
 		(at 171.323 77.978 0)
 		(layer "F.SilkS")
@@ -20913,19 +20828,6 @@
 				(bold yes)
 			)
 			(justify top)
-		)
-	)
-	(gr_text "C"
-		(at 166.13 68 -90)
-		(layer "F.SilkS")
-		(uuid "97e38038-403d-449b-9354-067a12d65708")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "CLK"
@@ -20954,19 +20856,6 @@
 			(justify top)
 		)
 	)
-	(gr_text "GND"
-		(at 176.29 68 -90)
-		(layer "F.SilkS")
-		(uuid "b2607ff4-c0d8-479c-bea0-851de1d006aa")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "D.OUT"
 		(at 178.943 77.978 0)
 		(layer "F.SilkS")
@@ -20978,19 +20867,6 @@
 				(bold yes)
 			)
 			(justify top)
-		)
-	)
-	(gr_text "D.OUT"
-		(at 161.05 68 -90)
-		(layer "F.SilkS")
-		(uuid "bca48493-01c8-49f7-b7ff-036958cdc463")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "github.com/smkent/pcb"
