@@ -2731,7 +2731,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -2753,6 +2753,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2787,6 +2788,14 @@
 				)
 			)
 			(symbol "AHT20+BMP280_1_1"
+				(text "AHT20+BMP280"
+					(at 0.254 -4.318 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
 				(pin power_in line
 					(at -8.89 1.27 0)
 					(length 2.54)
@@ -2865,7 +2874,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -2887,6 +2896,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2921,6 +2931,14 @@
 				)
 			)
 			(symbol "BH1750_1_1"
+				(text "BH1750"
+					(at 0 -4.826 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
 				(pin power_in line
 					(at -8.89 2.54 0)
 					(length 2.54)
@@ -3017,7 +3035,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -3039,6 +3057,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -3073,6 +3092,14 @@
 				)
 			)
 			(symbol "ENS160+AHT2x_1_1"
+				(text "ENS160\n+AHT2x"
+					(at -0.254 -2.54 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
 				(pin power_in line
 					(at -8.89 5.08 0)
 					(length 2.54)
@@ -7873,7 +7900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23756b80-820f-4db3-bd11-35592a613305")
-		(property "Reference" "U1"
+		(property "Reference" "SM1"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -7967,7 +7994,7 @@
 		(instances
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U1")
+					(reference "SM1")
 					(unit 1)
 				)
 			)
@@ -8248,7 +8275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a75bd4-7090-40fd-9de1-0d8b6b85557d")
-		(property "Reference" "U3"
+		(property "Reference" "SM3"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -8318,7 +8345,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U3")
+					(reference "SM3")
 					(unit 1)
 				)
 			)
@@ -10743,7 +10770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b370bfd2-5873-454a-9fb4-2cfc8bce20ee")
-		(property "Reference" "U4"
+		(property "Reference" "SM4"
 			(at 214.63 85.09 0)
 			(effects
 				(font
@@ -10804,7 +10831,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U4")
+					(reference "SM4")
 					(unit 1)
 				)
 			)
@@ -10820,7 +10847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b48e649f-e95d-4ac9-904c-fab0438bb859")
-		(property "Reference" "U2"
+		(property "Reference" "SM2"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -10878,7 +10905,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
+					(reference "SM2")
 					(unit 1)
 				)
 			)
@@ -11061,7 +11088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c390ec82-dc38-468a-8eae-f5d614a3b6a8")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -11125,7 +11152,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
