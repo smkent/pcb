@@ -2605,7 +2605,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 18.542 0)
 				(effects
 					(font
@@ -2959,7 +2959,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 18.288 0)
 				(effects
 					(font
@@ -3330,7 +3330,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "SM"
 				(at 0 16.256 0)
 				(effects
 					(font
@@ -8501,7 +8501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f89b6fa-558f-40b4-9474-213e767d0a22")
-		(property "Reference" "SM1"
+		(property "Reference" "SM4"
 			(at 264.16 33.0199 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SM1")
+					(reference "SM4")
 					(unit 1)
 				)
 			)
@@ -9018,7 +9018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2e5f97-cadd-47e1-bf5a-c3998d47413d")
-		(property "Reference" "U2"
+		(property "Reference" "SM2"
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -9113,7 +9113,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
+					(reference "SM2")
 					(unit 1)
 				)
 			)
@@ -9995,7 +9995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81596d8f-193a-4a8d-9794-2e6b62260a02")
-		(property "Reference" "U3"
+		(property "Reference" "SM3"
 			(at 140.97 138.43 0)
 			(effects
 				(font
@@ -10090,7 +10090,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U3")
+					(reference "SM3")
 					(unit 1)
 				)
 			)
@@ -13016,7 +13016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82e5dad-753e-4056-bc99-98b55f7a991e")
-		(property "Reference" "U1"
+		(property "Reference" "SM1"
 			(at 49.53 24.13 0)
 			(effects
 				(font
@@ -13110,7 +13110,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U1")
+					(reference "SM1")
 					(unit 1)
 				)
 			)
