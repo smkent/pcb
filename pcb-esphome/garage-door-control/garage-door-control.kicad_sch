@@ -2015,6 +2015,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2049,6 +2050,14 @@
 				)
 			)
 			(symbol "AHT20+BMP280_1_1"
+				(text "AHT20+BMP280"
+					(at 0.254 -4.318 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
 				(pin power_in line
 					(at -8.89 1.27 0)
 					(length 2.54)
@@ -2149,6 +2158,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2183,6 +2193,14 @@
 				)
 			)
 			(symbol "ENS160+AHT2x_1_1"
+				(text "ENS160\n+AHT2x"
+					(at -0.254 -2.54 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
 				(pin power_in line
 					(at -8.89 5.08 0)
 					(length 2.54)
@@ -5898,91 +5916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:ENS160+AHT2x")
-		(at 153.67 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ce27a5-85f0-406a-9cb6-cbe969046100")
-		(property "Reference" "U3"
-			(at 153.67 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 153.67 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "aliexpress:ENS160+AHT2x-noholes"
-			(at 153.67 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "c2b67b08-e6d3-4311-ab5e-c14d15f11a92")
-		)
-		(pin "1"
-			(uuid "5de26334-954d-4b06-aa9a-96c80d527e0b")
-		)
-		(pin "2"
-			(uuid "427755b6-e676-4889-af75-0d8e4a50a7cb")
-		)
-		(pin "8"
-			(uuid "9b5d3495-99e9-4b07-9093-d4fe8d706f87")
-		)
-		(pin "3"
-			(uuid "61a1b428-1a7c-45af-85a9-2ec268f3c181")
-		)
-		(pin "5"
-			(uuid "4e39663a-0c73-484c-9e8e-110c89c6e801")
-		)
-		(pin "4"
-			(uuid "3077d962-c9d6-4be3-b161-d3913d9ce38f")
-		)
-		(pin "7"
-			(uuid "5a74e916-cb86-4a87-b42b-f43bd08bec85")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 123.19 270)
 		(unit 1)
@@ -6044,79 +5977,6 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "aliexpress:AHT20+BMP280")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626a3ccd-c698-47a1-aa61-b325161c4bd4")
-		(property "Reference" "U2"
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 153.67 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "aliexpress:AHT20+BMP280-noholes"
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6a583f25-ed00-41be-afd8-efd0e7b40f66")
-		)
-		(pin "1"
-			(uuid "a255e946-3177-4093-ab93-8ae44b057f56")
-		)
-		(pin "2"
-			(uuid "4c43a685-21d9-4a6f-825b-879d8eb71a3c")
-		)
-		(pin "4"
-			(uuid "d73f61c5-4403-494c-a813-c3a6c4b5fcae")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7578,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8c2a46d-1149-4987-8360-a9875d8bc073")
-		(property "Reference" "U1"
+		(property "Reference" "SM1"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -7672,7 +7532,7 @@
 		(instances
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U1")
+					(reference "SM1")
 					(unit 1)
 				)
 			)
@@ -7740,6 +7600,80 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aliexpress:AHT20+BMP280")
+		(at 153.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1f55e76-86d7-45c2-98b8-5a8473d0f9bf")
+		(property "Reference" "SM2"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "aliexpress:AHT20+BMP280-noholes"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba922696-7937-4ef8-83a2-13da24e10a14")
+		)
+		(pin "3"
+			(uuid "77e5f21e-3be4-4f90-9858-24e178f8e849")
+		)
+		(pin "4"
+			(uuid "4fb8c353-f22e-46d4-b06b-2aa482b746df")
+		)
+		(pin "1"
+			(uuid "bcae55a8-9a9b-45f3-ab22-a793b020fae8")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SM2")
 					(unit 1)
 				)
 			)
@@ -7884,6 +7818,92 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aliexpress:ENS160+AHT2x")
+		(at 153.67 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff910b5d-45d0-4276-858a-83aa0845c83d")
+		(property "Reference" "SM3"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "aliexpress:ENS160+AHT2x-noholes"
+			(at 154.305 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "8d415c86-2505-4523-9557-71ca00f6e83c")
+		)
+		(pin "1"
+			(uuid "3db3481c-aab3-47de-a6cf-9074c749e1be")
+		)
+		(pin "3"
+			(uuid "887641ac-0743-4323-8967-c7917bcf8c08")
+		)
+		(pin "4"
+			(uuid "dcc1abb0-59e1-42d0-8e66-be8fc0f371eb")
+		)
+		(pin "8"
+			(uuid "4d292451-1617-462c-ba0b-3609a7ba1cd6")
+		)
+		(pin "6"
+			(uuid "46af0305-6fbd-4988-a14b-8c8cb0fb1118")
+		)
+		(pin "2"
+			(uuid "d1490fc1-a1f0-4f0e-9d76-8e085cf9d7b6")
+		)
+		(pin "5"
+			(uuid "58dea32f-1a39-48d9-af1a-a109ba9f2ee3")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SM3")
 					(unit 1)
 				)
 			)

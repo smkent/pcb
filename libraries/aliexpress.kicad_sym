@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -28,6 +28,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -62,6 +63,14 @@
 			)
 		)
 		(symbol "AHT20+BMP280_1_1"
+			(text "AHT20+BMP280"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
 			(pin power_in line
 				(at -8.89 1.27 0)
 				(length 2.54)
@@ -140,7 +149,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -162,6 +171,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -196,6 +206,14 @@
 			)
 		)
 		(symbol "BH1750_1_1"
+			(text "BH1750"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
 			(pin power_in line
 				(at -8.89 2.54 0)
 				(length 2.54)
@@ -295,7 +313,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 18.542 0)
 			(effects
 				(font
@@ -649,7 +667,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -671,6 +689,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -705,6 +724,14 @@
 			)
 		)
 		(symbol "ENS160+AHT2x_1_1"
+			(text "ENS160\n+AHT2x"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
 			(pin power_in line
 				(at -8.89 5.08 0)
 				(length 2.54)
@@ -855,7 +882,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 18.288 0)
 			(effects
 				(font
@@ -1226,7 +1253,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 16.256 0)
 			(effects
 				(font
@@ -1599,7 +1626,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SM"
 			(at 0 18.288 0)
 			(effects
 				(font
