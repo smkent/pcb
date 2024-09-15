@@ -339,10 +339,10 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
+			(tracks allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints not_allowed)
 		)
 		(fill
@@ -367,10 +367,10 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
+			(tracks allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints not_allowed)
 		)
 		(fill
@@ -395,10 +395,10 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
+			(tracks allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints not_allowed)
 		)
 		(fill
@@ -423,10 +423,10 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
+			(tracks allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints not_allowed)
 		)
 		(fill
