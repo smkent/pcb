@@ -2752,8 +2752,8 @@
 		(uuid "d5eef0aa-f5dd-453f-8534-08bc4233083c")
 	)
 	(no_connect
-		(at 85.09 116.84)
-		(uuid "74f30c9e-a748-4a4b-b662-876c1d3fe136")
+		(at 85.09 111.76)
+		(uuid "eb285d18-2df1-4e22-867b-a5583701b81e")
 	)
 	(wire
 		(pts
@@ -4455,6 +4455,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16ca3d20-2e3c-4c91-a8bf-860aa580028c")
+		(property "Reference" "#PWR07"
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a81ee6c-a3b7-4fec-8700-b4c27dd5f5f1")
+		)
+		(instances
+			(project "relay-module-5v-half"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 59.69 60.96 180)
 		(unit 1)
@@ -4517,73 +4584,6 @@
 			(project "relay-module-5v-half"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "374babb7-570d-478e-b9f4-4012873c141a")
-		(property "Reference" "#PWR07"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2846a395-08ca-4b6f-8b96-0a39883ccda7")
-		)
-		(instances
-			(project "relay-module-5v-half"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
