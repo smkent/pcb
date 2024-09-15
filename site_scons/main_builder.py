@@ -51,7 +51,6 @@ class MainBuilder:
             lib_link.symlink_to(link_root / lib_file)
 
     def build(self) -> None:
-        static_files = []
         for bd in self.board_dirs:
             self.ensure_lib_table_links(bd)
             board_file = bd / f"{bd.name}.kicad_pcb"
@@ -59,18 +58,16 @@ class MainBuilder:
             if not board_file.is_file():
                 continue
 
-            if "static" in BUILD_TARGETS:
-                schematic_pdf = f"{bd}/{bd.name}-schematic.pdf"
-                self.env.Command(
-                    schematic_pdf, str(schematic_file), self.render_schematic
-                )
-                static_files.append(schematic_pdf)
+            self.env.Command(
+                f"{bd}/{bd.name}-schematic.pdf",
+                str(schematic_file),
+                self.render_schematic,
+            )
             self.env.Command(
                 f"{bd}/fab-jlcpcb/gerbers.zip",
                 str(board_file),
                 self.render_board,
             )
-        self.env.Alias("static", static_files)
 
     def run(
         self,
