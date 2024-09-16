@@ -5117,7 +5117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST XH"
+		(property "Value" "JST XH/PH"
 			(at 209.55 116.8399 0)
 			(effects
 				(font
@@ -5126,7 +5126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:JST_XH_S3B-XH_1x03_P2.50mm_Horizontal_pad2gnd"
+		(property "Footprint" "custom:Conn_Combo_JST-1x03-XH_PH-THT_pad2gnd"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -5475,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Conn_Combo_TerminalBlock_P3.5_JST-XH_1x03"
+		(property "Footprint" "custom:Conn_Combo_TerminalBlock_P3.5_JST-XH_PH_1x03"
 			(at 116.84 62.23 0)
 			(effects
 				(font
