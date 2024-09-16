@@ -2927,6 +2927,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 16.51) (xy 193.04 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00013604-e4ee-4480-a64c-6e9ca8cc0d18")
+	)
+	(wire
+		(pts
 			(xy 254 52.07) (xy 251.46 52.07)
 		)
 		(stroke
@@ -3114,6 +3124,16 @@
 			(type default)
 		)
 		(uuid "3b3cf359-887b-4a75-8878-056425d0756d")
+	)
+	(wire
+		(pts
+			(xy 193.04 16.51) (xy 193.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f13d360-7d7c-483f-b2e3-cd3a386e41ec")
 	)
 	(wire
 		(pts
@@ -3417,6 +3437,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 16.51) (xy 58.42 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7015b89-f17c-4e20-a8fe-1e9615fd1592")
+	)
+	(wire
+		(pts
 			(xy 69.85 95.25) (xy 73.66 95.25)
 		)
 		(stroke
@@ -3637,6 +3667,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 16.51) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f883391b-f0e9-44e6-8284-c4a90d7a53d3")
+	)
+	(wire
+		(pts
 			(xy 236.22 39.37) (xy 233.68 39.37)
 		)
 		(stroke
@@ -3667,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 25.4) (xy 182.88 25.4)
+			(xy 176.53 25.4) (xy 182.88 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4462,7 +4502,7 @@
 		)
 		(uuid "3bddda22-f6b4-4c03-a30e-548950722bda")
 	)
-	(global_label "RELAY_2_CONTROL"
+	(global_label "RELAY_2_MOSFET"
 		(shape input)
 		(at 176.53 60.96 180)
 		(fields_autoplaced yes)
@@ -4682,7 +4722,7 @@
 			)
 		)
 	)
-	(global_label "RELAY_1_CONTROL"
+	(global_label "RELAY_1_MOSFET"
 		(shape input)
 		(at 43.18 60.96 180)
 		(fields_autoplaced yes)
@@ -4772,7 +4812,7 @@
 	)
 	(global_label "RELAY_2_CONTROL"
 		(shape input)
-		(at 167.64 25.4 180)
+		(at 176.53 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4782,7 +4822,7 @@
 		)
 		(uuid "8c49d819-2111-4247-b4b8-d3d46d6bfcec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.5357 25.4 0)
+			(at 158.4257 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,6 +4999,50 @@
 		(uuid "ced1a239-3d7d-4fd8-b490-27ed35547bed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.9734 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELAY_1_MOSFET"
+		(shape output)
+		(at 43.18 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df6623a4-00ce-47e5-bdbd-559e8b37543e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0757 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELAY_2_MOSFET"
+		(shape output)
+		(at 176.53 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df867536-abcf-40fb-aabb-c754ce08ae2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.4257 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5451,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 62.23 30.48 0)
+		(at 49.53 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5376,7 +5460,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fc6565a-356d-47eb-ab57-1a4fa7ade793")
 		(property "Reference" "RN1"
-			(at 64.77 29.2099 0)
+			(at 48.2599 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5469,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 64.77 31.7499 0)
+			(at 50.7999 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5478,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 60.198 30.48 90)
+			(at 49.53 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 30.48 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5496,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 62.23 30.48 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6853,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 49.53 60.96 90)
+		(at 182.88 60.96 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6778,7 +6862,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b85305b-5ea1-4beb-878b-ab0cd70b78e0")
 		(property "Reference" "RN1"
-			(at 49.53 54.61 90)
+			(at 182.88 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6870,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 49.53 57.15 90)
+			(at 182.88 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 49.53 62.992 90)
+			(at 182.88 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 60.96 0)
+			(at 182.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6896,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 49.53 60.96 0)
+			(at 182.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 196.85 30.48 0)
+		(at 62.23 30.48 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7133,7 +7217,7 @@
 		(fields_autoplaced yes)
 		(uuid "b51c2545-d868-4f28-8bf6-3ab77fb4508b")
 		(property "Reference" "RN1"
-			(at 203.2 30.48 90)
+			(at 68.58 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7225,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 200.66 30.48 90)
+			(at 66.04 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 194.818 30.48 90)
+			(at 60.198 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7251,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 196.85 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8250,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 182.88 60.96 90)
+		(at 196.85 30.48 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8175,7 +8259,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8d404a1-82f8-47d2-b858-1d6b3f1d5d57")
 		(property "Reference" "RN1"
-			(at 181.6099 58.42 0)
+			(at 199.39 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8268,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 184.1499 58.42 0)
+			(at 199.39 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8277,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 182.88 62.992 90)
+			(at 194.818 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 60.96 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8295,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 182.88 60.96 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

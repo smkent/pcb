@@ -2757,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 15.24) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c862ed7-21a3-40c0-b75f-5b5919aae401")
+	)
+	(wire
+		(pts
 			(xy 113.03 25.4) (xy 118.11 25.4)
 		)
 		(stroke
@@ -2777,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 25.4) (xy 48.26 25.4)
+			(xy 40.64 25.4) (xy 45.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 25.4) (xy 58.42 25.4)
+			(xy 53.34 25.4) (xy 58.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3134,6 +3144,16 @@
 			(type default)
 		)
 		(uuid "e04480c3-55bd-4999-9529-cf934557a7ef")
+	)
+	(wire
+		(pts
+			(xy 40.64 15.24) (xy 58.42 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47101e7-efb8-4906-ae95-1baa5e908cc3")
 	)
 	(wire
 		(pts
@@ -3987,7 +4007,7 @@
 	)
 	(global_label "RELAY_1_CONTROL"
 		(shape input)
-		(at 43.18 25.4 180)
+		(at 40.64 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3997,7 +4017,7 @@
 		)
 		(uuid "2d20106f-55f5-4ff2-b92a-3506842e73c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0757 25.4 0)
+			(at 22.5357 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4137,7 @@
 			)
 		)
 	)
-	(global_label "RELAY_1_CONTROL"
+	(global_label "RELAY_1_MOSFET"
 		(shape input)
 		(at 43.18 60.96 180)
 		(fields_autoplaced yes)
@@ -4284,6 +4304,28 @@
 		(uuid "e1791a7f-9183-40ad-85a2-13a4069c82a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.9257 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELAY_1_MOSFET"
+		(shape output)
+		(at 40.64 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3bcdb07-9391-42be-a607-e55de3a986cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5357 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST XH"
+		(property "Value" "JST XH/PH"
 			(at 209.55 116.8399 0)
 			(effects
 				(font
@@ -5126,7 +5168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:JST_XH_S3B-XH_1x03_P2.50mm_Horizontal_pad2gnd"
+		(property "Footprint" "custom:Conn_Combo_JST-1x03-XH_PH-THT_pad2gnd"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -5475,7 +5517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Conn_Combo_TerminalBlock_P3.5_JST-XH_1x03"
+		(property "Footprint" "custom:Conn_Combo_TerminalBlock_P3.5_JST-XH_PH_1x03"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -6507,7 +6549,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 52.07 25.4 180)
+		(at 49.53 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6516,7 +6558,7 @@
 		(fields_autoplaced yes)
 		(uuid "e64b0d50-6fe9-4bbf-a37f-652f8df6c776")
 		(property "Reference" "D3"
-			(at 52.07 19.05 0)
+			(at 49.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6566,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 52.07 21.59 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6574,7 @@
 			)
 		)
 		(property "Footprint" "custom:D_SOD-323_HandSoldering_simple"
-			(at 52.07 20.955 0)
+			(at 49.53 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6583,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 52.07 25.4 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6592,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 52.07 25.4 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6601,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 52.07 25.4 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6610,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 52.07 25.4 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
