@@ -69,6 +69,38 @@
 		)
 	)
 	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3.9 -2.9)
+		(end 0 2.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "609b1e12-d3d3-4c58-abd8-106e316dad3f")
+	)
+	(fp_rect
+		(start -3.9 -2.9)
+		(end 0 2.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "bdc3afab-51e6-4899-bcde-bf086db13807")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "318a154a-f163-4be1-9431-b8d23536ec8a")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 3.2 0)
@@ -88,7 +120,7 @@
 			(xy 2.979715 0.348279) (xy 2.919135 0.691848) (xy 2.819078 1.02606) (xy 2.680898 1.346398) (xy 2.506463 1.648527)
 			(xy 2.298133 1.928363) (xy 2.058725 2.182121) (xy 1.791476 2.40637) (xy 1.5 2.598076) (xy 1.188239 2.754648)
 			(xy 0.86041 2.873969) (xy 0.520945 2.954423) (xy 0.174434 2.994924) (xy 0.0254 2.994924) (xy 0.0254 3)
-			(xy -4 3) (xy -4 -3) (xy 0.0254 -3)
+			(xy -3 3) (xy -3 -3) (xy 0.0254 -3)
 		)
 		(stroke
 			(width 0.05)
@@ -108,15 +140,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "1" thru_hole circle
-		(at -2.25 0)
-		(size 0.8 0.8)
-		(drill 0.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(zone_connect 2)
-		(uuid "a968cb8f-35f9-4825-82a7-222146ff1985")
 	)
 	(pad "1" thru_hole circle
 		(at -1.591 -1.591)
@@ -147,7 +170,7 @@
 	)
 	(pad "1" thru_hole custom
 		(at 0 0)
-		(size 5.8 5.8)
+		(size 5 5.8)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -157,9 +180,15 @@
 			(anchor circle)
 		)
 		(primitives
-			(gr_rect
-				(start -4 -2.9)
-				(end 0 2.9)
+			(gr_poly
+				(pts
+					(arc
+						(start 0 -2.9)
+						(mid 2.9 0)
+						(end 0 2.9)
+					)
+					(xy 0 2.9) (xy -2.5 2.9) (xy -2.5 -2.9)
+				)
 				(width 0)
 				(fill yes)
 			)
