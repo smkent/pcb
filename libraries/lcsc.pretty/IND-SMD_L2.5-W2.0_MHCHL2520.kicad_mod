@@ -61,7 +61,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -0.37 -1)
 		(end 0.37 -1)
@@ -81,6 +81,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d28c92ca-fba9-4926-82d9-67de94b33e22")
+	)
+	(fp_rect
+		(start -1.8 -1.28)
+		(end 1.8 1.28)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e4882222-ce09-4e86-a469-d385e4ca74c2")
 	)
 	(fp_circle
 		(center -1.25 1)
@@ -104,16 +115,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.1 0 90)
 		(size 2.2 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
 		(uuid "2b877801-685c-4e4b-ab1b-fd30fbe0f4d8")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.1 0 90)
 		(size 2.2 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
 		(uuid "2b3a6cd3-58f7-44fa-a428-520c9da1c523")
 	)
 	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/IND-SMD_L2.5-W2.0_MHCHL2520.wrl"
