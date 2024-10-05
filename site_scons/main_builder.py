@@ -8,7 +8,6 @@ from typing import Any, Sequence, Set
 
 from SCons.Defaults import DefaultEnvironment
 from SCons.Node.FS import File as SConsFile
-from SCons.Script import BUILD_TARGETS
 from SCons.Script.SConscript import SConsEnvironment
 
 
