@@ -1,0 +1,273 @@
+(footprint "MountingHole_3.2mm_M3_Pad_Via_corner_compact"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3")
+	(tags "mounting hole 3.2mm m3")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90a02e75-96de-444b-8788-12891fef0109")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm_M3_Pad_Via_corner_compact"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb4343ba-45c4-41a0-a4c4-6712a4bd4e3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76c22fc5-9ab3-44c8-85e8-400adbab487b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "331c11ec-8026-44e1-ae8c-448f3967efa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fb3fa5-508a-4d94-b271-3876055d4302")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -4 -3) (xy -0.005076 -3.005076) (xy 0 0) (xy 3 0) (xy 3 4) (xy -4 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "8383f332-6a9a-485f-8ecb-1131cf93edd4")
+	)
+	(fp_poly
+		(pts
+			(xy -4 -3) (xy -0.005076 -3.005076) (xy 0 0) (xy 3 0) (xy 3 4) (xy -4 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "304cf63e-a300-4263-8226-e1441acd766a")
+	)
+	(fp_line
+		(start -3 0)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cc2b596e-6ab1-4a52-a0c7-74ff21a71f8b")
+	)
+	(fp_line
+		(start 0 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0e9df3f1-a981-450f-80d5-528ebbab8142")
+	)
+	(fp_arc
+		(start 0 3)
+		(mid -2.12132 2.12132)
+		(end -3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "993c25a7-3349-4514-a260-5d65a9306eaa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "9f42eed1-c0c0-401e-9126-6c2c034df04c")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -3) (xy 0.169358 -3) (xy 0.515869 -2.959499) (xy 0.855334 -2.879045) (xy 1.183163 -2.759724)
+			(xy 1.494924 -2.603152) (xy 1.7864 -2.411446) (xy 2.053649 -2.187197) (xy 2.293057 -1.933439) (xy 2.501387 -1.653603)
+			(xy 2.675822 -1.351474) (xy 2.814002 -1.031136) (xy 2.914059 -0.696924) (xy 2.974639 -0.353355) (xy 2.994924 -0.005076)
+			(xy 2.994924 3.994924) (xy -4.005076 3.994924) (xy -4.005076 -3.005076) (xy -0.005076 -3.005076)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "7efdecce-5a01-43bb-9358-bd53059ebbec")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -3) (xy 0.169358 -3) (xy 0.515869 -2.959499) (xy 0.855334 -2.879045) (xy 1.183163 -2.759724)
+			(xy 1.494924 -2.603152) (xy 1.7864 -2.411446) (xy 2.053649 -2.187197) (xy 2.293057 -1.933439) (xy 2.501387 -1.653603)
+			(xy 2.675822 -1.351474) (xy 2.814002 -1.031136) (xy 2.914059 -0.696924) (xy 2.974639 -0.353355) (xy 2.994924 -0.005076)
+			(xy 2.994924 3.994924) (xy -4.005076 3.994924) (xy -4.005076 -3.005076) (xy -0.005076 -3.005076)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "29e8be90-6e8a-43f2-af32-443cbc4aee00")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2878d74c-3d10-463d-ba87-bc688e90e276")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.591 -1.591)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "4c887518-e76c-4c6f-a1de-bd563e9543da")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.25)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "5914aa31-a93c-4eab-ae07-0f9fc0f106f5")
+	)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 4.99 5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.5)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -3) (xy 0.168348 -2.997719) (xy 0.502928 -2.960021) (xy 0.831183 -2.885099) (xy 1.148985 -2.773895)
+					(xy 1.452338 -2.627808) (xy 1.737427 -2.448674) (xy 2.000667 -2.238747) (xy 2.238747 -2.000667)
+					(xy 2.448674 -1.737427) (xy 2.627808 -1.452338) (xy 2.773895 -1.148985) (xy 2.885099 -0.831183)
+					(xy 2.960021 -0.502928) (xy 2.997719 -0.168348) (xy 3 0) (xy 3 2.5) (xy 0 2.495) (xy -2.495 0)
+					(xy -2.5 -3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7316146f-cb83-4f41-add3-976b45b9d01f")
+	)
+	(pad "1" thru_hole circle
+		(at 1.591 -1.591)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "5610a7bd-d553-4b7b-9eb3-bb6c383269e4")
+	)
+	(pad "1" thru_hole circle
+		(at 1.591 1.591)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "a718c0ab-0b1f-418e-91dc-0216745c63ee")
+	)
+	(pad "1" thru_hole circle
+		(at 2.25 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "c021250f-473a-41a1-8dbf-90137f21f59b")
+	)
+	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(opacity 0.5000)
+		(offset
+			(xyz 0 0 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(offset
+			(xyz 0 0 -4.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

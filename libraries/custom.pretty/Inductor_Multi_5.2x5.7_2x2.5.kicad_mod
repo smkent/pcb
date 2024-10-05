@@ -195,14 +195,14 @@
 		(at -1.825 0 270)
 		(size 2.2 2.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1136363636)
+		(roundrect_rratio 0.125)
 		(uuid "9f2ee25c-1ec6-4fd6-a1a6-987b6b208c1f")
 	)
 	(pad "2" smd roundrect
 		(at 1.8 0 270)
 		(size 2.2 2.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1136363636)
+		(roundrect_rratio 0.125)
 		(uuid "b078ac67-a1bf-4e13-bb1f-e2d5cc36b660")
 	)
 	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/IND-SMD_L5.7-W5.2-H2.8.wrl"

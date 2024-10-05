@@ -1,26 +1,172 @@
-(module easyeda2kicad:IND-SMD_L3.2-W2.5_CMI3225XX (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "IND-SMD_L3.2-W2.5_CMI3225XX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "c519f25e-42fa-4187-9d33-799bb4c46363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L3.2-W2.5_CMI3225XX"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "62b015f9-57f6-422f-a1ba-1ef0cc3b074f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15934bee-3e95-49d3-9b1a-7d6314be5777")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7486e7f9-3699-4c16-9e9d-86ff2eaafef7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55563075-e468-41d7-9ade-2b59252883dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.6 -1.5)
+		(end 1.6 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4597531f-8281-42e5-9a2b-673c5966e991")
 	)
-	(fp_text value IND-SMD_L3.2-W2.5_CMI3225XX (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.6 -1.48)
+		(end -1.6 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9899a3c9-39a6-43c6-b394-b156d26eb407")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.6 1.5)
+		(end -1.6 1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d2474f7-9ee7-4181-a3bd-ccf3360f60bb")
 	)
-	(fp_line (start -1.60 1.50) (end 1.60 1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.60 -1.50) (end 1.60 -1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.60 1.50) (end -1.60 1.48) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.60 -1.48) (end -1.60 -1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.60 -1.50) (end 1.60 -1.48) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.60 1.48) (end 1.60 1.50) (layer F.SilkS) (width 0.25))
-	(pad 1 smd rect (at -1.60 0.00 90.00) (size 2.60 1.60) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 1.60 0.00 90.00) (size 2.60 1.60) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -1.60 1.25) (end -1.57 1.25) (layer F.Fab) (width 0.06))
+	(fp_line
+		(start -1.6 1.5)
+		(end 1.6 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a63f788-2bf4-415e-bb38-be289aa3b2ee")
+	)
+	(fp_line
+		(start 1.6 -1.5)
+		(end 1.6 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0f1580e-701b-4920-a160-0774490b2567")
+	)
+	(fp_line
+		(start 1.6 1.48)
+		(end 1.6 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bfb5e6e-b7ad-4813-bff6-0ce54ee1ac66")
+	)
+	(fp_circle
+		(center -1.6 1.25)
+		(end -1.57 1.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "86b0dc1a-6e3b-4bf2-aa44-06faa88ec1c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "af703106-350c-45bd-9165-fb9e80787b40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.6 0 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "16e16314-009a-4480-9b6e-d24d74a7aec9")
+	)
+	(pad "2" smd roundrect
+		(at 1.6 0 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "a11f4aae-5d06-4180-95e6-d4940ce22eca")
+	)
 	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/IND-SMD_L3.2-W2.5-H1.3_CMI3225XX.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

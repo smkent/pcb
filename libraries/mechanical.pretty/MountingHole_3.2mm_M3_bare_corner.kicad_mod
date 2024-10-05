@@ -1,0 +1,210 @@
+(footprint "MountingHole_3.2mm_M3_bare_corner"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
+	(tags "mounting hole 3.2mm no annular m3 din965")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e903ac56-64b5-44a4-95ed-1e68017e762d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm_M3_bare_corner"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccdec464-bda3-4c6d-8a0a-22799edfb16c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d2853d1-a3b0-4521-a36c-7ef13e5809ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbaa999f-ea5b-4103-a02b-29e6534de867")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70c01016-a958-42bc-916c-bc1649abb65b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -4 -2.9) (xy 0 -2.9) (xy 0 0) (xy 2.9 0) (xy 2.9 4) (xy -4 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "15a34576-bab1-4c82-ab38-39b6f8c505c1")
+	)
+	(fp_poly
+		(pts
+			(xy -4 -2.9) (xy 0 -2.9) (xy 0 0) (xy 2.9 0) (xy 2.9 4) (xy -4 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "9dbad265-93a2-406b-b774-91295b98e214")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "343138f6-c4cc-40a8-aef4-c0264aff787d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.005076 -3) (xy 0.174434 -3) (xy 0.520945 -2.959499) (xy 0.86041 -2.879045) (xy 1.188239 -2.759724)
+			(xy 1.5 -2.603152) (xy 1.791476 -2.411446) (xy 2.058725 -2.187197) (xy 2.298133 -1.933439) (xy 2.506463 -1.653603)
+			(xy 2.680898 -1.351474) (xy 2.819078 -1.031136) (xy 2.919135 -0.696924) (xy 2.979715 -0.353355) (xy 3 -0.005076)
+			(xy 3 3.994924) (xy -4 3.994924) (xy -4 -3.005076) (xy 0 -3.005076)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "2480ad79-73cc-4d52-9e75-57d02032b157")
+	)
+	(fp_poly
+		(pts
+			(xy 0.005076 -3) (xy 0.174434 -3) (xy 0.520945 -2.959499) (xy 0.86041 -2.879045) (xy 1.188239 -2.759724)
+			(xy 1.5 -2.603152) (xy 1.791476 -2.411446) (xy 2.058725 -2.187197) (xy 2.298133 -1.933439) (xy 2.506463 -1.653603)
+			(xy 2.680898 -1.351474) (xy 2.819078 -1.031136) (xy 2.919135 -0.696924) (xy 2.979715 -0.353355) (xy 3 -0.005076)
+			(xy 3 3.994924) (xy -4 3.994924) (xy -4 -3.005076) (xy 0 -3.005076)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f92167f6-d1d6-44c9-840b-1e9849a08a0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a3f46c51-feaf-43f0-83c2-bc4a5f250dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.3)
+		(uuid "5d3afcd3-f6ea-4d0e-9488-d831089a0195")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "2dcb47bf-e4c4-43a6-b5af-789381330e20")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0 -3.5) (xy 0.36585 -3.480827) (xy 0.727691 -3.423517) (xy 1.081559 -3.328698) (xy 1.423578 -3.197409)
+				(xy 1.75 -3.031089) (xy 2.057248 -2.831559) (xy 2.341957 -2.601007) (xy 2.601007 -2.341957) (xy 2.831559 -2.057248)
+				(xy 3.031089 -1.75) (xy 3.197409 -1.423578) (xy 3.328698 -1.081559) (xy 3.423517 -0.727691) (xy 3.480827 -0.36585)
+				(xy 3.5 0) (xy 3.5 3.9) (xy -3.9 3.9) (xy -3.9 -3.5)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(opacity 0.5000)
+		(offset
+			(xyz 0 0 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(offset
+			(xyz 0 0 -4.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

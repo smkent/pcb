@@ -959,7 +959,7 @@
 			(pin passive line
 				(at 12.7 -8.89 180)
 				(length 2.54)
-				(name "A0/GPIO0"
+				(name "ADC/GPIO0"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -977,7 +977,7 @@
 			(pin passive line
 				(at 12.7 -6.35 180)
 				(length 2.54)
-				(name "A1/GPIO1"
+				(name "ADC/GPIO1"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1013,7 +1013,7 @@
 			(pin passive line
 				(at 12.7 -3.81 180)
 				(length 2.54)
-				(name "A2/GPIO2"
+				(name "ADC/~{GPIO2}"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1067,7 +1067,7 @@
 			(pin passive line
 				(at 12.7 -1.27 180)
 				(length 2.54)
-				(name "A3/GPIO3"
+				(name "ADC/GPIO3"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1103,7 +1103,7 @@
 			(pin passive line
 				(at 12.7 1.27 180)
 				(length 2.54)
-				(name "SCK/A4/GPIO4"
+				(name "SCK/ADC/GPIO4"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1121,7 +1121,7 @@
 			(pin passive line
 				(at -12.7 8.89 0)
 				(length 2.54)
-				(name "GPIO5/A5/MISO"
+				(name "GPIO5/MISO"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1193,7 +1193,7 @@
 			(pin passive line
 				(at -12.7 1.27 0)
 				(length 2.54)
-				(name "GPIO8/SDA"
+				(name "~{GPIO8}/SDA"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1211,7 +1211,7 @@
 			(pin passive line
 				(at -12.7 -1.27 0)
 				(length 2.54)
-				(name "GPIO9/SCL"
+				(name "~{GPIO9}/SCL"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1672,7 +1672,7 @@
 		(symbol "ESP32-S3-Super-Mini_0_1"
 			(rectangle
 				(start -10.16 13.97)
-				(end 10.16 -15.24)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -1684,7 +1684,7 @@
 		)
 		(symbol "ESP32-S3-Super-Mini_1_1"
 			(text_box "ESP32-S3\nSuper Mini"
-				(at -7.62 -10.16 0)
+				(at -7.62 -12.7 0)
 				(size 15.24 -5.08)
 				(stroke
 					(width -0.0001)
@@ -1703,7 +1703,7 @@
 			(pin passive line
 				(at -12.7 3.81 0)
 				(length 2.54)
-				(name "GPIO1"
+				(name "GPIO1/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1721,7 +1721,7 @@
 			(pin passive line
 				(at 12.7 -6.35 180)
 				(length 2.54)
-				(name "GPIO10"
+				(name "ADC/GPIO10"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1793,7 +1793,7 @@
 			(pin passive line
 				(at -12.7 1.27 0)
 				(length 2.54)
-				(name "GPIO2"
+				(name "GPIO2/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1811,7 +1811,7 @@
 			(pin passive line
 				(at -12.7 -1.27 0)
 				(length 2.54)
-				(name "GPIO3"
+				(name "~{GPIO3}/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1847,7 +1847,7 @@
 			(pin passive line
 				(at -12.7 -3.81 0)
 				(length 2.54)
-				(name "GPIO4"
+				(name "GPIO4/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1865,7 +1865,7 @@
 			(pin passive line
 				(at -12.7 -6.35 0)
 				(length 2.54)
-				(name "GPIO5"
+				(name "GPIO5/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1901,7 +1901,7 @@
 			(pin passive line
 				(at -12.7 -8.89 0)
 				(length 2.54)
-				(name "GPIO6"
+				(name "GPIO6/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1919,7 +1919,7 @@
 			(pin passive line
 				(at -12.7 -11.43 0)
 				(length 2.54)
-				(name "GPIO7"
+				(name "GPIO7/ADC"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1937,7 +1937,7 @@
 			(pin passive line
 				(at 12.7 -11.43 180)
 				(length 2.54)
-				(name "GPIO8"
+				(name "ADC/GPIO8"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1955,7 +1955,7 @@
 			(pin passive line
 				(at 12.7 -8.89 180)
 				(length 2.54)
-				(name "GPIO9"
+				(name "ADC/GPIO9"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -1991,7 +1991,7 @@
 			(pin passive line
 				(at -12.7 8.89 0)
 				(length 2.54)
-				(name "UART0_RX"
+				(name "GPIO44/UART0_RX"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -2009,7 +2009,7 @@
 			(pin passive line
 				(at -12.7 11.43 0)
 				(length 2.54)
-				(name "UART0_TX"
+				(name "GPIO43/UART0_TX"
 					(effects
 						(font
 							(size 0.889 0.889)
