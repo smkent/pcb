@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+
+import argparse
+import subprocess
+from functools import cached_property
+from pathlib import Path
+from typing import Iterator
+
+
+class KiCADProjectRename:
+
+    def run(self) -> None:
+        for source, dest in self.enumerate_project_files():
+            subprocess.run(["git", "mv", source, dest], check=True)
+            # Update file name instances within project files
+            if dest.suffix.startswith(".kicad_"):
+                file_contents = dest.read_text().replace(
+                    self.args.source.stem, self.args.destination.stem
+                )
+                dest.write_text(file_contents)
+        subprocess.run(
+            ["git", "mv", self.args.source, self.args.destination], check=True
+        )
+        subprocess.run(["git", "add", "-u", self.args.destination], check=True)
+
+    @cached_property
+    def args(self) -> argparse.Namespace:
+        ap = argparse.ArgumentParser("Rename a KiCAD project")
+        ap.add_argument("source", help="Path to existing project", type=Path)
+        ap.add_argument(
+            "destination", help="Destination project path", type=Path
+        )
+        args = ap.parse_args()
+        print(args)
+        if not args.source.is_dir():
+            raise Exception(f"Source path {args.source} is not a directory")
+        return args
+
+    def enumerate_project_files(self) -> Iterator[Path]:
+        for kicad_extension in ["pcb", "pro", "sch"]:
+            source_fn = f"{self.args.source.stem}.kicad_{kicad_extension}"
+            dest_fn = f"{self.args.destination.stem}.kicad_{kicad_extension}"
+            yield [self.args.source / source_fn, self.args.source / dest_fn]
+        schematic_source = (
+            self.args.source / f"{self.args.source.stem}-schematic.pdf"
+        )
+        if schematic_source.is_file():
+            schematic_dest = (
+                self.args.source
+                / f"{self.args.destination.stem}-schematic.pdf"
+            )
+            yield [schematic_source, schematic_dest]
+
+
+if __name__ == "__main__":
+    KiCADProjectRename().run()
