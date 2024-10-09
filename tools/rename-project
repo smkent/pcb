@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import shutil
 import subprocess
 from functools import cached_property
 from pathlib import Path
@@ -8,19 +9,33 @@ from typing import Iterator
 
 
 class KiCADProjectRename:
+    @cached_property
+    def source(self) -> Path:
+        return self.args.source
+
+    @cached_property
+    def destination(self) -> Path:
+        return self.args.destination
 
     def run(self) -> None:
+        if self.args.copy:
+            self.args.destination.mkdir(exist_ok=True)
+        else:
+            subprocess.run(
+                ["git", "mv", self.args.source, self.args.destination],
+                check=True,
+            )
         for source, dest in self.enumerate_project_files():
-            subprocess.run(["git", "mv", source, dest], check=True)
+            if self.args.copy:
+                shutil.copy(source, dest, follow_symlinks=False)
+            else:
+                subprocess.run(["git", "mv", source, dest], check=True)
             # Update file name instances within project files
             if dest.suffix.startswith(".kicad_"):
                 file_contents = dest.read_text().replace(
                     self.args.source.stem, self.args.destination.stem
                 )
                 dest.write_text(file_contents)
-        subprocess.run(
-            ["git", "mv", self.args.source, self.args.destination], check=True
-        )
         subprocess.run(["git", "add", "-u", self.args.destination], check=True)
 
     @cached_property
@@ -30,26 +45,40 @@ class KiCADProjectRename:
         ap.add_argument(
             "destination", help="Destination project path", type=Path
         )
+        ap.add_argument(
+            "-c",
+            "--copy",
+            dest="copy",
+            action="store_true",
+            help="Copy project instead of renaming",
+        )
         args = ap.parse_args()
-        print(args)
         if not args.source.is_dir():
             raise Exception(f"Source path {args.source} is not a directory")
         return args
 
     def enumerate_project_files(self) -> Iterator[Path]:
+        in_dir = self.args.source if self.args.copy else self.args.destination
         for kicad_extension in ["pcb", "pro", "sch"]:
             source_fn = f"{self.args.source.stem}.kicad_{kicad_extension}"
             dest_fn = f"{self.args.destination.stem}.kicad_{kicad_extension}"
-            yield [self.args.source / source_fn, self.args.source / dest_fn]
+            yield [
+                in_dir / source_fn,
+                self.args.destination / dest_fn,
+            ]
         schematic_source = (
-            self.args.source / f"{self.args.source.stem}-schematic.pdf"
+            in_dir / f"{self.args.destination.stem}-schematic.pdf"
         )
         if schematic_source.is_file():
             schematic_dest = (
-                self.args.source
+                self.args.destination
                 / f"{self.args.destination.stem}-schematic.pdf"
             )
             yield [schematic_source, schematic_dest]
+        if self.args.copy:
+            for lib in ["fp", "sym"]:
+                lib_file = f"{lib}-lib-table"
+                yield [in_dir / lib_file, self.args.destination / lib_file]
 
 
 if __name__ == "__main__":
