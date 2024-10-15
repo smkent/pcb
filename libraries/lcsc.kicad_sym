@@ -10964,23 +10964,35 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS54202DDCR"
-			(at 0 -7.62 0)
+			(at -2.54 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 0 -10.16 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,16 +11000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Texas-Instruments_TPS54202DDCR_Texas-Instruments-TI-TPS54202DDCR_C191884.html"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-28V Input Voltage, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11007,7 +11010,25 @@
 			)
 		)
 		(property "LCSC Part" "C191884"
-			(at 0 -15.24 0)
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "step-down dcdc voltage regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,10 +11038,10 @@
 		)
 		(symbol "TPS54202DDCR_0_1"
 			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -11030,7 +11051,7 @@
 		)
 		(symbol "TPS54202DDCR_1_1"
 			(pin power_in line
-				(at -10.16 0 0)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -11047,8 +11068,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 0 180)
+			(pin output line
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -11101,7 +11122,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "EN"
@@ -11119,8 +11140,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "BOOT"
 					(effects
