@@ -13570,6 +13570,19 @@
 			(justify top)
 		)
 	)
+	(gr_text "100R"
+		(at 99.75 71.5 0)
+		(layer "F.SilkS")
+		(uuid "78879a4b-4750-4879-948a-1eead2788b8e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
 	(gr_text "CW"
 		(at 109.75 70.5 0)
 		(layer "F.SilkS")
@@ -13607,6 +13620,19 @@
 				(bold yes)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "INA226"
+		(at 96.25 65.9 0)
+		(layer "F.SilkS")
+		(uuid "b25d3fc3-b96c-4ce0-bb5c-14f1fdabfb1b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "5V"
