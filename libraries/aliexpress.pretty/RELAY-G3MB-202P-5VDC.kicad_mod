@@ -1,0 +1,229 @@
+(footprint "RELAY-G3MB-202P-5VDC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -9.525 -4.135 0)
+		(layer "F.SilkS")
+		(uuid "b0ee9a1d-1442-45b7-a810-43bed855bd83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RELAY_G3MB-202P-5VDC"
+		(at -1.27 4.135 0)
+		(layer "F.Fab")
+		(uuid "3c7c7978-fb1f-4848-92cc-d4054b0f31fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d90a4ff4-897b-4ad9-9bd3-056ceb642e0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f8cc119-9477-427a-ad50-d310fc1ec0d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd3cd9a6-0029-4c27-883b-d645cd265a81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.25 -2.75)
+		(end -12.25 2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0a40cc3-ba33-4206-bfb7-7daa7911ea8f")
+	)
+	(fp_line
+		(start -12.25 2.75)
+		(end 12.25 2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "988ad8f3-8787-4d99-966e-5b749f3e91e4")
+	)
+	(fp_line
+		(start 12.25 -2.75)
+		(end -12.25 -2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5852187e-24ca-4c69-8017-6184bf71fc86")
+	)
+	(fp_line
+		(start 12.25 2.75)
+		(end 12.25 -2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11540887-b877-4670-afe6-a3580b448349")
+	)
+	(fp_line
+		(start -12.5 -3)
+		(end 12.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d86c6e8-34d0-4be1-b618-b5d7f775bb74")
+	)
+	(fp_line
+		(start -12.5 3)
+		(end -12.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf45f6be-7dd1-4433-a455-c8e7d8325d56")
+	)
+	(fp_line
+		(start 12.5 -3)
+		(end 12.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38149709-d2e5-4d8d-afa4-cbf1404fc632")
+	)
+	(fp_line
+		(start 12.5 3)
+		(end -12.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b074b932-a4d8-4910-a672-4b90d3cea343")
+	)
+	(fp_line
+		(start -12.25 -2.75)
+		(end -12.25 2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "306b1a6c-82e5-4398-ae11-b230029355da")
+	)
+	(fp_line
+		(start -12.25 2.75)
+		(end 12.25 2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdc559be-15d2-4f41-9469-5dfc42f6610f")
+	)
+	(fp_line
+		(start 12.25 -2.75)
+		(end -12.25 -2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebbeb6fb-6d71-4129-9283-6e376928937b")
+	)
+	(fp_line
+		(start 12.25 2.75)
+		(end 12.25 -2.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "897264b5-4ee9-4de9-869e-647a17e02f92")
+	)
+	(pad "1" thru_hole roundrect
+		(at -10.16 -1.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "32c49a5d-7f53-4b3b-97de-25517c122cf6")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -1.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0b1bf20-9caf-4c4b-a3a6-1df53eba053a")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 -1.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "849bb70a-7231-4283-8565-c599db6c880c")
+	)
+	(pad "4" thru_hole circle
+		(at 10.16 -1.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c394502-945a-412a-b77d-d204635a54f1")
+	)
+	(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/G3MB-202P-5VDC.step"
+		(offset
+			(xyz 0 1.45 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
