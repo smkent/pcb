@@ -1,0 +1,150 @@
+(footprint "X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.42 0)
+		(layer "F.SilkS")
+		(uuid "e0ca7309-d7ae-4f7d-86f1-2ae540048928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
+		(at 0 4.42 0)
+		(layer "F.Fab")
+		(uuid "2840dac8-543f-4012-bb8e-64278622e7ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae9451c3-1cdf-4182-af9a-b6dbdf82bdcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbaf4569-ad12-49a1-a5b3-729fbe6d91b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b72994-65e8-42f1-bf33-d69aad3be9f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -0.668 0.325) (xy -0.768 0.25) (xy -0.768 0.4)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7f3de8f5-1aee-44f2-ae0e-ee0b3c39f432")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "95daa43a-6325-41e0-a16b-dc19b8754f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.45 0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.5)
+		(chamfer top_left)
+		(uuid "b778788d-3db4-4d7f-acee-b78c1a6d2420")
+	)
+	(pad "2" smd rect
+		(at -0.15 0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89f7f7cd-8d59-4bc5-a971-f2cdfdd4feac")
+	)
+	(pad "3" smd rect
+		(at 0.15 0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a991f0dd-8828-41c2-9dc8-c300990e074f")
+	)
+	(pad "4" smd rect
+		(at 0.45 0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4e45d6e0-143d-443b-bae1-b473e4415dbc")
+	)
+	(pad "5" smd rect
+		(at 0.45 -0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "072e2fa5-1c11-4206-9970-ef9c3a8bb13d")
+	)
+	(pad "6" smd rect
+		(at 0.15 -0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f63c19e-d859-4a2d-9960-15af04d806a9")
+	)
+	(pad "7" smd rect
+		(at -0.15 -0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd2093ea-4d00-4444-8a4f-5c8400a5bfc9")
+	)
+	(pad "8" smd rect
+		(at -0.45 -0.325)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56ce6ac7-de4d-4062-a1d4-76e63b9f075b")
+	)
+	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/X2-DFN1210-8_L1.2-W1.0-P0.30-BL.wrl"
+		(offset
+			(xyz 0 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
