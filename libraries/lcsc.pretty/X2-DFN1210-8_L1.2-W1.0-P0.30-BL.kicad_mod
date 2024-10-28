@@ -61,7 +61,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_poly
 		(pts
 			(xy -0.668 0.325) (xy -0.768 0.25) (xy -0.768 0.4)
@@ -73,6 +73,17 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "7f3de8f5-1aee-44f2-ae0e-ee0b3c39f432")
+	)
+	(fp_rect
+		(start -0.7 -0.7)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "62298d6a-dbec-4a63-8921-066e0cb17185")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

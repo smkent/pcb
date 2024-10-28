@@ -74,6 +74,17 @@
 		(layer "F.SilkS")
 		(uuid "f309ab6e-b06e-428f-8abe-e1c249446a69")
 	)
+	(fp_rect
+		(start -1.2 -0.9)
+		(end 1.2 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fd4a86d3-bffa-4c80-a8a9-5e94ad918df5")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
