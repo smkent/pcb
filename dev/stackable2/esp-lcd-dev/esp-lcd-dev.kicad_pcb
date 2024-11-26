@@ -10557,7 +10557,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:ESP32-C3-Super-Mini-Castellated-SMD-only"
+	(footprint "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
 		(layer "B.Cu")
 		(uuid "57328c02-5ac3-45c3-b7ac-8490182e931b")
 		(at 100 59 180)
@@ -10588,7 +10588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Castellated-SMD-only"
+		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11039,7 +11039,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 0)
 			)

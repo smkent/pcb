@@ -1,4 +1,4 @@
-(footprint "ESP32-C3-Super-Mini-Castellated-SMD-only"
+(footprint "ESP32-S3-Super-Mini-Castellated-SMD-only"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ESP32-C3 Super Mini"
+	(property "Value" "ESP32-S3 Super Mini"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -79,18 +79,8 @@
 		(uuid "a49121b3-6ee0-4a3a-be64-83b1789f4e75")
 	)
 	(fp_line
-		(start -8.9 13.5)
-		(end -8.9 11.3)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ee095aef-fad2-4f4b-bbdf-576f2066c436")
-	)
-	(fp_line
-		(start -8.9 13.5)
-		(end 8.9 13.5)
+		(start -8.9 13.85)
+		(end 8.9 13.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,20 +88,10 @@
 		(layer "F.SilkS")
 		(uuid "8ef7400a-5239-406f-9a4e-d4feb146b7e0")
 	)
-	(fp_line
-		(start 8.9 13.5)
-		(end 8.9 11.3)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "be713025-98df-4518-9fa9-0c12150a167a")
-	)
 	(fp_poly
 		(pts
 			(xy -10.414 -8.763) (xy -5.08 -8.763) (xy -5.08 -11.303) (xy 5.08 -11.303) (xy 5.08 -8.763) (xy 10.414 -8.763)
-			(xy 10.414 13.716) (xy -10.414 13.716)
+			(xy 10.414 14.716) (xy -10.414 14.716)
 		)
 		(stroke
 			(width 0.05)
@@ -133,7 +113,7 @@
 			)
 		)
 	)
-	(fp_text_box "ESP32-C3\nSuper Mini"
+	(fp_text_box "ESP32-S3\nSuper Mini"
 		(start -4.875 6.75)
 		(end 4.875 9.75)
 		(layer "F.SilkS")
@@ -151,45 +131,35 @@
 			(type solid)
 		)
 	)
-	(pad "0" smd oval
-		(at 7.62 10.16 180)
-		(size 3.4 1.7)
-		(drill
-			(offset -0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "b4666f73-62f9-4d62-9f66-a246fc49eded")
-	)
 	(pad "1" smd oval
-		(at 7.62 7.62 180)
+		(at -7.62 -2.54 180)
 		(size 3.4 1.7)
 		(drill
-			(offset -0.85 0)
+			(offset 0.85 0)
 		)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "0bc88435-9f83-4bd8-9d59-faffbdbf772f")
+		(uuid "be9c05a7-a81a-47e9-8b6c-dc5bb9f978b9")
 	)
 	(pad "2" smd oval
-		(at 7.62 5.08 180)
+		(at -7.62 0 180)
 		(size 3.4 1.7)
 		(drill
-			(offset -0.85 0)
+			(offset 0.85 0)
 		)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "3aee6a1e-6549-4aee-8a9e-87046e119ec9")
+		(uuid "9cc1b9d2-23a3-48dd-bf8d-d05ea4d44bc4")
 	)
 	(pad "3" smd oval
-		(at 7.62 2.54 180)
+		(at -7.62 2.54 180)
 		(size 3.4 1.7)
 		(drill
-			(offset -0.85 0)
+			(offset 0.85 0)
 		)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "d5fe5faa-4613-4a41-b852-646bc117dd99")
+		(uuid "640d6ab3-8d3e-49ff-a1a3-01f1cbfe4f2f")
 	)
 	(pad "3V3" smd oval
 		(at 7.62 -2.54 180)
@@ -202,24 +172,24 @@
 		(uuid "85068ac1-79bd-41b0-a056-c083f8960ed4")
 	)
 	(pad "4" smd oval
-		(at 7.62 0 180)
-		(size 3.4 1.7)
-		(drill
-			(offset -0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "72f761c6-168e-4d2f-b55c-bd55118398f4")
-	)
-	(pad "5" smd oval
-		(at -7.62 -7.62 180)
+		(at -7.62 5.08 180)
 		(size 3.4 1.7)
 		(drill
 			(offset 0.85 0)
 		)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "5cd7549c-7e53-4e49-add0-d03603dcbea2")
+		(uuid "61f72d93-78c6-4a25-bce8-cc9748a8a7b4")
+	)
+	(pad "5" smd oval
+		(at -7.62 7.62 180)
+		(size 3.4 1.7)
+		(drill
+			(offset 0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9c11f862-82d5-4e0e-8dec-8a2cb094d3b0")
 	)
 	(pad "5V" smd oval
 		(at 7.62 -7.62 180)
@@ -232,66 +202,6 @@
 		(uuid "872a87b3-12cb-458d-a807-af31abd85ad9")
 	)
 	(pad "6" smd oval
-		(at -7.62 -5.08 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "4f093ed6-5e5a-45b5-adbc-daa64d43eea9")
-	)
-	(pad "7" smd oval
-		(at -7.62 -2.54 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "be9c05a7-a81a-47e9-8b6c-dc5bb9f978b9")
-	)
-	(pad "8" smd oval
-		(at -7.62 0 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "9cc1b9d2-23a3-48dd-bf8d-d05ea4d44bc4")
-	)
-	(pad "9" smd oval
-		(at -7.62 2.54 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "640d6ab3-8d3e-49ff-a1a3-01f1cbfe4f2f")
-	)
-	(pad "10" smd oval
-		(at -7.62 5.08 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "61f72d93-78c6-4a25-bce8-cc9748a8a7b4")
-	)
-	(pad "20" smd oval
-		(at -7.62 7.62 180)
-		(size 3.4 1.7)
-		(drill
-			(offset 0.85 0)
-		)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "9c11f862-82d5-4e0e-8dec-8a2cb094d3b0")
-	)
-	(pad "21" smd oval
 		(at -7.62 10.16 180)
 		(size 3.4 1.7)
 		(drill
@@ -300,6 +210,76 @@
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "e24e00c0-6052-42f2-a801-475c9a43113b")
+	)
+	(pad "7" smd oval
+		(at -7.62 12.7 180)
+		(size 3.4 1.7)
+		(drill
+			(offset 0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ce5c7e99-7870-4156-acc3-dcfa7647d508")
+	)
+	(pad "8" smd oval
+		(at 7.62 12.7 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "31035226-35df-48c9-9639-8888cc7f6fe4")
+	)
+	(pad "9" smd oval
+		(at 7.62 10.16 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b4666f73-62f9-4d62-9f66-a246fc49eded")
+	)
+	(pad "10" smd oval
+		(at 7.62 7.62 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0bc88435-9f83-4bd8-9d59-faffbdbf772f")
+	)
+	(pad "11" smd oval
+		(at 7.62 5.08 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3aee6a1e-6549-4aee-8a9e-87046e119ec9")
+	)
+	(pad "12" smd oval
+		(at 7.62 2.54 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d5fe5faa-4613-4a41-b852-646bc117dd99")
+	)
+	(pad "13" smd oval
+		(at 7.62 0 180)
+		(size 3.4 1.7)
+		(drill
+			(offset -0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "72f761c6-168e-4d2f-b55c-bd55118398f4")
 	)
 	(pad "G" smd oval
 		(at 7.62 -5.08 180)
@@ -310,6 +290,26 @@
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "05a748d9-20a4-4d83-b810-2021f3c7e176")
+	)
+	(pad "RX" smd oval
+		(at -7.62 -5.08 180)
+		(size 3.4 1.7)
+		(drill
+			(offset 0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4f093ed6-5e5a-45b5-adbc-daa64d43eea9")
+	)
+	(pad "TX" smd oval
+		(at -7.62 -7.62 180)
+		(size 3.4 1.7)
+		(drill
+			(offset 0.85 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5cd7549c-7e53-4e49-add0-d03603dcbea2")
 	)
 	(zone
 		(net 0)
@@ -423,15 +423,15 @@
 			)
 		)
 	)
-	(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+	(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-S3-SuperMini.step"
 		(offset
-			(xyz 0 -2.3 0)
+			(xyz 0 -2.7 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1.01 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

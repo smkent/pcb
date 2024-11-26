@@ -1015,7 +1015,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+			(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -7429,7 +7429,7 @@
 	)
 	(symbol
 		(lib_name "ESP32-C3-Super-Mini_1")
-		(lib_id "aliexpress:ESP32-C3-Super-Mini")
+		(lib_id "modules:ESP32-C3-Super-Mini")
 		(at 49.53 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7454,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 			(at 49.53 26.162 0)
 			(effects
 				(font

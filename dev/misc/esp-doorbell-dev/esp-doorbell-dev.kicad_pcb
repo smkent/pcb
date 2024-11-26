@@ -3429,7 +3429,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:ESP32-C3-Super-Mini-Pins"
+	(footprint "modules:ESP32-C3-Super-Mini-Pins"
 		(layer "F.Cu")
 		(uuid "fd6bfb94-188d-4001-a304-f15ec37bec71")
 		(at 158.5 84 90)
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3731,7 +3731,7 @@
 			(pintype "power_in")
 			(uuid "699fe436-9188-4cc0-8c95-52ff63500a78")
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)
