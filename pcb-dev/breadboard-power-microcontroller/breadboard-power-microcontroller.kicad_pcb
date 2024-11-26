@@ -958,7 +958,7 @@
 			(pintype "passive")
 			(uuid "0b4faf65-eb45-4d69-b8c9-111b0fa7c729")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/DC-IN_DC-050-2.0-BB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/DC-IN_DC-050-2.0-BB.wrl"
 			(offset
 				(xyz 0 0.5 0)
 			)
@@ -5667,7 +5667,7 @@
 			(roundrect_rratio 0.15625)
 			(uuid "4a0fadcd-4eaf-419c-a163-11d4022be5c0")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz -1.25 -4.65 -2.45)
@@ -5679,7 +5679,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1.27 -4 0)

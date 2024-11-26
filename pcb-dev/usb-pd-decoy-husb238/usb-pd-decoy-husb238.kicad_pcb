@@ -399,7 +399,7 @@
 			(pintype "passive")
 			(uuid "15287756-7691-4bbc-8c31-360615b0912a")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
 			(opacity 0.4000)
 			(offset
 				(xyz -1.25 -4.65 -2.45)
@@ -423,7 +423,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1 -5.75 0)
@@ -435,7 +435,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1.25 -3.5 0)
@@ -2171,7 +2171,7 @@
 			(pintype "passive")
 			(uuid "050124d9-8117-483f-97be-aafd371210e8")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
 			(offset
 				(xyz 0 -0.45 0)
 			)
@@ -3803,7 +3803,7 @@
 			(uuid "c1fccb62-c744-47f6-aa61-0ae5598d7b33")
 			(members "c0e28222-b97f-4ba2-9840-cf6eddbbeb1e" "ee7cbe4c-0636-4c2e-af87-f1d7d6c985f9")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)

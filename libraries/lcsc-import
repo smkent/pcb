@@ -53,6 +53,6 @@ subprocess.run(cmd)
 
 for fn in (cwd / "lcsc.pretty").glob("**/*.kicad_mod"):
     if str(cwd) in (content := fn.read_text()):
-        content = content.replace(str(cwd), "${KIPRJMOD}/../../libraries")
+        content = content.replace(str(cwd), "${KIPRJMOD}/libraries")
         fn.write_text(content)
         print(f"Fixed library path in {fn}")

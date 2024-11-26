@@ -608,7 +608,7 @@
 			(clearance 0.5)
 			(uuid "401101db-802f-4df9-aad2-e24b15883fd5")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
 			(offset
 				(xyz -36 0 0)
 			)
@@ -738,7 +738,7 @@
 			(clearance 0.5)
 			(uuid "06a0cc0b-33f9-4a7d-9f13-228055ffceaa")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
 			(offset
 				(xyz -36 0 0)
 			)
@@ -1714,7 +1714,7 @@
 			(clearance 0.5)
 			(uuid "96ba99ca-a8f5-43ae-ae88-a9239982e60f")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
 			(offset
 				(xyz -36 0 0)
 			)
@@ -2996,7 +2996,7 @@
 			(clearance 0.5)
 			(uuid "c5e014a0-05af-4b00-b4d7-e0c96cd4c446")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/SMD-standoff-M2.5-H6mm.step"
 			(offset
 				(xyz -36 0 0)
 			)
@@ -3292,7 +3292,7 @@
 			(pintype "passive")
 			(uuid "10dfe5d0-da87-43ca-be06-8c6b10d0cd78")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/GC9A01-screen-alt.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/GC9A01-screen-alt.step"
 			(hide yes)
 			(offset
 				(xyz 10.9 0 -1.8)
@@ -3304,7 +3304,7 @@
 				(xyz 0 180 90)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/GC9A01-screen.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/GC9A01-screen.step"
 			(offset
 				(xyz 10.6 0.3 -1)
 			)
@@ -4690,7 +4690,7 @@
 			(pintype "passive")
 			(uuid "30dfebbd-b0cd-473d-90e9-2cbe4f1eecfb")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_SR1.00-WS-8P.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_SR1.00-WS-8P.wrl"
 			(offset
 				(xyz -3.5 -0.5 0)
 			)

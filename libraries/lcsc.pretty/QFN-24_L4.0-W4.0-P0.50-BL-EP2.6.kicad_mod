@@ -45,7 +45,7 @@
 	(fp_circle (center -2.00 2.00) (end -1.97 2.00) (layer F.Fab) (width 0.06))
 	(fp_circle (center -1.25 2.46) (end -1.18 2.46) (layer F.SilkS) (width 0.15))
 	(fp_circle (center -1.25 1.96) (end -1.18 1.96) (layer Cmts.User) (width 0.15))
-	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/QFN-24_L4.0-W4.0-H0.9-P0.50.wrl"
+	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/QFN-24_L4.0-W4.0-H0.9-P0.50.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

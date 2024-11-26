@@ -184,7 +184,7 @@
 			)
 		)
 	)
-	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+	(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
 		(opacity 0.5000)
 		(offset
 			(xyz 0 0 -5)
@@ -196,7 +196,7 @@
 			(xyz 180 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+	(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
 		(offset
 			(xyz 0 0 -4.1)
 		)
