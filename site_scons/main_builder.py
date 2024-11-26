@@ -8,6 +8,7 @@ from typing import Any, Sequence, Set
 
 from SCons.Defaults import DefaultEnvironment
 from SCons.Node.FS import File as SConsFile
+from SCons.Script import BUILD_TARGETS
 from SCons.Script.SConscript import SConsEnvironment
 
 
@@ -30,28 +31,37 @@ class MainBuilder:
         return {
             Path(self.env.Dir(x.parent).path)
             for x in start_dir.glob("**/*.kicad_pcb")
-            if not str(x).startswith("_")
+            if not (str(x).startswith("_") or "/_" in str(x))
         }
 
+    @functools.cached_property
+    def repo_libraries_path(self) -> Path:
+        return Path(self.env.Dir("#").path) / "libraries"
+
     def ensure_lib_table_links(self, board_dir: Path) -> None:
-        libraries_path = Path(self.env.Dir("#").path) / "libraries"
-        link_root = libraries_path.relative_to(
+        def _set_link(target: Path, link: Path) -> None:
+            with suppress(FileNotFoundError, OSError):
+                if link.readlink() == target:
+                    return
+            with suppress(FileNotFoundError):
+                link.unlink()
+            print(f"Resetting symlink {link}")
+            link.symlink_to(target)
+
+        link_root = self.repo_libraries_path.relative_to(
             board_dir.absolute(), walk_up=True
         )
+        _set_link(link_root, board_dir / "libraries")
         for lib in ["fp", "sym"]:
-            lib_file = f"{lib}-lib-table"
-            lib_link = board_dir / lib_file
-            with suppress(FileNotFoundError, OSError):
-                if lib_link.readlink() == link_root / lib_file:
-                    continue
-            with suppress(FileNotFoundError):
-                lib_link.unlink()
-            print(f"Resetting symlink {lib_link}")
-            lib_link.symlink_to(link_root / lib_file)
+            lib_table_file_name = f"{lib}-lib-table"
+            lib_link = board_dir / lib_table_file_name
+            _set_link(Path("libraries") / lib_table_file_name, lib_link)
 
     def build(self) -> None:
         for bd in self.board_dirs:
             self.ensure_lib_table_links(bd)
+            if "setup" in BUILD_TARGETS:
+                continue
             board_file = bd / f"{bd.name}.kicad_pcb"
             schematic_file = bd / f"{bd.name}.kicad_sch"
             if not board_file.is_file():
@@ -67,6 +77,7 @@ class MainBuilder:
                 str(board_file),
                 self.render_board,
             )
+        self.env.Alias("setup", [])
 
     def run(
         self,
