@@ -1386,7 +1386,7 @@
 			(uuid "4600c9fc-5ea1-4388-aa55-2a298a01b4de")
 			(members "061f953c-b4f7-4e01-b5ee-5d4797317a6d" "e60a4d83-21e3-409e-9525-a7fa24c6c83d")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -2003,7 +2003,7 @@
 			(zone_connect 2)
 			(uuid "88697e84-20b4-4cdd-bade-2a64ed6840c6")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/DFN-8_L2.0-W2.0-H0.8-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/DFN-8_L2.0-W2.0-H0.8-P0.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3229,7 +3229,7 @@
 			(pintype "passive")
 			(uuid "86dc19b0-53f8-4a9c-b15e-ed5e0ed5e1a7")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
 			(opacity 0.4000)
 			(offset
 				(xyz -1.25 -4.65 -2.45)
@@ -3253,7 +3253,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1 -5.75 0)
@@ -3265,7 +3265,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1.25 -3.5 0)
@@ -4023,7 +4023,7 @@
 			(pintype "passive")
 			(uuid "e89d17a8-afde-42e6-be39-2693deb4d763")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
 			(opacity 0.4000)
 			(offset
 				(xyz -1.25 -4.65 -2.45)
@@ -4047,7 +4047,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1 -5.75 0)
@@ -4059,7 +4059,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1.25 -3.5 0)

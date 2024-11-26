@@ -1325,7 +1325,7 @@
 			(zone_connect 2)
 			(uuid "05306554-cf4f-4555-a0b1-1a173c22d79f")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
 			(opacity 0.5000)
 			(offset
 				(xyz 0 0 -5)
@@ -1337,7 +1337,7 @@
 				(xyz 180 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
 			(offset
 				(xyz 0 0 -4.1)
 			)
@@ -1948,7 +1948,7 @@
 			(pintype "passive+no_connect")
 			(uuid "c9f83eb5-4a76-48b0-9535-fe7bc4a426aa")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/QFN-16_L4.0-W4.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/QFN-16_L4.0-W4.0-H1.0-P0.65.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2114,7 +2114,7 @@
 			(pintype "passive")
 			(uuid "65d76a36-af99-43eb-aadb-e5724b5cb2fa")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/LED-SMD_L1.7-W1.1-R-RD_BULE.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_L1.7-W1.1-R-RD_BULE.wrl"
 			(offset
 				(xyz 0 0 0.6)
 			)
@@ -2857,7 +2857,7 @@
 			(pintype "passive+no_connect")
 			(uuid "c46e934b-090e-48ce-92ea-6198be554837")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/DC-IN_DC-050-2.0-BB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/DC-IN_DC-050-2.0-BB.wrl"
 			(offset
 				(xyz 0 0.5 0)
 			)
@@ -5257,7 +5257,7 @@
 			(pintype "passive")
 			(uuid "a25d7172-3bd6-4cbf-b8c9-c9952e6b6871")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/IND-SMD_L2.5-W2.0_MHCHL2520.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/IND-SMD_L2.5-W2.0_MHCHL2520.wrl"
 			(offset
 				(xyz 0 0 1.1)
 			)
@@ -6073,7 +6073,7 @@
 			(uuid "2dc0d5ad-8bcf-46bf-88d2-06ac8a340bd7")
 			(members "6c6dc81e-781f-461e-ac06-cbede255f7e0" "b84c42a5-17df-4912-a6ba-de59447e7365")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -6962,7 +6962,7 @@
 			(pintype "power_in")
 			(uuid "c26682ff-9a4e-45ba-a558-650c9a37e801")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/SENSORS-SMD_VEML6030.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/SENSORS-SMD_VEML6030.wrl"
 			(offset
 				(xyz 0 0 0.38)
 			)
@@ -7458,7 +7458,7 @@
 			(zone_connect 2)
 			(uuid "07eabb87-3f15-4a28-8a45-d3c10efba35c")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
 			(opacity 0.5000)
 			(offset
 				(xyz 0 0 -5)
@@ -7470,7 +7470,7 @@
 				(xyz 180 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
 			(offset
 				(xyz 0 0 -4.1)
 			)
@@ -7861,7 +7861,7 @@
 			(pintype "passive")
 			(uuid "b175836b-8f46-4eaf-8ca4-0999448ca57f")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -8444,7 +8444,7 @@
 			(pintype "passive")
 			(uuid "246f07ec-52c6-487a-a611-84ddad572676")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -8608,7 +8608,7 @@
 			(pintype "power_in")
 			(uuid "4afb518a-0b9a-4c67-a18d-373909d65184")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-BR-1.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-BR-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8870,7 +8870,7 @@
 			(zone_connect 2)
 			(uuid "b938ca02-a9f9-4442-a4a7-30a2e846bf12")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
 			(opacity 0.5000)
 			(offset
 				(xyz 0 0 -5)
@@ -8882,7 +8882,7 @@
 				(xyz 180 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
 			(offset
 				(xyz 0 0 -4.1)
 			)
@@ -10126,7 +10126,7 @@
 			(uuid "bff92331-249d-4281-ad26-903185977ca5")
 			(members "28f3d4d4-8160-44d0-98c4-2166804f9600" "2a43241a-cea1-494b-9fbd-263c68bee03a")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -11437,7 +11437,7 @@
 			(pintype "power_in")
 			(uuid "0ac45a80-af43-4ada-becc-e66c18db4c06")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-BR-1.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-BR-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11626,7 +11626,7 @@
 			(pintype "passive")
 			(uuid "6f790918-54f7-4941-8f50-ea5ef89c5049")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/LED-SMD_L3.5-W1.0-H1.2-FM-3510RGBA-SG.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_L3.5-W1.0-H1.2-FM-3510RGBA-SG.wrl"
 			(offset
 				(xyz 0 0.34 0.5)
 			)
@@ -12095,7 +12095,7 @@
 			(zone_connect 2)
 			(uuid "6e53b99c-bf65-48d0-9689-775141d3ba96")
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-socket-head-cap-screw-5mm.step"
 			(opacity 0.5000)
 			(offset
 				(xyz 0 0 -5)
@@ -12107,7 +12107,7 @@
 				(xyz 180 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
+		(model "${KIPRJMOD}/libraries/mechanical.3dshapes/M3-standoff-FF-5mm.step"
 			(offset
 				(xyz 0 0 -4.1)
 			)
@@ -13029,7 +13029,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 0)
 			)

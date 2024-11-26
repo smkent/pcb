@@ -453,7 +453,7 @@
 			(pintype "passive")
 			(uuid "2761d353-7e07-49f3-8a86-3691e2621e82")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/LCD-OLED-0.96-SM.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/LCD-OLED-0.96-SM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -696,7 +696,7 @@
 			(pintype "power_in")
 			(uuid "c2279d0d-bda4-4747-b4e9-c67be03e62e1")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/SENSOR-TH_HLK-LD2410C-P.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/SENSOR-TH_HLK-LD2410C-P.wrl"
 			(offset
 				(xyz 0 -5.46 2.5)
 			)
@@ -936,7 +936,7 @@
 			(pintype "passive")
 			(uuid "ea557e22-55e2-4948-bbe4-e37a847d727e")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/G3MB-202P-5VDC.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/G3MB-202P-5VDC.step"
 			(offset
 				(xyz 0 1.45 0)
 			)
@@ -2505,7 +2505,7 @@
 			(pintype "input+no_connect")
 			(uuid "808abfc2-805d-48e3-814f-d58b7863c23f")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/DFR0299.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/DFR0299.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2968,7 +2968,7 @@
 			(pintype "passive")
 			(uuid "4d68e7ba-993d-49e0-8474-5b487da014f6")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-TH_3P-P2.54_HCTL_XH-3AW.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-TH_3P-P2.54_HCTL_XH-3AW.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 2.5 0 0)
@@ -3731,7 +3731,7 @@
 			(pintype "power_in")
 			(uuid "699fe436-9188-4cc0-8c95-52ff63500a78")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)
@@ -5857,7 +5857,7 @@
 			(pintype "power_in")
 			(uuid "3fc01bb1-b226-42c7-84e2-9345bcd0aacd")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL.wrl"
 			(offset
 				(xyz 0 0 0.45)
 			)
@@ -6111,7 +6111,7 @@
 			(roundrect_rratio 0.166667)
 			(uuid "f15ccabc-69ef-4989-83ef-cca1706f40fd")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1 -5.75 0)
@@ -6123,7 +6123,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-SMD_XH-2PWB.wrl"
 			(opacity 0.5000)
 			(offset
 				(xyz 1.25 -3.5 0)
@@ -7732,7 +7732,7 @@
 			(pintype "passive")
 			(uuid "7c51eff0-b878-4c36-bb11-83273f89ff44")
 		)
-		(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-TH_XH2.50-WI-6P.wrl"
+		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-TH_XH2.50-WI-6P.wrl"
 			(offset
 				(xyz 0 -4.6 -2.4)
 			)
@@ -8363,7 +8363,7 @@
 			(pintype "passive")
 			(uuid "9c26261a-79b0-40cf-bdb6-8c50f5e77838")
 		)
-		(model "${KIPRJMOD}/../../libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)

@@ -1364,7 +1364,7 @@
 			(pintype "input")
 			(uuid "4ca5e16b-621b-4708-81d5-4b83607c328d")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/AHT20+BMP280.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/AHT20+BMP280.step"
 			(offset
 				(xyz -7.5 -7.5 4)
 			)
@@ -5513,7 +5513,7 @@
 			(pintype "power_in")
 			(uuid "fe2c6e02-c035-461b-a085-4a79f172ed5c")
 		)
-		(model "${KIPRJMOD}/../../libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)

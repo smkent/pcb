@@ -18,7 +18,7 @@
 	(pad 2 thru_hole circle (at 1.25 0.00 0.00) (size 1.50 1.50) (layers *.Cu *.Mask)(drill 0.9000235999999999))
 	(pad 1 thru_hole rect (at -1.25 0.00 0.00) (size 1.52 1.50) (layers *.Cu *.Mask)(drill 0.9000235999999999))
 	(fp_circle (center -3.75 7.32) (end -3.72 7.32) (layer F.Fab) (width 0.06))
-	(model "${KIPRJMOD}/../../libraries/lcsc.3dshapes/CONN-TH_2P-P2.50_HC-XH-2AW-G.wrl"
+	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-TH_2P-P2.50_HC-XH-2AW-G.wrl"
 		(offset (xyz -0.000 -3.500 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))
