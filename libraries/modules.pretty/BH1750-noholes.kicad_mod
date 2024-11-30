@@ -1,4 +1,4 @@
-(footprint "BH1750"
+(footprint "BH1750-noholes"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BH1750"
+	(property "Value" "BH1750-noholes"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -233,20 +233,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at -4.5 -6.85)
-		(size 3 3)
-		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "4f3af25b-f837-4d07-9220-f0cd8f845032")
-	)
-	(pad "" np_thru_hole circle
-		(at 4.5 -6.85)
-		(size 3 3)
-		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "a03a4c45-af9f-4edf-8a5b-2c420b72c888")
-	)
 	(pad "1" thru_hole circle
 		(at 5.08 8.08)
 		(size 1.7 1.7)
@@ -289,7 +275,7 @@
 		(remove_unused_layers no)
 		(uuid "65e52d65-2674-4b54-bbf5-8d8196ea66ef")
 	)
-	(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/BH1750-module.step"
+	(model "${KIPRJMOD}/libraries/modules.3dshapes/BH1750-module.step"
 		(offset
 			(xyz 10.5 -13 -28.4)
 		)

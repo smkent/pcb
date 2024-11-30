@@ -2870,7 +2870,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:BH1750"
+		(symbol "modules:BH1750"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2890,7 +2890,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:BH1750"
+			(property "Footprint" "modules:BH1750"
 				(at 0.635 8.255 0)
 				(effects
 					(font
@@ -10761,7 +10761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:BH1750")
+		(lib_id "modules:BH1750")
 		(at 214.63 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
