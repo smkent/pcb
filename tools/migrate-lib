@@ -34,35 +34,27 @@ class KiCADMigrateLibraryReference:
     def libraries_path(self) -> Path:
         return self.repo_root / "libraries"
 
-    def _migrate_name(self, name: str) -> str:
-        if self.args.new_name:
-            return name.replace(self.name, self.new_name)
-        return name
-
     def run(self) -> None:
         # Process footprints
         dest_fp = self.libraries_path / f"{self.destination}.pretty"
-        print("dest_fp", dest_fp)
         for source in self.filename_matches(f"{self.source}.pretty"):
             dest = dest_fp / self._migrate_name(source.name)
-            subprocess.run(["git", "mv", source, dest])
+            self._git_move(source, dest)
         # Process 3D models
         dest_fp = self.libraries_path / f"{self.destination}.3dshapes"
         for source in self.filename_matches(f"{self.source}.3dshapes"):
             dest = dest_fp / self._migrate_name(source.name)
-            subprocess.run(["git", "mv", source, dest])
+            self._git_move(source, dest)
         # Process 3D model references
         search_term_3d = f"{self.source}.3dshapes/{self.name}"
         replacement_3d = f"{self.destination}.3dshapes/{self.new_name}"
         for path in self.grep_matches(search_term_3d, libraries=True):
-            path.write_text(
-                path.read_text().replace(search_term_3d, replacement_3d)
-            )
+            self._rewrite_file(path, search_term_3d, replacement_3d)
         # Process references
         search_term = f"{self.source}:{self.name}"
         replacement = f"{self.destination}:{self.new_name}"
         for path in self.grep_matches(search_term):
-            path.write_text(path.read_text().replace(search_term, replacement))
+            self._rewrite_file(path, search_term, replacement)
         # Process references
         for path in self.grep_matches(search_term, libraries=True):
             if path.parts[0] == "libraries" and path.name.endswith(
@@ -70,9 +62,12 @@ class KiCADMigrateLibraryReference:
             ):
                 print(f"ACTION REQUIRED: Migrate matching symbols in {path}")
         # Rebuild schematics
-        for path in self.grep_matches(self.name, binary=True):
-            if path.name.endswith(".pdf"):
-                subprocess.run(["scons", "-u"], cwd=path.parent, check=True)
+        if not self.args.pretend:
+            for path in self.grep_matches(self.name, binary=True):
+                if path.name.endswith(".pdf"):
+                    subprocess.run(
+                        ["scons", "-u"], cwd=path.parent, check=True
+                    )
 
     @cached_property
     def args(self) -> argparse.Namespace:
@@ -84,6 +79,21 @@ class KiCADMigrateLibraryReference:
         ap.add_argument("name", help="Symbol or footprint name prefix")
         ap.add_argument(
             "new_name", nargs="?", help="New symbol or footprint name prefix"
+        )
+        ap.add_argument(
+            "-i",
+            "--inexact",
+            dest="exact",
+            action="store_false",
+            help="Match prefix instead of exact name",
+        )
+        ap.add_argument(
+            "-p",
+            "--pretend",
+            "--dry-run",
+            dest="pretend",
+            action="store_true",
+            help="Pretend only",
         )
         os.chdir(self.repo_root)
         return ap.parse_args()
@@ -109,8 +119,32 @@ class KiCADMigrateLibraryReference:
         for fn in self._cmd_output(
             ["git", "ls-files", "--"], cwd=wd
         ).splitlines():
-            if fn.startswith(self.name):
-                yield wd / fn
+            path = wd / fn
+            if self.args.exact:
+                if self.name == path.stem:
+                    yield path
+            elif fn.startswith(self.name):
+                yield path
+
+    def _migrate_name(self, name: str) -> str:
+        if self.args.new_name:
+            return name.replace(self.name, self.new_name)
+        return name
+
+    def _rewrite_file(self, path: Path, search: str, replace: str) -> None:
+        if self.args.exact:
+            search += '"'
+            replace += '"'
+        if self.args.pretend:
+            print(f"Rewrite {path}")
+        else:
+            path.write_text(path.read_text().replace(search, replace))
+
+    def _git_move(self, source: Path, dest: Path) -> None:
+        cmd = ["git", "mv", source, dest]
+        if self.args.pretend:
+            cmd = ["echo"] + cmd
+        subprocess.run(cmd)
 
     @staticmethod
     def _cmd_output(cmd: Sequence[str], **kwargs: Any) -> str:
