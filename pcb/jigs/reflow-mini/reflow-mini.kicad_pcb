@@ -1913,7 +1913,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "39a4c9aa-1fdb-4cc8-b2db-f34d381f0174")
 		(at 164.75 102.25 180)
@@ -1942,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2700,7 +2700,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "48b8c1a2-0367-4f9d-bb03-d10614c0b218")
 		(at 162 102.25 180)
@@ -2729,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5051,7 +5051,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bcff35b3-b439-4dff-8986-7d98a1113672")
 		(at 162 93.75 180)
@@ -5080,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5676,7 +5676,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c7fde2ca-471a-4711-872a-86c97943a1b3")
 		(at 164.75 93.75 180)
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
