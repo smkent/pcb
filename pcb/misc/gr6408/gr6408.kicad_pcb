@@ -4678,7 +4678,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric"
+	(footprint "passives:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9dfed85e-4005-4d9d-84d0-3081955a2a58")
 		(at 123.5 65.25 -90)
@@ -4707,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric"
+		(property "Footprint" "passives:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

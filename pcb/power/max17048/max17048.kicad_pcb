@@ -95,7 +95,7 @@
 	(net 13 "Net-(Q1-G)")
 	(net 14 "VCC")
 	(net 15 "/PROTECT_VDD")
-	(footprint "custom:C_0603_1608Metric"
+	(footprint "passives:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2090c2a6-64a1-4696-9731-967589cce579")
 		(at 133.5 136.05 -90)
@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric"
+		(property "Footprint" "passives:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3302,7 +3302,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric"
+	(footprint "passives:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b0f3f2fe-7bda-4f1d-a2e9-d9ec1c50222a")
 		(at 138.25 122 180)
@@ -3331,7 +3331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric"
+		(property "Footprint" "passives:C_0603_1608Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
