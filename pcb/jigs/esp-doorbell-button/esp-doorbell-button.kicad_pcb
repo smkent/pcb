@@ -649,7 +649,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-23_simple"
+	(footprint "packages:SOT-23"
 		(layer "F.Cu")
 		(uuid "63ac9039-bc0a-4fb7-879f-2769c6e6f1a1")
 		(at 142 101.4 90)
@@ -678,7 +678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-23_simple"
+		(property "Footprint" "packages:SOT-23"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -877,7 +877,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-23_simple"
+	(footprint "packages:SOT-23"
 		(layer "F.Cu")
 		(uuid "66436804-3ad2-4709-b83f-a596f7aec61c")
 		(at 142 105.4 90)
@@ -906,7 +906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-23_simple"
+		(property "Footprint" "packages:SOT-23"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3030,7 +3030,7 @@
 			(uuid "da13d3e9-956b-4754-bdaa-b02d24f2a7a9")
 		)
 	)
-	(footprint "custom:SOT-23_simple"
+	(footprint "packages:SOT-23"
 		(layer "B.Cu")
 		(uuid "1f8d14b2-491c-4048-8bca-a7e0112dd3b6")
 		(at 146 108.4 90)
@@ -3061,7 +3061,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:SOT-23_simple"
+		(property "Footprint" "packages:SOT-23"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
