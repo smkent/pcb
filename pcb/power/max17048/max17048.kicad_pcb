@@ -1666,7 +1666,7 @@
 			)
 		)
 	)
-	(footprint "custom:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
+	(footprint "packages:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
 		(layer "F.Cu")
 		(uuid "721d2919-8c9e-4c05-867f-27a9976a24b5")
 		(at 137.25 136)
@@ -1695,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
+		(property "Footprint" "packages:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
