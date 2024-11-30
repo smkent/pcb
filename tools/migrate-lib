@@ -19,6 +19,14 @@ class KiCADMigrateLibraryReference:
         return self.args.destination
 
     @cached_property
+    def name(self) -> str:
+        return self.args.name
+
+    @cached_property
+    def new_name(self) -> str:
+        return self.args.new_name or self.name
+
+    @cached_property
     def repo_root(self) -> Path:
         return Path(self._cmd_output(["git", "rev-parse", "--show-toplevel"]))
 
@@ -26,27 +34,33 @@ class KiCADMigrateLibraryReference:
     def libraries_path(self) -> Path:
         return self.repo_root / "libraries"
 
+    def _migrate_name(self, name: str) -> str:
+        if self.args.new_name:
+            return name.replace(self.name, self.new_name)
+        return name
+
     def run(self) -> None:
         # Process footprints
-        dest_fp = self.libraries_path / f"{self.args.destination}.pretty"
-        for source in self.filename_matches(f"{self.args.source}.pretty"):
-            dest = dest_fp / source.name
+        dest_fp = self.libraries_path / f"{self.destination}.pretty"
+        print("dest_fp", dest_fp)
+        for source in self.filename_matches(f"{self.source}.pretty"):
+            dest = dest_fp / self._migrate_name(source.name)
             subprocess.run(["git", "mv", source, dest])
         # Process 3D models
-        dest_fp = self.libraries_path / f"{self.args.destination}.3dshapes"
-        for source in self.filename_matches(f"{self.args.source}.3dshapes"):
-            dest = dest_fp / source.name
+        dest_fp = self.libraries_path / f"{self.destination}.3dshapes"
+        for source in self.filename_matches(f"{self.source}.3dshapes"):
+            dest = dest_fp / self._migrate_name(source.name)
             subprocess.run(["git", "mv", source, dest])
         # Process 3D model references
-        search_term_3d = f"{self.args.source}.3dshapes/{self.args.name}"
-        replacement_3d = f"{self.args.destination}.3dshapes/{self.args.name}"
+        search_term_3d = f"{self.source}.3dshapes/{self.name}"
+        replacement_3d = f"{self.destination}.3dshapes/{self.new_name}"
         for path in self.grep_matches(search_term_3d, libraries=True):
             path.write_text(
                 path.read_text().replace(search_term_3d, replacement_3d)
             )
         # Process references
-        search_term = f"{self.args.source}:{self.args.name}"
-        replacement = f"{self.args.destination}:{self.args.name}"
+        search_term = f"{self.source}:{self.name}"
+        replacement = f"{self.destination}:{self.new_name}"
         for path in self.grep_matches(search_term):
             path.write_text(path.read_text().replace(search_term, replacement))
         # Process references
@@ -56,7 +70,7 @@ class KiCADMigrateLibraryReference:
             ):
                 print(f"ACTION REQUIRED: Migrate matching symbols in {path}")
         # Rebuild schematics
-        for path in self.grep_matches(self.args.name, binary=True):
+        for path in self.grep_matches(self.name, binary=True):
             if path.name.endswith(".pdf"):
                 subprocess.run(["scons", "-u"], cwd=path.parent, check=True)
 
@@ -68,6 +82,9 @@ class KiCADMigrateLibraryReference:
         ap.add_argument("source", help="Name of existing library")
         ap.add_argument("destination", help="Destination library name")
         ap.add_argument("name", help="Symbol or footprint name prefix")
+        ap.add_argument(
+            "new_name", nargs="?", help="New symbol or footprint name prefix"
+        )
         os.chdir(self.repo_root)
         return ap.parse_args()
 
@@ -92,7 +109,7 @@ class KiCADMigrateLibraryReference:
         for fn in self._cmd_output(
             ["git", "ls-files", "--"], cwd=wd
         ).splitlines():
-            if fn.startswith(self.args.name):
+            if fn.startswith(self.name):
                 yield wd / fn
 
     @staticmethod
