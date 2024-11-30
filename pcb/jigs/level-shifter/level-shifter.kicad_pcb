@@ -631,7 +631,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-363_SC-70-6_simple"
+	(footprint "packages:SOT-363_SC-70-6"
 		(layer "F.Cu")
 		(uuid "4e9b4867-f902-47da-b059-bc0230a43d79")
 		(at 128.75 105.05)
@@ -660,7 +660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-363_SC-70-6_simple"
+		(property "Footprint" "packages:SOT-363_SC-70-6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1109,7 +1109,7 @@
 			(uuid "391491d0-7a48-447f-a3af-c0667e55e646")
 		)
 	)
-	(footprint "custom:SOT-363_SC-70-6_simple"
+	(footprint "packages:SOT-363_SC-70-6"
 		(layer "F.Cu")
 		(uuid "c6c14c01-e437-4ac6-9e05-5b9f49cafe60")
 		(at 128.75 117.8 180)
@@ -1138,7 +1138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-363_SC-70-6_simple"
+		(property "Footprint" "packages:SOT-363_SC-70-6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

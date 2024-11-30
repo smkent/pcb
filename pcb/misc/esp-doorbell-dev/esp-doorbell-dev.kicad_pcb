@@ -8375,7 +8375,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-363_SC-70-6_simple"
+	(footprint "packages:SOT-363_SC-70-6"
 		(layer "B.Cu")
 		(uuid "ed71b8c9-2122-45f4-b945-9df91c50ee3c")
 		(at 164.5375 79.775 180)
@@ -8406,7 +8406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:SOT-363_SC-70-6_simple"
+		(property "Footprint" "packages:SOT-363_SC-70-6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
