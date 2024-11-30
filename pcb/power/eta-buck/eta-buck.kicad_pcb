@@ -945,7 +945,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-23-6_simple"
+	(footprint "packages:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "2b20b236-fa22-4c6a-8425-5c646db4a0cb")
 		(at 113.25 70 -90)
@@ -974,7 +974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-23-6_simple"
+		(property "Footprint" "packages:SOT-23-6"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
