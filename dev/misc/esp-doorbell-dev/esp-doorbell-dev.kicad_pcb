@@ -2164,7 +2164,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:DFPlayer-Mini-DFR0299-module"
+	(footprint "modules:DFPlayer-Mini-DFR0299-module"
 		(layer "F.Cu")
 		(uuid "b93a5227-be46-4e0b-8318-5bbe0d5fc65f")
 		(at 160 148.75 180)
@@ -2191,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:DFPlayer-Mini-DFR0299-module"
+		(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2505,7 +2505,7 @@
 			(pintype "input+no_connect")
 			(uuid "808abfc2-805d-48e3-814f-d58b7863c23f")
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/DFR0299.step"
+		(model "${KIPRJMOD}/libraries/modules.3dshapes/DFR0299.step"
 			(offset
 				(xyz 0 0 0)
 			)

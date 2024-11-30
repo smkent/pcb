@@ -2219,7 +2219,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:DFR0299"
+		(symbol "modules:DFR0299"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2244,7 +2244,7 @@
 					(justify top)
 				)
 			)
-			(property "Footprint" "aliexpress:DFPlayer-Mini-DFR0299-module"
+			(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9128,7 +9128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:DFR0299")
+		(lib_id "modules:DFR0299")
 		(at 106.68 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9153,7 +9153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:DFPlayer-Mini-DFR0299-module"
+		(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
 			(at 106.68 162.56 0)
 			(effects
 				(font
