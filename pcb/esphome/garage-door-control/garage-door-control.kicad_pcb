@@ -1376,7 +1376,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:ENS160+AHT2x-noholes"
+	(footprint "modules:ENS160+AHT2x-noholes"
 		(layer "F.Cu")
 		(uuid "2cc10e2f-ed50-441b-97ed-cc077ac35585")
 		(at 165.02 99.9 -90)
@@ -1405,7 +1405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ENS160+AHT2x-noholes"
+		(property "Footprint" "modules:ENS160+AHT2x-noholes"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

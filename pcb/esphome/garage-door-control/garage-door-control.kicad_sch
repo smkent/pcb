@@ -2132,7 +2132,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:ENS160+AHT2x"
+		(symbol "modules:ENS160+AHT2x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2152,7 +2152,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ENS160+AHT2x"
+			(property "Footprint" "modules:ENS160+AHT2x"
 				(at 0.635 9.525 0)
 				(effects
 					(font
@@ -7824,7 +7824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:ENS160+AHT2x")
+		(lib_id "modules:ENS160+AHT2x")
 		(at 153.67 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7849,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ENS160+AHT2x-noholes"
+		(property "Footprint" "modules:ENS160+AHT2x-noholes"
 			(at 154.305 111.125 0)
 			(effects
 				(font
