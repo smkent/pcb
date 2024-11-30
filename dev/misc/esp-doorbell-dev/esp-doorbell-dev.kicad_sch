@@ -2944,7 +2944,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:G3MB-202P-5VDC"
+		(symbol "custom:G3MB-202P-5VDC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2966,7 +2966,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "aliexpress:RELAY-G3MB-202P-5VDC"
+			(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -7645,7 +7645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:G3MB-202P-5VDC")
+		(lib_id "custom:G3MB-202P-5VDC")
 		(at 172.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7670,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:RELAY-G3MB-202P-5VDC"
+		(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
 			(at 167.64 123.19 0)
 			(effects
 				(font

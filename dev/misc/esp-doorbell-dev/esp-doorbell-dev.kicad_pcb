@@ -708,7 +708,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:RELAY-G3MB-202P-5VDC"
+	(footprint "custom:RELAY-G3MB-202P-5VDC"
 		(layer "F.Cu")
 		(uuid "6a3dd1a7-7a76-44fc-81c4-3fa20a906589")
 		(at 160 72 180)
@@ -735,7 +735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:RELAY-G3MB-202P-5VDC"
+		(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
 			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
@@ -936,7 +936,7 @@
 			(pintype "passive")
 			(uuid "ea557e22-55e2-4948-bbe4-e37a847d727e")
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/G3MB-202P-5VDC.step"
+		(model "${KIPRJMOD}/libraries/custom.3dshapes/G3MB-202P-5VDC.step"
 			(offset
 				(xyz 0 1.45 0)
 			)
