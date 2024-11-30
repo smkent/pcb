@@ -2040,7 +2040,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:SW_DIP_SPSTx04_Slide_P1.27mm"
+	(footprint "custom:SW_DIP_SPSTx04_Slide_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e3443d7f-a9ae-4e1a-afef-7073183b6d17")
 		(at 123 71.75 180)
@@ -2069,7 +2069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:SW_DIP_SPSTx04_Slide_P1.27mm"
+		(property "Footprint" "custom:SW_DIP_SPSTx04_Slide_P1.27mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
