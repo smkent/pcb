@@ -59,16 +59,9 @@ class MainBuilder:
 
     def warn_extra_files(self, board_dir: Path) -> None:
         def _project_files() -> Iterator[Path]:
-            for fn in (
-                subprocess.run(
-                    ["git", "ls-files"],
-                    check=True,
-                    capture_output=True,
-                    cwd=board_dir,
-                )
-                .stdout.decode()
-                .strip()
-            ).splitlines():
+            for fn in board_dir.iterdir():
+                if not fn.is_file():
+                    continue
                 yield Path(board_dir / fn)
 
         expect_extensions = {
