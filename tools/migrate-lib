@@ -28,25 +28,25 @@ class KiCADMigrateLibraryReference:
 
     def run(self) -> None:
         # Process footprints
-        dest_fp = self.libraries_path / f"{self.args.destination}.pretty"
-        for source in self.filename_matches(f"{self.args.source}.pretty"):
+        dest_fp = self.libraries_path / f"{self.destination}.pretty"
+        for source in self.filename_matches(f"{self.source}.pretty"):
             dest = dest_fp / source.name
             subprocess.run(["git", "mv", source, dest])
         # Process 3D models
-        dest_fp = self.libraries_path / f"{self.args.destination}.3dshapes"
-        for source in self.filename_matches(f"{self.args.source}.3dshapes"):
+        dest_fp = self.libraries_path / f"{self.destination}.3dshapes"
+        for source in self.filename_matches(f"{self.source}.3dshapes"):
             dest = dest_fp / source.name
             subprocess.run(["git", "mv", source, dest])
         # Process 3D model references
-        search_term_3d = f"{self.args.source}.3dshapes/{self.args.name}"
-        replacement_3d = f"{self.args.destination}.3dshapes/{self.args.name}"
+        search_term_3d = f"{self.source}.3dshapes/{self.name}"
+        replacement_3d = f"{self.destination}.3dshapes/{self.name}"
         for path in self.grep_matches(search_term_3d, libraries=True):
             path.write_text(
                 path.read_text().replace(search_term_3d, replacement_3d)
             )
         # Process references
-        search_term = f"{self.args.source}:{self.args.name}"
-        replacement = f"{self.args.destination}:{self.args.name}"
+        search_term = f"{self.source}:{self.name}"
+        replacement = f"{self.destination}:{self.name}"
         for path in self.grep_matches(search_term):
             path.write_text(path.read_text().replace(search_term, replacement))
         # Process references
@@ -92,7 +92,7 @@ class KiCADMigrateLibraryReference:
         for fn in self._cmd_output(
             ["git", "ls-files", "--"], cwd=wd
         ).splitlines():
-            if fn.startswith(self.args.name):
+            if fn.startswith(self.name):
                 yield wd / fn
 
     @staticmethod
