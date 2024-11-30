@@ -128,7 +128,7 @@
 	(net 46 "/RELAY_LOW")
 	(net 47 "Net-(LED3-A)")
 	(net 48 "Net-(J4-Pin_1)")
-	(footprint "aliexpress:LCD-OLED-0.96-module-noholes"
+	(footprint "modules:LCD-OLED-0.96-module-noholes"
 		(layer "F.Cu")
 		(uuid "1e57825f-2cac-4874-bb83-16a4eb19e351")
 		(at 160 108)
@@ -155,7 +155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:LCD-OLED-0.96-module-noholes"
+		(property "Footprint" "modules:LCD-OLED-0.96-module-noholes"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -453,7 +453,7 @@
 			(pintype "passive")
 			(uuid "2761d353-7e07-49f3-8a86-3691e2621e82")
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/LCD-OLED-0.96-SM.step"
+		(model "${KIPRJMOD}/libraries/modules.3dshapes/LCD-OLED-0.96-SM.step"
 			(offset
 				(xyz 0 0 0)
 			)
