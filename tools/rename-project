@@ -66,9 +66,7 @@ class KiCADProjectRename:
                 in_dir / source_fn,
                 self.args.destination / dest_fn,
             ]
-        schematic_source = (
-            in_dir / f"{self.args.destination.stem}-schematic.pdf"
-        )
+        schematic_source = in_dir / f"{self.args.source.stem}-schematic.pdf"
         if schematic_source.is_file():
             schematic_dest = (
                 self.args.destination
