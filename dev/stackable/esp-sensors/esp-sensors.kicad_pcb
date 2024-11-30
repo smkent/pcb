@@ -111,7 +111,7 @@
 	(net 29 "NEOPIXELS")
 	(net 30 "Net-(JP1-C)")
 	(net 31 "Net-(JP1-A)")
-	(footprint "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "00541625-83da-44f0-a01a-1726b61494d6")
 		(at 136.5 65.5 90)
@@ -139,7 +139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5880,7 +5880,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f585a364-5bec-4f29-a330-4f7025da8f3d")
 		(at 111.5 76.5)
@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6535,7 +6535,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "2732f86d-4c59-4739-a7ea-9e0b648baab6")
 		(at 136.5 65.5 -90)
@@ -6564,7 +6564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6855,7 +6855,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "3c8aec25-9bed-4c4d-bc2b-2669bf077799")
 		(at 120 56 180)
@@ -6884,7 +6884,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7215,7 +7215,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "bca80f0d-42e9-4310-bf73-c4583b5c318f")
 		(at 112 76.5 180)
@@ -7244,7 +7244,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

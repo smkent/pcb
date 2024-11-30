@@ -4022,7 +4022,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "f8c9d727-b8d4-4f79-92bd-f0274e856fb4")
 		(at 180 106.5 180)
@@ -4051,7 +4051,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

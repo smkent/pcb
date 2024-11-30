@@ -10202,7 +10202,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fe2c8850-e24c-4556-aaf1-db65c085a939")
 		(at 100 59)
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

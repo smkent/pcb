@@ -1422,7 +1422,7 @@
 			)
 		)
 	)
-	(footprint "custom:jlcpcb-pcba-tooling-hole"
+	(footprint "mechanical:JLCPCB-PCBA-Tooling-Hole"
 		(layer "F.Cu")
 		(uuid "1247c77c-8ba5-48cf-9b0a-01b04b7c0b2a")
 		(at 138 138)
@@ -1439,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Value" "jlcpcb-pcba-tooling-hole"
+		(property "Value" "JLCPCB-PCBA-Tooling-Hole"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1451,7 +1451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:jlcpcb-pcba-tooling-hole"
+		(property "Footprint" "mechanical:JLCPCB-PCBA-Tooling-Hole"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1513,7 +1513,7 @@
 			(uuid "6c6d9cd5-bc0d-40fb-93aa-2e6457da4292")
 		)
 	)
-	(footprint "custom:jlcpcb-pcba-tooling-hole"
+	(footprint "mechanical:JLCPCB-PCBA-Tooling-Hole"
 		(layer "F.Cu")
 		(uuid "13d53bb6-6499-4469-9073-aeea47a642d6")
 		(at 102 162)
@@ -1530,7 +1530,7 @@
 				)
 			)
 		)
-		(property "Value" "jlcpcb-pcba-tooling-hole"
+		(property "Value" "JLCPCB-PCBA-Tooling-Hole"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1542,7 +1542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:jlcpcb-pcba-tooling-hole"
+		(property "Footprint" "mechanical:JLCPCB-PCBA-Tooling-Hole"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5537,7 +5537,7 @@
 			)
 		)
 	)
-	(footprint "custom:jlcpcb-pcba-tooling-hole"
+	(footprint "mechanical:JLCPCB-PCBA-Tooling-Hole"
 		(layer "F.Cu")
 		(uuid "57598c32-4a4e-4bde-a208-287cf9bc0451")
 		(at 138 162)
@@ -5554,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Value" "jlcpcb-pcba-tooling-hole"
+		(property "Value" "JLCPCB-PCBA-Tooling-Hole"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5566,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:jlcpcb-pcba-tooling-hole"
+		(property "Footprint" "mechanical:JLCPCB-PCBA-Tooling-Hole"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6887,7 +6887,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7067435f-fc11-44b8-b555-eaec3a7b7594")
 		(at 129.25 133.5 180)
@@ -6915,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7386,7 +7386,7 @@
 			(uuid "da62fec8-769e-4fd0-943d-126662d2a2c4")
 		)
 	)
-	(footprint "custom:jlcpcb-pcba-tooling-hole"
+	(footprint "mechanical:JLCPCB-PCBA-Tooling-Hole"
 		(layer "F.Cu")
 		(uuid "79147bff-c0a2-4487-b73c-59072b8caa3e")
 		(at 102 138)
@@ -7403,7 +7403,7 @@
 				)
 			)
 		)
-		(property "Value" "jlcpcb-pcba-tooling-hole"
+		(property "Value" "JLCPCB-PCBA-Tooling-Hole"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7415,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:jlcpcb-pcba-tooling-hole"
+		(property "Footprint" "mechanical:JLCPCB-PCBA-Tooling-Hole"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9047,7 +9047,7 @@
 			)
 		)
 	)
-	(footprint "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "932e3a69-63ee-443a-9ae6-e087cc5faac8")
 		(at 118.25 166.5)
@@ -9075,7 +9075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17232,7 +17232,7 @@
 			(uuid "cbf30bfb-0f5f-4e10-b262-3ede1c8668fd")
 		)
 	)
-	(footprint "custom:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "21cbfec5-245b-4402-9af7-83faf0b0e1c1")
 		(at 126 166.5 180)
@@ -17261,7 +17261,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

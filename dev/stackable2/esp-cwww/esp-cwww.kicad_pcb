@@ -116,7 +116,7 @@
 	(net 34 "unconnected-(SM1-GPIO6{slash}MOSI-Pad6)")
 	(net 35 "unconnected-(SM1-GPIO7{slash}SS-Pad7)")
 	(net 36 "unconnected-(SM1-GPIO5{slash}MISO-Pad5)")
-	(footprint "custom:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
+	(footprint "connectors:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "08e3908a-e2d2-42d3-aa7a-42d8155a8720")
 		(at 114.5 65.5 90)
@@ -145,7 +145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
