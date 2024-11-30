@@ -3536,7 +3536,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b8a1392a-ee43-4061-b828-7f1b9c7e4f36")
 		(at 133 131.5 90)
@@ -3565,7 +3565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4096,7 +4096,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d30cdcfa-a5fc-4301-9dbd-21ef65e3cf5d")
 		(at 140 124.5 -90)
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4303,7 +4303,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dec5cd92-d294-48f4-9bce-a75ee6066f7e")
 		(at 134.5 131.5 90)
@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4497,7 +4497,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e0853044-1e6c-4602-87a5-ec95be7708c8")
 		(at 141.75 122)
@@ -4526,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
