@@ -1087,7 +1087,7 @@
 			)
 		)
 	)
-	(footprint "aliexpress:AHT20+BMP280-noholes"
+	(footprint "modules:AHT20+BMP280-noholes"
 		(layer "F.Cu")
 		(uuid "2a3d7afb-8a21-45da-b2ab-2dbc05c43718")
 		(at 145.938 95.4 -90)
@@ -1116,7 +1116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:AHT20+BMP280-noholes"
+		(property "Footprint" "modules:AHT20+BMP280-noholes"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1364,7 +1364,7 @@
 			(pintype "input")
 			(uuid "4ca5e16b-621b-4708-81d5-4b83607c328d")
 		)
-		(model "${KIPRJMOD}/libraries/aliexpress.3dshapes/AHT20+BMP280.step"
+		(model "${KIPRJMOD}/libraries/modules.3dshapes/AHT20+BMP280.step"
 			(offset
 				(xyz -7.5 -7.5 4)
 			)

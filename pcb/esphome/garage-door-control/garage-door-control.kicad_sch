@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:AHT20+BMP280"
+		(symbol "modules:AHT20+BMP280"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2009,7 +2009,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:AHT20+BMP280"
+			(property "Footprint" "modules:AHT20+BMP280"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -7606,7 +7606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:AHT20+BMP280")
+		(lib_id "modules:AHT20+BMP280")
 		(at 153.67 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7631,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:AHT20+BMP280-noholes"
+		(property "Footprint" "modules:AHT20+BMP280-noholes"
 			(at 153.67 83.82 0)
 			(effects
 				(font
