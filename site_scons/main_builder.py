@@ -4,7 +4,7 @@ import subprocess
 import sys
 from contextlib import suppress
 from pathlib import Path
-from typing import Any, Sequence, Set
+from typing import Any, Iterator, Sequence, Set
 
 from SCons.Defaults import DefaultEnvironment
 from SCons.Node.FS import File as SConsFile
@@ -57,9 +57,34 @@ class MainBuilder:
             lib_link = board_dir / lib_table_file_name
             _set_link(Path("libraries") / lib_table_file_name, lib_link)
 
+    def warn_extra_files(self, board_dir: Path) -> None:
+        def _project_files() -> Iterator[Path]:
+            for fn in (
+                subprocess.run(
+                    ["git", "ls-files"],
+                    check=True,
+                    capture_output=True,
+                    cwd=board_dir,
+                )
+                .stdout.decode()
+                .strip()
+            ).splitlines():
+                yield Path(board_dir / fn)
+
+        expect_extensions = {
+            ".kicad_pcb": "{board}.kicad_pcb",
+            ".kicad_pro": "{board}.kicad_pro",
+            ".pdf": "{board}-schematic.pdf",
+        }
+        for path in _project_files():
+            if fmt := expect_extensions.get(path.suffix):
+                if path.name != fmt.format(board=board_dir.name):
+                    print(f"Extraneous file found: {path}")
+
     def build(self) -> None:
         for bd in self.board_dirs:
             self.ensure_lib_table_links(bd)
+            self.warn_extra_files(bd)
             if "setup" in BUILD_TARGETS:
                 continue
             board_file = bd / f"{bd.name}.kicad_pcb"
