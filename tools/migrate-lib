@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import subprocess
+from contextlib import suppress
+from functools import cached_property
+from pathlib import Path
+from typing import Any, Iterator, Sequence
+
+
+class KiCADMigrateLibraryReference:
+    @cached_property
+    def source(self) -> str:
+        return self.args.source
+
+    @cached_property
+    def destination(self) -> str:
+        return self.args.destination
+
+    @cached_property
+    def repo_root(self) -> Path:
+        return Path(self._cmd_output(["git", "rev-parse", "--show-toplevel"]))
+
+    @cached_property
+    def libraries_path(self) -> Path:
+        return self.repo_root / "libraries"
+
+    def run(self) -> None:
+        # Process footprints
+        dest_fp = self.libraries_path / f"{self.args.destination}.pretty"
+        for source in self.filename_matches(f"{self.args.source}.pretty"):
+            dest = dest_fp / source.name
+            subprocess.run(["git", "mv", source, dest])
+        # Process 3D models
+        dest_fp = self.libraries_path / f"{self.args.destination}.3dshapes"
+        for source in self.filename_matches(f"{self.args.source}.3dshapes"):
+            dest = dest_fp / source.name
+            subprocess.run(["git", "mv", source, dest])
+        # Process 3D model references
+        search_term_3d = f"{self.args.source}.3dshapes/{self.args.name}"
+        replacement_3d = f"{self.args.destination}.3dshapes/{self.args.name}"
+        for path in self.grep_matches(search_term_3d, libraries=True):
+            path.write_text(
+                path.read_text().replace(search_term_3d, replacement_3d)
+            )
+        # Process references
+        search_term = f"{self.args.source}:{self.args.name}"
+        replacement = f"{self.args.destination}:{self.args.name}"
+        for path in self.grep_matches(search_term):
+            path.write_text(path.read_text().replace(search_term, replacement))
+        # Process references
+        for path in self.grep_matches(search_term, libraries=True):
+            if path.parts[0] == "libraries" and path.name.endswith(
+                ".kicad_sym"
+            ):
+                print(f"ACTION REQUIRED: Migrate matching symbols in {path}")
+        # Rebuild schematics
+        for path in self.grep_matches(self.args.name, binary=True):
+            if path.name.endswith(".pdf"):
+                subprocess.run(["scons", "-u"], cwd=path.parent, check=True)
+
+    @cached_property
+    def args(self) -> argparse.Namespace:
+        ap = argparse.ArgumentParser(
+            "Migrate a KiCAD symbol/footprint reference"
+        )
+        ap.add_argument("source", help="Name of existing library")
+        ap.add_argument("destination", help="Destination library name")
+        ap.add_argument("name", help="Symbol or footprint name prefix")
+        os.chdir(self.repo_root)
+        return ap.parse_args()
+
+    def grep_matches(
+        self, search: str, libraries: bool = False, binary: bool = False
+    ) -> Iterator[Path]:
+        with suppress(subprocess.CalledProcessError):
+            cmd = ["git", "grep"]
+            if not binary:
+                cmd += ["-I"]
+            cmd += ["--name-only", search, "--"]
+            for fn in self._cmd_output(cmd).splitlines():
+                path = Path(fn)
+                if not libraries and (path.parts[0] == "libraries"):
+                    continue
+                yield path
+
+    def filename_matches(self, lib: str) -> Iterator[Path]:
+        wd = self.libraries_path / lib
+        if not wd.is_dir():
+            return
+        for fn in self._cmd_output(
+            ["git", "ls-files", "--"], cwd=wd
+        ).splitlines():
+            if fn.startswith(self.args.name):
+                yield wd / fn
+
+    @staticmethod
+    def _cmd_output(cmd: Sequence[str], **kwargs: Any) -> str:
+        return (
+            subprocess.run(cmd, check=True, capture_output=True, **kwargs)
+            .stdout.decode()
+            .strip()
+        )
+
+
+if __name__ == "__main__":
+    KiCADMigrateLibraryReference().run()

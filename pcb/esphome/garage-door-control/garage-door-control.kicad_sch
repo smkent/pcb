@@ -1015,7 +1015,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+			(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:AHT20+BMP280"
+		(symbol "modules:AHT20+BMP280"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2009,7 +2009,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:AHT20+BMP280"
+			(property "Footprint" "modules:AHT20+BMP280"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -2132,7 +2132,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:ENS160+AHT2x"
+		(symbol "modules:ENS160+AHT2x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2152,7 +2152,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ENS160+AHT2x"
+			(property "Footprint" "modules:ENS160+AHT2x"
 				(at 0.635 9.525 0)
 				(effects
 					(font
@@ -7429,7 +7429,7 @@
 	)
 	(symbol
 		(lib_name "ESP32-C3-Super-Mini_1")
-		(lib_id "aliexpress:ESP32-C3-Super-Mini")
+		(lib_id "modules:ESP32-C3-Super-Mini")
 		(at 49.53 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7454,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 			(at 49.53 26.162 0)
 			(effects
 				(font
@@ -7606,7 +7606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:AHT20+BMP280")
+		(lib_id "modules:AHT20+BMP280")
 		(at 153.67 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7631,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:AHT20+BMP280-noholes"
+		(property "Footprint" "modules:AHT20+BMP280-noholes"
 			(at 153.67 83.82 0)
 			(effects
 				(font
@@ -7824,7 +7824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:ENS160+AHT2x")
+		(lib_id "modules:ENS160+AHT2x")
 		(at 153.67 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7849,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ENS160+AHT2x-noholes"
+		(property "Footprint" "modules:ENS160+AHT2x-noholes"
 			(at 154.305 111.125 0)
 			(effects
 				(font

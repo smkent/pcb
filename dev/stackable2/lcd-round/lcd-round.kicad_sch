@@ -1106,7 +1106,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:LCD-round-1.28in-GC9A01"
+		(symbol "modules:LCD-round-1.28in-GC9A01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1127,7 +1127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "aliexpress:GC9A01-screen-connector-pads"
+			(property "Footprint" "modules:GC9A01-screen-connector-pads"
 				(at 0.508 -6.096 0)
 				(effects
 					(font
@@ -3461,7 +3461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:LCD-round-1.28in-GC9A01")
+		(lib_id "modules:LCD-round-1.28in-GC9A01")
 		(at 132.08 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3488,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "aliexpress:GC9A01-screen-connector-pads"
+		(property "Footprint" "modules:GC9A01-screen-connector-pads"
 			(at 132.588 93.726 0)
 			(effects
 				(font

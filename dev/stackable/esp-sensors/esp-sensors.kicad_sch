@@ -2727,7 +2727,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:AHT20+BMP280"
+		(symbol "modules:AHT20+BMP280"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2747,7 +2747,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:AHT20+BMP280"
+			(property "Footprint" "modules:AHT20+BMP280"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -2870,7 +2870,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:BH1750"
+		(symbol "modules:BH1750"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2890,7 +2890,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:BH1750"
+			(property "Footprint" "modules:BH1750"
 				(at 0.635 8.255 0)
 				(effects
 					(font
@@ -3031,7 +3031,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:ENS160+AHT2x"
+		(symbol "modules:ENS160+AHT2x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3051,7 +3051,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ENS160+AHT2x"
+			(property "Footprint" "modules:ENS160+AHT2x"
 				(at 0.635 9.525 0)
 				(effects
 					(font
@@ -3246,7 +3246,7 @@
 				)
 			)
 		)
-		(symbol "aliexpress:ESP32-C3-Super-Mini"
+		(symbol "modules:ESP32-C3-Super-Mini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3266,7 +3266,7 @@
 					)
 				)
 			)
-			(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Pins"
+			(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -7891,7 +7891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:ESP32-C3-Super-Mini")
+		(lib_id "modules:ESP32-C3-Super-Mini")
 		(at 50.8 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7916,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aliexpress:ESP32-C3-Super-Mini-Castellated-SMD"
+		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD"
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -8266,7 +8266,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:ENS160+AHT2x")
+		(lib_id "modules:ENS160+AHT2x")
 		(at 157.48 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10761,7 +10761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:BH1750")
+		(lib_id "modules:BH1750")
 		(at 214.63 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10838,7 +10838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aliexpress:AHT20+BMP280")
+		(lib_id "modules:AHT20+BMP280")
 		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)

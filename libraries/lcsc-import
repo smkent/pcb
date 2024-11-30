@@ -11,6 +11,12 @@ cwd = Path(os.path.realpath(__file__)).parent
 ap = argparse.ArgumentParser()
 ap.add_argument("lcsc_id", metavar="lcsc-id", help="LCSC Part ID (ex. C12345)")
 ap.add_argument(
+    "library",
+    metavar="library",
+    default="lcsc",
+    help="Destination symbol library (default: %(default)s)",
+)
+ap.add_argument(
     "-f",
     "--footprint",
     dest="include_footprint",
@@ -38,7 +44,7 @@ cmd = [
     "--lcsc_id",
     args.lcsc_id,
     "--output",
-    str(cwd / "lcsc.kicad_sym"),
+    str(cwd / f"{args.library}.kicad_sym"),
 ]
 
 if args.include_footprint:
@@ -51,7 +57,7 @@ if args.include_symbol:
 print("+ {}".format(" ".join(cmd)), file=sys.stderr)
 subprocess.run(cmd)
 
-for fn in (cwd / "lcsc.pretty").glob("**/*.kicad_mod"):
+for fn in (cwd / f"{args.library}.pretty").glob("**/*.kicad_mod"):
     if str(cwd) in (content := fn.read_text()):
         content = content.replace(str(cwd), "${KIPRJMOD}/libraries")
         fn.write_text(content)
