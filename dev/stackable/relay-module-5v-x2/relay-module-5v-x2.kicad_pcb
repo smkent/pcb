@@ -5859,7 +5859,7 @@
 			(uuid "aa2a2589-31d9-457c-b060-839c0216fced")
 		)
 	)
-	(footprint "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "59ddeffe-3392-4c60-b40f-1a1181191743")
 		(at 120 106.5 180)
@@ -5888,7 +5888,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
