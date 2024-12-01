@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+AO3401A,"Q1,Q2",Package_TO_SOT_SMD:SOT-23,
+Conn_01x08,"J1,J2",custom:PinHeader_1x08_P2.54mm_Vertical_simple,
+C,"C1,C2",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+1K,"R1,R2",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+1EDN7550B,U2,Package_TO_SOT_SMD:SOT-23-6,
+TP4056,U1,custom:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias_CustomVias_Large,C16581
+LED,"LED1,LED2",custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple,
+XB6366D,U3,custom:DFN-6_L2.0-W2.0-P0.65-BL-EP_ThermalVias_HandSolder,C2760016
+Polyfuse,"F1,F2",Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,

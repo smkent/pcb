@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+1N4148WS,"D1,D2",custom:D_SOD-323_HandSoldering_simple,
+AO3401A,"Q1,Q2,Q3,Q4",Package_TO_SOT_SMD:SOT-23,C15127
+SW_SPDT,SW3,lcsc:SW-SMD_3P-P1.50_L2.7-W6.6,C2998803
+Conn_01x02,"JLEFT0,JLEFT1,JRIGHT0,JRIGHT1",custom:PinHeader_1x02_P2.54mm_Vertical_simple_pad2gnd,
+10K,"RN3,RN4",Resistor_SMD:R_Array_Convex_4x0603,
+2K2,"R6,R7",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+5K1,"RN1,RN2",Resistor_SMD:R_Array_Convex_4x0603,
+Barrel_Jack_Switch,"J1,J2",custom:Conn_Combo_DC-050_TerminalBlock_JST-XH-2P-horizontal-TH-or-SMD_compact,
+SW_SPDT,"SW1,SW2",custom:SW-TH_DEALON_SS-12D01-GX_simple,C2998803
+Polyfuse,"F1,F2",custom:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder_simple,
+LED,"D3,D4",custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple,
+USB_C_Receptacle_PowerOnly_6P,"J0,J4",custom:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_handsolder,

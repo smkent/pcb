@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,LCSC
+22u,"C1,C2",custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+100R,R3,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+~,SM1,modules:ESP32-C3-Super-Mini-Castellated-SMD,
+~,SM3,custom:PinSocket_1x08_P2.54mm_Horizontal_descending_simple,
+5K1,R1,custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple,
+WS2812B-2020,"LED2,LED3",lcsc:LED-SMD_4P-L2.0-W2.0-BR-1,
+JST SH,"J1,J2",connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,
+Blue,LED1,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+JST SH,J4,connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,
+JST SH,J3,connectors:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,
+JST XH/PH,J0,custom:Conn_Combo_JST-1x02-XH_PH-SMD-pad2gnd,
+10K,R2,custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple,
+10K,RN1,Resistor_SMD:R_Array_Convex_4x0603,
+~,SM4,custom:PinSocket_1x05_P2.54mm_Horizontal_simple,
+~,SM2,custom:PinSocket_1x04_P2.54mm_Horizontal_descending_simple,
+2N7002DW,Q1,Package_TO_SOT_SMD:SOT-23-6,C5190214
+TEMT6000X01,U1,custom:SENSORS-SMD_TEMT6000X01_HandSolder,C94098
+BSS138,Q2,Package_TO_SOT_SMD:SOT-23,
+10u,C3,custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+JST SH,J5,connectors:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,

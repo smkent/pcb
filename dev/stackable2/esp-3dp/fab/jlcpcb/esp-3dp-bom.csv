@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,LCSC
+22u,"C5,C6,C8",custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+5K1,"R0,R2",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+17K4,R12,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+100K,R1,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+WS2812B-2020,"PIX1,PIX2",lcsc:LED-SMD_4P-L2.0-W2.0-BR-1,
+10u,"C1,C2",custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+Barrel_Jack_Switch,"J0,J1",custom:DC-IN_DC-050-2.0-BB_rev2,
+100R,"R5,R6,R7,R11",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+~,SM1,modules:ESP32-C3-Super-Mini-Castellated-SMD-only,
+AMS1117-5.0,U2,Package_TO_SOT_SMD:SOT-223-3_TabPin2,
+0u1,"C3,C4",custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+DSK34W,D1,custom:D_SOD-123F_simple,
+KF2510,M1,connectors:FanPinHeader_1x04_P2.54mm_Horizontal,
+AO3401A,"Q3,Q4",Package_TO_SOT_SMD:SOT-23,
+2N7002DW,"Q1,Q2",Package_TO_SOT_SMD:SOT-363_SC-70-6,C5190214
+Pin headers,J6,custom:PinHeader_1x05_P2.54mm_Vertical_simple_pad1gnd,
+Qwiic,J5,connectors:Qwiic-SMD-horizontal-logo-bottom-pinout,
+LED_Small,LED1,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+22u,C13,custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+TPS54202DDCR,U1,Package_TO_SOT_SMD:SOT-23-6,C191884
+JST SH,"J2,J3",connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,
+10K,R14,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+JST XH/PH,J4,custom:Conn_Combo_JST-1x02-XH_PH-SMD-pad2gnd,
+22u,L1,lcsc:IND-SMD_L7.0-W6.6,C22471106
+10K,"RN1,RN2",Resistor_SMD:R_Array_Convex_4x0603,

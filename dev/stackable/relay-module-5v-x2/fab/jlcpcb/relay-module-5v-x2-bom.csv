@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+Pin Headers,J10,custom:PinHeader_1x04_P2.54mm_Vertical_simple_pad2gnd,
+Relay_SPDT,"K1,K2",Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C,
+100R,"R1,R2",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+10K,RN1,Resistor_SMD:R_Array_Convex_4x0603,
+LED,"LED0,LED1,LED2",custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple,
+1N4148WS,"D1,D2,D3,D4",custom:D_SOD-323_HandSoldering_simple,
+10K,R0,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+P5 or P3.5,"J1,J2",custom:Conn_Combo_TerminalBlock_P3.5-P5.08_JST-XH_1x03,
+2N7002DW,Q1,Package_TO_SOT_SMD:SOT-23-6,C5190214
+JST SH,J0,connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,
+Test Button,"SW1,SW2",lcsc:SW-SMD_BZCN_TSA002A35XXX,
+SW_SPDT_MountingPin,SW0,lcsc:SW-SMD_3P-P1.50_L2.7-W6.6,

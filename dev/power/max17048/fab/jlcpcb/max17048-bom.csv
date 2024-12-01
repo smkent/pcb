@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+White,LED3,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,C2286
+10K,"R2,R3,R4",custom:R_0603_1608Metric_simple,
+0u1,"C1,C2",custom:C_0603_1608Metric,
+100R,R1,custom:R_0603_1608Metric_simple,C25076
+Red,LED1,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,C2286
+5K1,RN1,Resistor_SMD:R_Array_Convex_4x0603,
+Qwiic,J1,connectors:Qwiic-SMD-horizontal-logo-bottom-pinout,
+Green,LED2,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,C2286
+JST / Screw terminal,"J2,J5",custom:Conn_Combo_TerminalBlock_JST-1x02-XH_PH-pad2gnd,
+Pink,LED4,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,C2286
+Pin headers,"J3,J4",custom:PinHeader_1x04_P2.54mm_Vertical_simple,
+AO3401A,Q1,custom:SOT-23_simple,
+XB3306D,U2,custom:SOT-23_simple,C2759992
+MAX17048,U1,custom:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm,C2682616

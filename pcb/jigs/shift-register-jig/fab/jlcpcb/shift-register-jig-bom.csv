@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+LED,"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple,
+Conn_01x02,"J1,J5",custom:PinHeader_1x02_P2.54mm_Vertical_simple_pad2gnd,
+1K,"RN1,RN2,RN3,RN4",Resistor_SMD:R_Array_Convex_4x0603,
+74HC595,"U1,U2",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,
+10K,R1,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+Conn_01x08,J2,custom:PinHeader_1x08_P2.54mm_Vertical_simple_pad2gnd,
