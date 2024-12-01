@@ -36,7 +36,7 @@ jobs:
         run: |
           apt update && apt install -y xvfb python3-wxgtk4.0
           python3 -m pip install --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
-          python3 -m pip install --upgrade scons
+          python3 -m pip install --upgrade scons pipx
           pipx install --system-side-packages InteractiveHtmlBom
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}"
 
