@@ -34,14 +34,16 @@ jobs:
       - name: 🛠️ Install tools
         shell: bash
         run: |
-          python3 -m pip install --upgrade scons
+          apt update && apt install -y xvfb
+          python3 -m pip install --upgrade pipx scons
+          pipx install --system-site-packages kikit InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
         env:
           CI: "true"
         run: |
-          scons -u
+          xvfb scons -u
 
       - name: 📦 Save artifacts
         uses: actions/upload-artifact@v3
