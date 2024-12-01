@@ -106,10 +106,10 @@ class MainBuilder:
             print(f"Resetting symlink {link}")
             link.symlink_to(target)
 
-        link_root = self.repo_libraries_path.relative_to(
-            board_dir.absolute(), walk_up=True
+        _set_link(
+            self._relpath(self.repo_libraries_path, board_dir),
+            board_dir / "libraries",
         )
-        _set_link(link_root, board_dir / "libraries")
         for lib in ["fp", "sym"]:
             lib_table_file_name = f"{lib}-lib-table"
             lib_link = board_dir / lib_table_file_name
@@ -120,7 +120,7 @@ class MainBuilder:
             for fn in board_dir.iterdir():
                 if not fn.is_file():
                     continue
-                yield Path(board_dir / fn)
+                yield Path(fn)
 
         expect_extensions = {
             ".kicad_pcb": "{board}.kicad_pcb",
@@ -129,6 +129,8 @@ class MainBuilder:
         }
         for path in _project_files():
             if fmt := expect_extensions.get(path.suffix):
+                if path.name.startswith("_autosave"):
+                    continue
                 if path.name != fmt.format(board=board_dir.name):
                     print(f"Extraneous file found: {path}")
 
@@ -144,6 +146,12 @@ class MainBuilder:
         if not quiet:
             print("+", " ".join(cmds), file=sys.stderr)
         return subprocess.run(cmds, *args, check=check, **kwargs)
+
+    @staticmethod
+    def _relpath(path: Path | str, start: Path | str) -> Path:
+        if sys.version_info >= (3, 12):
+            return path.absolute().relative_to(start.absolute(), walk_up=True)
+        return Path(os.path.relpath(path, start))
 
     def fab_jlcpcb(
         self,
