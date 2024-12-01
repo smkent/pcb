@@ -26,7 +26,9 @@ class MainBuilder:
 
     @functools.cached_property
     def env(self) -> SConsEnvironment:
-        env = DefaultEnvironment().Environment(ENV=self.env_vars)
+        env = DefaultEnvironment().Environment(
+            ENV=self.env_vars | {"PYTHONFAULTHANDLER": "1"}
+        )
         env["BUILDERS"]["schematic_pdf"] = Builder(
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
