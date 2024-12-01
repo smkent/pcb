@@ -19,10 +19,14 @@ class MainBuilder:
         return os.environ.get("CI", "") != ""
 
     @functools.cached_property
+    def env_vars(self) -> dict[str, str]:
+        if self.is_ci:
+            return os.environ
+        return {v: os.environ[v] for v in ["DISPLAY", "PATH"]}
+
+    @functools.cached_property
     def env(self) -> SConsEnvironment:
-        env = DefaultEnvironment().Environment(
-            ENV={v: os.environ[v] for v in ["DISPLAY", "PATH"]}
-        )
+        env = DefaultEnvironment().Environment(ENV=self.env_vars)
         env["BUILDERS"]["schematic_pdf"] = Builder(
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
