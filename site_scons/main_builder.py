@@ -32,6 +32,17 @@ class MainBuilder:
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
         env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
+        env["BUILDERS"]["html_bom"] = Builder(
+            action=(
+                "generate_interactive_bom"
+                " --no-browser"
+                " --include-tracks"
+                " --include-nets"
+                " --dest-dir=fab"
+                ' --name-format="%f-bom"'
+                " $SOURCE"
+            )
+        )
         env["BUILDERS"]["fab_jlcpcb"] = self._fab_jlcpcb_builder()
         return env
 
@@ -66,6 +77,7 @@ class MainBuilder:
         drc_target = bd / f"{bd.name}.rpt"
         schematic_pdf_target = fab_dir / f"{bd.name}-schematic.pdf"
         gerber_jlcpcb_target = fab_dir / "jlcpcb" / f"{bd.name}-gerbers.zip"
+        html_bom_target = fab_dir / f"{bd.name}-bom.html"
         if not pcb_source.is_file():
             return
         drc_output = self.env.drc(drc_target, pcb_source)
@@ -75,9 +87,12 @@ class MainBuilder:
         fab_jlcpcb_output = self.env.fab_jlcpcb(
             gerber_jlcpcb_target, pcb_source
         )
-        self.env.Depends(fab_jlcpcb_output, drc_output)
+        html_bom_output = self.env.html_bom(html_bom_target, pcb_source)
+        self.env.Depends([fab_jlcpcb_output, html_bom_output], drc_output)
         self.env.Alias("ci", [drc_output])
-        self.env.Alias("fab", [fab_jlcpcb_output, schematic_output])
+        self.env.Alias(
+            "fab", [fab_jlcpcb_output, schematic_output, html_bom_output]
+        )
         self.env.Default("fab")
 
     def start(self) -> None:
