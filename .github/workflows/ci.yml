@@ -28,7 +28,7 @@ jobs:
       - name: 🛠️ Install tools
         shell: bash
         run: |
-          apt update && apt install -y lsb-release python3-pip xvfb python3-wxgtk4.0 libsecret-1-0
+          apt update && apt install -y python3-pip xvfb
           python3 -m pip install --break-system-packages --upgrade scons kikit InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
