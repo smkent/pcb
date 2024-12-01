@@ -36,6 +36,7 @@ jobs:
         run: |
           apt update && apt install -y xvfb python3-wxgtk4.0
           python3 -m pip install --upgrade pipx scons
+          pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04 wxPython
           pipx install -v --system-site-packages InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
