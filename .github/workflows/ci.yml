@@ -10,7 +10,7 @@ on:
 
 jobs:
   Build:
-    name: Build KiCAD Projects
+    name: KiCAD PCBs
 
     strategy:
       matrix:
@@ -19,7 +19,7 @@ jobs:
 
     runs-on: ${{ matrix.os }}-latest
     container:
-      image: yaqwsx/kikit:latest
+      image: kicad/kicad:8.0
     steps:
       - name: 💾 Check out repository
         uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
         run: |
           apt update && apt install -y xvfb python3-wxgtk4.0 libsecret-1-0
           python3 -m pip install --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
-          python3 -m pip install --upgrade scons pipx InteractiveHtmlBom
+          python3 -m pip install --upgrade scons kikit InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
