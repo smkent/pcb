@@ -149,7 +149,6 @@ class MainBuilder:
                     target[0],
                 ]
             )
-            cls._run(["/bin/false"])
         except subprocess.CalledProcessError:
             if (target_path := Path(str(target[0]))).is_file():
                 print(target_path.read_text())
