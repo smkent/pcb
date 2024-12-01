@@ -25,11 +25,12 @@ jobs:
       - name: 💾 Check out repository
         uses: actions/checkout@v4
 
-      - name: 🛠️ Install tools
+      - name: 🛠️ Set up build environment
         shell: bash
         run: |
           apt update && apt install -y python3-pip xvfb
           python3 -m pip install --break-system-packages --upgrade scons kikit InteractiveHtmlBom
+          ln -snvf ~kicad/.config/kicad/8.0/*-lib-table /root/.config/kicad/8.0/
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
