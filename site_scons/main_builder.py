@@ -148,15 +148,14 @@ class MainBuilder:
                 print(target_path.read_text())
             raise
 
-    @classmethod
     def pcb_html_bom(
-        cls,
+        self,
         target: Sequence[SConsFile],
         source: Sequence[SConsFile],
         env: SConsEnvironment,
     ) -> None:
         try:
-            cls._run(
+            self._run(
                 [
                     "generate_interactive_bom",
                     "--no-browser",
@@ -168,7 +167,11 @@ class MainBuilder:
                 ]
             )
         except subprocess.CalledProcessError as e:
-            if e.returncode == -11 and Path(str(target[0])).is_file():
+            if (
+                self.is_ci
+                and e.returncode == -11
+                and Path(str(target[0])).is_file()
+            ):
                 print("Ignoring spurious segmentation fault")
                 return
             raise
