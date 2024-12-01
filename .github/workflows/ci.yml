@@ -29,8 +29,8 @@ jobs:
         shell: bash
         run: |
           apt update && apt install -y lsb-release python3-pip xvfb python3-wxgtk4.0 libsecret-1-0
-          python3 -m pip install --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
-          python3 -m pip install --upgrade scons kikit InteractiveHtmlBom
+          python3 -m pip install --break-system-packages --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
+          python3 -m pip install --break-system-packages --upgrade scons kikit InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
