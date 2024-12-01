@@ -35,16 +35,12 @@ class KiCADMigrateLibraryReference:
         return self.repo_root / "libraries"
 
     def run(self) -> None:
-        # Process footprints
-        dest_fp = self.libraries_path / f"{self.destination}.pretty"
-        for source in self.filename_matches(f"{self.source}.pretty"):
-            dest = dest_fp / self._migrate_name(source.name)
-            self._git_move(source, dest)
-        # Process 3D models
-        dest_fp = self.libraries_path / f"{self.destination}.3dshapes"
-        for source in self.filename_matches(f"{self.source}.3dshapes"):
-            dest = dest_fp / self._migrate_name(source.name)
-            self._git_move(source, dest)
+        # Process footprints and 3D models
+        for lib_type in ("pretty", "3dshapes"):
+            dest_fp = self.libraries_path / f"{self.destination}.{lib_type}"
+            for source in self.filename_matches(f"{self.source}.{lib_type}"):
+                dest = dest_fp / self._migrate_name(source.name)
+                self._git_move(source, dest)
         # Process 3D model references
         search_term_3d = f"{self.source}.3dshapes/{self.name}"
         replacement_3d = f"{self.destination}.3dshapes/{self.new_name}"
