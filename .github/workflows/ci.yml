@@ -34,9 +34,9 @@ jobs:
       - name: 🛠️ Install tools
         shell: bash
         run: |
-          apt update && apt install -y xvfb
+          apt update && apt install -y xvfb python3-wxgtk4.0
           python3 -m pip install --upgrade pipx scons
-          pipx install --system-site-packages kikit InteractiveHtmlBom
+          pipx install --system-site-packages InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
