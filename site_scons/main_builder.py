@@ -130,6 +130,8 @@ class MainBuilder:
                     "kicad-cli",
                     "pcb",
                     "drc",
+                    "--schematic-parity",
+                    "--severity-error",
                     "--exit-code-violations",
                     source[0],
                     "-o",
