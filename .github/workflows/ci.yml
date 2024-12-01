@@ -34,11 +34,9 @@ jobs:
       - name: 🛠️ Install tools
         shell: bash
         run: |
-          apt update && apt install -y xvfb python3-wxgtk4.0
+          apt update && apt install -y xvfb python3-wxgtk4.0 libsecret-1-0
           python3 -m pip install --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
-          python3 -m pip install --upgrade scons pipx
-          pipx install --system-site-packages InteractiveHtmlBom
-          echo "${HOME}/.local/bin" >> "${GITHUB_PATH}"
+          python3 -m pip install --upgrade scons pipx InteractiveHtmlBom
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
