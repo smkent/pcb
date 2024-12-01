@@ -66,13 +66,6 @@ class KiCADProjectRename:
                 in_dir / source_fn,
                 self.args.destination / dest_fn,
             ]
-        schematic_source = in_dir / f"{self.args.source.stem}-schematic.pdf"
-        if schematic_source.is_file():
-            schematic_dest = (
-                self.args.destination
-                / f"{self.args.destination.stem}-schematic.pdf"
-            )
-            yield [schematic_source, schematic_dest]
         if self.args.copy:
             for lib in ["fp", "sym"]:
                 lib_file = f"{lib}-lib-table"
