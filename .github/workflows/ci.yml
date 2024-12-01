@@ -10,31 +10,27 @@ on:
 
 jobs:
   Build:
-    name: Python ${{ matrix.python-version }}
+    name: KiCAD PCBs
 
     strategy:
       matrix:
         os:
           - Ubuntu
-        python-version:
-          - "3.12"
 
     runs-on: ${{ matrix.os }}-latest
     container:
-      image: yaqwsx/kikit:latest
+      image: kicad/kicad:8.0
+      options: --user root
     steps:
       - name: 💾 Check out repository
         uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: 🛠️ Install tools
+      - name: 🛠️ Set up build environment
         shell: bash
         run: |
-          python3 -m pip install --upgrade scons
+          apt update && apt install -y python3-pip
+          python3 -m pip install --break-system-packages --upgrade scons kikit
+          ln -snvf ~kicad/.config/kicad/8.0/*-lib-table /root/.config/kicad/8.0/
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
