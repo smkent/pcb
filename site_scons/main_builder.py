@@ -88,8 +88,8 @@ class MainBuilder:
             pcb_source,
             self.fab_jlcpcb,
         )
-        self.env.Depends(fab_jlcpcb_output, str(drc_target))
-        self.env.ibom(html_bom_target, pcb_source)
+        html_bom_output = self.env.ibom(html_bom_target, pcb_source)
+        self.env.Depends([fab_jlcpcb_output, html_bom_output], str(drc_target))
 
     def start(self) -> None:
         for bd in self.board_dirs:
