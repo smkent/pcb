@@ -44,7 +44,7 @@ jobs:
         env:
           CI: "true"
         run: |
-          xvfb scons -u
+          xvfb-run scons -u
 
       - name: 📦 Save artifacts
         uses: actions/upload-artifact@v3
