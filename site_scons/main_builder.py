@@ -163,12 +163,12 @@ class MainBuilder:
                     "--include-tracks",
                     "--include-nets",
                     "--dest-dir=",
-                    '--name-format="%f-bom"',
+                    "--name-format=%f-bom",
                     source[0],
                 ]
             )
         except subprocess.CalledProcessError as e:
-            if e.returncode == 139 and Path(str(target[0])).is_file():
+            if e.returncode == -11 and Path(str(target[0])).is_file():
                 print("Ignoring spurious segmentation fault")
                 return
             raise
