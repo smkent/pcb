@@ -38,7 +38,7 @@ jobs:
           python3 -m pip install --upgrade --find-links https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-"$(lsb_release -sr)" wxPython
           python3 -m pip install --upgrade scons pipx
           pipx install --system-site-packages InteractiveHtmlBom
-          echo "${HOME}/.local/bin" >> ${GITHUB_PATH}"
+          echo "${HOME}/.local/bin" >> "${GITHUB_PATH}"
 
       - name: 🏗️ Create PCB fabrication outputs
         shell: bash
