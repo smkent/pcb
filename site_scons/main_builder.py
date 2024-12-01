@@ -33,17 +33,7 @@ class MainBuilder:
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
         env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
-        env["BUILDERS"]["ibom"] = Builder(
-            action=(
-                "generate_interactive_bom"
-                " --no-browser"
-                " --include-tracks"
-                " --include-nets"
-                " --dest-dir="
-                ' --name-format="%f-bom"'
-                " $SOURCE"
-            )
-        )
+        env["BUILDERS"]["ibom"] = Builder(action=self.pcb_html_bom)
         env["BUILDERS"]["fab_jlcpcb"] = Builder(action=self.fab_jlcpcb)
         return env
 
@@ -156,6 +146,31 @@ class MainBuilder:
         except subprocess.CalledProcessError:
             if (target_path := Path(str(target[0]))).is_file():
                 print(target_path.read_text())
+            raise
+
+    @classmethod
+    def pcb_html_bom(
+        cls,
+        target: Sequence[SConsFile],
+        source: Sequence[SConsFile],
+        env: SConsEnvironment,
+    ) -> None:
+        try:
+            cls._run(
+                [
+                    "generate_interactive_bom",
+                    "--no-browser",
+                    "--include-tracks",
+                    "--include-nets",
+                    "--dest-dir=",
+                    '--name-format="%f-bom"',
+                    source[0],
+                ]
+            )
+        except subprocess.CalledProcessError as e:
+            if e.returncode == 139 and Path(str(target[0])).is_file():
+                print("Ignoring spurious segmentation fault")
+                return
             raise
 
     @classmethod
