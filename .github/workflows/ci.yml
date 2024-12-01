@@ -20,6 +20,7 @@ jobs:
     runs-on: ${{ matrix.os }}-latest
     container:
       image: kicad/kicad:8.0
+      options: --user root
     steps:
       - name: 💾 Check out repository
         uses: actions/checkout@v4
