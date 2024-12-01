@@ -1,5 +1,5 @@
 from main_builder import MainBuilder
 
-MainBuilder().build()
+MainBuilder().start()
 
 # vim: ft=python

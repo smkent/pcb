@@ -2,6 +2,33 @@
 
 A monorepository of my PCB designs created with [KiCAD][kicad].
 
+## Setup
+
+Ensure [pipx][pipx] is installed:
+
+```sh
+pip install pipx
+```
+
+Install [scons][scons]:
+
+```sh
+pipx install scons
+```
+
+Install KiCAD-related dependencies using the system site packages directory:
+
+```sh
+pipx install --system-site-packages kikit interactivehtmlbom
+```
+
+## Build
+
+To render all outputs, simply run `scons`.
+
+To render outputs for a particular board, run `scons -u` within that board's
+project subdirectory.
+
 ## Licenses
 
 Individual hardware designs in this repository may use different licenses.
@@ -37,3 +64,5 @@ easyeda2kicad][easyeda2kicad-post]
 [license-cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [license-cern-ohl-p-2.0]: https://ohwr.org/cern_ohl_p_v2.pdf
 [license-gpl-3.0]: https://www.gnu.org/licenses/gpl-3.0.html
+[pipx]: https://pipx.pypa.io
+[scons]: https://www.scons.org

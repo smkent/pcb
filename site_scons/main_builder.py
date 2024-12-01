@@ -6,6 +6,7 @@ from contextlib import suppress
 from pathlib import Path
 from typing import Any, Iterator, Sequence, Set
 
+from SCons.Builder import Builder
 from SCons.Defaults import DefaultEnvironment
 from SCons.Node.FS import File as SConsFile
 from SCons.Script import BUILD_TARGETS
@@ -18,8 +19,20 @@ class MainBuilder:
         return os.environ.get("CI", "") != ""
 
     @functools.cached_property
+    def env_vars(self) -> dict[str, str]:
+        if self.is_ci:
+            return os.environ
+        return {v: os.environ[v] for v in ["DISPLAY", "PATH"]}
+
+    @functools.cached_property
     def env(self) -> SConsEnvironment:
-        return DefaultEnvironment()
+        env = DefaultEnvironment().Environment(ENV=self.env_vars)
+        env["BUILDERS"]["schematic_pdf"] = Builder(
+            action="kicad-cli sch export pdf $SOURCE -o $TARGET"
+        )
+        env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
+        env["BUILDERS"]["fab_jlcpcb"] = Builder(action=self.fab_jlcpcb)
+        return env
 
     @functools.cached_property
     def board_dirs(self) -> Set[Path]:
@@ -38,7 +51,34 @@ class MainBuilder:
     def repo_libraries_path(self) -> Path:
         return Path(self.env.Dir("#").path) / "libraries"
 
-    def ensure_lib_table_links(self, board_dir: Path) -> None:
+    def _process_board(self, bd: Path) -> None:
+        self._ensure_lib_table_links(bd)
+        self._warn_extra_files(bd)
+        if "setup" in BUILD_TARGETS:
+            return
+        # Sources
+        pcb_source = bd / f"{bd.name}.kicad_pcb"
+        schematic_source = bd / f"{bd.name}.kicad_sch"
+        # Targets
+        drc_target = bd / f"{bd.name}.rpt"
+        if not pcb_source.is_file():
+            return
+
+        self.env.schematic_pdf(
+            f"{bd}/{bd.name}-schematic.pdf", schematic_source
+        )
+        self.env.drc(drc_target, pcb_source)
+        fab_jlcpcb_output = self.env.fab_jlcpcb(
+            f"{bd}/fab-jlcpcb/{bd.name}-gerbers.zip", pcb_source
+        )
+        self.env.Depends(fab_jlcpcb_output, str(drc_target))
+
+    def start(self) -> None:
+        for bd in self.board_dirs:
+            self._process_board(bd)
+        self.env.Alias("setup", [])
+
+    def _ensure_lib_table_links(self, board_dir: Path) -> None:
         def _set_link(target: Path, link: Path) -> None:
             with suppress(FileNotFoundError, OSError):
                 if link.readlink() == target:
@@ -48,21 +88,22 @@ class MainBuilder:
             print(f"Resetting symlink {link}")
             link.symlink_to(target)
 
-        link_root = self.repo_libraries_path.relative_to(
-            board_dir.absolute(), walk_up=True
+        _set_link(
+            self._relpath(self.repo_libraries_path, board_dir),
+            board_dir / "libraries",
         )
-        _set_link(link_root, board_dir / "libraries")
         for lib in ["fp", "sym"]:
             lib_table_file_name = f"{lib}-lib-table"
             lib_link = board_dir / lib_table_file_name
             _set_link(Path("libraries") / lib_table_file_name, lib_link)
 
-    def warn_extra_files(self, board_dir: Path) -> None:
+    @staticmethod
+    def _warn_extra_files(board_dir: Path) -> None:
         def _project_files() -> Iterator[Path]:
             for fn in board_dir.iterdir():
                 if not fn.is_file():
                     continue
-                yield Path(board_dir / fn)
+                yield Path(fn)
 
         expect_extensions = {
             ".kicad_pcb": "{board}.kicad_pcb",
@@ -71,74 +112,47 @@ class MainBuilder:
         }
         for path in _project_files():
             if fmt := expect_extensions.get(path.suffix):
+                if path.name.startswith("_autosave"):
+                    continue
                 if path.name != fmt.format(board=board_dir.name):
                     print(f"Extraneous file found: {path}")
 
-    def build(self) -> None:
-        for bd in self.board_dirs:
-            self.ensure_lib_table_links(bd)
-            self.warn_extra_files(bd)
-            if "setup" in BUILD_TARGETS:
-                continue
-            board_file = bd / f"{bd.name}.kicad_pcb"
-            schematic_file = bd / f"{bd.name}.kicad_sch"
-            if not board_file.is_file():
-                continue
-
-            self.env.Command(
-                f"{bd}/{bd.name}-schematic.pdf",
-                str(schematic_file),
-                self.render_schematic,
+    @classmethod
+    def pcb_design_rules_check(
+        cls,
+        target: Sequence[SConsFile],
+        source: Sequence[SConsFile],
+        env: SConsEnvironment,
+    ) -> None:
+        try:
+            cls._run(
+                [
+                    "kicad-cli",
+                    "pcb",
+                    "drc",
+                    "--schematic-parity",
+                    "--severity-error",
+                    "--exit-code-violations",
+                    source[0],
+                    "-o",
+                    target[0],
+                ]
             )
-            self.env.Command(
-                f"{bd}/fab-jlcpcb/gerbers.zip",
-                str(board_file),
-                self.render_board,
-            )
-        self.env.Alias("setup", [])
+        except subprocess.CalledProcessError:
+            if (target_path := Path(str(target[0]))).is_file():
+                print(target_path.read_text())
+            raise
 
-    def run(
-        self,
-        cmd: list,
-        *args: Any,
-        quiet: bool = False,
-        check: bool = True,
-        docker_only: bool = False,
-        **kwargs: Any,
-    ) -> subprocess.CompletedProcess:
-        def _docker_cmd() -> Sequence[str]:
-            c = ["docker", "run", "--rm"]
-            cexec = cmds.pop(0)
-            if cexec != "kikit":
-                c += ["--entrypoint", cexec]
-            c += [
-                "-v",
-                ".:/kikit",
-                "-v",
-                "{}:/usr/local/share/fonts".format(
-                    str(Path(self.env.Dir("#").path) / "fonts")
-                ),
-                "yaqwsx/kikit",
-            ]
-            return c
-
-        cmds = [str(c) for c in cmd]
-        if not self.is_ci:
-            cmds = _docker_cmd() + cmds
-        if not quiet:
-            print("+", " ".join(cmds), file=sys.stderr)
-        return subprocess.run(cmds, *args, check=check, **kwargs)
-
-    def render_board(
-        self,
+    @classmethod
+    def fab_jlcpcb(
+        cls,
         target: Sequence[SConsFile],
         source: Sequence[SConsFile],
         env: SConsEnvironment,
     ) -> None:
         board_dir = Path(source[0].path).parent
         fab_dir = Path(target[0].path).parent
-        self.run(["kikit", "drc", "run", source[0]])
-        self.run(
+        cls._run(
             [
                 "kikit",
                 "fab",
@@ -148,30 +162,20 @@ class MainBuilder:
                 "LCSC Part",
                 "--schematic",
                 (board_dir / f"{board_dir.name}.kicad_sch"),
+                "--nametemplate",
+                f"{board_dir.name}-{{}}",
                 source[0],
                 fab_dir,
             ]
         )
-        self.chown_project_dir(board_dir)
 
-    def render_schematic(
-        self,
-        target: Sequence[SConsFile],
-        source: Sequence[SConsFile],
-        env: SConsEnvironment,
-    ) -> None:
-        board_dir = Path(source[0].path).parent
-        self.run(
-            ["kicad-cli", "sch", "export", "pdf", source[0], "-o", target[0]]
-        )
-        self.chown_project_dir(board_dir)
+    @staticmethod
+    def _run(cmd: list, **kwargs: Any) -> subprocess.CompletedProcess:
+        kwargs.setdefault("check", True)
+        return subprocess.run([str(c) for c in cmd], **kwargs)
 
-    def chown_project_dir(self, board_dir: Path) -> None:
-        if not self.is_ci:
-            self.run(
-                [
-                    "/bin/sh",
-                    "-c",
-                    f"chown -R {os.getegid()}:{os.getegid()} {board_dir}",
-                ],
-            )
+    @staticmethod
+    def _relpath(path: Path | str, start: Path | str) -> Path:
+        if sys.version_info >= (3, 12):
+            return path.absolute().relative_to(start.absolute(), walk_up=True)
+        return Path(os.path.relpath(path, start))
