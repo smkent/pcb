@@ -30,11 +30,7 @@ class MainBuilder:
         env["BUILDERS"]["schematic_pdf"] = Builder(
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
-        env["BUILDERS"]["drc"] = Builder(
-            action=(
-                "kicad-cli pcb drc --exit-code-violations $SOURCE -o $TARGET"
-            )
-        )
+        env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
         env["BUILDERS"]["ibom"] = Builder(
             action=(
                 "generate_interactive_bom"
@@ -46,6 +42,7 @@ class MainBuilder:
                 " $SOURCE"
             )
         )
+        env["BUILDERS"]["fab_jlcpcb"] = Builder(action=self.fab_jlcpcb)
         return env
 
     @functools.cached_property
@@ -83,10 +80,8 @@ class MainBuilder:
             f"{bd}/{bd.name}-schematic.pdf", schematic_source
         )
         self.env.drc(drc_target, pcb_source)
-        fab_jlcpcb_output = self.env.Command(
-            f"{bd}/fab-jlcpcb/{bd.name}-fab_jlcpcb_output.zip",
-            pcb_source,
-            self.fab_jlcpcb,
+        fab_jlcpcb_output = self.env.fab_jlcpcb(
+            f"{bd}/fab-jlcpcb/{bd.name}-gerbers.zip", pcb_source
         )
         html_bom_output = self.env.ibom(html_bom_target, pcb_source)
         self.env.Depends([fab_jlcpcb_output, html_bom_output], str(drc_target))
@@ -115,7 +110,8 @@ class MainBuilder:
             lib_link = board_dir / lib_table_file_name
             _set_link(Path("libraries") / lib_table_file_name, lib_link)
 
-    def _warn_extra_files(self, board_dir: Path) -> None:
+    @staticmethod
+    def _warn_extra_files(board_dir: Path) -> None:
         def _project_files() -> Iterator[Path]:
             for fn in board_dir.iterdir():
                 if not fn.is_file():
@@ -134,34 +130,41 @@ class MainBuilder:
                 if path.name != fmt.format(board=board_dir.name):
                     print(f"Extraneous file found: {path}")
 
-    def _run(
-        self,
-        cmd: list,
-        *args: Any,
-        quiet: bool = False,
-        check: bool = True,
-        **kwargs: Any,
-    ) -> subprocess.CompletedProcess:
-        cmds = [str(c) for c in cmd]
-        if not quiet:
-            print("+", " ".join(cmds), file=sys.stderr)
-        return subprocess.run(cmds, *args, check=check, **kwargs)
+    @classmethod
+    def pcb_design_rules_check(
+        cls,
+        target: Sequence[SConsFile],
+        source: Sequence[SConsFile],
+        env: SConsEnvironment,
+    ) -> None:
+        try:
+            cls._run(
+                [
+                    "kicad-cli",
+                    "pcb",
+                    "drc",
+                    "--exit-code-violations",
+                    source[0],
+                    "-o",
+                    target[0],
+                ]
+            )
+            cls._run(["/bin/false"])
+        except subprocess.CalledProcessError:
+            if (target_path := Path(str(target[0]))).is_file():
+                print(target_path.read_text())
+            raise
 
-    @staticmethod
-    def _relpath(path: Path | str, start: Path | str) -> Path:
-        if sys.version_info >= (3, 12):
-            return path.absolute().relative_to(start.absolute(), walk_up=True)
-        return Path(os.path.relpath(path, start))
-
+    @classmethod
     def fab_jlcpcb(
-        self,
+        cls,
         target: Sequence[SConsFile],
         source: Sequence[SConsFile],
         env: SConsEnvironment,
     ) -> None:
         board_dir = Path(source[0].path).parent
         fab_dir = Path(target[0].path).parent
-        self._run(
+        cls._run(
             [
                 "kikit",
                 "fab",
@@ -177,3 +180,14 @@ class MainBuilder:
                 fab_dir,
             ]
         )
+
+    @staticmethod
+    def _run(cmd: list, **kwargs: Any) -> subprocess.CompletedProcess:
+        kwargs.setdefault("check", True)
+        return subprocess.run([str(c) for c in cmd], **kwargs)
+
+    @staticmethod
+    def _relpath(path: Path | str, start: Path | str) -> Path:
+        if sys.version_info >= (3, 12):
+            return path.absolute().relative_to(start.absolute(), walk_up=True)
+        return Path(os.path.relpath(path, start))
