@@ -29,7 +29,7 @@ class MakePublishDirectory:
                 if self.args.pretend:
                     print("Copy {copy_file} -> {dest_file}")
                 else:
-                    shutil.copy(copy_file, dest_file)
+                    shutil.copy2(copy_file, dest_file)
 
     def kicad_projects(self) -> Iterator[Path]:
         for fn in Path().glob("**/*.kicad_pro"):
