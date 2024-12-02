@@ -6454,7 +6454,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "F.Cu")
 		(uuid "8ea760c0-40ae-4979-8a6f-d7f1d51feead")
 		(at 105 69.25 -90)
@@ -6481,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
