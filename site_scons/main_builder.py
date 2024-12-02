@@ -86,7 +86,8 @@ class MainBuilder:
         html_bom_output = self.env.html_bom(html_bom_target, pcb_source)
         self.env.Depends([fab_jlcpcb_output, html_bom_output], drc_output)
         self.env.Depends([html_bom_output], netlist_output)
-        self.env.Alias("ci", [drc_output])
+        if "pcb-archived" not in bd.parts:
+            self.env.Alias("ci", [drc_output])
         self.env.Alias(
             "fab", [fab_jlcpcb_output, schematic_output, html_bom_output]
         )
@@ -96,6 +97,7 @@ class MainBuilder:
         for bd in self.board_dirs:
             self._process_board(bd)
         self.env.Alias("setup", [])
+        self.env.Alias("ci", [])
 
     def _ensure_lib_table_links(self, board_dir: Path) -> None:
         def _set_link(target: Path, link: Path) -> None:
