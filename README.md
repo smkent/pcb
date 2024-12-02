@@ -4,8 +4,8 @@ A monorepository of my PCB designs created with [KiCAD][kicad] 8.
 
 ## Layout and Workflow
 
-Custom symbols and footprints are located in [`libraries`], which is shared
-between PCB projects using [`${KIPRJMOD}`][docs-kiprjmod].
+Custom symbols and footprints are located in [`libraries`][dir-libraries], which
+is shared between PCB projects using [`${KIPRJMOD}`][docs-kiprjmod].
 
 Individual PCB projects (e.g. `*.kicad_pro` and friends) are located within
 subdirectories, typically within [`dev`][dir-dev] or [`pcb`][dir-pcb].
@@ -65,6 +65,7 @@ easyeda2kicad][easyeda2kicad-post]
 
 
 [dir-dev]: /dev
+[dir-libraries]: /libraries
 [dir-pcb]: /pcb
 [docs-kiprjmod]: https://docs.kicad.org/8.0/it/pcbnew/pcbnew_footprints_and_libraries.html#fp-path-variable-substitution
 [easyeda2kicad-post]: https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/
