@@ -34,6 +34,9 @@ class MainBuilder:
         env["BUILDERS"]["schematic_netlist"] = Builder(
             action="kicad-cli sch export netlist $SOURCE -o $TARGET"
         )
+        env["BUILDERS"]["erc"] = Builder(
+            action=self.schematic_electrical_rules_check
+        )
         env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
         env["BUILDERS"]["html_bom"] = Builder(action=self.html_bom)
         env["BUILDERS"]["fab_jlcpcb"] = self._fab_jlcpcb_builder()
@@ -67,6 +70,7 @@ class MainBuilder:
         pcb_source = bd / f"{bd.name}.kicad_pcb"
         schematic_source = bd / f"{bd.name}.kicad_sch"
         # Targets
+        erc_target = bd / f"{bd.name}.erc.rpt"
         drc_target = bd / f"{bd.name}.rpt"
         netlist_target = bd / f"{bd.name}.net"
         schematic_pdf_target = fab_dir / f"{bd.name}-schematic.pdf"
@@ -74,6 +78,7 @@ class MainBuilder:
         html_bom_target = fab_dir / f"{bd.name}-bom.html"
         if not pcb_source.is_file():
             return
+        erc_output = self.env.drc(erc_target, pcb_source)
         drc_output = self.env.drc(drc_target, pcb_source)
         schematic_output = self.env.schematic_pdf(
             schematic_pdf_target, schematic_source
@@ -93,7 +98,8 @@ class MainBuilder:
                 [fab_jlcpcb_output, schematic_output, html_bom_output],
             )
         else:
-            self.env.Alias("ci", [drc_output])
+            self.env.Alias("erc", [erc_output])
+            self.env.Alias("drc", [drc_output])
             self.env.Alias(
                 "fab", [fab_jlcpcb_output, schematic_output, html_bom_output]
             )
@@ -101,8 +107,9 @@ class MainBuilder:
     def start(self) -> None:
         for bd in self.board_dirs:
             self._process_board(bd)
-        for alias in ["ci", "setup", "fab", "fab-archived"]:
+        for alias in ["drc", "erc", "setup", "fab", "fab-archived"]:
             self.env.Alias(alias, [])
+        self.env.Alias("ci", ["drc"])
         self.env.Default("fab")
 
     def _ensure_lib_table_links(self, board_dir: Path) -> None:
@@ -143,6 +150,30 @@ class MainBuilder:
                     continue
                 if path.name != fmt.format(board=board_dir.name):
                     print(f"Extraneous file found: {path}")
+
+    @classmethod
+    def schematic_electrical_rules_check(
+        cls,
+        target: Sequence[SConsFile],
+        source: Sequence[SConsFile],
+        env: SConsEnvironment,
+    ) -> None:
+        try:
+            cls._run(
+                [
+                    "kicad-cli",
+                    "sch",
+                    "erc",
+                    "--exit-code-violations",
+                    source[0],
+                    "-o",
+                    target[0],
+                ]
+            )
+        except subprocess.CalledProcessError:
+            if (target_path := Path(str(target[0]))).is_file():
+                print(target_path.read_text())
+            raise
 
     @classmethod
     def pcb_design_rules_check(
