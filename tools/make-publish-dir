@@ -10,15 +10,19 @@ from typing import Any, Iterator, Sequence
 
 
 class MakePublishDirectory:
+    def convert_path(self, path: Path) -> Path:
+        project_dir_name = "__".join(path.parts[1:])
+        if path.parts[0] == "pcb-archived":
+            return Path(os.sep.join(["archived", project_dir_name]))
+        return Path(project_dir_name)
+
     def run(self) -> None:
         if not self.args.pretend:
             self.args.output.mkdir(exist_ok=True)
         for project_path in self.kicad_projects():
-            dest_dir = self.args.output / Path(
-                str(project_path).replace(os.sep, "__")
-            )
+            dest_dir = self.args.output / self.convert_path(project_path)
             if not self.args.pretend:
-                dest_dir.mkdir(exist_ok=True)
+                dest_dir.mkdir(exist_ok=True, parents=True)
             html_bom = project_path / "fab" / f"{project_path.name}-bom.html"
             schematic_pdf = (
                 project_path / "fab" / f"{project_path.name}-schematic.pdf"
@@ -27,7 +31,7 @@ class MakePublishDirectory:
             for copy_file in [html_bom, schematic_pdf]:
                 dest_file = dest_dir / copy_file.name
                 if self.args.pretend:
-                    print("Copy {copy_file} -> {dest_file}")
+                    print(f"Copy {copy_file} -> {dest_file}")
                 else:
                     shutil.copy2(copy_file, dest_file)
 
