@@ -26,12 +26,15 @@ class MainBuilder:
 
     @functools.cached_property
     def env(self) -> SConsEnvironment:
-
         env = DefaultEnvironment().Environment(ENV=self.env_vars)
         env["BUILDERS"]["schematic_pdf"] = Builder(
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
+        env["BUILDERS"]["schematic_netlist"] = Builder(
+            action="kicad-cli sch export netlist $SOURCE -o $TARGET"
+        )
         env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
+        env["BUILDERS"]["html_bom"] = Builder(action=self.html_bom)
         env["BUILDERS"]["fab_jlcpcb"] = self._fab_jlcpcb_builder()
         return env
 
@@ -64,20 +67,29 @@ class MainBuilder:
         schematic_source = bd / f"{bd.name}.kicad_sch"
         # Targets
         drc_target = bd / f"{bd.name}.rpt"
+        netlist_target = bd / f"{bd.name}.net"
         schematic_pdf_target = fab_dir / f"{bd.name}-schematic.pdf"
         gerber_jlcpcb_target = fab_dir / "jlcpcb" / f"{bd.name}-gerbers.zip"
+        html_bom_target = fab_dir / f"{bd.name}-bom.html"
         if not pcb_source.is_file():
             return
         drc_output = self.env.drc(drc_target, pcb_source)
         schematic_output = self.env.schematic_pdf(
             schematic_pdf_target, schematic_source
         )
+        netlist_output = self.env.schematic_netlist(
+            netlist_target, schematic_source
+        )
         fab_jlcpcb_output = self.env.fab_jlcpcb(
             gerber_jlcpcb_target, pcb_source
         )
-        self.env.Depends(fab_jlcpcb_output, drc_output)
+        html_bom_output = self.env.html_bom(html_bom_target, pcb_source)
+        self.env.Depends([fab_jlcpcb_output, html_bom_output], drc_output)
+        self.env.Depends([html_bom_output], netlist_output)
         self.env.Alias("ci", [drc_output])
-        self.env.Alias("fab", [fab_jlcpcb_output, schematic_output])
+        self.env.Alias(
+            "fab", [fab_jlcpcb_output, schematic_output, html_bom_output]
+        )
         self.env.Default("fab")
 
     def start(self) -> None:
@@ -164,6 +176,32 @@ class MainBuilder:
             return target, source
 
         return Builder(action=cls.fab_jlcpcb, emitter=_fab_jlcpcb_emitter)
+
+    @classmethod
+    def html_bom(
+        cls,
+        target: Sequence[SConsFile],
+        source: Sequence[SConsFile],
+        env: SConsEnvironment,
+    ) -> None:
+        netlist_path = Path(source[0].path).with_suffix(".net")
+        add_fields = [
+            f for f in ["LCSC Part"] if f'"{f}"' in netlist_path.read_text()
+        ]
+        cls._run(
+            [
+                "generate_interactive_bom",
+                "--no-browser",
+                "--dark-mode",
+                "--include-tracks",
+                "--include-nets",
+                "--dest-dir=fab",
+                "--name-format=%f-bom",
+                f"--extra-fields={','.join(add_fields)}",
+                f"--netlist-file={netlist_path}",
+                source[0],
+            ]
+        )
 
     @classmethod
     def fab_jlcpcb(
