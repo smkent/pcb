@@ -10579,7 +10579,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
+	(footprint "packages:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
 		(layer "F.Cu")
 		(uuid "c3d93865-ed01-452a-bae2-241012c291d8")
 		(at 160 136.5 -90)
@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
+		(property "Footprint" "packages:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
