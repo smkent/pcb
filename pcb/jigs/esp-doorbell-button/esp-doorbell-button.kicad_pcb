@@ -2588,7 +2588,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "c862fc7b-b79e-4922-8d6b-311652efa94a")
 		(at 138 105.05 180)
@@ -2615,7 +2615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
