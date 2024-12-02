@@ -2561,7 +2561,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 1.79946 -1.45803) (xy 1.842711 -1.471245) (xy 1.870558 -1.487941) (xy 1.879629 -1.501145) (xy 1.877132 -1.516797)
