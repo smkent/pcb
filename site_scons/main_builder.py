@@ -96,13 +96,13 @@ class MainBuilder:
             self.env.Alias(
                 "fab", [fab_jlcpcb_output, schematic_output, html_bom_output]
             )
-        self.env.Default("fab")
 
     def start(self) -> None:
         for bd in self.board_dirs:
             self._process_board(bd)
         for alias in ["ci", "setup", "fab", "fab-archived"]:
             self.env.Alias(alias, [])
+        self.env.Default("fab")
 
     def _ensure_lib_table_links(self, board_dir: Path) -> None:
         def _set_link(target: Path, link: Path) -> None:
