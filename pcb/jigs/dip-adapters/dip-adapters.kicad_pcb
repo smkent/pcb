@@ -135,6 +135,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -147,6 +148,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -159,6 +161,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -346,6 +349,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -358,6 +362,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -370,6 +375,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -561,6 +567,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -573,6 +580,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -585,6 +593,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -741,7 +750,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5db67841-6724-4fe1-bbb7-38a8e789bcdd")
@@ -753,7 +762,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "c2683886-3f3b-42fd-b3e1-a83d02fa160f")
 			(effects
@@ -772,6 +781,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -784,6 +794,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -796,6 +807,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -947,7 +959,7 @@
 			(uuid "bee15fd9-f145-451e-aeea-498c60142a8e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e95aa595-e43a-441f-bbe2-3b688b499a62")
 			(effects
@@ -1006,7 +1018,7 @@
 		(descr "SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7547e94-505c-4344-bc1a-35a14e2bd9ca")
@@ -1018,7 +1030,7 @@
 			)
 		)
 		(property "Value" "TP4056"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "d3bf194a-cba6-4bbb-a36d-82e21b8f03b0")
 			(effects
@@ -1037,6 +1049,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1049,6 +1062,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1061,6 +1075,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1197,7 +1212,7 @@
 			(uuid "70137bfd-3788-4b3b-b143-60ecd113db83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d9875729-e9db-45bc-a00f-2656e9bc98a1")
 			(effects
@@ -1448,6 +1463,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1460,6 +1476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1472,6 +1489,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1661,6 +1679,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1674,6 +1693,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1687,6 +1707,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1845,7 +1866,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "LED2"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "9f39f092-959a-454e-a145-814cb9f65b07")
@@ -1858,7 +1879,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "b4022c7a-7ca8-4578-a1f2-b6130b622e10")
 			(effects
@@ -1878,6 +1899,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1891,6 +1913,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1904,6 +1927,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2016,7 +2040,7 @@
 			(uuid "64b5e72a-f060-4500-ab54-53c239ef424a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c03cb62c-db38-4ff1-b365-978cfdd28151")
 			(effects
@@ -2097,6 +2121,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2110,6 +2135,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2123,6 +2149,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2432,6 +2459,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2445,6 +2473,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2458,6 +2487,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2648,6 +2678,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2661,6 +2692,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2674,6 +2706,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2925,6 +2958,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2938,6 +2972,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2951,6 +2986,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3195,6 +3231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3208,6 +3245,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3221,6 +3259,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3472,6 +3511,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3485,6 +3525,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3498,6 +3539,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3653,13 +3695,13 @@
 		(layer "B.Cu")
 		(uuid "e97d5313-5ec3-4a67-8007-aabb14e23e89")
 		(at 148.59 99.888 180)
-		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "SOT, 6 Pin (~), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
 			(at 0 2.4 180)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ad778ce2-1e47-40a1-a666-08f624416c6b")
+			(uuid "6f3a503e-0907-40fa-95e1-e31576ee065a")
 			(effects
 				(font
 					(size 1 1)
@@ -3671,7 +3713,7 @@
 		(property "Value" "1EDN7550B"
 			(at 0 -2.4 180)
 			(layer "B.Fab")
-			(uuid "4cc6dc4f-e95c-4241-9f12-46723d4a2e01")
+			(uuid "6fa544f7-bfb1-4da9-a1f5-f7ddf0e0e61c")
 			(effects
 				(font
 					(size 1 1)
@@ -3685,10 +3727,11 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab690a78-371b-4ee7-84cf-d82d6291572b")
+			(uuid "4798d005-f19d-4993-ba07-cebcf4b612ea")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3698,10 +3741,11 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e05dea61-71a0-4e22-a4e9-7795cf65494b")
+			(uuid "d31aa1d0-60ab-4a0f-bcc6-35a7a1e8b0b1")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3711,10 +3755,11 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2cb1b79a-b7dd-4f5c-a9bb-0a7996d5c84d")
+			(uuid "fb63f7c6-5990-4eb9-925d-f2da0508e677")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3732,7 +3777,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4484ec22-42fe-46af-a53b-4f63446eee59")
+			(uuid "0103feea-598b-478b-91c3-a2c868c8b8b6")
 		)
 		(fp_line
 			(start 0.8 -1.56)
@@ -3742,7 +3787,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5e9d5fab-c184-4b23-a652-78bb25d17f00")
+			(uuid "af699aed-3d0d-4249-aa60-1af0873043ca")
 		)
 		(fp_line
 			(start -0.8 1.56)
@@ -3752,7 +3797,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d6697368-8267-4cb9-8f48-4693614fdd8a")
+			(uuid "ae3e1a40-5afb-4187-ad10-f9143ce36b71")
 		)
 		(fp_line
 			(start -0.8 -1.56)
@@ -3762,7 +3807,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ed08531b-bb1f-44a9-bd1e-ca6bfe05fae2")
+			(uuid "deb6249d-6af3-4d34-aeac-4ab4653e9f12")
 		)
 		(fp_poly
 			(pts
@@ -3774,7 +3819,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "9d307c5e-0d50-44c2-b754-c1cb9e5da177")
+			(uuid "7c839c70-da7e-4889-b6e1-bcfcb109fee4")
 		)
 		(fp_line
 			(start 2.05 1.7)
@@ -3784,7 +3829,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a2a6737f-f45c-41ad-b4e8-736cd4984dca")
+			(uuid "2aea2c97-312c-4281-a2ee-bc23443059e2")
 		)
 		(fp_line
 			(start 2.05 -1.7)
@@ -3794,7 +3839,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7fc8a13f-72b3-4642-824b-0ac4f444862d")
+			(uuid "333921ab-b415-426f-bee5-534a314c374f")
 		)
 		(fp_line
 			(start -2.05 1.7)
@@ -3804,7 +3849,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "742443c4-9b09-4692-960c-046fa4de7df7")
+			(uuid "c0d653c1-a265-4081-8b86-e90282bad70d")
 		)
 		(fp_line
 			(start -2.05 -1.7)
@@ -3814,7 +3859,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ca9833da-b848-44d4-aca9-9ea20e8cd3dd")
+			(uuid "ed27c60e-e6aa-40b5-bf4d-54bf641035b0")
 		)
 		(fp_line
 			(start 0.8 1.45)
@@ -3824,7 +3869,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "1fc4cdc5-b4a8-4ed1-99c9-b6bc82ea3ebe")
+			(uuid "79b386d5-8aa7-4e82-8eb2-b0c9edf712cd")
 		)
 		(fp_line
 			(start 0.8 -1.45)
@@ -3834,7 +3879,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a630fe25-a855-43ee-93cc-ec8571df87ac")
+			(uuid "ab716413-87e6-4f46-86d5-5628d5a6c514")
 		)
 		(fp_line
 			(start -0.4 1.45)
@@ -3844,7 +3889,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a191b091-e25d-4b86-ac48-f0b6355eec0c")
+			(uuid "f31d680a-029b-42bb-a6b6-125ca6e9b69d")
 		)
 		(fp_line
 			(start -0.8 1.05)
@@ -3854,7 +3899,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b61196c2-e36d-495e-b8c7-134e1865136c")
+			(uuid "b71c4591-1730-4ea0-8fde-7a959d7eb3e3")
 		)
 		(fp_line
 			(start -0.8 -1.45)
@@ -3864,12 +3909,12 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3a9728b8-5f11-483d-a1ed-9472fe58afc0")
+			(uuid "eb5223ad-53f9-44a1-8f07-4d2875c78ea5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "B.Fab")
-			(uuid "84b73672-b8c1-4258-8a88-c240c9b5e123")
+			(uuid "8aa36726-fb4b-4de0-bb29-d2b836b1ae96")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3886,7 +3931,7 @@
 			(net 11 "8")
 			(pinfunction "IN-")
 			(pintype "input")
-			(uuid "5758d696-b558-4768-89c2-814a7f492b3c")
+			(uuid "ef568f90-caf4-41f2-a33d-3d9b7e3218c9")
 		)
 		(pad "2" smd roundrect
 			(at -1.1375 0 180)
@@ -3896,7 +3941,7 @@
 			(net 12 "7")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "27e0d5c4-362d-4c2f-b4a8-e18a1472415d")
+			(uuid "8e9904df-5019-4133-9185-a96037e9e54c")
 		)
 		(pad "3" smd roundrect
 			(at -1.1375 -0.95 180)
@@ -3906,7 +3951,7 @@
 			(net 9 "6")
 			(pinfunction "IN+")
 			(pintype "input")
-			(uuid "df9027eb-c49d-49ed-a27e-85ccca094270")
+			(uuid "6925a3a5-7c69-4e0a-a272-93d1375ea404")
 		)
 		(pad "4" smd roundrect
 			(at 1.1375 -0.95 180)
@@ -3916,7 +3961,7 @@
 			(net 6 "3")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "91762abc-9bfa-4c98-87ad-7a824573a7de")
+			(uuid "e535c903-5888-4d0c-a88a-79f4a13dba76")
 		)
 		(pad "5" smd roundrect
 			(at 1.1375 0 180)
@@ -3926,7 +3971,7 @@
 			(net 7 "2")
 			(pinfunction "OUT_SRC")
 			(pintype "output")
-			(uuid "0fd313fb-f8d7-4fd9-a675-0d1b4881448f")
+			(uuid "dcf0cc7d-57f4-4fc1-8c7f-f4a6c48db43c")
 		)
 		(pad "6" smd roundrect
 			(at 1.1375 0.95 180)
@@ -3936,7 +3981,7 @@
 			(net 4 "1")
 			(pinfunction "OUT_SNK")
 			(pintype "output")
-			(uuid "ebdf885c-67aa-4ebf-a0c5-8d738bb4822b")
+			(uuid "a957651a-bd6a-4c0d-9fc6-99c07d0e8ab2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
 			(offset
