@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import shutil
+import subprocess
+from functools import cached_property
+from pathlib import Path
+from typing import Any, Iterator, Sequence
+
+
+class MakePublishDirectory:
+    def run(self) -> None:
+        if not self.args.pretend:
+            self.args.output.mkdir(exist_ok=True)
+        for project_path in self.kicad_projects():
+            dest_dir = self.args.output / Path(
+                str(project_path).replace(os.sep, "__")
+            )
+            if not self.args.pretend:
+                dest_dir.mkdir(exist_ok=True)
+            html_bom = project_path / "fab" / f"{project_path.name}-bom.html"
+            schematic_pdf = (
+                project_path / "fab" / f"{project_path.name}-schematic.pdf"
+            )
+            print(project_path, dest_dir, html_bom, schematic_pdf)
+            for copy_file in [html_bom, schematic_pdf]:
+                dest_file = dest_dir / copy_file.name
+                if self.args.pretend:
+                    print("Copy {copy_file} -> {dest_file}")
+                else:
+                    shutil.copy(copy_file, dest_file)
+
+    def kicad_projects(self) -> Iterator[Path]:
+        for fn in Path().glob("**/*.kicad_pro"):
+            if str(fn.absolute()).startswith(str(self.args.output.absolute())):
+                continue
+            if "_template" in fn.parts:
+                continue
+            yield fn.parent
+
+    @cached_property
+    def args(self) -> argparse.Namespace:
+        ap = argparse.ArgumentParser(
+            "Create a site listing directory with fab outputs"
+        )
+        ap.add_argument("output", help="Output directory name", type=Path)
+        ap.add_argument(
+            "-p",
+            "--pretend",
+            "--dry-run",
+            dest="pretend",
+            action="store_true",
+            help="Pretend only",
+        )
+        os.chdir(self.repo_root)
+        return ap.parse_args()
+
+    @cached_property
+    def repo_root(self) -> Path:
+        return Path(self._cmd_output(["git", "rev-parse", "--show-toplevel"]))
+
+    @staticmethod
+    def _cmd_output(cmd: Sequence[str], **kwargs: Any) -> str:
+        return (
+            subprocess.run(cmd, check=True, capture_output=True, **kwargs)
+            .stdout.decode()
+            .strip()
+        )
+
+
+if __name__ == "__main__":
+    MakePublishDirectory().run()
