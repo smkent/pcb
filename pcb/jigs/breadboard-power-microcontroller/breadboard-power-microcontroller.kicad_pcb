@@ -3606,7 +3606,7 @@
 			)
 		)
 	)
-	(footprint "custom:D_SMA_simple"
+	(footprint "passives:D_SMA"
 		(layer "F.Cu")
 		(uuid "93e34d92-03ca-4f2f-84c3-a0ae09371c77")
 		(at 226.7362 80.264 -90)
@@ -3635,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:D_SMA_simple"
+		(property "Footprint" "passives:D_SMA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

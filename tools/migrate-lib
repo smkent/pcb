@@ -93,7 +93,16 @@ class KiCADMigrateLibraryReference:
         if self.args.exact:
             search += '"'
         with suppress(subprocess.CalledProcessError):
-            cmd = ["git", "grep", "-I", "--name-only", search, "--"]
+            cmd = [
+                "git",
+                "grep",
+                "-I",
+                "--name-only",
+                search,
+                "--",
+                "pcb",
+                "libraries",
+            ]
             for fn in self._cmd_output(cmd).splitlines():
                 path = Path(fn)
                 if "fab" in path.parts:
@@ -131,6 +140,7 @@ class KiCADMigrateLibraryReference:
             path.write_text(path.read_text().replace(search, replace))
 
     def _git_move(self, source: Path, dest: Path) -> None:
+        dest.parent.mkdir(exist_ok=True)
         cmd = ["git", "mv", source, dest]
         if self.args.pretend:
             cmd = ["echo"] + cmd

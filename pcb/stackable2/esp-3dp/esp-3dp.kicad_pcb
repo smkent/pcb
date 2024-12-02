@@ -4949,7 +4949,7 @@
 			)
 		)
 	)
-	(footprint "custom:D_SOD-123F_simple"
+	(footprint "passives:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "923652ba-deed-4574-abec-c7030c171afa")
 		(at 96.25 57.25 -90)
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:D_SOD-123F_simple"
+		(property "Footprint" "passives:D_SOD-123F"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

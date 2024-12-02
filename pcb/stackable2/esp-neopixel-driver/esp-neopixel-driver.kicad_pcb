@@ -847,7 +847,7 @@
 			)
 		)
 	)
-	(footprint "custom:SOT-23_simple"
+	(footprint "packages:SOT-23"
 		(layer "F.Cu")
 		(uuid "312a54ce-bf53-4630-acef-8c154af00085")
 		(at 117.5 74.25)
@@ -876,7 +876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-23_simple"
+		(property "Footprint" "packages:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1349,7 +1349,7 @@
 			)
 		)
 	)
-	(footprint "custom:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
+	(footprint "packages:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "378800c6-2442-451f-8629-aded8e123bf8")
 		(at 96.6375 68.475 90)
@@ -1378,7 +1378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
+		(property "Footprint" "packages:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

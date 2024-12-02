@@ -327,7 +327,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0402_1005Metric_simple"
+	(footprint "passives:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0c3c982b-d3cb-4800-bc58-68c57097fbb5")
 		(at 152 94.5 -90)
@@ -356,7 +356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0402_1005Metric_simple"
+		(property "Footprint" "passives:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -541,7 +541,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "14823dd1-5d77-43d2-98ed-0527a72e7850")
 		(at 172.4 99)
@@ -570,7 +570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1913,7 +1913,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "39a4c9aa-1fdb-4cc8-b2db-f34d381f0174")
 		(at 164.75 102.25 180)
@@ -1942,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2700,7 +2700,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "48b8c1a2-0367-4f9d-bb03-d10614c0b218")
 		(at 162 102.25 180)
@@ -2729,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3342,7 +3342,7 @@
 			)
 		)
 	)
-	(footprint "custom:DFN1006-3"
+	(footprint "packages:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "780551bb-0c91-4248-a237-32fb26a79da5")
 		(at 169.75 101.5 90)
@@ -3371,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:DFN1006-3"
+		(property "Footprint" "packages:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3842,7 +3842,7 @@
 			(uuid "1d29c083-ff7a-4678-8e42-aee58149023e")
 		)
 	)
-	(footprint "custom:C_0402_1005Metric_simple"
+	(footprint "passives:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "87597b1c-416c-4e2a-b97c-97d161056aba")
 		(at 155 94.5 90)
@@ -3871,7 +3871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0402_1005Metric_simple"
+		(property "Footprint" "passives:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4056,7 +4056,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9092e875-0d99-4e84-869b-0bf82351196f")
 		(at 169.15 99)
@@ -4085,7 +4085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4250,7 +4250,7 @@
 			)
 		)
 	)
-	(footprint "custom:DFN1006-3"
+	(footprint "packages:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "96d5f727-a4e6-45d1-9ab4-ddb7dd82912e")
 		(at 169.75 94.5 90)
@@ -4279,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:DFN1006-3"
+		(property "Footprint" "packages:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5051,7 +5051,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bcff35b3-b439-4dff-8986-7d98a1113672")
 		(at 162 93.75 180)
@@ -5080,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5461,7 +5461,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0402_1005Metric_simple"
+	(footprint "passives:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c781a660-1604-4306-b6c4-ac7f28ee4860")
 		(at 155.4 98.75 90)
@@ -5490,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0402_1005Metric_simple"
+		(property "Footprint" "passives:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5676,7 +5676,7 @@
 			)
 		)
 	)
-	(footprint "custom:LED_0402_1005Metric"
+	(footprint "passives:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c7fde2ca-471a-4711-872a-86c97943a1b3")
 		(at 164.75 93.75 180)
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LED_0402_1005Metric"
+		(property "Footprint" "passives:LED_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6396,7 +6396,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_simple"
+	(footprint "passives:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dc77e02e-3919-4eb0-b151-c44ccd308999")
 		(at 165.9 99)
@@ -6425,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_simple"
+		(property "Footprint" "passives:R_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6590,7 +6590,7 @@
 			)
 		)
 	)
-	(footprint "custom:DFN1006-3"
+	(footprint "packages:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "e1fd2d5d-3658-452d-a7ed-352ca2528831")
 		(at 153.82 98.67 90)
@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:DFN1006-3"
+		(property "Footprint" "packages:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

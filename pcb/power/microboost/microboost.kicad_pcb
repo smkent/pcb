@@ -1867,7 +1867,7 @@
 			)
 		)
 	)
-	(footprint "custom:D_SOD-123F_simple"
+	(footprint "passives:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "bf5e88d4-644a-4006-8314-dbf8f78b0f12")
 		(at 138 118 -90)
@@ -1896,7 +1896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:D_SOD-123F_simple"
+		(property "Footprint" "passives:D_SOD-123F"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
