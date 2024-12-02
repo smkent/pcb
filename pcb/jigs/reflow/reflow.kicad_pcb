@@ -13131,7 +13131,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
+	(footprint "packages:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
 		(layer "F.Cu")
 		(uuid "feecf76e-a2e2-44f2-b102-cbd4b55eb338")
 		(at 160 130.25 -90)
@@ -13158,7 +13158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
+		(property "Footprint" "packages:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
