@@ -1,0 +1,40 @@
+Comment,Designator,Footprint,LCSC
+SW_SPDT,SW1,lcsc:SW-SMD_3P-P1.50_L2.7-W6.6,C319020
+2u2,L1,Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,C5832372
+10K,"R1,R2,R8,R9,R10,R13,R25,R104",custom:R_0402_1005Metric_simple,C25744
+Pink,LED1,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+Red,LED4,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,C2286
+0u1,"C4,C7,C8,C9",custom:C_0402_1005Metric_simple,C1525
+10R,"R6,R7,R27,R28,R29,R30,R31,R32",custom:R_0402_1005Metric_simple,C25077
+10u,"C5,C6",custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C19702
+5K1,"R3,R11,R103",custom:R_0402_1005Metric_simple,C25905
+100R,R12,custom:R_0402_1005Metric_simple,C25076
+R040,"SR1,SR2,SR3",Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,C2985725
+2N7002DW,Q1,custom:SOT-23-6_trimmed-pads_simple,C5190214
+75K,R24,custom:R_0402_1005Metric_simple,C25798
+1u,C2,custom:C_0402_1005Metric_simple,C52923
+10u,C10,custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
+5K1,RN1,Resistor_SMD:R_Array_Convex_4x0402,C2991336
+ME6211C33M5,U3,custom:SOT-23-5_simple,C82942
+AO3401A,Q2,custom:SOT-23_simple,C15127
+10u,C3,custom:C_0805_2012Metric_Pad1.18x1.45mm_wide-center_HandSolder,C15850
+1K,R5,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder, C21190
+INA3221,U4,custom:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias,C181255
+22u,C1,custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C45783
+XB3306D,U2,custom:SOT-23_simple,C2759992
+BAT60A,D1,custom:D_SOD-323_HandSoldering_simple,C7502695
+ETA6003,U1,custom:ETA6003_QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias,C5455585
+2K,R4,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder, C22975
+MT3608,U5,custom:SOT-23-6_Handsoldering_simple,C84817
+LED,LED2,lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-RD,C375547
+Blue,LED5,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+4u7,L2,custom:Inductor_Multi_7.0x6.6_1210,C5307631
+JST XH/PH,J300,custom:Conn_Combo_JST-1x02-XH_PH-THT-pad2gnd,
+USB_C_Receptacle_PowerOnly_6P,"J100,J200",custom:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_handsolder,C2927029
+JST XH/PH,"J101,J201",custom:Conn_Combo_JST-1x02-XH_PH-SMD-alt-pad2gnd,
+P3.5,J1,"custom:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal_custom_pad2gnd",
+HUSB238_002DD,U101,custom:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm_ThermalVias_half,C7471904
+22K,"R102,R201,R202",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C31850
+JST SH,"J301,J500",connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,C7433423
+JST SH,J400,connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C7433425
+White,LED3,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,

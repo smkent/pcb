@@ -1,5 +1,5 @@
 ---
-name: Build
+name: Test
 
 on:
   pull_request:
@@ -29,22 +29,15 @@ jobs:
         shell: bash
         run: |
           apt update && apt install -y python3-pip
-          python3 -m pip install --break-system-packages --upgrade scons kikit
+          python3 -m pip install --break-system-packages --upgrade scons
           ln -snvf ~kicad/.config/kicad/8.0/*-lib-table /root/.config/kicad/8.0/
 
-      - name: 🏗️ Create PCB fabrication outputs
+      - name: 🏗️ Run all project checks
         shell: bash
         env:
           CI: "true"
         run: |
-          scons -u
-
-      - name: 📦 Save artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: "Gerbers"
-          path: |
-            **/fab-*
+          scons -u ci
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

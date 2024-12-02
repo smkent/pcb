@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+LED,"LED1,LED2",custom:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple,
+SS34,D1,custom:D_SMA_simple,
+BSS138,"Q1,Q2",Package_TO_SOT_SMD:SOT-23,
+Conn_01x03,J1,custom:JST_XH_S3B-XH_1x03_P2.50mm_Horizontal_pad2gnd,
+Relay_SPDT,K1,Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C,
+10K,RN1,Resistor_SMD:R_Array_Convex_4x0603,
+Conn_01x02,J3,custom:PinHeader_1x02_P2.54mm_Vertical_simple,
+Screw_Terminal_01x03,J2,"custom:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal_simple",

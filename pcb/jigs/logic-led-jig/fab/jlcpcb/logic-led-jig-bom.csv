@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x08,J1,custom:PinHeader_1x08_P2.54mm_Vertical_simple,
+LED,"D1,D2,D3,D4,D5,D6,D7,D8",custom:LED_0805_2012Metric_simple,
+AO3404	,"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8",Package_TO_SOT_SMD:SOT-23,
+Conn_01x02,J2,custom:PinHeader_1x02_P2.54mm_Vertical_simple_pad2gnd,
+10K,"RN2,RN4",Resistor_SMD:R_Array_Convex_4x0603,
+1K,"RN1,RN3",Resistor_SMD:R_Array_Convex_4x0603,

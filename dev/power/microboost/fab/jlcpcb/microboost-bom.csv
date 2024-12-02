@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+DSK36,D1,custom:D_SOD-123F_simple,
+22u,"C1,C2",custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+4u7,L1,lcsc:IND-SMD_L2.5-W2.0_MHCHL2520,
+Pin headers,"J1,J2","custom:PinHeader_1x04_P2.54mm_Vertical_simple_pad3,4gnd",
+10K,"R2,R3",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+10u,C3,custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+75K,R1,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+MT3608,U1,Package_TO_SOT_SMD:SOT-23-6,C84817
+LED_Small,LED1,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,

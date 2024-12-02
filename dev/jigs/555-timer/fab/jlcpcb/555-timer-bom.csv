@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+0R,"R0,R3,R4",custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple,
+500K,RV1,lcsc:RES-ADJ-SMD_VG039NCH,
+0u1,C0,custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+Pin headers,J2,custom:PinHeader_1x02_P2.54mm_Vertical_simple,
+LED_Small,"LED1,LED2",custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+1K,"R5,R6",custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple,
+1u,C1,custom:C_Combo_CP_Elec_5x5.4,
+Pin headers,J1,custom:PinHeader_1x03_P2.54mm_Vertical_simple_pad2gnd,
+10K,R1,custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple,
+NE555,U1,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,

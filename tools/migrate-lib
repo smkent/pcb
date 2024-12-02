@@ -57,13 +57,6 @@ class KiCADMigrateLibraryReference:
                 ".kicad_sym"
             ):
                 print(f"ACTION REQUIRED: Migrate matching symbols in {path}")
-        # Rebuild schematics
-        if not self.args.pretend:
-            for path in self.grep_matches(self.name, binary=True):
-                if path.name.endswith(".pdf"):
-                    subprocess.run(
-                        ["scons", "-u"], cwd=path.parent, check=True
-                    )
 
     @cached_property
     def args(self) -> argparse.Namespace:
@@ -95,15 +88,16 @@ class KiCADMigrateLibraryReference:
         return ap.parse_args()
 
     def grep_matches(
-        self, search: str, libraries: bool = False, binary: bool = False
+        self, search: str, libraries: bool = False
     ) -> Iterator[Path]:
+        if self.args.exact:
+            search += '"'
         with suppress(subprocess.CalledProcessError):
-            cmd = ["git", "grep"]
-            if not binary:
-                cmd += ["-I"]
-            cmd += ["--name-only", search, "--"]
+            cmd = ["git", "grep", "-I", "--name-only", search, "--"]
             for fn in self._cmd_output(cmd).splitlines():
                 path = Path(fn)
+                if "fab" in path.parts:
+                    continue
                 if not libraries and (path.parts[0] == "libraries"):
                     continue
                 yield path

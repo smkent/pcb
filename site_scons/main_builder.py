@@ -26,12 +26,13 @@ class MainBuilder:
 
     @functools.cached_property
     def env(self) -> SConsEnvironment:
+
         env = DefaultEnvironment().Environment(ENV=self.env_vars)
         env["BUILDERS"]["schematic_pdf"] = Builder(
             action="kicad-cli sch export pdf $SOURCE -o $TARGET"
         )
         env["BUILDERS"]["drc"] = Builder(action=self.pcb_design_rules_check)
-        env["BUILDERS"]["fab_jlcpcb"] = Builder(action=self.fab_jlcpcb)
+        env["BUILDERS"]["fab_jlcpcb"] = self._fab_jlcpcb_builder()
         return env
 
     @functools.cached_property
@@ -56,22 +57,28 @@ class MainBuilder:
         self._warn_extra_files(bd)
         if "setup" in BUILD_TARGETS:
             return
+        # Output directory
+        fab_dir = bd / "fab"
         # Sources
         pcb_source = bd / f"{bd.name}.kicad_pcb"
         schematic_source = bd / f"{bd.name}.kicad_sch"
         # Targets
         drc_target = bd / f"{bd.name}.rpt"
+        schematic_pdf_target = fab_dir / f"{bd.name}-schematic.pdf"
+        gerber_jlcpcb_target = fab_dir / "jlcpcb" / f"{bd.name}-gerbers.zip"
         if not pcb_source.is_file():
             return
-
-        self.env.schematic_pdf(
-            f"{bd}/{bd.name}-schematic.pdf", schematic_source
+        drc_output = self.env.drc(drc_target, pcb_source)
+        schematic_output = self.env.schematic_pdf(
+            schematic_pdf_target, schematic_source
         )
-        self.env.drc(drc_target, pcb_source)
         fab_jlcpcb_output = self.env.fab_jlcpcb(
-            f"{bd}/fab-jlcpcb/{bd.name}-gerbers.zip", pcb_source
+            gerber_jlcpcb_target, pcb_source
         )
-        self.env.Depends(fab_jlcpcb_output, str(drc_target))
+        self.env.Depends(fab_jlcpcb_output, drc_output)
+        self.env.Alias("ci", [drc_output])
+        self.env.Alias("fab", [fab_jlcpcb_output, schematic_output])
+        self.env.Default("fab")
 
     def start(self) -> None:
         for bd in self.board_dirs:
@@ -142,6 +149,21 @@ class MainBuilder:
             if (target_path := Path(str(target[0]))).is_file():
                 print(target_path.read_text())
             raise
+
+    @classmethod
+    def _fab_jlcpcb_builder(cls) -> Builder:
+        def _fab_jlcpcb_emitter(
+            target: Sequence[SConsFile],
+            source: Sequence[SConsFile],
+            env: SConsEnvironment,
+        ) -> tuple[Sequence[SConsFile], Sequence[SConsFile]]:
+            output_dir = Path(target[0].path).parent
+            board_name = Path(source[0].path).stem
+            target.append(str(output_dir / f"{board_name}-bom.csv"))
+            target.append(str(output_dir / f"{board_name}-pos.csv"))
+            return target, source
+
+        return Builder(action=cls.fab_jlcpcb, emitter=_fab_jlcpcb_emitter)
 
     @classmethod
     def fab_jlcpcb(
