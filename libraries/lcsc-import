@@ -13,6 +13,7 @@ ap.add_argument("lcsc_id", metavar="lcsc-id", help="LCSC Part ID (ex. C12345)")
 ap.add_argument(
     "library",
     metavar="library",
+    nargs="?",
     default="lcsc",
     help="Destination symbol library (default: %(default)s)",
 )
