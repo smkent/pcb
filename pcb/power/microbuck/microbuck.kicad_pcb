@@ -2340,7 +2340,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+	(footprint "passives:L_1008_2520Metric_Molded"
 		(layer "F.Cu")
 		(uuid "afd4b2bd-60fd-45be-9a80-75ca037af8db")
 		(at 118.25 68.5 -90)
@@ -2367,7 +2367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+		(property "Footprint" "passives:L_1008_2520Metric_Molded"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4552,7 +4552,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+	(footprint "passives:L_1008_2520Metric_Molded"
 		(layer "B.Cu")
 		(uuid "6d6348c0-71a4-4a7e-8cfe-b9ce2806f20c")
 		(at 111.8375 72.5 -90)
@@ -4581,7 +4581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+		(property "Footprint" "passives:L_1008_2520Metric_Molded"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
