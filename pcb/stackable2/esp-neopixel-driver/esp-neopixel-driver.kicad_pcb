@@ -5103,7 +5103,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+	(footprint "passives:L_1008_2520Metric_Molded"
 		(layer "F.Cu")
 		(uuid "622199dc-eb32-45f6-895b-5c607be30650")
 		(at 116.285 70.66375 180)
@@ -5130,7 +5130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:IND-SMD_L2.5-W2.0_MHCHL2520"
+		(property "Footprint" "passives:L_1008_2520Metric_Molded"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
