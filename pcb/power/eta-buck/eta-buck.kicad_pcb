@@ -2136,7 +2136,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_1008_2520Metric_Molded"
+	(footprint "passives:L_1008_2520Metric"
 		(layer "F.Cu")
 		(uuid "afd4b2bd-60fd-45be-9a80-75ca037af8db")
 		(at 118.25 72 90)
@@ -2163,7 +2163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric_Molded"
+		(property "Footprint" "passives:L_1008_2520Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5292,7 +5292,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_1008_2520Metric_Molded"
+	(footprint "passives:L_1008_2520Metric"
 		(layer "B.Cu")
 		(uuid "554da97c-19e8-434f-9045-9da693fa52d5")
 		(at 114.5 72 90)
@@ -5321,7 +5321,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric_Molded"
+		(property "Footprint" "passives:L_1008_2520Metric"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
