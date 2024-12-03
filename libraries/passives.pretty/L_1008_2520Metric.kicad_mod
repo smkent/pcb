@@ -1,4 +1,4 @@
-(footprint "L_1008_2520Metric_Molded"
+(footprint "L_1008_2520Metric"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "L_1008_2520Metric_Molded"
+	(property "Value" "L_1008_2520Metric"
 		(at 0 2.05 0)
 		(layer "F.Fab")
 		(uuid "0024bcb0-99a1-4173-8f60-5a2a0779eed4")
@@ -163,9 +163,9 @@
 		(roundrect_rratio 0.2)
 		(uuid "2ed6e4a6-e1ba-445a-9bbe-1cf3ea918791")
 	)
-	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/IND-SMD_L2.5-W2.0_MHCHL2520.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR252012S.step"
 		(offset
-			(xyz 0 0 1.15)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
