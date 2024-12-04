@@ -21,8 +21,6 @@ class MakePublishDirectory:
             self.args.output.mkdir(exist_ok=True)
         for project_path in self.kicad_projects():
             dest_dir = self.args.output / self.convert_path(project_path)
-            if not self.args.pretend:
-                dest_dir.mkdir(exist_ok=True, parents=True)
             html_bom = project_path / "fab" / f"{project_path.name}-bom.html"
             schematic_pdf = (
                 project_path / "fab" / f"{project_path.name}-schematic.pdf"
@@ -34,6 +32,8 @@ class MakePublishDirectory:
                 if self.args.pretend:
                     print(f"Copy {copy_file} -> {dest_file}")
                 else:
+                    if not self.args.pretend and not dest_dir.is_dir():
+                        dest_dir.mkdir(exist_ok=True, parents=True)
                     shutil.copy2(copy_file, dest_file)
 
     def kicad_projects(self) -> Iterator[Path]:
