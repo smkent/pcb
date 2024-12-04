@@ -27,8 +27,9 @@ class MakePublishDirectory:
             schematic_pdf = (
                 project_path / "fab" / f"{project_path.name}-schematic.pdf"
             )
-            print(project_path, dest_dir, html_bom, schematic_pdf)
             for copy_file in [html_bom, schematic_pdf]:
+                if not copy_file.is_file():
+                    continue
                 dest_file = dest_dir / copy_file.name
                 if self.args.pretend:
                     print(f"Copy {copy_file} -> {dest_file}")
