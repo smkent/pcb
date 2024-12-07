@@ -5903,7 +5903,7 @@
 			)
 		)
 	)
-	(footprint "passives:D_SOD-523"
+	(footprint "packages:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "7a8645f9-f66a-4863-bbf2-086e8a7d0fdc")
 		(at 106 74.25 -90)
@@ -5932,7 +5932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:D_SOD-523"
+		(property "Footprint" "packages:D_SOD-523"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
