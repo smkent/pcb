@@ -9,18 +9,18 @@ LED_Small,LED0,custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
 Barrel_Jack_Switch,J0,custom:DC-IN_DC-050-2.0-BB_rev2,
 Qwiic,J2,connectors:Qwiic-SMD-horizontal-logo,
 10u,"C1,C2",custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
-10R,R6,Resistor_SMD:R_0402_1005Metric,
-TPS563200,U1,custom:SOT-23-6_Handsoldering_simple,
+10R,"R6,R7",Resistor_SMD:R_0402_1005Metric,C25077
+TPS563201,U1,packages:SOT-23-6,
 10K,"R2,R3",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
 ~,SM1,modules:ESP32-C3-Super-Mini-Castellated-SMD-only,
 56K,R1,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
-5K1,R0,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
-0u1,"C9,C10",custom:C_0402_1005Metric_simple,C1525
+5K1,R0,passives:R_0402_1005Metric,
+0u1,"C9,C10",passives:C_0402_1005Metric,C152814
+SK6812SIDE-A,"PIX1,PIX2",lcsc:LED-SK6812SIDE-A-4x1.6mm,
 RotaryEncoder_Switch_MP,SW1,custom:RotaryEncoder_Alps_EC11-Switch_Combo_H20mm,
-ZC010DNG,Q1,lcsc:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2,C36499170
+ZC010DNG,Q1,packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2,C36499170
 JST PH,J1,connectors:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,
-10R,R7,Resistor_SMD:R_0402_1005Metric,C25077
-R040,SR1,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,C2985725
-4u7,L1,lcsc:IND-SMD_L2.5-W2.0_MHCHL2520,
-WS2812B-2020,"PIX1,PIX2",lcsc:LED-SK6812SIDE-A-4x1.6mm,
-BSS138,Q2,custom:SOT-23_simple,
+R020,SR1,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,C5375467
+JST SH,J3,connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,
+4u7,L1,passives:L_1008_2520Metric,
+BSS138,Q2,packages:SOT-23,
