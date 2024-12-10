@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+LED_Small,"LED1,LED2,LED3",led:LED_0603_1608Metric,
+VEML7700,U3,lcsc:SENSORS-SMD_VEML7700-TR,
+22u,C0,passives:C_0603_1608Metric,
+2N7002DW,Q2,packages:SOT-363_SC-70-6_HandSolder,C5190214
+300R,"R7,R8",Resistor_SMD:R_0603_1608Metric,
+JST PH,J5,connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,
+1000u,"C1,C2",Capacitor_SMD:CP_Elec_8x10,
+10K,"RN1,RN3",passives:R_Array_Convex_4x0603_HandSolder,
+~,SM1,modules:ESP32-C3-Super-Mini-Castellated-SMD-only,
+JST SH,J6,connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,
+STEMMA-Signal,"J1,J2",connectors:STEMMA-Signal-SMD-horizontal,
+5K1,RN2,passives:R_Array_Convex_4x0603_HandSolder,
+Qwiic,J3,connectors:Qwiic-SMD-horizontal-logo,
+FM-3510RGBA-SG,LED0,lcsc:LED-SMD_FM-3510RGBA-SG,

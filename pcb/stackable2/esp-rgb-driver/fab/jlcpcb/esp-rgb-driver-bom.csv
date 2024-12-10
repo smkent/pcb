@@ -1,0 +1,25 @@
+Comment,Designator,Footprint,LCSC
+JST PH,"J1,J2,J3,J4",connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,
+LED,LED1,led:LED_0402_1005Metric,
+30V 2A,F1,Fuse:Fuse_1812_4532Metric,
+22u,"C5,C6,C7",custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+ZC010DNG,"Q1,Q2,Q3,Q4,Q5,Q6",packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2,C36499170
+100K,R1,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+WS2811F,"U3,U4,U5,U6",packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL,C5446692
+NC7WZ14,"U7,U8,U9,U10,U11,U12",packages:SOT-363_SC-70-6_HandSolder,
+0u1,"C3,C4",passives:C_0402_1005Metric,
+13K3,R2,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+~,SM1,modules:ESP32-C3-Super-Mini-Castellated-SMD-only,
+Qwiic,J8,connectors:Qwiic-SMD-horizontal-logo,
+TPS54202DDCR,U1,Package_TO_SOT_SMD:SOT-23-6,C191884
+470u,C0,Capacitor_SMD:CP_Elec_8x10,
+D_TVS,D1,packages:D_SOD-123F,
+10K,R4,passives:R_0402_1005Metric,
+JST SH,J7,connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,
+SN74LVC1T45DRL,U2,Package_TO_SOT_SMD:SOT-563,
+10u,"C1,C2",custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+22u,L1,passives:L_Power_7.0x6.6mm_0630,
+SW_Push,SW1,Button_Switch_SMD:SW_SPST_PTS647_Sx50,
+300R,R3,passives:R_0402_1005Metric,
+STEMMA-Signal,"J5,J6",connectors:STEMMA-Signal-SMD-horizontal,
+Barrel Jack,J0,custom:DC-IN_DC-050-2.0-BB_rev2,
