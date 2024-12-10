@@ -14224,6 +14224,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "4u7"
+		(at 91.25 55.675 0)
+		(layer "F.SilkS")
+		(uuid "c1f38ac4-4e47-4a15-9f54-171224e22ff2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "12V"
 		(at 109.75 65.5 0)
 		(layer "F.SilkS")
