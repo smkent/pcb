@@ -16666,6 +16666,30 @@
 			(justify right)
 		)
 	)
+	(gr_text "35V\n470u"
+		(at 112.25 64.5 0)
+		(layer "F.SilkS")
+		(uuid "1486bc29-0612-4b89-8c1d-d379ec33111d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "22uH"
+		(at 87.25 65.75 0)
+		(layer "F.SilkS")
+		(uuid "1552f1d9-76d9-4b81-a3ae-c3091be31166")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "5V"
 		(at 88.25 74.75 0)
 		(layer "F.SilkS")
@@ -16828,6 +16852,18 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "30V\n2A"
+		(at 111.5 56 0)
+		(layer "F.SilkS")
+		(uuid "c994549d-808b-40f2-862b-fa92c5c9a648")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
 		)
 	)
 	(gr_text "R"
