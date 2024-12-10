@@ -884,7 +884,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "24d0bbde-b3b9-41e8-8bb9-765745b52cc4")
@@ -896,7 +896,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fbe76eeb-b19f-48a6-904a-f47fd8cb4d33")
 			(effects
@@ -1063,7 +1063,7 @@
 			(uuid "e5f18410-3456-40b5-a20e-8b3db67f332a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1a344fee-40bc-44f3-9282-c4d037ae2a93")
 			(effects
@@ -1112,7 +1112,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C2"
-			(at 0 -5.2 360)
+			(at 0 -5.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cdc2b3ef-2bb8-4ddc-9d6d-9948e68e6e95")
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 0 5.2 360)
+			(at 0 5.2 0)
 			(layer "F.Fab")
 			(uuid "c73e385d-d1f3-4c00-b8a4-df2a600d43b8")
 			(effects
@@ -1510,7 +1510,7 @@
 			(uuid "6634a54f-8395-47e1-82a3-e6b9feb93211")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "77610f1b-7723-4c00-af04-a0f15a94e72d")
 			(effects
@@ -1557,7 +1557,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C1"
-			(at 0 -5.2 360)
+			(at 0 -5.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2680e517-c143-4360-9795-3db207cd8873")
@@ -1569,7 +1569,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 0 5.2 360)
+			(at 0 5.2 0)
 			(layer "F.Fab")
 			(uuid "75313b51-c9ce-4a24-9d81-55cbe3692571")
 			(effects
@@ -1955,7 +1955,7 @@
 			(uuid "e0c78f5e-68ea-46af-bf23-36b008cb46f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1a1874a8-d518-4359-a072-ec8e47053ef7")
 			(effects
@@ -2642,7 +2642,7 @@
 			(uuid "6204ee9d-1a21-4d06-86bc-56b35f42f3ea")
 		)
 		(fp_text user "${VALUE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "862a884c-25a7-4d7d-9c97-0ed0e1fd8229")
 			(effects
@@ -2654,7 +2654,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cad85f3e-85d4-48bd-ae0a-01f28d27de76")
 			(effects
@@ -2949,7 +2949,7 @@
 			(uuid "33f00077-7688-41a7-8c44-31ef6ffbf5f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d1c9f003-7c72-46fd-9ac6-5b312fdf7832")
 			(effects
@@ -4960,7 +4960,7 @@
 			(uuid "0ce1e093-aa7b-4c89-8c96-8382cda87c06")
 		)
 		(fp_text user "${VALUE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "6e2da788-af24-4b4e-8e6a-1310d90d0891")
 			(effects
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0aa5cc70-46a1-43ac-901e-88e300b40ca4")
 			(effects
@@ -6485,7 +6485,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b772ccf5-2a83-4fdd-bfde-2987b5f4884c")
@@ -6497,7 +6497,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dff08f92-86f9-4271-afde-8e350d938a92")
 			(effects
@@ -6664,7 +6664,7 @@
 			(uuid "a5c5d05b-6104-431a-8ca1-8f3897018f3e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f1bba54e-6748-40ad-9d4e-4c7345c7d917")
 			(effects
@@ -10053,6 +10053,30 @@
 			(justify right)
 		)
 	)
+	(gr_text "6V3\n1000u"
+		(at 108 85.5 0)
+		(layer "F.SilkS")
+		(uuid "31a5d0cd-4143-4775-935c-1c2e93b15239")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "6V3\n1000u"
+		(at 92 85.5 0)
+		(layer "F.SilkS")
+		(uuid "500d1e44-569b-4501-a292-3d4c493daf43")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "GPIO0"
 		(at 94.5 75.5 0)
 		(layer "F.SilkS")
@@ -10384,6 +10408,15 @@
 		(uuid "4fce9cef-bd69-49bf-98dc-d806819eb756")
 	)
 	(via
+		(at 104.5 58.25)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "648f2d8b-8433-4f1a-b730-1002639c8338")
+	)
+	(via
 		(at 86.75 72.5)
 		(size 0.6)
 		(drill 0.3)
@@ -10546,6 +10579,15 @@
 		(uuid "d8d97647-9362-40ff-9fa4-2b1bc798ef05")
 	)
 	(via
+		(at 103.25 58.25)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e6c92ffd-05aa-463e-a17d-2364b7dce458")
+	)
+	(via
 		(at 90.25 87.25)
 		(size 0.6)
 		(drill 0.3)
@@ -10562,6 +10604,24 @@
 		(free yes)
 		(net 1)
 		(uuid "f51dbfed-cfff-4bcc-923d-79a95255f47e")
+	)
+	(via
+		(at 88.75 58)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "f5a37bc0-a97f-4d5d-8d64-769869a8b9bd")
+	)
+	(via
+		(at 96.5 57)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "f7b5ae88-3f0d-4142-86ea-4b04c419e14f")
 	)
 	(via
 		(at 89.5 87.25)
@@ -14063,7 +14123,7 @@
 				(xy 89.964667 74.969091) (xy 89.9495 75.025694) (xy 89.9495 77.974306) (xy 89.969979 78.050733)
 				(xy 89.982344 78.07215) (xy 90.00954 78.119255) (xy 90.374796 78.484511) (xy 90.430745 78.54046)
 				(xy 90.430747 78.540461) (xy 90.430751 78.540464) (xy 90.457046 78.555645) (xy 90.499267 78.580021)
-				(xy 90.575694 78.6005) (xy 97.999167 78.6005) (xy 98.066206 78.620185) (xy 98.086848 78.636819)
+				(xy 90.575694 78.6005) (xy 90.654818 78.6005) (xy 97.999167 78.6005) (xy 98.066206 78.620185) (xy 98.086848 78.636819)
 				(xy 98.463181 79.013152) (xy 98.496666 79.074475) (xy 98.4995 79.100833) (xy 98.4995 82.588812)
 				(xy 98.479815 82.655851) (xy 98.463181 82.676493) (xy 98.404253 82.73542) (xy 98.35574 82.839456)
 				(xy 98.3495 82.88686) (xy 98.3495 83.913132) (xy 98.349501 83.913138) (xy 98.355741 83.960545) (xy 98.355742 83.960548)
