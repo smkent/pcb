@@ -1107,7 +1107,7 @@
 				)
 			)
 		)
-		(symbol "custom:NE555-common-layout"
+		(symbol "ic:NE555"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1175,7 +1175,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NE555-common-layout_0_0"
+			(symbol "NE555_0_0"
 				(pin power_in line
 					(at -2.54 -11.43 90)
 					(length 2.54)
@@ -1213,7 +1213,7 @@
 					)
 				)
 			)
-			(symbol "NE555-common-layout_0_1"
+			(symbol "NE555_0_1"
 				(rectangle
 					(start -7.62 8.89)
 					(end 7.62 -8.89)
@@ -1226,7 +1226,7 @@
 					)
 				)
 			)
-			(symbol "NE555-common-layout_1_1"
+			(symbol "NE555_1_1"
 				(text "555"
 					(at 4.572 3.302 0)
 					(effects
@@ -4470,7 +4470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:NE555-common-layout")
+		(lib_id "ic:NE555")
 		(at 92.71 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)

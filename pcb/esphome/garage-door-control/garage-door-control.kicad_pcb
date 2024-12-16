@@ -1087,7 +1087,7 @@
 			)
 		)
 	)
-	(footprint "modules:AHT20+BMP280-noholes"
+	(footprint "module:AHT20+BMP280-noholes"
 		(layer "F.Cu")
 		(uuid "2a3d7afb-8a21-45da-b2ab-2dbc05c43718")
 		(at 145.938 95.4 -90)
@@ -1116,7 +1116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:AHT20+BMP280-noholes"
+		(property "Footprint" "module:AHT20+BMP280-noholes"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1364,7 +1364,7 @@
 			(pintype "input")
 			(uuid "4ca5e16b-621b-4708-81d5-4b83607c328d")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/AHT20+BMP280.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/AHT20+BMP280.step"
 			(offset
 				(xyz -7.5 -7.5 4)
 			)
@@ -1376,7 +1376,7 @@
 			)
 		)
 	)
-	(footprint "modules:ENS160+AHT2x-noholes"
+	(footprint "module:ENS160+AHT2x-noholes"
 		(layer "F.Cu")
 		(uuid "2cc10e2f-ed50-441b-97ed-cc077ac35585")
 		(at 165.02 99.9 -90)
@@ -1405,7 +1405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ENS160+AHT2x-noholes"
+		(property "Footprint" "module:ENS160+AHT2x-noholes"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4943,7 +4943,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SMA"
+	(footprint "package:D_SMA"
 		(layer "F.Cu")
 		(uuid "c62d3478-4f53-4875-9abb-28a461df7278")
 		(at 200.6 101.9 -90)
@@ -4972,7 +4972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SMA"
+		(property "Footprint" "package:D_SMA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5211,7 +5211,7 @@
 			)
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Pins"
+	(footprint "module:ESP32-C3-Super-Mini-Pins"
 		(layer "F.Cu")
 		(uuid "d3ed68fd-f840-4c2a-a32a-f35e12fde1bf")
 		(at 106.48 100.52 90)
@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5513,7 +5513,7 @@
 			(pintype "power_in")
 			(uuid "fe2c6e02-c035-461b-a085-4a79f172ed5c")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)

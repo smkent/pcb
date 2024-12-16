@@ -1219,7 +1219,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "24b21269-282e-4c23-ac32-7093e6834f94")
 		(at 93.75 57 90)
@@ -1248,7 +1248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1433,7 +1433,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_Array_Convex_4x0603_HandSolder"
+	(footprint "discrete:R_Array_Convex_4x0603_HandSolder"
 		(layer "F.Cu")
 		(uuid "29fad1e3-5f69-44ca-9f3e-d02bc5116045")
 		(at 83.75 80.5 -90)
@@ -1462,7 +1462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1692,7 +1692,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2b2577f3-6feb-45e5-97af-96275a7ab757")
 		(at 105.5 56.75 -90)
@@ -1721,7 +1721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2399,7 +2399,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4613194e-116d-4dac-ac99-33c85d70bd3a")
 		(at 89.25 56.75 -90)
@@ -2428,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2887,7 +2887,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4b8da1ca-f8e5-42da-b7c1-aa7062c7e1ec")
 		(at 83.5 61.5 -90)
@@ -2915,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4711,7 +4711,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6811929f-ecce-4c75-82fb-e2914c237859")
 		(at 112.75 56.5 90)
@@ -4740,7 +4740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5159,7 +5159,7 @@
 			)
 		)
 	)
-	(footprint "connectors:FanPinHeader_1x04_P2.54mm_Horizontal"
+	(footprint "connector:FanPinHeader_1x04_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6a2991ee-9981-4b5d-a38b-91743c54c146")
 		(at 89.25 75.899)
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:FanPinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "connector:FanPinHeader_1x04_P2.54mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5382,7 +5382,7 @@
 			(pintype "input")
 			(uuid "95ac7127-a39f-4b04-aaf0-f1637e1a0eaf")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/KF2510-3+1P-fan-connector-THT-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/KF2510-3+1P-fan-connector-THT-horizontal.step"
 			(offset
 				(xyz 3.81 -3.6 3.25)
 			)
@@ -5394,7 +5394,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6ecf5107-2879-447b-bd07-6cd0fd49dcbb")
 		(at 111.25 56.5 90)
@@ -5423,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5628,7 +5628,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "F.Cu")
 		(uuid "760bcec9-6b63-4685-aa94-00bcd36b81af")
 		(at 83.75 76.25 -90)
@@ -5657,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5903,7 +5903,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SOD-523"
+	(footprint "package:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "7a8645f9-f66a-4863-bbf2-086e8a7d0fdc")
 		(at 106 74.25 -90)
@@ -5932,7 +5932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-523"
+		(property "Footprint" "package:D_SOD-523"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6181,7 +6181,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0805_2012Metric"
+	(footprint "discrete:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8115a1b5-d2c8-4682-a078-f3c281d134b3")
 		(at 108 52.5 90)
@@ -6210,7 +6210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0805_2012Metric"
+		(property "Footprint" "discrete:C_0805_2012Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6629,7 +6629,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SOD-123F"
+	(footprint "package:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "923652ba-deed-4574-abec-c7030c171afa")
 		(at 90.5 72.5 180)
@@ -6658,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6907,7 +6907,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a1b1a3b7-b245-4bc6-9bde-cb215483edca")
 		(at 95 57 90)
@@ -6936,7 +6936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8111,7 +8111,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bbc6cc59-cc46-4771-88fe-eb2c43d2d24d")
 		(at 90 52.75 90)
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9085,7 +9085,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cbe7b268-08ed-48df-9a19-57a8c938da03")
 		(at 88.5 52.75 90)
@@ -9114,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9319,7 +9319,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_Array_Convex_4x0603_HandSolder"
+	(footprint "discrete:R_Array_Convex_4x0603_HandSolder"
 		(layer "F.Cu")
 		(uuid "cd819841-14e3-4e70-9bc6-c8bf52ff758f")
 		(at 83.75 71.5 -90)
@@ -9348,7 +9348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9867,7 +9867,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d367d4cc-6526-4ac6-82c5-dd05b8f84784")
 		(at 116.5 61.5 90)
@@ -9895,7 +9895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10192,7 +10192,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SOD-123F"
+	(footprint "package:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "dad6a07d-55a1-4da9-b23f-e8fc6c668593")
 		(at 114.25 82.5)
@@ -10221,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10470,7 +10470,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dae7f78b-3343-4e70-a1b1-c43897c3828d")
 		(at 110 56.5 90)
@@ -10499,7 +10499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10922,7 +10922,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e964f951-f2e6-4f02-8cad-e98cab3de049")
 		(at 96.5 57 90)
@@ -10951,7 +10951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11407,7 +11407,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0805_2012Metric"
+	(footprint "discrete:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ee084d95-e416-4e61-a74d-d7ff0990c68d")
 		(at 106 52.5 90)
@@ -11436,7 +11436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0805_2012Metric"
+		(property "Footprint" "discrete:C_0805_2012Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11915,7 +11915,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_1008_2520Metric"
+	(footprint "discrete:L_1008_2520Metric"
 		(layer "F.Cu")
 		(uuid "efa943d9-29a5-419d-b97a-fe0d71f14574")
 		(at 87.5 56.75 90)
@@ -11944,7 +11944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric"
+		(property "Footprint" "discrete:L_1008_2520Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12115,7 +12115,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_Power_7.0x6.6mm_0630"
+	(footprint "discrete:L_Power_7.0x6.6mm_0630"
 		(layer "F.Cu")
 		(uuid "f92b10f9-90ae-4e73-8132-ff01f2f838cf")
 		(at 101.25 55.5 90)
@@ -12144,7 +12144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_Power_7.0x6.6mm_0630"
+		(property "Footprint" "discrete:L_Power_7.0x6.6mm_0630"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13269,7 +13269,7 @@
 			)
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+	(footprint "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 		(layer "B.Cu")
 		(uuid "36abb360-529d-46a7-86e8-5f4deb1facbe")
 		(at 100 59 180)
@@ -13300,7 +13300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13751,7 +13751,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 0)
 			)
@@ -15292,7 +15292,7 @@
 			(uuid "ebda3b4d-bf33-4007-81a7-be02f73605cf")
 		)
 	)
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "B.Cu")
 		(uuid "93dacc71-40c2-4ea7-a3fa-548e14b1c0eb")
 		(at 93.25 84.75 180)
@@ -15323,7 +15323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15365,7 +15365,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*")
+		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*")
 		(path "/43866a25-7920-4855-addf-2038ada446c4")
 		(sheetname "Root")
 		(sheetfile "esp-3dp.kicad_sch")
@@ -15677,7 +15677,7 @@
 			(pintype "passive")
 			(uuid "ee7016be-1cc5-4e05-bc99-45041c9c1576")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -15871,7 +15871,7 @@
 			(uuid "54f3e5ef-2251-4ef0-821b-7deb569ade82")
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal"
+	(footprint "connector:Qwiic-SMD-horizontal"
 		(layer "B.Cu")
 		(uuid "fae2a56f-4e25-4161-abeb-ba179ac439d2")
 		(at 116.5 61.5 -90)
@@ -15902,7 +15902,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15944,7 +15944,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*")
+		(property ki_fp_filters "Connector*:JST_SH_*_1x04?* connector:Qwiic-*")
 		(path "/8456d27d-d8cb-4ccf-adc6-2f1a14fe8ec4")
 		(sheetname "Root")
 		(sheetfile "esp-3dp.kicad_sch")
@@ -16210,7 +16210,7 @@
 			(pintype "passive")
 			(uuid "7b2df9a5-f6c3-44f9-8b8c-0f21a6b3e4af")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)

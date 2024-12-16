@@ -400,7 +400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
+		(property "Footprint" "package:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -627,7 +627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
+		(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -914,7 +914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
+		(property "Footprint" "package:X2-DFN1210-8_L1.2-W1.0-P0.30-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6513,138 +6513,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 0.635) (xy 4.445 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -2.54) (xy 2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -2.54) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 		)
 		(symbol "P4-1209RGBTCA1-0.9T-A_1_1"
 			(polyline
@@ -7989,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -9942,7 +9810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 5.08 -1.905 0)
 			(effects
 				(font

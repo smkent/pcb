@@ -3591,7 +3591,7 @@
 				)
 			)
 		)
-		(symbol "connectors:Qwiic"
+		(symbol "connector:Qwiic"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -3617,7 +3617,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+			(property "Footprint" "connector:Qwiic-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3653,7 +3653,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*"
+			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connector:Qwiic-*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4058,7 +4058,7 @@
 				)
 			)
 		)
-		(symbol "connectors:STEMMA-Signal"
+		(symbol "connector:STEMMA-Signal"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -4084,7 +4084,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+			(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4120,7 +4120,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*"
+			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5074,7 +5074,7 @@
 				)
 			)
 		)
-		(symbol "modules:ESP32-C3-Super-Mini"
+		(symbol "module:ESP32-C3-Super-Mini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5094,7 +5094,7 @@
 					)
 				)
 			)
-			(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+			(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -9255,7 +9255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0805_2012Metric"
+		(property "Footprint" "discrete:C_0805_2012Metric"
 			(at 242.57 34.29 0)
 			(effects
 				(font
@@ -9323,7 +9323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 219.71 72.39 0)
 			(effects
 				(font
@@ -9726,7 +9726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-523"
+		(property "Footprint" "package:D_SOD-523"
 			(at 121.92 133.35 0)
 			(effects
 				(font
@@ -9796,7 +9796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -10152,7 +10152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 242.57 77.47 0)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0805_2012Metric"
+		(property "Footprint" "discrete:C_0805_2012Metric"
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -10510,7 +10510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 162.56 31.75 0)
 			(effects
 				(font
@@ -10916,7 +10916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 251.46 77.47 0)
 			(effects
 				(font
@@ -11295,7 +11295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:STEMMA-Signal")
+		(lib_id "connector:STEMMA-Signal")
 		(at 245.11 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11323,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 245.11 146.05 0)
 			(effects
 				(font
@@ -11399,7 +11399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 48.768 78.74 90)
 			(effects
 				(font
@@ -11484,7 +11484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric"
+		(property "Footprint" "discrete:L_1008_2520Metric"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -11630,7 +11630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 43.18 85.852 90)
 			(effects
 				(font
@@ -12027,7 +12027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "modules:ESP32-C3-Super-Mini")
+		(lib_id "module:ESP32-C3-Super-Mini")
 		(at 44.45 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12052,7 +12052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 			(at 44.45 19.812 0)
 			(effects
 				(font
@@ -12231,7 +12231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 180.34 31.75 0)
 			(effects
 				(font
@@ -12301,7 +12301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 160.02 74.93 0)
 			(effects
 				(font
@@ -12505,7 +12505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 132.08 82.55 0)
 			(effects
 				(font
@@ -12639,7 +12639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 44.45 154.178 90)
 			(effects
 				(font
@@ -12795,7 +12795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:FanPinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "connector:FanPinHeader_1x04_P2.54mm_Horizontal"
 			(at 121.92 83.566 0)
 			(effects
 				(font
@@ -13344,7 +13344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 59.055 86.36 0)
 			(effects
 				(font
@@ -13685,7 +13685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:Qwiic")
+		(lib_id "connector:Qwiic")
 		(at 271.78 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13712,7 +13712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal"
 			(at 271.78 143.51 0)
 			(effects
 				(font
@@ -13926,7 +13926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -14062,7 +14062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 168.91 74.93 0)
 			(effects
 				(font
@@ -14433,7 +14433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 117.602 176.53 90)
 			(effects
 				(font
@@ -14586,7 +14586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -14722,7 +14722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 179.07 144.78 0)
 			(effects
 				(font
@@ -15293,7 +15293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 67.818 78.74 90)
 			(effects
 				(font
@@ -15644,7 +15644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 44.45 118.618 90)
 			(effects
 				(font
@@ -15866,7 +15866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 205.74 143.51 0)
 			(effects
 				(font
@@ -16082,7 +16082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 105.918 176.53 90)
 			(effects
 				(font
@@ -16431,7 +16431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_Array_Convex_4x0603_HandSolder"
+		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
 			(at 109.982 153.67 90)
 			(effects
 				(font
@@ -16924,7 +16924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 118.11 163.195 0)
 			(effects
 				(font
@@ -17291,7 +17291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_Power_7.0x6.6mm_0630"
+		(property "Footprint" "discrete:L_Power_7.0x6.6mm_0630"
 			(at 236.22 29.21 0)
 			(effects
 				(font
@@ -17437,7 +17437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 177.8 74.93 0)
 			(effects
 				(font

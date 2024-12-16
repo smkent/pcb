@@ -1,0 +1,219 @@
+(footprint "FanPinHeader_1x04_P2.54mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
+	(tags "pin header 4-pin CPU fan")
+	(property "Reference" "REF**"
+		(at 4 -2.28 0)
+		(layer "F.SilkS")
+		(uuid "0ddc129f-cf3a-4a78-bf35-b725ddbc90a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FanPinHeader_1x04_P2.54mm_Horizontal"
+		(at 4.05 4.35 0)
+		(layer "F.Fab")
+		(uuid "6c2ff5e6-b3bf-4360-99fc-e6c80e861d72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba10c883-0867-4ef5-9ac3-696cb6a14a58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5147ee07-ceb0-4979-b739-c9bd01c9774d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af608f12-7977-472c-95e7-7b7b4c7fdd39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.127 1.27)
+		(end 0.127 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0de6f112-105b-4434-9a37-c2b2145f0811")
+	)
+	(fp_rect
+		(start 2.413 1.27)
+		(end 2.667 2.526)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a1983a1d-de7e-4b87-8107-afd5041707e6")
+	)
+	(fp_rect
+		(start 4.953 1.27)
+		(end 5.207 2.526)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6edf8839-80d2-41c4-b49f-5f66c5044d60")
+	)
+	(fp_rect
+		(start 7.493 1.27)
+		(end 7.747 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "302c6ffa-821d-4252-852b-bb0603d24523")
+	)
+	(fp_rect
+		(start 7.493 5.334)
+		(end 7.747 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2dff7b06-cb8c-4ae2-8a70-facd06c7039c")
+	)
+	(fp_poly
+		(pts
+			(xy 0 5.334) (xy 5.08 5.334) (xy 5.08 13.462) (xy 0 13.462)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "00ecedb0-3a1a-4ec6-9cb7-4d437e696c79")
+	)
+	(fp_poly
+		(pts
+			(xy 1.778 2.54) (xy 3.302 2.54) (xy 3.302 2.032) (xy 4.318 2.032) (xy 4.318 2.54) (xy 5.842 2.54)
+			(xy 5.842 2.032) (xy 6.858 2.032) (xy 6.858 2.54) (xy 8.382 2.54) (xy 8.382 2.032) (xy 8.95 2.032)
+			(xy 8.95 5.334) (xy -1.35 5.334) (xy -1.35 2.032) (xy -0.762 2.032) (xy -0.762 2.54) (xy 0.762 2.54)
+			(xy 0.762 2.032) (xy 1.778 2.032)
+		)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "94a8b357-8bf5-4e9a-b3b3-1f300c6d5d0d")
+	)
+	(fp_poly
+		(pts
+			(xy 9.398 13.491495) (xy 9.398 -1.295) (xy -1.778 -1.295) (xy -1.778 13.491495)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "29d4d10f-520d-4f69-8a00-c9268fbc7904")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.85 -1.75 0)
+		(layer "F.Fab")
+		(uuid "b77948cf-ab05-4aaa-8498-f2096225e7c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "7d83911d-05b3-4c14-bda1-c45fd34caf24")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51668fa3-c05f-4d5f-9b5a-a55d1d096270")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "413f2fc1-6ec4-4da9-8a85-63680d96b26c")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "287550d0-57c0-4d95-8a67-033135dbf5e7")
+	)
+	(model "${KIPRJMOD}/libraries/connector.3dshapes/KF2510-3+1P-fan-connector-THT-horizontal.step"
+		(offset
+			(xyz 3.81 -3.6 3.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

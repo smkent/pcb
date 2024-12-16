@@ -150,7 +150,7 @@
 	(net 68 "FB")
 	(net 69 "PIXEL_DATA_3V3")
 	(net 70 "BUTTON")
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "F.Cu")
 		(uuid "029ed756-814d-4902-8f45-778556b04140")
 		(at 114.75 75.75 90)
@@ -179,7 +179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*")
+		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*")
 		(path "/fae013e3-34a7-49ed-afbb-e511b1072036")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -515,7 +515,7 @@
 			(pintype "passive")
 			(uuid "c76c3c51-77f2-4c01-a91d-f43a1c44e67e")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -1164,7 +1164,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2035abb7-f680-4b56-9674-e5ece96dfbf9")
 		(at 88.285 61.5)
@@ -1193,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1378,7 +1378,7 @@
 			)
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "F.Cu")
 		(uuid "2382ec6c-897e-4e52-9378-d6c0fd217507")
 		(at 108 76 180)
@@ -1405,7 +1405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2684,7 +2684,7 @@
 			)
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "F.Cu")
 		(uuid "47fa0f98-a028-45f6-8342-6256c03d4aae")
 		(at 101.5 76 180)
@@ -2711,7 +2711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3020,7 +3020,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+	(footprint "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4a0d0f46-d5d1-4c49-8a43-4d37461239cc")
 		(at 92.75 84.75)
@@ -3049,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3404,7 +3404,7 @@
 			(pintype "passive")
 			(uuid "4436b115-eb4d-4496-b008-86b1a546dadd")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-I2C-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-I2C-SMD-horizontal.step"
 			(offset
 				(xyz 2 -4.5 0)
 			)
@@ -3416,7 +3416,7 @@
 			)
 		)
 	)
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "F.Cu")
 		(uuid "4eee9d7f-6c60-47ad-ac10-e17212b85452")
 		(at 85.25 75.75 -90)
@@ -3445,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3484,7 +3484,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*")
+		(property ki_fp_filters "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*")
 		(path "/c9b8acfd-a316-4521-a4a6-db74f405437a")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -3795,7 +3795,7 @@
 			(pintype "passive")
 			(uuid "28afafbf-35d1-439a-8fe5-2f79274d7650")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -3807,7 +3807,7 @@
 			)
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "F.Cu")
 		(uuid "51344e6a-d1f9-462c-87a6-2b13295acdaa")
 		(at 95 76 180)
@@ -3834,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4143,7 +4143,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SOD-123F"
+	(footprint "package:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "58389780-3bf5-4b1e-9462-a0180d9e6b19")
 		(at 107.25 56.75)
@@ -4172,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4421,7 +4421,7 @@
 			)
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "627a2ef1-991f-452b-9661-4970f9803e89")
 		(at 98.25 66.25 90)
@@ -4448,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5137,7 +5137,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "F.Cu")
 		(uuid "73dbd0c0-cd4d-4924-99a5-df7665ce5639")
 		(at 98.25 75.75 -90)
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5386,7 +5386,7 @@
 			)
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "7d210154-2491-4b47-9f9c-8c21421fcb90")
 		(at 105.75 66.25 90)
@@ -5413,7 +5413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5634,7 +5634,7 @@
 			)
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "81438188-4d6e-48ec-b293-2f289f8cbd21")
 		(at 102 66.25 90)
@@ -5661,7 +5661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6390,7 +6390,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_0402_1005Metric"
+	(footprint "discrete:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "90ae4674-c59d-487d-b672-78f9381fd9ed")
 		(at 93.75 58.5 180)
@@ -6419,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "discrete:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6584,7 +6584,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "F.Cu")
 		(uuid "98f86efc-0bed-4f16-ab83-d99c28653cb4")
 		(at 104.75 75.75 -90)
@@ -6613,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8149,7 +8149,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "F.Cu")
 		(uuid "b46a1a0d-6bfb-422d-8792-a810ff8d1c67")
 		(at 91.75 75.75 -90)
@@ -8178,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8398,7 +8398,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "discrete:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b4bdd3c5-5948-4d00-b5a6-ee70a0db5be4")
 		(at 88.285 57 180)
@@ -8427,7 +8427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8612,7 +8612,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+	(footprint "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b8ce76eb-bf3a-49ca-8eba-001abcf3fc9e")
 		(at 107.25 84.75)
@@ -8641,7 +8641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8996,7 +8996,7 @@
 			(pintype "passive")
 			(uuid "d0210854-571c-4515-a527-baf9b5b22604")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-I2C-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-I2C-SMD-horizontal.step"
 			(offset
 				(xyz 2 -4.5 0)
 			)
@@ -9008,7 +9008,7 @@
 			)
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "be67079a-8e1e-4a30-891d-af9009ad4bc8")
 		(at 94.5 66.25 90)
@@ -9035,7 +9035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9256,7 +9256,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_Power_7.0x6.6mm_0630"
+	(footprint "discrete:L_Power_7.0x6.6mm_0630"
 		(layer "F.Cu")
 		(uuid "d067fb40-6fec-4086-8101-1bc7ace10a83")
 		(at 87.25 65.75 180)
@@ -9285,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_Power_7.0x6.6mm_0630"
+		(property "Footprint" "discrete:L_Power_7.0x6.6mm_0630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9782,7 +9782,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_0402_1005Metric"
+	(footprint "discrete:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dc0b8445-f554-464d-b26a-9b2b1f4f4ed0")
 		(at 100 85.75 -90)
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "discrete:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10698,7 +10698,7 @@
 			)
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+	(footprint "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 		(layer "B.Cu")
 		(uuid "096c314e-dc13-49ea-8438-5a6424c7f28d")
 		(at 100 59 180)
@@ -10729,7 +10729,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11180,7 +11180,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 0)
 			)
@@ -11838,7 +11838,7 @@
 			(uuid "a2e0b168-4428-4a7f-bc92-ca0e0a980f95")
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "B.Cu")
 		(uuid "3245644b-268b-4860-b1e0-f44c61602cb9")
 		(at 92 76)
@@ -11867,7 +11867,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12181,7 +12181,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+	(footprint "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "34f37d78-7682-44b3-8721-655c9cc91654")
 		(at 107.25 84.75 180)
@@ -12212,7 +12212,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12571,7 +12571,7 @@
 			(pintype "passive")
 			(uuid "99cb45bb-ca74-47f3-a6e2-d20eef775afc")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-I2C-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-I2C-SMD-horizontal.step"
 			(offset
 				(xyz 2 -4.5 0)
 			)
@@ -12583,7 +12583,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "B.Cu")
 		(uuid "46a308b9-2a49-4d18-8aad-6e4d28d20435")
 		(at 108.25 76 -90)
@@ -12614,7 +12614,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12838,7 +12838,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+	(footprint "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "5f4bdb32-f943-43f1-84c4-e28b9f56ba9d")
 		(at 92.75 84.75 180)
@@ -12869,7 +12869,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13228,7 +13228,7 @@
 			(pintype "passive")
 			(uuid "c43cde31-4f39-4d5c-be03-12c6ef4b8872")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-I2C-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-I2C-SMD-horizontal.step"
 			(offset
 				(xyz 2 -4.5 0)
 			)
@@ -13240,7 +13240,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "6aecb145-253a-410f-9e25-b3b73d416586")
 		(at 83.75 76.75 90)
@@ -13269,7 +13269,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13570,7 +13570,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo"
+	(footprint "connector:Qwiic-SMD-horizontal-logo"
 		(layer "B.Cu")
 		(uuid "713f1620-4031-4f1b-847a-c7d4f672bb27")
 		(at 116.5 77.25 -90)
@@ -13601,7 +13601,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13643,7 +13643,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*")
+		(property ki_fp_filters "Connector*:JST_SH_*_1x04?* connector:Qwiic-*")
 		(path "/3d9c2490-b058-479e-a018-5dd3c22ee40a")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -14051,7 +14051,7 @@
 			(uuid "73eec64a-b97a-4a08-9319-7cb645ef00a2")
 			(members "3b28a5fc-b6c6-4ba6-ac38-82771eb51987" "7f7128a9-9246-4dcf-ac01-f8d70aeafc59")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -14063,7 +14063,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "B.Cu")
 		(uuid "73236091-1351-4c1f-bc2a-aa3e41a14ed0")
 		(at 101.75 76 -90)
@@ -14094,7 +14094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14906,7 +14906,7 @@
 			(uuid "a16755ff-f1f4-457d-ad20-aa2a469aff2c")
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "B.Cu")
 		(uuid "b61a7e81-fdc4-4610-8e30-032f25ee0590")
 		(at 95.25 76 -90)
@@ -14937,7 +14937,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15161,7 +15161,7 @@
 			)
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "B.Cu")
 		(uuid "f5ad60ce-b630-4710-a662-daf359b24f03")
 		(at 98.5 76)
@@ -15190,7 +15190,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15504,7 +15504,7 @@
 			)
 		)
 	)
-	(footprint "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+	(footprint "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 		(layer "B.Cu")
 		(uuid "fd9f2c52-d241-457d-8dd2-89320427936f")
 		(at 105 76)
@@ -15533,7 +15533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

@@ -2045,7 +2045,7 @@
 				)
 			)
 		)
-		(symbol "connectors:Qwiic"
+		(symbol "connector:Qwiic"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2071,7 +2071,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+			(property "Footprint" "connector:Qwiic-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2512,7 +2512,7 @@
 				)
 			)
 		)
-		(symbol "custom:SW_SPDT_MountingPin"
+		(symbol "interactive:SW_SPDT_MountingPin"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -5319,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -5387,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 128.905 25.4 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:Qwiic")
+		(lib_id "connector:Qwiic")
 		(at 39.37 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6048,7 +6048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 39.37 128.27 0)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 85.09 88.9 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 91.44 104.14 0)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 121.92 33.02 0)
 			(effects
 				(font
@@ -6829,7 +6829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -6899,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -7434,7 +7434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 85.09 111.76 0)
 			(effects
 				(font
@@ -7504,7 +7504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 154.94 31.75 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:USB-C-Receptacle-16P-TopMount-Horizontal"
+		(property "Footprint" "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -7793,7 +7793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:SW_SPDT_MountingPin")
+		(lib_id "interactive:SW_SPDT_MountingPin")
 		(at 121.92 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8162,7 +8162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -8230,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 85.09 104.14 0)
 			(effects
 				(font

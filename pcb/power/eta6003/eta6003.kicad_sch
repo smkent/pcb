@@ -1861,7 +1861,7 @@
 				)
 			)
 		)
-		(symbol "custom:SW_SPDT_MountingPin"
+		(symbol "interactive:SW_SPDT_MountingPin"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -5550,7 +5550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric"
+		(property "Footprint" "discrete:L_1008_2520Metric"
 			(at 40.64 53.34 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:SW_SPDT_MountingPin")
+		(lib_id "interactive:SW_SPDT_MountingPin")
 		(at 120.65 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8456,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 250.19 41.91 0)
 			(effects
 				(font

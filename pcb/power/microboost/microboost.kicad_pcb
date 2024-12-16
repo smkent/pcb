@@ -625,7 +625,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_1008_2520Metric"
+	(footprint "discrete:L_1008_2520Metric"
 		(layer "F.Cu")
 		(uuid "76748adf-24cc-413d-bebd-134426f56932")
 		(at 138 122 90)
@@ -654,7 +654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_1008_2520Metric"
+		(property "Footprint" "discrete:L_1008_2520Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1898,7 +1898,7 @@
 			)
 		)
 	)
-	(footprint "packages:D_SOD-123F"
+	(footprint "package:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "bf5e88d4-644a-4006-8314-dbf8f78b0f12")
 		(at 138 118 -90)
@@ -1927,7 +1927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

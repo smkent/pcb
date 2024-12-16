@@ -1106,7 +1106,7 @@
 				)
 			)
 		)
-		(symbol "modules:LCD-round-1.28in-GC9A01"
+		(symbol "module:LCD-round-1.28in-GC9A01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1127,7 +1127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "modules:GC9A01-screen-connector-pads"
+			(property "Footprint" "module:GC9A01-screen-connector-pads"
 				(at 0.508 -6.096 0)
 				(effects
 					(font
@@ -3461,7 +3461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "modules:LCD-round-1.28in-GC9A01")
+		(lib_id "module:LCD-round-1.28in-GC9A01")
 		(at 132.08 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3488,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "modules:GC9A01-screen-connector-pads"
+		(property "Footprint" "module:GC9A01-screen-connector-pads"
 			(at 132.588 93.726 0)
 			(effects
 				(font
@@ -3801,7 +3801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 143.51 136.525 0)
 			(effects
 				(font
@@ -4210,7 +4210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 			(at 193.04 105.41 0)
 			(effects
 				(font

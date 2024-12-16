@@ -128,7 +128,7 @@
 	(net 46 "/RELAY_LOW")
 	(net 47 "Net-(LED3-A)")
 	(net 48 "Net-(J4-Pin_1)")
-	(footprint "modules:LCD-OLED-0.96-module-noholes"
+	(footprint "module:LCD-OLED-0.96-module-noholes"
 		(layer "F.Cu")
 		(uuid "1e57825f-2cac-4874-bb83-16a4eb19e351")
 		(at 160 108)
@@ -155,7 +155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:LCD-OLED-0.96-module-noholes"
+		(property "Footprint" "module:LCD-OLED-0.96-module-noholes"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -453,7 +453,7 @@
 			(pintype "passive")
 			(uuid "2761d353-7e07-49f3-8a86-3691e2621e82")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/LCD-OLED-0.96-SM.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/LCD-OLED-0.96-SM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2164,7 +2164,7 @@
 			)
 		)
 	)
-	(footprint "modules:DFPlayer-Mini-DFR0299-module"
+	(footprint "module:DFPlayer-Mini-DFR0299-module"
 		(layer "F.Cu")
 		(uuid "b93a5227-be46-4e0b-8318-5bbe0d5fc65f")
 		(at 160 148.75 180)
@@ -2191,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
+		(property "Footprint" "module:DFPlayer-Mini-DFR0299-module"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2505,7 +2505,7 @@
 			(pintype "input+no_connect")
 			(uuid "808abfc2-805d-48e3-814f-d58b7863c23f")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/DFR0299.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/DFR0299.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3429,7 +3429,7 @@
 			)
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Pins"
+	(footprint "module:ESP32-C3-Super-Mini-Pins"
 		(layer "F.Cu")
 		(uuid "fd6bfb94-188d-4001-a304-f15ec37bec71")
 		(at 158.5 84 90)
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3731,7 +3731,7 @@
 			(pintype "power_in")
 			(uuid "699fe436-9188-4cc0-8c95-52ff63500a78")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)
@@ -3765,7 +3765,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "B.Cu")
 		(uuid "00ee9acf-5387-4b56-b958-dfeda2a0e7cc")
 		(at 163.5 87.5 180)
@@ -3796,7 +3796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4473,7 +4473,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "B.Cu")
 		(uuid "387b42fd-8847-43a3-b201-6e8eae46f08d")
 		(at 167.75 87.5 180)
@@ -4504,7 +4504,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5614,7 +5614,7 @@
 			)
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "B.Cu")
 		(uuid "77e442ef-f2fe-46bd-9201-44d415935cbe")
 		(at 163.5 83.5 180)
@@ -5643,7 +5643,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -6861,7 +6861,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "B.Cu")
 		(uuid "bf02aeb9-6698-4076-88cc-feb7600985e4")
 		(at 151 70.5 180)
@@ -6892,7 +6892,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7744,7 +7744,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "B.Cu")
 		(uuid "cec55600-a174-43ee-b7b2-fe2200b532f3")
 		(at 159.25 87.5 180)
@@ -7775,7 +7775,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7978,7 +7978,7 @@
 			)
 		)
 	)
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "B.Cu")
 		(uuid "dc793b73-7641-4ff9-9896-9510656c2be1")
 		(at 154.1 108 90)
@@ -8009,7 +8009,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8363,7 +8363,7 @@
 			(pintype "passive")
 			(uuid "9c26261a-79b0-40cf-bdb6-8c50f5e77838")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -8375,7 +8375,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6"
+	(footprint "package:SOT-363_SC-70-6"
 		(layer "B.Cu")
 		(uuid "ed71b8c9-2122-45f4-b945-9df91c50ee3c")
 		(at 164.5375 79.775 180)
@@ -8406,7 +8406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6"
+		(property "Footprint" "package:SOT-363_SC-70-6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

@@ -6887,7 +6887,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7067435f-fc11-44b8-b555-eaec3a7b7594")
 		(at 129.25 133.5 180)
@@ -6915,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9047,7 +9047,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "932e3a69-63ee-443a-9ae6-e087cc5faac8")
 		(at 118.25 166.5)
@@ -9075,7 +9075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17232,7 +17232,7 @@
 			(uuid "cbf30bfb-0f5f-4e10-b262-3ede1c8668fd")
 		)
 	)
-	(footprint "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "21cbfec5-245b-4402-9af7-83faf0b0e1c1")
 		(at 126 166.5 180)
@@ -17261,7 +17261,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

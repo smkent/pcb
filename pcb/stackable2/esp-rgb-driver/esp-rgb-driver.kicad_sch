@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(symbol "connectors:Qwiic"
+		(symbol "connector:Qwiic"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2843,7 +2843,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+			(property "Footprint" "connector:Qwiic-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2879,7 +2879,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*"
+			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connector:Qwiic-*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(symbol "connectors:STEMMA-Signal"
+		(symbol "connector:STEMMA-Signal"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -3310,7 +3310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+			(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3346,7 +3346,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*"
+			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3943,7 +3943,7 @@
 					)
 				)
 			)
-			(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+			(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 				(at -7.62 3.81 0)
 				(effects
 					(font
@@ -4171,7 +4171,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+			(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -4516,7 +4516,7 @@
 				)
 			)
 		)
-		(symbol "modules:ESP32-C3-Super-Mini"
+		(symbol "module:ESP32-C3-Super-Mini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4536,7 +4536,7 @@
 					)
 				)
 			)
-			(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+			(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -9143,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 66.675 0)
 			(effects
 				(font
@@ -10458,7 +10458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 146.685 0)
 			(effects
 				(font
@@ -10618,7 +10618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 47.625 0)
 			(effects
 				(font
@@ -11046,7 +11046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 127.635 0)
 			(effects
 				(font
@@ -11140,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -11237,7 +11237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 181.61 48.26 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 41.91 81.28 0)
 			(effects
 				(font
@@ -11788,7 +11788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 85.725 0)
 			(effects
 				(font
@@ -11923,7 +11923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "modules:ESP32-C3-Super-Mini")
+		(lib_id "module:ESP32-C3-Super-Mini")
 		(at 40.64 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11948,7 +11948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD-only"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Castellated-SMD-only"
 			(at 40.64 23.622 0)
 			(effects
 				(font
@@ -12033,7 +12033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:Qwiic")
+		(lib_id "connector:Qwiic")
 		(at 125.73 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12060,7 +12060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -12363,7 +12363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 245.11 128.27 0)
 			(effects
 				(font
@@ -12979,7 +12979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 66.675 0)
 			(effects
 				(font
@@ -13405,7 +13405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "packages:D_SOD-123F"
+		(property "Footprint" "package:D_SOD-123F"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -13475,7 +13475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 127.635 0)
 			(effects
 				(font
@@ -14170,7 +14170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -14332,7 +14332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "discrete:R_0402_1005Metric"
 			(at 106.68 58.928 90)
 			(effects
 				(font
@@ -14400,7 +14400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "discrete:C_0402_1005Metric"
 			(at 77.47 78.74 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 101.6 173.99 0)
 			(effects
 				(font
@@ -14830,7 +14830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -15328,7 +15328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 85.725 0)
 			(effects
 				(font
@@ -15485,7 +15485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_Power_7.0x6.6mm_0630"
+		(property "Footprint" "discrete:L_Power_7.0x6.6mm_0630"
 			(at 85.09 78.74 0)
 			(effects
 				(font
@@ -15632,7 +15632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -15782,7 +15782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "discrete:R_0402_1005Metric"
 			(at 63.5 124.46 0)
 			(effects
 				(font
@@ -15985,7 +15985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 31.75 151.13 0)
 			(effects
 				(font
@@ -16064,7 +16064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 47.625 0)
 			(effects
 				(font
@@ -16158,7 +16158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 146.685 0)
 			(effects
 				(font
@@ -16291,7 +16291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:STEMMA-Signal")
+		(lib_id "connector:STEMMA-Signal")
 		(at 36.83 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16319,7 +16319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -16594,7 +16594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 245.11 48.26 0)
 			(effects
 				(font
@@ -16743,7 +16743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 208.28 107.315 0)
 			(effects
 				(font
@@ -16837,7 +16837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -17382,7 +17382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -17725,7 +17725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 55.88 151.13 0)
 			(effects
 				(font
@@ -17936,7 +17936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
+		(property "Footprint" "package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2"
 			(at 271.78 107.315 0)
 			(effects
 				(font
@@ -18096,7 +18096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 181.61 128.27 0)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:STEMMA-Signal")
+		(lib_id "connector:STEMMA-Signal")
 		(at 68.58 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18250,7 +18250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 68.58 176.53 0)
 			(effects
 				(font
@@ -18326,7 +18326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 139.7 135.89 0)
 			(effects
 				(font
