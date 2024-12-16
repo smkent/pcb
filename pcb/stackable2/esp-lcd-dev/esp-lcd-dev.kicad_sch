@@ -3506,7 +3506,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:2N7002DW"
+		(symbol "discrete:2N7002DW"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:VEML7700"
+		(symbol "discrete:VEML7700"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8449,7 +8449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:2N7002DW")
+		(lib_id "discrete:2N7002DW")
 		(at 223.52 54.61 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -10953,7 +10953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:VEML7700")
+		(lib_id "discrete:VEML7700")
 		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12705,7 +12705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:2N7002DW")
+		(lib_id "discrete:2N7002DW")
 		(at 223.52 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)

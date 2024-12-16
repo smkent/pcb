@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:SK6812SIDE-A"
+		(symbol "discrete:SK6812SIDE-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3775,7 +3775,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:ZC010DNG"
+		(symbol "discrete:ZC010DNG"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8798,7 +8798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ZC010DNG")
+		(lib_id "discrete:ZC010DNG")
 		(at 55.88 104.14 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -10781,7 +10781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:SK6812SIDE-A")
+		(lib_id "discrete:SK6812SIDE-A")
 		(at 238.76 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11335,7 +11335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ZC010DNG")
+		(lib_id "discrete:ZC010DNG")
 		(at 27.94 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14187,7 +14187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:SK6812SIDE-A")
+		(lib_id "discrete:SK6812SIDE-A")
 		(at 209.55 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)

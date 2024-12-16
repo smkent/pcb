@@ -2432,7 +2432,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:2N7002DW"
+		(symbol "discrete:2N7002DW"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:FM-3510RGBA-SG"
+		(symbol "discrete:FM-3510RGBA-SG"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -3276,7 +3276,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:VEML7700"
+		(symbol "discrete:VEML7700"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6867,7 +6867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:VEML7700")
+		(lib_id "discrete:VEML7700")
 		(at 33.02 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7966,7 +7966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:2N7002DW")
+		(lib_id "discrete:2N7002DW")
 		(at 83.82 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10305,7 +10305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:2N7002DW")
+		(lib_id "discrete:2N7002DW")
 		(at 83.82 105.41 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -11437,7 +11437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:FM-3510RGBA-SG")
+		(lib_id "discrete:FM-3510RGBA-SG")
 		(at 161.29 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
