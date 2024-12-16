@@ -6851,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1T45DRL"
+		(property "Value" "SN74LVC1T45Z6"
 			(at 0 1.75 0)
 			(layer "F.Fab")
 			(uuid "b028d61e-e1ba-46b5-aea2-878cbeb9fa5b")
@@ -6875,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6897,6 +6897,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C441819"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83f07470-58d4-4f34-9c04-07487aa36ce0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
