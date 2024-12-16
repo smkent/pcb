@@ -2117,7 +2117,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:ME6211C33U4"
+		(symbol "ic:ME6211C33U4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2590,7 +2590,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:WS2811F"
+		(symbol "ic:WS2811F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7428,7 +7428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:WS2811F")
+		(lib_id "ic:WS2811F")
 		(at 210.82 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9792,7 +9792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ME6211C33U4")
+		(lib_id "ic:ME6211C33U4")
 		(at 49.53 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)

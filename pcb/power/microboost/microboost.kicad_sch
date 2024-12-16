@@ -932,7 +932,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:MT3608"
+		(symbol "ic:MT3608"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4105,7 +4105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:MT3608")
+		(lib_id "ic:MT3608")
 		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
