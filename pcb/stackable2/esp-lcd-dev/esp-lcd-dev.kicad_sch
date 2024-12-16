@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:VEML7700"
+		(symbol "discrete:VEML7700"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10953,7 +10953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:VEML7700")
+		(lib_id "discrete:VEML7700")
 		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
