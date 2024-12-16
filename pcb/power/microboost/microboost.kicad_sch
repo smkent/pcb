@@ -937,12 +937,11 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -2.54 8.89 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "MT3608"
