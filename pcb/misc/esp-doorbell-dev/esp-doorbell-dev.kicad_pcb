@@ -128,7 +128,7 @@
 	(net 46 "/RELAY_LOW")
 	(net 47 "Net-(LED3-A)")
 	(net 48 "Net-(J4-Pin_1)")
-	(footprint "modules:LCD-OLED-0.96-module-noholes"
+	(footprint "module:LCD-OLED-0.96-module-noholes"
 		(layer "F.Cu")
 		(uuid "1e57825f-2cac-4874-bb83-16a4eb19e351")
 		(at 160 108)
@@ -155,7 +155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:LCD-OLED-0.96-module-noholes"
+		(property "Footprint" "module:LCD-OLED-0.96-module-noholes"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -453,7 +453,7 @@
 			(pintype "passive")
 			(uuid "2761d353-7e07-49f3-8a86-3691e2621e82")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/LCD-OLED-0.96-SM.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/LCD-OLED-0.96-SM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2164,7 +2164,7 @@
 			)
 		)
 	)
-	(footprint "modules:DFPlayer-Mini-DFR0299-module"
+	(footprint "module:DFPlayer-Mini-DFR0299-module"
 		(layer "F.Cu")
 		(uuid "b93a5227-be46-4e0b-8318-5bbe0d5fc65f")
 		(at 160 148.75 180)
@@ -2191,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
+		(property "Footprint" "module:DFPlayer-Mini-DFR0299-module"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2505,7 +2505,7 @@
 			(pintype "input+no_connect")
 			(uuid "808abfc2-805d-48e3-814f-d58b7863c23f")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/DFR0299.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/DFR0299.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3429,7 +3429,7 @@
 			)
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Pins"
+	(footprint "module:ESP32-C3-Super-Mini-Pins"
 		(layer "F.Cu")
 		(uuid "fd6bfb94-188d-4001-a304-f15ec37bec71")
 		(at 158.5 84 90)
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3731,7 +3731,7 @@
 			(pintype "power_in")
 			(uuid "699fe436-9188-4cc0-8c95-52ff63500a78")
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 2.5)
 			)

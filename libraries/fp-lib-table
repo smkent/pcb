@@ -6,7 +6,7 @@
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/libraries/lcsc.pretty")(options "")(descr ""))
   (lib (name "led")(type "KiCad")(uri "${KIPRJMOD}/libraries/led.pretty")(options "")(descr ""))
   (lib (name "mechanical")(type "KiCad")(uri "${KIPRJMOD}/libraries/mechanical.pretty")(options "")(descr ""))
-  (lib (name "modules")(type "KiCad")(uri "${KIPRJMOD}/libraries/modules.pretty")(options "")(descr ""))
+  (lib (name "module")(type "KiCad")(uri "${KIPRJMOD}/libraries/module.pretty")(options "")(descr ""))
   (lib (name "packages")(type "KiCad")(uri "${KIPRJMOD}/libraries/packages.pretty")(options "")(descr ""))
   (lib (name "passives")(type "KiCad")(uri "${KIPRJMOD}/libraries/passives.pretty")(options "")(descr ""))
 )

@@ -4062,7 +4062,7 @@
 			(uuid "e9a8dc80-2b57-4160-b20f-eaf4fad60b15")
 		)
 	)
-	(footprint "modules:ESP32-C3-Super-Mini-Castellated-SMD"
+	(footprint "module:ESP32-C3-Super-Mini-Castellated-SMD"
 		(layer "F.Cu")
 		(uuid "b0694a98-1726-4110-81b7-eb8bfbfe8b5c")
 		(at 120 49)
@@ -4091,7 +4091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Castellated-SMD"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Castellated-SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4553,7 +4553,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/modules.3dshapes/ESP32-C3-SuperMini.step"
+		(model "${KIPRJMOD}/libraries/module.3dshapes/ESP32-C3-SuperMini.step"
 			(offset
 				(xyz 0 -2.3 0)
 			)

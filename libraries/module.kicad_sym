@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:AHT20+BMP280"
+		(property "Footprint" "module:AHT20+BMP280"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:BH1750"
+		(property "Footprint" "module:BH1750"
 			(at 0.635 8.255 0)
 			(effects
 				(font
@@ -331,7 +331,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "modules:DFPlayer-Mini-DFR0299-module"
+		(property "Footprint" "module:DFPlayer-Mini-DFR0299-module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -683,7 +683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ENS160+AHT2x"
+		(property "Footprint" "module:ENS160+AHT2x"
 			(at 0.635 9.525 0)
 			(effects
 				(font
@@ -898,7 +898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-C3-Super-Mini-Pins"
+		(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
 			(at 0 15.748 0)
 			(effects
 				(font
@@ -1271,7 +1271,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "modules:ESP32-CAM"
+		(property "Footprint" "module:ESP32-CAM"
 			(at -0.254 -15.494 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:ESP32-S3-Super-Mini-Pins"
+		(property "Footprint" "module:ESP32-S3-Super-Mini-Pins"
 			(at 0 15.748 0)
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "modules:GC9A01-screen-connector-pads"
+		(property "Footprint" "module:GC9A01-screen-connector-pads"
 			(at 0.508 -6.096 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:MAX98357A-module"
+		(property "Footprint" "module:MAX98357A-module"
 			(at 0.635 9.525 0)
 			(effects
 				(font
@@ -2581,7 +2581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "modules:LCD-OLED-0.96-module"
+		(property "Footprint" "module:LCD-OLED-0.96-module"
 			(at 0 -11.43 0)
 			(effects
 				(font

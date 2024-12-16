@@ -1,4 +1,4 @@
-(footprint "AHT20+BMP280"
+(footprint "AHT20+BMP280-noholes"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "AHT20+BMP280"
+	(property "Value" "AHT20+BMP280-noholes"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -227,22 +227,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole oval
-		(at -5.5 -0.75)
-		(size 3.2 4.7)
-		(drill 2.2 3.7)
-		(layers "F&B.Cu" "*.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "1ebf316d-5f0d-47df-bcb5-2ee3aeb9cbcd")
-	)
-	(pad "" np_thru_hole oval
-		(at 5.5 -0.75)
-		(size 3.2 4.7)
-		(drill 2.2 3.7)
-		(layers "F&B.Cu" "*.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "94be9419-e379-405d-a353-f537fbf82c51")
-	)
 	(pad "1" thru_hole circle
 		(at -3.81 5.73)
 		(size 1.7 1.7)
@@ -277,7 +261,7 @@
 		(remove_unused_layers no)
 		(uuid "463fb408-bfae-44c3-b451-f7502a50704a")
 	)
-	(model "${KIPRJMOD}/libraries/modules.3dshapes/AHT20+BMP280.step"
+	(model "${KIPRJMOD}/libraries/module.3dshapes/AHT20+BMP280.step"
 		(offset
 			(xyz -7.5 -7.5 4)
 		)
