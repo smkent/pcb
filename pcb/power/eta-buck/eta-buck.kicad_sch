@@ -970,7 +970,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:ETA8121"
+		(symbol "ic:ETA8121"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3487,7 +3487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ETA8121")
+		(lib_id "ic:ETA8121")
 		(at 128.27 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
