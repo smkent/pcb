@@ -3225,7 +3225,7 @@
 		)
 		(symbol "TEMT6000X01_1_1"
 			(pin passive line
-				(at -12.7 1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "Emitter"
 					(effects
@@ -3243,8 +3243,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -1.27 0)
-				(length 2.54)
+				(at -12.7 -2.54 0)
+				(length 2.54) hide
 				(name ""
 					(effects
 						(font
