@@ -5,6 +5,7 @@
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/libraries/custom.kicad_sym")(options "")(descr ""))
   (lib (name "discrete")(type "KiCad")(uri "${KIPRJMOD}/libraries/discrete.kicad_sym")(options "")(descr ""))
   (lib (name "ic")(type "KiCad")(uri "${KIPRJMOD}/libraries/ic.kicad_sym")(options "")(descr ""))
+  (lib (name "interactive")(type "KiCad")(uri "${KIPRJMOD}/libraries/interactive.kicad_sym")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/libraries/lcsc.kicad_sym")(options "")(descr ""))
   (lib (name "module")(type "KiCad")(uri "${KIPRJMOD}/libraries/module.kicad_sym")(options "")(descr ""))
 )
