@@ -2808,7 +2808,7 @@
 			)
 		)
 	)
-	(footprint "passive:L_1008_2520Metric"
+	(footprint "discrete:L_1008_2520Metric"
 		(layer "F.Cu")
 		(uuid "711a689d-4885-4e73-8261-100500d0699d")
 		(at 84.5 140 -90)
@@ -2837,7 +2837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:L_1008_2520Metric"
+		(property "Footprint" "discrete:L_1008_2520Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

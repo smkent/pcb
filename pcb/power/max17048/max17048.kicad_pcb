@@ -95,7 +95,7 @@
 	(net 13 "Net-(Q1-G)")
 	(net 14 "VCC")
 	(net 15 "/PROTECT_VDD")
-	(footprint "passive:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2090c2a6-64a1-4696-9731-967589cce579")
 		(at 133.5 136.05 -90)
@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3302,7 +3302,7 @@
 			)
 		)
 	)
-	(footprint "passive:C_0603_1608Metric"
+	(footprint "discrete:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b0f3f2fe-7bda-4f1d-a2e9-d9ec1c50222a")
 		(at 138.25 122 180)
@@ -3331,7 +3331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:C_0603_1608Metric"
+		(property "Footprint" "discrete:C_0603_1608Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3536,7 +3536,7 @@
 			)
 		)
 	)
-	(footprint "passive:R_0603_1608Metric"
+	(footprint "discrete:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b8a1392a-ee43-4061-b828-7f1b9c7e4f36")
 		(at 133 131.5 90)
@@ -3565,7 +3565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4096,7 +4096,7 @@
 			)
 		)
 	)
-	(footprint "passive:R_0603_1608Metric"
+	(footprint "discrete:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d30cdcfa-a5fc-4301-9dbd-21ef65e3cf5d")
 		(at 140 124.5 -90)
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4303,7 +4303,7 @@
 			)
 		)
 	)
-	(footprint "passive:R_0603_1608Metric"
+	(footprint "discrete:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dec5cd92-d294-48f4-9bce-a75ee6066f7e")
 		(at 134.5 131.5 90)
@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4497,7 +4497,7 @@
 			)
 		)
 	)
-	(footprint "passive:R_0603_1608Metric"
+	(footprint "discrete:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e0853044-1e6c-4602-87a5-ec95be7708c8")
 		(at 141.75 122)
@@ -4526,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:R_0603_1608Metric"
+		(property "Footprint" "discrete:R_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
