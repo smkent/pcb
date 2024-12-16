@@ -4706,7 +4706,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+		(property "Description" "Dual schmitt inverter, VCC from 0.8 to 3.6 V, X2-DFN1010-6"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4731,8 +4731,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SG-* SOT*")
-		(path "/bdcd723c-43b7-4b79-a5b0-892ec1f470b6")
+		(property ki_fp_filters "X2?DFN*1010*6*")
+		(path "/2533534f-5f33-4b37-98cb-e5e2bccdd8ad")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
 		(clearance 0.15)
@@ -4812,7 +4812,7 @@
 			(size 0.2 0.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "+3V3")
-			(pinfunction "VCC")
+			(pinfunction "V_{CC}")
 			(pintype "power_in")
 			(uuid "a102b031-cd2c-481a-8ad5-e49a1598ed08")
 		)
