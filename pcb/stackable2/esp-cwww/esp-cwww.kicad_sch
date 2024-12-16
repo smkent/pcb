@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:SK6812SIDE-A"
+		(symbol "discrete:SK6812SIDE-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -10781,7 +10781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:SK6812SIDE-A")
+		(lib_id "discrete:SK6812SIDE-A")
 		(at 238.76 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14187,7 +14187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:SK6812SIDE-A")
+		(lib_id "discrete:SK6812SIDE-A")
 		(at 209.55 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
