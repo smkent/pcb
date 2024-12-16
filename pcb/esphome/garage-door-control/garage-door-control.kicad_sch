@@ -1148,6 +1148,231 @@
 				)
 			)
 		)
+		(symbol "ENS160+AHT2x_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SM"
+				(at 8.89 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ENS160+AHT2x"
+				(at 8.89 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "module:ENS160+AHT2x"
+				(at 0.635 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+				(at -1.27 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C, SPI, VOC, CO2, air, quality, temperature, humidity, sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ENS160+AHT2x_1_0_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ENS160+AHT2x_1_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "ADD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ESP32-C3-Super-Mini_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2142,221 +2367,6 @@
 				)
 			)
 		)
-		(symbol "module:ENS160+AHT2x"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "module:ENS160+AHT2x"
-				(at 0.635 9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ENS160+AHT2x_0_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ENS160+AHT2x_1_1"
-				(text "ENS160\n+AHT2x"
-					(at -0.254 -2.54 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -5.08 180)
-					(length 2.54)
-					(name "ADD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2857,6 +2867,10 @@
 		(uuid "fb7be513-a892-4981-9fe5-03c14d7c7979")
 	)
 	(no_connect
+		(at 162.56 128.27)
+		(uuid "0824a8c0-aa77-4f70-ba83-fd88dabf296f")
+	)
+	(no_connect
 		(at 238.76 96.52)
 		(uuid "160a7544-7c49-4907-b94c-2c6349522a7e")
 	)
@@ -2873,28 +2887,24 @@
 		(uuid "5d4c1f35-28c1-4793-8a26-85eece644741")
 	)
 	(no_connect
-		(at 162.56 133.35)
-		(uuid "69983ae3-1bbd-4444-9557-854d62e8836c")
-	)
-	(no_connect
-		(at 162.56 135.89)
-		(uuid "763cce5c-0f99-45ca-a1a2-ca491702644f")
-	)
-	(no_connect
-		(at 144.78 130.81)
-		(uuid "7bac0c4d-ddb8-4179-a948-aef45965719b")
-	)
-	(no_connect
 		(at 165.1 53.34)
 		(uuid "9f231e1a-e370-4c06-ac45-c95f0e8efda3")
 	)
 	(no_connect
-		(at 162.56 130.81)
-		(uuid "ae42909e-429d-4fac-8595-ff78708ee631")
+		(at 162.56 125.73)
+		(uuid "9f5bffe0-42c5-4a2b-bff5-b4637d8b67f7")
 	)
 	(no_connect
 		(at 36.83 35.56)
 		(uuid "b13e7d9c-b724-4573-b7af-b7f848aa0864")
+	)
+	(no_connect
+		(at 144.78 128.27)
+		(uuid "b182d02a-f03a-4080-8a4d-dfd0c66de742")
+	)
+	(no_connect
+		(at 162.56 120.65)
+		(uuid "d4e5a182-4686-4a98-811b-2cc1bef55018")
 	)
 	(no_connect
 		(at 36.83 48.26)
@@ -4481,7 +4491,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 34.29 40.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4547,7 +4557,7 @@
 		)
 	)
 	(global_label "BUS0_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 144.78 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4613,7 +4623,7 @@
 		)
 	)
 	(global_label "BUS0_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 85.09 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4678,50 +4688,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape output)
-		(at 162.56 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98b0f052-1efd-478e-8445-dd59599f581e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0528 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUS1_SDA"
-		(shape input)
-		(at 162.56 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98e52147-cf36-47e5-a340-9f1a9411baae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1004 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RELAY_SW_NO"
 		(shape output)
 		(at 167.64 58.42 0)
@@ -4767,7 +4733,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape output)
+		(shape bidirectional)
 		(at 39.37 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4876,8 +4842,30 @@
 			)
 		)
 	)
-	(global_label "BUS1_SDA"
+	(global_label "SCL"
 		(shape input)
+		(at 144.78 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e336f4a7-e4c1-4e37-a408-2b00f4f50ec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2872 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_SDA"
+		(shape bidirectional)
 		(at 85.09 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4894,6 +4882,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_SDA"
+		(shape bidirectional)
+		(at 144.78 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8af8ec0-b31e-4ec8-9e5f-5f2fcdc1e2bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.2396 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4960,73 +4970,6 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1574dcab-7a4b-42ac-b7eb-3f510431eb2b")
-		(property "Reference" "#PWR05"
-			(at 148.59 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.97 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47e99b4f-e895-466b-b622-b0088fa4001e")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5646,6 +5589,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f6f27b8-8ab2-41f2-8fab-c2e02a1b949a")
+		(property "Reference" "#PWR05"
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a631bb-603e-4d00-b948-bb442dd017f3")
+		)
+		(instances
+			(project "garage-door-control"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 22.86 189.23 270)
 		(unit 1)
@@ -5783,6 +5792,104 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ENS160+AHT2x_1")
+		(lib_id "module:ENS160+AHT2x")
+		(at 153.67 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565d10b0-92fa-4002-962f-c51d9a7880ff")
+		(property "Reference" "SM3"
+			(at 155.8641 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ENS160+AHT2x"
+			(at 155.8641 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "module:ENS160+AHT2x-noholes"
+			(at 154.305 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1f38e130-1921-468c-b289-4cc1a3233b8e")
+		)
+		(pin "4"
+			(uuid "11971656-07f3-4c95-9332-fee8b17f3a12")
+		)
+		(pin "5"
+			(uuid "144a0d24-f19d-4383-85ae-c1c8aea39a18")
+		)
+		(pin "1"
+			(uuid "756bc880-60b0-4a3f-bc1b-8f2bf37d2988")
+		)
+		(pin "7"
+			(uuid "9db8eb3b-7331-4fb6-95bc-295b269b17cd")
+		)
+		(pin "2"
+			(uuid "eae55544-0d0b-44a3-aca2-f2ea7b9fdd37")
+		)
+		(pin "6"
+			(uuid "2a7c96d7-1fab-4ae6-bbac-8966bc8dd35d")
+		)
+		(pin "3"
+			(uuid "8ca8be06-30da-416d-9a42-34715bf0c957")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SM3")
 					(unit 1)
 				)
 			)
@@ -6694,6 +6801,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade7124e-428c-4d3c-a7fe-b827c4666d37")
+		(property "Reference" "#PWR06"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "384b2fed-85e1-4c5a-b654-0c1b300cbcdb")
+		)
+		(instances
+			(project "garage-door-control"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS34")
 		(at 157.48 31.75 0)
 		(unit 1)
@@ -7568,73 +7741,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f17bcdd4-5c8b-496a-b68f-c46de1819bf9")
-		(property "Reference" "#PWR06"
-			(at 138.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b19001e-4317-474f-bfc0-2c5cd06728e4")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 247.65 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7838,92 +7944,6 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "module:ENS160+AHT2x")
-		(at 153.67 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff910b5d-45d0-4276-858a-83aa0845c83d")
-		(property "Reference" "SM3"
-			(at 153.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "module:ENS160+AHT2x-noholes"
-			(at 154.305 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8d415c86-2505-4523-9557-71ca00f6e83c")
-		)
-		(pin "1"
-			(uuid "3db3481c-aab3-47de-a6cf-9074c749e1be")
-		)
-		(pin "3"
-			(uuid "887641ac-0743-4323-8967-c7917bcf8c08")
-		)
-		(pin "4"
-			(uuid "dcc1abb0-59e1-42d0-8e66-be8fc0f371eb")
-		)
-		(pin "8"
-			(uuid "4d292451-1617-462c-ba0b-3609a7ba1cd6")
-		)
-		(pin "6"
-			(uuid "46af0305-6fbd-4988-a14b-8c8cb0fb1118")
-		)
-		(pin "2"
-			(uuid "d1490fc1-a1f0-4f0e-9d76-8e085cf9d7b6")
-		)
-		(pin "5"
-			(uuid "58dea32f-1a39-48d9-af1a-a109ba9f2ee3")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SM3")
 					(unit 1)
 				)
 			)

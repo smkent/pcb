@@ -679,15 +679,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SM"
-			(at 0 11.43 0)
+			(at 8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 15.24 0)
+		(property "Value" "ENS160+AHT2x"
+			(at 8.89 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
 			(at -1.27 15.24 0)
 			(effects
 				(font
@@ -712,8 +712,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
 			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "I2C, SPI, VOC, CO2, air, quality, temperature, humidity, sensor"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,16 +753,8 @@
 			)
 		)
 		(symbol "ENS160+AHT2x_1_1"
-			(text "ENS160\n+AHT2x"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 5.08 0)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -762,7 +772,7 @@
 				)
 			)
 			(pin power_out line
-				(at -8.89 0 0)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -780,7 +790,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -798,7 +808,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -816,7 +826,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 5.08 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -834,7 +844,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -5.08 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "ADD"
 					(effects
@@ -852,7 +862,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -870,7 +880,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -2.54 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "INT"
 					(effects
