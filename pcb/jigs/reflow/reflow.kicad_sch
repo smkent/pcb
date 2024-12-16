@@ -2307,6 +2307,456 @@
 				)
 			)
 		)
+		(symbol "ic:74LVC2G00HD4-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "74LVC2G00HD4-7"
+				(at 2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual schmitt NAND gate, VCC from 1.65 to 5.5 V, X2-DFN2010-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C842639"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dual schmitt nand logic gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "X2?DFN*2010*8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G00HD4-7_0_1"
+				(arc
+					(start -0.508 -5.08)
+					(mid 0.39 -4.708)
+					(end 0.762 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.54)
+					(mid 0.39 2.912)
+					(end 0.762 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.54) (xy -1.524 -2.54) (xy -1.524 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.08) (xy -1.524 5.08) (xy -1.524 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 -3.81)
+					(mid 0.39 -2.912)
+					(end -0.508 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 3.81)
+					(mid 0.39 4.708)
+					(end -0.508 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74LVC2G00HD4-7_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.572) (xy -3.81 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -3.048) (xy -3.81 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 3.048) (xy -3.81 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 4.572) (xy -3.81 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -3.556) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 4.064) (xy 0 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -3.81) (xy 4.064 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -4.064) (xy -0.508 -3.556) (xy -0.254 -3.556) (xy -0.254 -4.064) (xy -0.762 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 3.556) (xy -0.508 4.064) (xy -0.254 4.064) (xy -0.254 3.556) (xy -0.762 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ic:ME6211C33U4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2685,293 +3135,6 @@
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "lcsc:74LVC2G00HD4-7"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC2G00HD4-7"
-				(at 7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual NAND Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C842639"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Dual Gate NAND LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SSOP* VSSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC2G00HD4-7_1_1"
-				(arc
-					(start 0 -5.08)
-					(mid 5.0579 0)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 7.62)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "1Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC2G00HD4-7_2_1"
-				(arc
-					(start 0 -5.08)
-					(mid 5.0579 0)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "2Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 7.62)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC2G00HD4-7_3_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC2G00HD4-7_3_1"
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4314,6 +4477,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 129.54) (xy 36.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233e3b01-eaf0-4b21-aca9-535653a3a25d")
+	)
+	(wire
+		(pts
 			(xy 254 139.7) (xy 248.92 139.7)
 		)
 		(stroke
@@ -4334,6 +4507,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 134.62) (xy 36.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e905ae-2924-4861-9054-b21a62b1d12c")
+	)
+	(wire
+		(pts
 			(xy 13.97 163.83) (xy 13.97 168.91)
 		)
 		(stroke
@@ -4344,16 +4527,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 158.75) (xy 62.23 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d4693cf-35ef-4190-bfd2-27b22db369af")
-	)
-	(wire
-		(pts
 			(xy 248.92 149.86) (xy 248.92 139.7)
 		)
 		(stroke
@@ -4361,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "301b0969-70a1-4654-bb1e-76d670798360")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 39.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304c1a31-2ace-48da-b6e9-b9a620a8d5f5")
 	)
 	(wire
 		(pts
@@ -4464,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 137.16) (xy 39.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e004233-4c41-403f-b854-ec944563af65")
+	)
+	(wire
+		(pts
 			(xy 127 104.14) (xy 127 101.6)
 		)
 		(stroke
@@ -4484,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 153.67) (xy 34.29 153.67)
+			(xy 13.97 153.67) (xy 36.83 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4524,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594be758-6ea9-4027-a112-bfc4643bdbd2")
+	)
+	(wire
+		(pts
 			(xy 118.11 43.18) (xy 119.38 43.18)
 		)
 		(stroke
@@ -4541,6 +4744,16 @@
 			(type default)
 		)
 		(uuid "5c243d04-26ff-4e6b-bc99-3eab14fab213")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ead98aa-95d5-4eb6-a79f-9089ef1f0fd0")
 	)
 	(wire
 		(pts
@@ -4654,6 +4867,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 135.89) (xy 59.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b09307-ccb1-4791-a410-fd627c780075")
+	)
+	(wire
+		(pts
 			(xy 179.07 90.17) (xy 152.4 90.17)
 		)
 		(stroke
@@ -4674,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 104.14) (xy 34.29 104.14)
+			(xy 25.4 104.14) (xy 36.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4771,6 +4994,16 @@
 			(type default)
 		)
 		(uuid "84d99b4c-9b5f-48c0-9eda-9a6cb6e724db")
+	)
+	(wire
+		(pts
+			(xy 59.69 128.27) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed19663-a75c-4519-94ca-953199fc5364")
 	)
 	(wire
 		(pts
@@ -4884,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 134.62) (xy 36.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca6e605-df69-4a78-9000-b80ea1a70e43")
+	)
+	(wire
+		(pts
 			(xy 13.97 114.3) (xy 13.97 109.22)
 		)
 		(stroke
@@ -4964,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 99.06) (xy 34.29 99.06)
+			(xy 13.97 99.06) (xy 39.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5094,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 158.75) (xy 34.29 158.75)
+			(xy 25.4 158.75) (xy 39.37 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5444,16 @@
 			(type default)
 		)
 		(uuid "fcf62df5-20c4-44d1-96c2-ca9acb5a7184")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe31a45c-d221-41e1-8ad5-35de33867880")
 	)
 	(wire
 		(pts
@@ -8045,101 +8298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:74LVC2G00HD4-7")
-		(at 49.53 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "216c3aa0-d805-4fc3-95a4-be91f721d032")
-		(property "Reference" "U2"
-			(at 48.2489 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC2G00HD4-7"
-			(at 48.2489 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
-			(at 49.53 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
-			(at 49.53 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NAND Gate, Low-Voltage CMOS"
-			(at 49.53 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C842639"
-			(at 49.53 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "652af6a9-6e93-4ff4-84ee-c93893b55b63")
-		)
-		(pin "6"
-			(uuid "9aecea92-0d2e-4248-8cec-fb48cbcf4df7")
-		)
-		(pin "4"
-			(uuid "511aab11-04e7-4418-b6df-98f9f1cb0611")
-		)
-		(pin "5"
-			(uuid "11780aa5-5c6e-4339-9da3-7f37d68eeaa2")
-		)
-		(pin "7"
-			(uuid "1dfd6fad-4cba-4bcf-b23e-abeb0836a43e")
-		)
-		(pin "2"
-			(uuid "62842726-297c-42d5-81b5-8ad8a7247109")
-		)
-		(pin "1"
-			(uuid "f46fc68a-d023-4cad-b09a-17f4f061e3b4")
-		)
-		(pin "8"
-			(uuid "851de3a4-4162-495d-84ad-977062020020")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 76.2 36.83 0)
 		(unit 1)
@@ -9963,6 +10121,72 @@
 			(project "reflow"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59253c71-e01f-4a4d-b989-6f223f6eb373")
+		(property "Reference" "#PWR010"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab112d3c-1bf9-4d70-8efd-cada0242e857")
+		)
+		(instances
+			(project "reflow"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12552,6 +12776,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 49.53 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7bc5f25-eefd-4ba0-bdb4-ce142a961ee5")
+		(property "Reference" "#PWR09"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "876259e7-e6c0-44c0-9870-b80ae1a26ed2")
+		)
+		(instances
+			(project "reflow"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "discrete:XL-B1010RGBT-HF")
 		(at 238.76 85.09 180)
 		(unit 1)
@@ -13325,6 +13615,103 @@
 			(project "reflow"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ic:74LVC2G00HD4-7")
+		(at 49.53 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdbbeee5-55ba-42d7-894d-dbcc85fe6ff6")
+		(property "Reference" "U2"
+			(at 51.7241 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC2G00HD4-7"
+			(at 51.7241 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schmitt NAND gate, VCC from 1.65 to 5.5 V, X2-DFN2010-8"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C842639"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0feaf9c9-d70b-41d4-a4e8-fcf67d0dcd46")
+		)
+		(pin "2"
+			(uuid "5822c1b4-c6a1-4516-b761-5143fd5696f2")
+		)
+		(pin "8"
+			(uuid "e9b55683-de89-4ac2-b7e4-eac4c94ec329")
+		)
+		(pin "4"
+			(uuid "c7702ee9-9bde-4c57-8823-08d3cce94310")
+		)
+		(pin "6"
+			(uuid "90c12394-5a80-407a-bc51-484289a9be6e")
+		)
+		(pin "3"
+			(uuid "974c530b-73d1-4b1c-92f4-a9e56100e9e6")
+		)
+		(pin "1"
+			(uuid "98ef2c55-67d3-452a-b1df-2d0a02c34be6")
+		)
+		(pin "5"
+			(uuid "fc97873e-a244-40f4-b8e2-7d8b3a8e553c")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14393,103 +14780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:74LVC2G00HD4-7")
-		(at 48.26 125.73 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8032a4f-6c31-49db-9c24-19d65407d15d")
-		(property "Reference" "U2"
-			(at 54.61 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LVC2G00HD4-7"
-			(at 54.61 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NAND Gate, Low-Voltage CMOS"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C842639"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "652af6a9-6e93-4ff4-84ee-c93893b55b64")
-		)
-		(pin "6"
-			(uuid "9aecea92-0d2e-4248-8cec-fb48cbcf4df8")
-		)
-		(pin "4"
-			(uuid "511aab11-04e7-4418-b6df-98f9f1cb0612")
-		)
-		(pin "5"
-			(uuid "11780aa5-5c6e-4339-9da3-7f37d68eeaa3")
-		)
-		(pin "7"
-			(uuid "1dfd6fad-4cba-4bcf-b23e-abeb0836a43f")
-		)
-		(pin "2"
-			(uuid "62842726-297c-42d5-81b5-8ad8a724710a")
-		)
-		(pin "1"
-			(uuid "f46fc68a-d023-4cad-b09a-17f4f061e3b5")
-		)
-		(pin "8"
-			(uuid "851de3a4-4162-495d-84ad-977062020021")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 13.97 161.29 90)
 		(unit 1)
@@ -14645,72 +14935,6 @@
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 48.26 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1896230-c4f7-487d-938c-c87fc2bfc6cc")
-		(property "Reference" "#PWR09"
-			(at 48.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db782ee7-c3c2-4bf1-9d0c-d3215cd7cdb2")
-		)
-		(instances
-			(project "reflow"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14981,101 +15205,6 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR025")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:74LVC2G00HD4-7")
-		(at 49.53 156.21 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb180446-53f4-4c39-aa73-dc91ea76c54d")
-		(property "Reference" "U2"
-			(at 48.2489 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC2G00HD4-7"
-			(at 48.2489 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "package:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/74LVC2G00.pdf"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NAND Gate, Low-Voltage CMOS"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C842639"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "652af6a9-6e93-4ff4-84ee-c93893b55b65")
-		)
-		(pin "6"
-			(uuid "9aecea92-0d2e-4248-8cec-fb48cbcf4df9")
-		)
-		(pin "4"
-			(uuid "511aab11-04e7-4418-b6df-98f9f1cb0613")
-		)
-		(pin "5"
-			(uuid "11780aa5-5c6e-4339-9da3-7f37d68eeaa4")
-		)
-		(pin "7"
-			(uuid "1dfd6fad-4cba-4bcf-b23e-abeb0836a440")
-		)
-		(pin "2"
-			(uuid "62842726-297c-42d5-81b5-8ad8a724710b")
-		)
-		(pin "1"
-			(uuid "f46fc68a-d023-4cad-b09a-17f4f061e3b6")
-		)
-		(pin "8"
-			(uuid "851de3a4-4162-495d-84ad-977062020022")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -15645,72 +15774,6 @@
 			(project "reflow"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff64cb28-e507-4340-9eb1-2450819d12a3")
-		(property "Reference" "#PWR010"
-			(at 48.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d33c1cc-ab02-4ba6-b92e-d10ebe54454d")
-		)
-		(instances
-			(project "reflow"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
