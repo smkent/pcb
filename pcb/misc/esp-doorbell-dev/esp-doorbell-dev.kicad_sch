@@ -3823,7 +3823,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:HLK-LD2410C-P"
+		(symbol "modules:LD2410C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3879,7 +3879,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HLK-LD2410C-P_0_1"
+			(symbol "LD2410C_0_1"
 				(rectangle
 					(start -3.81 7.62)
 					(end 3.81 -7.62)
@@ -3903,7 +3903,7 @@
 					)
 				)
 			)
-			(symbol "HLK-LD2410C-P_1_1"
+			(symbol "LD2410C_1_1"
 				(pin passive line
 					(at -6.35 5.08 0)
 					(length 2.54)
@@ -8764,7 +8764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:HLK-LD2410C-P")
+		(lib_id "modules:LD2410C")
 		(at 255.27 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
