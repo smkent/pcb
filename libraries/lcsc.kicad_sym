@@ -3748,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Ambient-Light-Sensors_VISHAY_TEMT6000X01_TEMT6000X01_C94098.html"
+		(property "Datasheet" "https://www.vishay.com/docs/81579/temt6000.pdf"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -3757,7 +3757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ambient Light Sensor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3768,6 +3768,15 @@
 		)
 		(property "LCSC Part" "C94098"
 			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ambient light sensor"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
