@@ -4342,7 +4342,7 @@
 			(uuid "7bde6c34-85e8-43a4-adcf-e721498fb92a")
 		)
 	)
-	(footprint "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "fb2490ad-bb08-4b5a-b5aa-a863766fe2a2")
 		(at 100 58 180)
@@ -4371,7 +4371,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

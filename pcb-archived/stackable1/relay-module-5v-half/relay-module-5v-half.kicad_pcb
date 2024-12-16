@@ -718,7 +718,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "59ddeffe-3392-4c60-b40f-1a1181191743")
 		(at 136.5 99 90)
@@ -746,7 +746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -1457,7 +1457,7 @@
 				)
 			)
 		)
-		(symbol "connectors:Qwiic"
+		(symbol "connector:Qwiic"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1483,7 +1483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+			(property "Footprint" "connector:Qwiic-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5547,7 +5547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:Qwiic")
+		(lib_id "connector:Qwiic")
 		(at 273.05 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5575,7 +5575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 273.05 72.39 0)
 			(effects
 				(font

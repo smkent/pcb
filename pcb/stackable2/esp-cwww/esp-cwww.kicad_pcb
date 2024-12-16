@@ -116,7 +116,7 @@
 	(net 34 "unconnected-(SM1-GPIO6{slash}MOSI-Pad6)")
 	(net 35 "unconnected-(SM1-GPIO7{slash}SS-Pad7)")
 	(net 36 "unconnected-(SM1-GPIO5{slash}MISO-Pad5)")
-	(footprint "connectors:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
+	(footprint "connector:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "08e3908a-e2d2-42d3-aa7a-42d8155a8720")
 		(at 114.5 65.5 90)
@@ -145,7 +145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1097,7 +1097,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo"
+	(footprint "connector:Qwiic-SMD-horizontal-logo"
 		(layer "F.Cu")
 		(uuid "1e56278f-3f88-45a5-bd5e-2b6e3fa4f555")
 		(at 107.5 53.5 180)
@@ -1126,7 +1126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1585,7 +1585,7 @@
 			(uuid "6e437d00-7e0d-46ee-a5d7-491459712f94")
 			(members "6f1d5bc7-f84f-4655-83af-1135b4561789" "eef9ed78-ed3c-4542-a0bd-957738d9650a")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -2567,7 +2567,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "361db75a-d7c4-4bd0-a0c4-9ff710bbec22")
 		(at 87.5 79.5 -90)
@@ -2595,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

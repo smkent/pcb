@@ -7978,7 +7978,7 @@
 			)
 		)
 	)
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "B.Cu")
 		(uuid "dc793b73-7641-4ff9-9896-9510656c2be1")
 		(at 154.1 108 90)
@@ -8009,7 +8009,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8363,7 +8363,7 @@
 			(pintype "passive")
 			(uuid "9c26261a-79b0-40cf-bdb6-8c50f5e77838")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)

@@ -28,7 +28,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*"
+		(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connector:Qwiic-*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -489,7 +489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -525,7 +525,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*"
+		(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connector:Qwiic-*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1462,7 +1462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-I2C-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-I2C-SMD-horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:JST_PH_*_1x04?* connectors:STEMMA?I2C?*"
+		(property "ki_fp_filters" "Connector*:JST_PH_*_1x04?* connector:STEMMA?I2C?*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2121,7 +2121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2157,7 +2157,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*"
+		(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*"
 			(at 0 0 0)
 			(effects
 				(font

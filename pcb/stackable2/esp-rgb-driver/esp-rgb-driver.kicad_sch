@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(symbol "connectors:Qwiic"
+		(symbol "connector:Qwiic"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2843,7 +2843,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:Qwiic-SMD-horizontal"
+			(property "Footprint" "connector:Qwiic-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2879,7 +2879,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connectors:Qwiic-*"
+			(property "ki_fp_filters" "Connector*:JST_SH_*_1x04?* connector:Qwiic-*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(symbol "connectors:STEMMA-Signal"
+		(symbol "connector:STEMMA-Signal"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -3310,7 +3310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+			(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3346,7 +3346,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connectors:STEMMA?Signal?*"
+			(property "ki_fp_filters" "Connector*:JST_PH_*_1x03?* connector:STEMMA?Signal?*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9143,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -12033,7 +12033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:Qwiic")
+		(lib_id "connector:Qwiic")
 		(at 125.73 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12060,7 +12060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 101.6 173.99 0)
 			(effects
 				(font
@@ -15985,7 +15985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 31.75 151.13 0)
 			(effects
 				(font
@@ -16291,7 +16291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:STEMMA-Signal")
+		(lib_id "connector:STEMMA-Signal")
 		(at 36.83 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16319,7 +16319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -17382,7 +17382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -17725,7 +17725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 55.88 151.13 0)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:STEMMA-Signal")
+		(lib_id "connector:STEMMA-Signal")
 		(at 68.58 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18250,7 +18250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 68.58 176.53 0)
 			(effects
 				(font

@@ -582,7 +582,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+	(footprint "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 		(layer "F.Cu")
 		(uuid "5b8420b2-74b2-4571-967e-cc8fab3462cf")
 		(at 144.5 136.25 90)
@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1386,7 +1386,7 @@
 			(uuid "4600c9fc-5ea1-4388-aa55-2a298a01b4de")
 			(members "061f953c-b4f7-4e01-b5ee-5d4797317a6d" "e60a4d83-21e3-409e-9525-a7fa24c6c83d")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)

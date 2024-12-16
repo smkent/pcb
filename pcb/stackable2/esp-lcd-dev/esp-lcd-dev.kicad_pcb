@@ -617,7 +617,7 @@
 			)
 		)
 	)
-	(footprint "connectors:STEMMA-Signal-SMD-horizontal"
+	(footprint "connector:STEMMA-Signal-SMD-horizontal"
 		(layer "F.Cu")
 		(uuid "1c176709-a87f-41cc-8550-e2bf4d564975")
 		(at 100 82)
@@ -646,7 +646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:STEMMA-Signal-SMD-horizontal"
+		(property "Footprint" "connector:STEMMA-Signal-SMD-horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -996,7 +996,7 @@
 			(pintype "passive")
 			(uuid "50c81b05-06ca-4a46-8884-3a53d6d5be7a")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/STEMMA-Signal-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/STEMMA-Signal-SMD-horizontal.step"
 			(offset
 				(xyz 1 -4.5 0)
 			)
@@ -3060,7 +3060,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+	(footprint "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 		(layer "F.Cu")
 		(uuid "6f9f7dab-2b61-4053-b64a-ae8b16e780fc")
 		(at 90.5 84)
@@ -3089,7 +3089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3864,7 +3864,7 @@
 			(uuid "659e9560-566a-43a2-a279-5adb22f8f6b2")
 			(members "42cfaf6d-2473-4c20-b17b-089602f69ad1" "49a48438-0ab2-420c-988b-80fdf64a2b08")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -5088,7 +5088,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+	(footprint "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 		(layer "F.Cu")
 		(uuid "7c659fc8-b01e-42c9-b421-1a55c479a2b4")
 		(at 109.5 84)
@@ -5117,7 +5117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5892,7 +5892,7 @@
 			(uuid "2de66f98-a137-4eb5-b336-155b4b43a6a0")
 			(members "81ce7b5f-d29b-43fb-b521-903b3f2519f9" "fd03656d-ac6b-4871-8d2a-f918a9a586cc")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -10202,7 +10202,7 @@
 			)
 		)
 	)
-	(footprint "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "connector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fe2c8850-e24c-4556-aaf1-db65c085a939")
 		(at 100 59)
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "connector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

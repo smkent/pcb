@@ -2999,7 +2999,7 @@
 			)
 		)
 	)
-	(footprint "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+	(footprint "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 		(layer "F.Cu")
 		(uuid "996169be-9bb9-4326-9dcc-d53ab13829f7")
 		(at 135 74.5)
@@ -3028,7 +3028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:Qwiic-SMD-horizontal-logo-bottom-pinout"
+		(property "Footprint" "connector:Qwiic-SMD-horizontal-logo-bottom-pinout"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3803,7 +3803,7 @@
 			(uuid "c1fccb62-c744-47f6-aa61-0ae5598d7b33")
 			(members "c0e28222-b97f-4ba2-9840-cf6eddbbeb1e" "ee7cbe4c-0636-4c2e-af87-f1d7d6c985f9")
 		)
-		(model "${KIPRJMOD}/libraries/connectors.3dshapes/Qwiic-SMD-horizontal.step"
+		(model "${KIPRJMOD}/libraries/connector.3dshapes/Qwiic-SMD-horizontal.step"
 			(offset
 				(xyz 0 1.5 -0.3)
 			)
@@ -4009,7 +4009,7 @@
 			)
 		)
 	)
-	(footprint "connectors:USB-C-Receptacle-16P-TopMount-Horizontal"
+	(footprint "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
 		(layer "F.Cu")
 		(uuid "a2465d98-4300-4e85-be1b-73df8345e3b8")
 		(at 110 70 -90)
@@ -4040,7 +4040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:USB-C-Receptacle-16P-TopMount-Horizontal"
+		(property "Footprint" "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
