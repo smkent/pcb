@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:FM-3510RGBA-SG"
+		(symbol "discrete:FM-3510RGBA-SG"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -11437,7 +11437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:FM-3510RGBA-SG")
+		(lib_id "discrete:FM-3510RGBA-SG")
 		(at 161.29 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
