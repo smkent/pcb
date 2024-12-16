@@ -787,7 +787,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:ETA3485"
+		(symbol "ic:ETA3485"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4390,7 +4390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ETA3485")
+		(lib_id "ic:ETA3485")
 		(at 129.54 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
