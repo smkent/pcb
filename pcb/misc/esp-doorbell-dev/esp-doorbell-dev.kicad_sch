@@ -2944,7 +2944,7 @@
 				)
 			)
 		)
-		(symbol "custom:G3MB-202P-5VDC"
+		(symbol "discrete:G3MB-202P-5VDC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7645,7 +7645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:G3MB-202P-5VDC")
+		(lib_id "discrete:G3MB-202P-5VDC")
 		(at 172.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
