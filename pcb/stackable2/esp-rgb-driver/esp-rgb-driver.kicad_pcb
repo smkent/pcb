@@ -5155,7 +5155,7 @@
 				)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 2 90)
 			(layer "F.Fab")
 			(uuid "cb25a0a2-b6e5-4809-89d7-cb931863b872")
@@ -5192,7 +5192,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5205,7 +5205,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b4c48b-2aa9-4966-8b9c-773eab805aa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/d301effe-b768-4cd9-99ba-5f791b166ec0")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -6602,7 +6615,7 @@
 				)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 2 90)
 			(layer "F.Fab")
 			(uuid "3c3a75ba-5fee-4d3a-a7bd-18a9f9547f89")
@@ -6639,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6652,7 +6665,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3aca6ea-e2c2-4699-85e4-988cb576225a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/f625885f-9fa1-4b6e-a9ae-fba753efba28")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -8180,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 2 90)
 			(layer "F.Fab")
 			(uuid "2838b405-5f54-4d7b-8036-093e1cfbe84f")
@@ -8217,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8230,7 +8256,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe0eddcf-35b0-4429-ab99-68c543aa8edc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/326fab6b-cfe2-4580-a8b1-0eddb96252ef")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -12615,7 +12654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 -2 -90)
 			(layer "B.Fab")
 			(uuid "39593d29-431a-47ce-a76b-1856a9a63745")
@@ -12655,7 +12694,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12669,7 +12708,21 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b5153d77-aae1-4f82-9ba6-5143fd66c5c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/cfde1e3d-44da-42f9-ae32-601f2bc3a722")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -14095,7 +14148,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 -2 90)
 			(layer "B.Fab")
 			(uuid "51f412a3-ac98-4d5e-9601-616eadde90fc")
@@ -14135,7 +14188,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14149,7 +14202,21 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2cdc0e3c-bad5-4dc5-a4a1-e6b089da8e3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/b3075ac5-a359-40a8-84fd-c95015a5e1d7")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
@@ -14938,7 +15005,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "NC7WZ14"
+		(property "Value" "NC7WZ14P6X"
 			(at 0 -2 90)
 			(layer "B.Fab")
 			(uuid "205c2483-cec2-42f0-a948-4a63b33ca5c9")
@@ -14978,7 +15045,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Dual schmitt inverter"
+		(property "Description" "Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363-6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14992,7 +15059,21 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "SOT?23* SOT?363* SC?70*")
+		(property "LCSC Part" "C5207816"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dfd7e50d-9eb8-4b58-b6ab-06b56274ac0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOT?363*")
 		(path "/449c8ee3-1e8e-4320-95b9-8ed4e3cc5ddf")
 		(sheetname "Root")
 		(sheetfile "esp-rgb-driver.kicad_sch")
