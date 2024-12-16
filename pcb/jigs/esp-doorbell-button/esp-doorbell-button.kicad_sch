@@ -2183,7 +2183,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:WS2811F"
+		(symbol "ic:WS2811F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6166,7 +6166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:WS2811F")
+		(lib_id "ic:WS2811F")
 		(at 29.21 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
