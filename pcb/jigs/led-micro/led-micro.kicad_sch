@@ -911,7 +911,7 @@
 				)
 			)
 		)
-		(symbol "lcsc:XL-2012RGBC"
+		(symbol "discrete:XL-2012RGBC"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -4186,7 +4186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:XL-2012RGBC")
+		(lib_id "discrete:XL-2012RGBC")
 		(at 154.94 130.81 0)
 		(mirror y)
 		(unit 1)
