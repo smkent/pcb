@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SM"
-			(at 0 8.89 0)
+			(at 15.24 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 7.62 0)
+		(property "Value" "AHT20+BMP280"
+			(at 15.24 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
 			(at -1.27 7.62 0)
 			(effects
 				(font
@@ -40,8 +40,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Combination Digital Temperature, Absolute Barometric Pressure Sensor module"
 			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "I2C, pressure, temperature, humidity, sensor"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,16 +81,8 @@
 			)
 		)
 		(symbol "AHT20+BMP280_1_1"
-			(text "AHT20+BMP280"
-				(at 0.254 -4.318 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 1.27 0)
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -90,7 +100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 1.27 180)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -108,7 +118,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -1.27 0)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -126,7 +136,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -1.27 180)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -150,15 +160,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SM"
-			(at 0 10.16 0)
+			(at 7.62 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 13.97 0)
+		(property "Value" "BH1750"
+			(at 7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081611_ROHM-Semicon-BH1750FVI-TR_C78960.pdf"
 			(at -1.27 13.97 0)
 			(effects
 				(font
@@ -183,8 +193,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Accuracy Ambient Light Sensor With I2C Interface"
 			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ambient light sensor module"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,16 +225,8 @@
 			)
 		)
 		(symbol "BH1750_1_1"
-			(text "BH1750"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -233,7 +244,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 0 0)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -251,7 +262,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -269,7 +280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 2.54 180)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -287,7 +298,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -2.54 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "ADDR"
 					(effects
@@ -668,15 +679,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SM"
-			(at 0 11.43 0)
+			(at 8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 15.24 0)
+		(property "Value" "ENS160+AHT2x"
+			(at 8.89 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
 			(at -1.27 15.24 0)
 			(effects
 				(font
@@ -701,8 +712,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
 			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "I2C, SPI, VOC, CO2, air, quality, temperature, humidity, sensor"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,16 +753,8 @@
 			)
 		)
 		(symbol "ENS160+AHT2x_1_1"
-			(text "ENS160\n+AHT2x"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 5.08 0)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -751,7 +772,7 @@
 				)
 			)
 			(pin power_out line
-				(at -8.89 0 0)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -769,7 +790,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -787,7 +808,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -805,7 +826,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 5.08 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -823,7 +844,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -5.08 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "ADD"
 					(effects
@@ -841,7 +862,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -859,7 +880,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -2.54 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -2017,6 +2038,177 @@
 					)
 				)
 				(number "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HLK-LD2410C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SM"
+			(at 8.89 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HLK-LD2410C"
+			(at 8.89 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:SENSOR-TH_HLK-LD2410C-P"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409141622_HI-LINK-HLK-LD2410C-P_C19723500.pdf"
+			(at 19.05 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Human Presence Sensor, Millimeter Wave Radar, Bluetooth Low Energy/UART module"
+			(at 19.05 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19723500"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "hi-link human presence sensor millimeter wave radar ble uart"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HLK-LD2410C_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "HLK-LD2410C_1_1"
+			(pin output line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

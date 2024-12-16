@@ -1104,7 +1104,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AHT20+BMP280"
 			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1129,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1142,7 +1142,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Combination Digital Temperature, Absolute Barometric Pressure Sensor module"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1155,7 +1155,20 @@
 				)
 			)
 		)
-		(path "/f1f55e76-86d7-45c2-98b8-5a8473d0f9bf")
+		(property "Datasheet2" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1a52b27-9da6-44c3-9874-94030217f916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a61f8fd2-4408-4ac3-9008-36569b6c6b76")
 		(sheetname "Root")
 		(sheetfile "garage-door-control.kicad_sch")
 		(attr through_hole)
@@ -1385,7 +1398,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "92cba814-f475-4235-acd6-644b10e317e4")
+			(uuid "f875a3d4-4f76-4df8-9c49-dd15b3684523")
 			(effects
 				(font
 					(size 1 1)
@@ -1393,11 +1406,11 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ENS160+AHT2x"
 			(at -1.524 -7.62 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6c4cb027-a65d-4f36-989b-6f5cd363b85c")
+			(uuid "fbfcf286-3662-4008-8197-31dcab8e8f30")
 			(effects
 				(font
 					(size 1 1)
@@ -1410,7 +1423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb2fc5e3-5ed4-4449-a411-196d655be3a7")
+			(uuid "5b3560c8-af53-4edc-81c6-8ca1360141ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,12 +1431,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "162560b4-4b20-4339-8840-173a182461fe")
+			(uuid "5f93a5cd-98f1-4a7b-a0ba-7875f73f14ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,12 +1444,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33f97e05-a0ca-4ef5-94d7-ba4cf44c156e")
+			(uuid "38adaf89-f4c8-43ee-85a5-f3df33070f3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1457,20 @@
 				)
 			)
 		)
-		(path "/ff910b5d-45d0-4276-858a-83aa0845c83d")
+		(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7ddbefa-2a16-48de-b1e6-79b5a91b378f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/565d10b0-92fa-4002-962f-c51d9a7880ff")
 		(sheetname "Root")
 		(sheetfile "garage-door-control.kicad_sch")
 		(attr through_hole)
@@ -1457,39 +1483,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "745192a0-edcb-4db1-b2b0-2785f6a9d0d7")
+			(uuid "9b5acc2c-7623-4adb-8c53-8513f9fec1af")
 		)
 		(fp_text user "3V3"
 			(at -6.35 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "359ee3f0-3f9e-4a3c-a0bd-e0ffccf4b427")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify left mirror)
-			)
-		)
-		(fp_text user "ADD/MISO"
-			(at 3.81 6.75 180)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "3c49736c-deb9-49cc-bf5a-955d659f6854")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify left mirror)
-			)
-		)
-		(fp_text user "CS"
-			(at 6.35 6.75 180)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "7186e22f-9277-4588-82a6-10b95d53651d")
+			(uuid "04be0916-6d59-4075-bac8-ed522d4abe88")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1502,7 +1502,7 @@
 			(at -1.27 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "773dfe2b-bea9-44e2-a8dc-070e0d69f066")
+			(uuid "32cbcb1d-352f-4c42-8f95-f7e61310cc07")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1515,7 +1515,20 @@
 			(at 1.27 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "c07987a9-123b-43ea-9f23-8b76c8440fbf")
+			(uuid "971b7586-1367-4fe8-b570-0847560ad4ae")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify left mirror)
+			)
+		)
+		(fp_text user "CS"
+			(at 6.35 6.75 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "9e3b644d-31f7-435f-906b-1d228f00ef7d")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1528,7 +1541,20 @@
 			(at -3.81 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "d3217266-88b4-456e-a4a7-357a11719ae2")
+			(uuid "b05774f5-5ddc-4a14-98fb-e86e13e375f7")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify left mirror)
+			)
+		)
+		(fp_text user "ADD/MISO"
+			(at 3.81 6.75 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b6f5664a-228b-444d-ae5c-6027e77e8400")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1541,7 +1567,7 @@
 			(at -8.89 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "e7fd2090-2ead-4d00-b083-5e9533d87944")
+			(uuid "df6b128b-88f0-4519-aa36-3b4c7f03a44a")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1554,7 +1580,7 @@
 			(at 8.89 6.75 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "ec66f4a2-f394-4f84-9f4c-279969fe7fa1")
+			(uuid "ebb8d969-4c8d-448b-9eb2-8c0d04a9d9f3")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1563,62 +1589,11 @@
 				(justify left mirror)
 			)
 		)
-		(fp_text user "SCL"
-			(at -1.27 6.75 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "00f158ba-cc04-4a96-bd5b-24cfb57bdcee")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "ENS160+AHT2x"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0f27adae-516e-49c2-bd34-02e7ef45ea96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "GND"
-			(at -3.81 6.75 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "173ae695-33a9-46b5-82ff-acf47bf739b9")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "CS"
-			(at 6.35 6.75 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "248614ef-780e-45ca-962e-a981622899ba")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify bottom)
-			)
-		)
 		(fp_text user "ADD"
 			(at 3.81 6.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7b1524c7-721f-4c6a-9167-04862604936e")
+			(uuid "37b30f5a-a723-444e-a130-1da1b9fe85e0")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1631,7 +1606,7 @@
 			(at -8.89 6.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9f622fcf-7b7b-412e-b7dc-642283befb92")
+			(uuid "8484b030-403c-4d92-95fc-bcb9695fe660")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1644,20 +1619,7 @@
 			(at -6.35 6.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b339ec12-ebf0-444b-bab1-65b367739a76")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "SDA"
-			(at 1.27 6.75 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "f0fad99e-a36d-4385-b974-f50e8d240bc5")
+			(uuid "b3636d4e-af73-483a-aa48-de93162641ba")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1670,7 +1632,71 @@
 			(at 8.89 6.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f8255bc9-365d-4557-9fea-5fedf3095c2c")
+			(uuid "c452bd6a-7bac-4451-9144-26ec6783ea3e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "ENS160+AHT2x"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c46c67ff-2b75-4e30-af8b-7d48bfcde832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "SCL"
+			(at -1.27 6.75 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "de0f14f1-b2d6-425d-ae8b-7b10b1874026")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "CS"
+			(at 6.35 6.75 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e2b2c426-451c-4018-afcd-bb78c701ecba")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -3.81 6.75 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ec7277c6-05b2-415a-a35a-78cab5101dda")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 1.27 6.75 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f6aba843-1e86-4c25-a071-ed20addfeef6")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1683,7 +1709,7 @@
 			(at 0 1.016 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cee39d9a-315e-4cec-b40d-05e1cc808c69")
+			(uuid "efc4944a-2f0a-4336-94c3-cad8bf1efc92")
 			(effects
 				(font
 					(size 1 1)
@@ -1700,7 +1726,7 @@
 			(net 21 "+3V3")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "17e1c313-b459-4a89-bd85-642ae097e049")
+			(uuid "db0e13e8-d34e-4d18-81ea-918abcedd7ff")
 		)
 		(pad "2" thru_hole circle
 			(at -6.35 7.87 270)
@@ -1711,7 +1737,7 @@
 			(net 25 "unconnected-(SM3-3V3-Pad2)")
 			(pinfunction "3V3")
 			(pintype "power_out+no_connect")
-			(uuid "2a1bd817-2192-4042-8766-f80f587f21fd")
+			(uuid "30fcac84-94c5-4e03-8a44-d4221ddb3506")
 		)
 		(pad "3" thru_hole roundrect
 			(at -3.81 7.87 270)
@@ -1724,7 +1750,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
-			(uuid "64a2b3ec-ecd0-412a-b7cd-bbaebcaa0498")
+			(uuid "b049e948-28bf-408d-9fc0-559c79947593")
 		)
 		(pad "4" thru_hole circle
 			(at -1.27 7.87 270)
@@ -1735,7 +1761,7 @@
 			(net 22 "SCL")
 			(pinfunction "SCL")
 			(pintype "input")
-			(uuid "dd56dfbc-020e-48a9-84b0-f85d285d1b32")
+			(uuid "f4a3dbeb-bfb3-4959-bf5d-f9c6124e91a4")
 		)
 		(pad "5" thru_hole circle
 			(at 1.27 7.87 270)
@@ -1746,7 +1772,7 @@
 			(net 18 "BUS1_SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "f8f66f59-335f-4bda-ab90-288f273ba8f4")
+			(uuid "73376799-8fcc-417c-a0bf-1002c451b600")
 		)
 		(pad "6" thru_hole circle
 			(at 3.81 7.87 270)
@@ -1757,7 +1783,7 @@
 			(net 23 "unconnected-(SM3-ADD-Pad6)")
 			(pinfunction "ADD")
 			(pintype "input+no_connect")
-			(uuid "1a53a69c-6c98-40c4-a337-b708afaf13d9")
+			(uuid "51279c22-9d59-4fbd-b519-97b8d82ff9c1")
 		)
 		(pad "7" thru_hole circle
 			(at 6.35 7.87 270)
@@ -1768,7 +1794,7 @@
 			(net 26 "unconnected-(SM3-CS-Pad7)")
 			(pinfunction "CS")
 			(pintype "input+no_connect")
-			(uuid "c4969004-65f9-4fb2-93ba-c6b8109b5487")
+			(uuid "816b98a8-3d86-4274-a7e0-325f3fa71410")
 		)
 		(pad "8" thru_hole circle
 			(at 8.89 7.87 270)
@@ -1779,7 +1805,7 @@
 			(net 24 "unconnected-(SM3-INT-Pad8)")
 			(pinfunction "INT")
 			(pintype "output+no_connect")
-			(uuid "285a99f4-eb48-42b0-9aba-ab581c3d1fab")
+			(uuid "4b9f8548-f791-4109-b32f-ecf1aadae006")
 		)
 	)
 	(footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"

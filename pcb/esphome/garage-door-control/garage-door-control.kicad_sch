@@ -5,6 +5,159 @@
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AHT20+BMP280_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SM"
+				(at 15.24 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AHT20+BMP280"
+				(at 15.24 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "module:AHT20+BMP280"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Combination Digital Temperature, Absolute Barometric Pressure Sensor module"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet2" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C, pressure, temperature, humidity, sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AHT20+BMP280_1_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AHT20+BMP280_1_1_1"
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -995,37 +1148,28 @@
 				)
 			)
 		)
-		(symbol "ESP32-C3-Super-Mini_1"
+		(symbol "ENS160+AHT2x_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 18.288 0)
+			(property "Reference" "SM"
+				(at 8.89 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 13.97 0)
+			(property "Value" "ENS160+AHT2x"
+				(at 8.89 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
-				(at 0 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 13.97 0)
+			(property "Footprint" "module:ENS160+AHT2x"
+				(at 0.635 9.525 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1033,8 +1177,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 13.97 0)
+			(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+				(at -1.27 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1042,10 +1186,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-C3-Super-Mini_1_0_1"
+			(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C, SPI, VOC, CO2, air, quality, temperature, humidity, sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ENS160+AHT2x_1_0_1"
 				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -15.24)
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1055,49 +1226,14 @@
 					)
 				)
 			)
-			(symbol "ESP32-C3-Super-Mini_1_1_1"
-				(text_box "ESP32-C3\nSuper Mini"
-					(at -7.62 -10.16 0)
-					(size 15.24 -5.08)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify top)
-					)
-				)
-				(pin passive line
-					(at 12.7 -8.89 180)
+			(symbol "ENS160+AHT2x_1_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "A0/GPIO0"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "0"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "A1/GPIO1"
-						(effects
-							(font
-								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1109,31 +1245,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -3.81 0)
+				(pin power_out line
+					(at 8.89 5.08 180)
 					(length 2.54)
-					(name "GPIO10"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "10"
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "A2/GPIO2"
-						(effects
-							(font
-								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1145,49 +1263,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -6.35 0)
+				(pin power_in line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "GPIO20/RX"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "20"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -8.89 0)
-					(length 2.54)
-					(name "GPIO21/TX"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "A3/GPIO3"
-						(effects
-							(font
-								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1199,31 +1281,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 6.35 180)
+				(pin input line
+					(at -8.89 0 0)
 					(length 2.54)
-					(name "+3.3V"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3V3"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "SCK/A4/GPIO4"
-						(effects
-							(font
-								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1235,13 +1299,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 8.89 0)
+				(pin bidirectional line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(name "GPIO5/A5/MISO"
+					(name "SDA"
 						(effects
 							(font
-								(size 0.889 0.889)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1253,31 +1317,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 11.43 180)
+				(pin input line
+					(at 8.89 -2.54 180)
 					(length 2.54)
-					(name "+5V"
+					(name "ADD"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 6.35 0)
-					(length 2.54)
-					(name "GPIO6/MOSI"
-						(effects
-							(font
-								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1289,13 +1335,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 3.81 0)
+				(pin input line
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "GPIO7/SS"
+					(name "CS"
 						(effects
 							(font
-								(size 0.889 0.889)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1307,13 +1353,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 1.27 0)
+				(pin output line
+					(at 8.89 0 180)
 					(length 2.54)
-					(name "GPIO8/SDA"
+					(name "INT"
 						(effects
 							(font
-								(size 0.889 0.889)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1321,42 +1367,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "GPIO9/SCL"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 8.89 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1989,12 +1999,12 @@
 				)
 			)
 		)
-		(symbol "module:AHT20+BMP280"
+		(symbol "module:ESP32-C3-Super-Mini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 12.7 0)
+			(property "Reference" "SM"
+				(at 0 18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2002,15 +2012,15 @@
 				)
 			)
 			(property "Value" ""
-				(at -1.27 7.62 0)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "module:AHT20+BMP280"
-				(at 0 10.16 0)
+			(property "Footprint" "module:ESP32-C3-Super-Mini-Pins"
+				(at 0 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2019,7 +2029,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -1.27 7.62 0)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2028,7 +2038,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 90)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2036,10 +2046,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AHT20+BMP280_0_1"
+			(symbol "ESP32-C3-Super-Mini_0_1"
 				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
+					(start -10.16 13.97)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type default)
@@ -2049,22 +2059,49 @@
 					)
 				)
 			)
-			(symbol "AHT20+BMP280_1_1"
-				(text "AHT20+BMP280"
-					(at 0.254 -4.318 0)
+			(symbol "ESP32-C3-Super-Mini_1_1"
+				(text_box "ESP32-C3\nSuper Mini"
+					(at -7.62 -10.16 0)
+					(size 15.24 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.016 1.016)
 						)
+						(justify top)
 					)
 				)
-				(pin power_in line
-					(at -8.89 1.27 0)
+				(pin passive line
+					(at 12.7 -8.89 180)
 					(length 2.54)
-					(name "VDD"
+					(name "ADC/GPIO0"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "ADC/GPIO1"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2076,13 +2113,31 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 8.89 1.27 180)
+				(pin passive line
+					(at -12.7 -3.81 0)
 					(length 2.54)
-					(name "SDA"
+					(name "GPIO10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "ADC/~{GPIO2}"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2094,13 +2149,49 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -8.89 -1.27 0)
+				(pin passive line
+					(at -12.7 -6.35 0)
 					(length 2.54)
-					(name "GND"
+					(name "GPIO20/RX"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "GPIO21/TX"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "ADC/GPIO3"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2112,13 +2203,31 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -1.27 180)
+				(pin power_in line
+					(at 12.7 6.35 180)
 					(length 2.54)
-					(name "SCL"
+					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "SCK/ADC/GPIO4"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2130,156 +2239,13 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "module:ENS160+AHT2x"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "module:ENS160+AHT2x"
-				(at 0.635 9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ENS160+AHT2x_0_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ENS160+AHT2x_1_1"
-				(text "ENS160\n+AHT2x"
-					(at -0.254 -2.54 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 5.08 0)
+				(pin passive line
+					(at -12.7 8.89 0)
 					(length 2.54)
-					(name "VIN"
+					(name "GPIO5/MISO"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2291,13 +2257,31 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -5.08 180)
+				(pin power_in line
+					(at 12.7 11.43 180)
 					(length 2.54)
-					(name "ADD"
+					(name "+5V"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GPIO6/MOSI"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2309,13 +2293,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 0 180)
+				(pin passive line
+					(at -12.7 3.81 0)
 					(length 2.54)
-					(name "CS"
+					(name "GPIO7/SS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2327,13 +2311,13 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 -2.54 180)
+				(pin passive line
+					(at -12.7 1.27 0)
 					(length 2.54)
-					(name "INT"
+					(name "~{GPIO8}/SDA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -2341,6 +2325,42 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "~{GPIO9}/SCL"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2847,6 +2867,10 @@
 		(uuid "fb7be513-a892-4981-9fe5-03c14d7c7979")
 	)
 	(no_connect
+		(at 162.56 128.27)
+		(uuid "0824a8c0-aa77-4f70-ba83-fd88dabf296f")
+	)
+	(no_connect
 		(at 238.76 96.52)
 		(uuid "160a7544-7c49-4907-b94c-2c6349522a7e")
 	)
@@ -2863,28 +2887,24 @@
 		(uuid "5d4c1f35-28c1-4793-8a26-85eece644741")
 	)
 	(no_connect
-		(at 162.56 123.19)
-		(uuid "69983ae3-1bbd-4444-9557-854d62e8836c")
-	)
-	(no_connect
-		(at 162.56 125.73)
-		(uuid "763cce5c-0f99-45ca-a1a2-ca491702644f")
-	)
-	(no_connect
-		(at 144.78 120.65)
-		(uuid "7bac0c4d-ddb8-4179-a948-aef45965719b")
-	)
-	(no_connect
 		(at 165.1 53.34)
 		(uuid "9f231e1a-e370-4c06-ac45-c95f0e8efda3")
 	)
 	(no_connect
-		(at 162.56 120.65)
-		(uuid "ae42909e-429d-4fac-8595-ff78708ee631")
+		(at 162.56 125.73)
+		(uuid "9f5bffe0-42c5-4a2b-bff5-b4637d8b67f7")
 	)
 	(no_connect
 		(at 36.83 35.56)
 		(uuid "b13e7d9c-b724-4573-b7af-b7f848aa0864")
+	)
+	(no_connect
+		(at 144.78 128.27)
+		(uuid "b182d02a-f03a-4080-8a4d-dfd0c66de742")
+	)
+	(no_connect
+		(at 162.56 120.65)
+		(uuid "d4e5a182-4686-4a98-811b-2cc1bef55018")
 	)
 	(no_connect
 		(at 36.83 48.26)
@@ -4426,28 +4446,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape output)
-		(at 162.56 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c79656d-fc1c-4524-afe6-5e121768fe32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0528 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RELAY_CONTROL"
 		(shape input)
 		(at 109.22 34.29 180)
@@ -4493,7 +4491,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 34.29 40.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4558,6 +4556,28 @@
 			)
 		)
 	)
+	(global_label "BUS0_SDA"
+		(shape bidirectional)
+		(at 144.78 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4de222a9-f30d-4812-b608-186f07d54078")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.2396 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RELAY_COIL"
 		(shape output)
 		(at 125.73 27.94 0)
@@ -4603,7 +4623,7 @@
 		)
 	)
 	(global_label "BUS0_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 85.09 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4668,50 +4688,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape output)
-		(at 162.56 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98b0f052-1efd-478e-8445-dd59599f581e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0528 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUS1_SDA"
-		(shape input)
-		(at 162.56 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98e52147-cf36-47e5-a340-9f1a9411baae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1004 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RELAY_SW_NO"
 		(shape output)
 		(at 167.64 58.42 0)
@@ -4757,7 +4733,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape output)
+		(shape bidirectional)
 		(at 39.37 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4778,24 +4754,24 @@
 			)
 		)
 	)
-	(global_label "BUS0_SDA"
+	(global_label "SCL"
 		(shape input)
-		(at 162.56 92.71 0)
+		(at 144.78 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c04c6339-6734-4e01-ac4d-533c7a232561")
+		(uuid "c3937b17-49f5-4743-9222-7623d99294d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1004 92.71 0)
+			(at 138.2872 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4866,8 +4842,30 @@
 			)
 		)
 	)
-	(global_label "BUS1_SDA"
+	(global_label "SCL"
 		(shape input)
+		(at 144.78 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e336f4a7-e4c1-4e37-a408-2b00f4f50ec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2872 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_SDA"
+		(shape bidirectional)
 		(at 85.09 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4884,6 +4882,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_SDA"
+		(shape bidirectional)
+		(at 144.78 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8af8ec0-b31e-4ec8-9e5f-5f2fcdc1e2bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.2396 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4950,73 +4970,6 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1574dcab-7a4b-42ac-b7eb-3f510431eb2b")
-		(property "Reference" "#PWR05"
-			(at 148.59 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.97 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47e99b4f-e895-466b-b622-b0088fa4001e")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5366,17 +5319,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 92.71 90)
+		(lib_id "power:GND")
+		(at 153.67 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fd3c39b-d7e1-433f-a229-72cb09588f67")
-		(property "Reference" "#PWR07"
-			(at 148.59 92.71 0)
+		(uuid "3f330a21-b4df-43df-ad46-bfd57963ff91")
+		(property "Reference" "#PWR09"
+			(at 153.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,17 +5337,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 140.97 92.7099 90)
+		(property "Value" "GND"
+			(at 153.67 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 92.71 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 92.71 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,8 +5363,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 92.71 0)
+		(property "Description" ""
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,12 +5373,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9896645-17de-442a-a409-d041c4af344d")
+			(uuid "32bba41c-b1c2-4655-b24e-eecbcdb9e631")
 		)
 		(instances
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5637,6 +5589,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f6f27b8-8ab2-41f2-8fab-c2e02a1b949a")
+		(property "Reference" "#PWR05"
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a631bb-603e-4d00-b948-bb442dd017f3")
+		)
+		(instances
+			(project "garage-door-control"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 22.86 189.23 270)
 		(unit 1)
@@ -5774,6 +5792,104 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ENS160+AHT2x_1")
+		(lib_id "module:ENS160+AHT2x")
+		(at 153.67 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565d10b0-92fa-4002-962f-c51d9a7880ff")
+		(property "Reference" "SM3"
+			(at 155.8641 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ENS160+AHT2x"
+			(at 155.8641 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "module:ENS160+AHT2x-noholes"
+			(at 154.305 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Combination Air Quality, Digital Temperature Sensor module"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1f38e130-1921-468c-b289-4cc1a3233b8e")
+		)
+		(pin "4"
+			(uuid "11971656-07f3-4c95-9332-fee8b17f3a12")
+		)
+		(pin "5"
+			(uuid "144a0d24-f19d-4383-85ae-c1c8aea39a18")
+		)
+		(pin "1"
+			(uuid "756bc880-60b0-4a3f-bc1b-8f2bf37d2988")
+		)
+		(pin "7"
+			(uuid "9db8eb3b-7331-4fb6-95bc-295b269b17cd")
+		)
+		(pin "2"
+			(uuid "eae55544-0d0b-44a3-aca2-f2ea7b9fdd37")
+		)
+		(pin "6"
+			(uuid "2a7c96d7-1fab-4ae6-bbac-8966bc8dd35d")
+		)
+		(pin "3"
+			(uuid "8ca8be06-30da-416d-9a42-34715bf0c957")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SM3")
 					(unit 1)
 				)
 			)
@@ -6532,6 +6648,92 @@
 		)
 	)
 	(symbol
+		(lib_name "AHT20+BMP280_1")
+		(lib_id "module:AHT20+BMP280")
+		(at 153.67 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a61f8fd2-4408-4ac3-9008-36569b6c6b76")
+		(property "Reference" "SM2"
+			(at 161.29 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AHT20+BMP280"
+			(at 161.29 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "module:AHT20+BMP280-noholes"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/123/394/original/Data_Sheet_AHT20.pdf?1691532479"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Combination Digital Temperature, Absolute Barometric Pressure Sensor module"
+			(at 153.67 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa49e7ee-8299-4b74-b0fb-aef9cfa7aca0")
+		)
+		(pin "4"
+			(uuid "e00eee68-493a-4e31-ba66-0f552cde790d")
+		)
+		(pin "3"
+			(uuid "ca4b4c00-69e3-4882-a650-4094b1bd36d8")
+		)
+		(pin "2"
+			(uuid "d459cf7a-2957-45c4-aed3-320e7d57aaa7")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 234.95 132.08 90)
 		(unit 1)
@@ -6593,6 +6795,72 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade7124e-428c-4d3c-a7fe-b827c4666d37")
+		(property "Reference" "#PWR06"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "384b2fed-85e1-4c5a-b654-0c1b300cbcdb")
+		)
+		(instances
+			(project "garage-door-control"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6873,73 +7141,6 @@
 			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c592fa3d-3877-44ce-a14e-4f231d99eafb")
-		(property "Reference" "#PWR09"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaef34ab-a8a7-4681-b242-f3a3e1fe927a")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7629,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ESP32-C3-Super-Mini_1")
 		(lib_id "module:ESP32-C3-Super-Mini")
 		(at 49.53 41.91 0)
 		(unit 1)
@@ -7533,147 +7733,6 @@
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "SM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f17bcdd4-5c8b-496a-b68f-c46de1819bf9")
-		(property "Reference" "#PWR06"
-			(at 138.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b19001e-4317-474f-bfc0-2c5cd06728e4")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "module:AHT20+BMP280")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1f55e76-86d7-45c2-98b8-5a8473d0f9bf")
-		(property "Reference" "SM2"
-			(at 153.67 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "module:AHT20+BMP280-noholes"
-			(at 153.67 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba922696-7937-4ef8-83a2-13da24e10a14")
-		)
-		(pin "3"
-			(uuid "77e5f21e-3be4-4f90-9858-24e178f8e849")
-		)
-		(pin "4"
-			(uuid "4fb8c353-f22e-46d4-b06b-2aa482b746df")
-		)
-		(pin "1"
-			(uuid "bcae55a8-9a9b-45f3-ab22-a793b020fae8")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SM2")
 					(unit 1)
 				)
 			)
@@ -7824,33 +7883,34 @@
 		)
 	)
 	(symbol
-		(lib_id "module:ENS160+AHT2x")
-		(at 153.67 120.65 0)
+		(lib_id "power:+3V3")
+		(at 153.67 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff910b5d-45d0-4276-858a-83aa0845c83d")
-		(property "Reference" "SM3"
-			(at 153.67 109.22 0)
+		(uuid "fb4bb964-daa7-491f-bda3-c74426414cee")
+		(property "Reference" "#PWR07"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 153.67 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "module:ENS160+AHT2x-noholes"
-			(at 154.305 111.125 0)
+		(property "Footprint" ""
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 105.41 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,43 +7927,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "7"
-			(uuid "8d415c86-2505-4523-9557-71ca00f6e83c")
 		)
 		(pin "1"
-			(uuid "3db3481c-aab3-47de-a6cf-9074c749e1be")
-		)
-		(pin "3"
-			(uuid "887641ac-0743-4323-8967-c7917bcf8c08")
-		)
-		(pin "4"
-			(uuid "dcc1abb0-59e1-42d0-8e66-be8fc0f371eb")
-		)
-		(pin "8"
-			(uuid "4d292451-1617-462c-ba0b-3609a7ba1cd6")
-		)
-		(pin "6"
-			(uuid "46af0305-6fbd-4988-a14b-8c8cb0fb1118")
-		)
-		(pin "2"
-			(uuid "d1490fc1-a1f0-4f0e-9d76-8e085cf9d7b6")
-		)
-		(pin "5"
-			(uuid "58dea32f-1a39-48d9-af1a-a109ba9f2ee3")
+			(uuid "b6a6eb86-43b5-4b86-b9cc-3046f42f0143")
 		)
 		(instances
-			(project ""
+			(project "garage-door-control"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SM3")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
