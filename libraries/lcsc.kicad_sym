@@ -2334,7 +2334,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,14 +2342,14 @@
 			)
 		)
 		(property "Value" "ZD8028IB5TR"
-			(at 0 -7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SOT-23-5_L2.9-W1.6-P0.95-LS2.9-BL"
+		(property "Footprint" "package:SOT-23-5"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203221830_Zetta-ZD8028IB5TR_C2928932.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 2.6-5.5V Input Voltage, SOT-23-5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2378,6 +2378,24 @@
 		)
 		(property "LCSC Part" "C2928932"
 			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "step-down dcdc voltage regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,19 +2415,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -5.08 3.81)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 2.54 0)
+			(pin input line
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2426,8 +2433,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -8.89 0 0)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2444,8 +2451,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -8.89 -2.54 0)
+			(pin output line
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -2462,8 +2469,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -2.54 180)
+			(pin power_in line
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -2480,8 +2487,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 2.54 180)
+			(pin input line
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
