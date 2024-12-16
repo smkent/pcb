@@ -150,15 +150,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SM"
-			(at 0 10.16 0)
+			(at 7.62 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 13.97 0)
+		(property "Value" "BH1750"
+			(at 7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081611_ROHM-Semicon-BH1750FVI-TR_C78960.pdf"
 			(at -1.27 13.97 0)
 			(effects
 				(font
@@ -183,8 +183,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Accuracy Ambient Light Sensor With I2C Interface"
 			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ambient light sensor module"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,16 +215,8 @@
 			)
 		)
 		(symbol "BH1750_1_1"
-			(text "BH1750"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -233,7 +234,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 0 0)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -251,7 +252,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -269,7 +270,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 2.54 180)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -287,7 +288,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -2.54 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "ADDR"
 					(effects
