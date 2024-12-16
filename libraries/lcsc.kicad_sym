@@ -2188,7 +2188,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 6.35 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,14 +2196,14 @@
 			)
 		)
 		(property "Value" "XB3306D"
-			(at 0 -7.62 0)
+			(at 6.35 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106062206_XySemi-XB3306D_C2759992.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Li+ Battery Protection IC for Single Cell Pack, SOT-23"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2231,7 +2231,7 @@
 			)
 		)
 		(property "LCSC Part" "C2759992"
-			(at 0 -12.7 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,33 +2248,31 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "XB3306D_0_1"
 			(rectangle
-				(start -3.81 5.08)
-				(end 3.81 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(circle
-				(center -2.54 3.81)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "XB3306D_1_1"
 			(pin passive line
-				(at -6.35 2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -2291,8 +2289,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 0 0)
+			(pin power_in line
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -2309,8 +2307,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -2.54 0)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
