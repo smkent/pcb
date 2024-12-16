@@ -8,5 +8,5 @@
   (lib (name "mechanical")(type "KiCad")(uri "${KIPRJMOD}/libraries/mechanical.pretty")(options "")(descr ""))
   (lib (name "module")(type "KiCad")(uri "${KIPRJMOD}/libraries/module.pretty")(options "")(descr ""))
   (lib (name "packages")(type "KiCad")(uri "${KIPRJMOD}/libraries/packages.pretty")(options "")(descr ""))
-  (lib (name "passives")(type "KiCad")(uri "${KIPRJMOD}/libraries/passives.pretty")(options "")(descr ""))
+  (lib (name "passive")(type "KiCad")(uri "${KIPRJMOD}/libraries/passive.pretty")(options "")(descr ""))
 )

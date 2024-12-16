@@ -1164,7 +1164,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "passive:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2035abb7-f680-4b56-9674-e5ece96dfbf9")
 		(at 88.285 61.5)
@@ -1193,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "passive:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6390,7 +6390,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_0402_1005Metric"
+	(footprint "passive:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "90ae4674-c59d-487d-b672-78f9381fd9ed")
 		(at 93.75 58.5 180)
@@ -6419,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "passive:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8398,7 +8398,7 @@
 			)
 		)
 	)
-	(footprint "passives:C_0402_1005Metric"
+	(footprint "passive:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b4bdd3c5-5948-4d00-b5a6-ee70a0db5be4")
 		(at 88.285 57 180)
@@ -8427,7 +8427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:C_0402_1005Metric"
+		(property "Footprint" "passive:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9256,7 +9256,7 @@
 			)
 		)
 	)
-	(footprint "passives:L_Power_7.0x6.6mm_0630"
+	(footprint "passive:L_Power_7.0x6.6mm_0630"
 		(layer "F.Cu")
 		(uuid "d067fb40-6fec-4086-8101-1bc7ace10a83")
 		(at 87.25 65.75 180)
@@ -9285,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:L_Power_7.0x6.6mm_0630"
+		(property "Footprint" "passive:L_Power_7.0x6.6mm_0630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9782,7 +9782,7 @@
 			)
 		)
 	)
-	(footprint "passives:R_0402_1005Metric"
+	(footprint "passive:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dc0b8445-f554-464d-b26a-9b2b1f4f4ed0")
 		(at 100 85.75 -90)
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passives:R_0402_1005Metric"
+		(property "Footprint" "passive:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
