@@ -2512,7 +2512,7 @@
 				)
 			)
 		)
-		(symbol "custom:SW_SPDT_MountingPin"
+		(symbol "interactive:SW_SPDT_MountingPin"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -7793,7 +7793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:SW_SPDT_MountingPin")
+		(lib_id "interactive:SW_SPDT_MountingPin")
 		(at 121.92 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
