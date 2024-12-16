@@ -2756,7 +2756,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-363_SC-70-6_HandSolder"
+	(footprint "package:SOT-363_SC-70-6_HandSolder"
 		(layer "F.Cu")
 		(uuid "873f5db2-2865-45c2-ac9f-e5c566d2906a")
 		(at 104 64 90)
@@ -2785,7 +2785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-363_SC-70-6_HandSolder"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

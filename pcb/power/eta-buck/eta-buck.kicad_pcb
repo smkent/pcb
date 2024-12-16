@@ -945,7 +945,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23-6"
+	(footprint "package:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "2b20b236-fa22-4c6a-8425-5c646db4a0cb")
 		(at 113.25 70 -90)
@@ -974,7 +974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-23-6"
+		(property "Footprint" "package:SOT-23-6"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3673,7 +3673,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23-5"
+	(footprint "package:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "099ceeab-45c1-4e04-bb45-baad9277e05d")
 		(at 111.5 70 90)
@@ -3704,7 +3704,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23-5"
+		(property "Footprint" "package:SOT-23-5"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")

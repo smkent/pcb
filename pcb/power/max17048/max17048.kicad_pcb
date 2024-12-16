@@ -329,7 +329,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "F.Cu")
 		(uuid "4cafb143-6f7b-4948-b3f2-e97db08f448d")
 		(at 137 124.5 180)
@@ -358,7 +358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1666,7 +1666,7 @@
 			)
 		)
 	)
-	(footprint "packages:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
+	(footprint "package:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
 		(layer "F.Cu")
 		(uuid "721d2919-8c9e-4c05-867f-27a9976a24b5")
 		(at 137.25 136)
@@ -1695,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
+		(property "Footprint" "package:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2708,7 +2708,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "F.Cu")
 		(uuid "8d5296f0-668b-4324-bb8a-99fd218879b8")
 		(at 143 124.5)
@@ -2737,7 +2737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

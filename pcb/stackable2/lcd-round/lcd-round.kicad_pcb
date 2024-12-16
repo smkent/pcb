@@ -2206,7 +2206,7 @@
 			)
 		)
 	)
-	(footprint "packages:SOT-23"
+	(footprint "package:SOT-23"
 		(layer "B.Cu")
 		(uuid "97cc68eb-94a5-4224-a305-961396687cec")
 		(at 91.75 78.25 180)
@@ -2237,7 +2237,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "packages:SOT-23"
+		(property "Footprint" "package:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

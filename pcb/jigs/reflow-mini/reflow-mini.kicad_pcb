@@ -1665,7 +1665,7 @@
 			(uuid "3523ff80-e99e-436e-87da-695337e1888a")
 		)
 	)
-	(footprint "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 		(layer "F.Cu")
 		(uuid "34f71954-63fd-4752-90f8-5e23908bfdec")
 		(at 158.15 98 180)
@@ -1692,7 +1692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3342,7 +3342,7 @@
 			)
 		)
 	)
-	(footprint "packages:DFN1006-3"
+	(footprint "package:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "780551bb-0c91-4248-a237-32fb26a79da5")
 		(at 169.75 101.5 90)
@@ -3371,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:DFN1006-3"
+		(property "Footprint" "package:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4250,7 +4250,7 @@
 			)
 		)
 	)
-	(footprint "packages:DFN1006-3"
+	(footprint "package:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "96d5f727-a4e6-45d1-9ab4-ddb7dd82912e")
 		(at 169.75 94.5 90)
@@ -4279,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:DFN1006-3"
+		(property "Footprint" "package:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4655,7 +4655,7 @@
 			(uuid "01d8a75a-bcfa-43ce-b4fd-f67bd4fb859b")
 		)
 	)
-	(footprint "packages:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
+	(footprint "package:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
 		(layer "F.Cu")
 		(uuid "a361f387-7ab1-400a-8bb4-086934cac7ba")
 		(at 158.5 101.5 90)
@@ -4682,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
+		(property "Footprint" "package:X2-DFN1010-6_L1.0-W1.0-P0.35-BL"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6590,7 +6590,7 @@
 			)
 		)
 	)
-	(footprint "packages:DFN1006-3"
+	(footprint "package:DFN1006-3"
 		(layer "F.Cu")
 		(uuid "e1fd2d5d-3658-452d-a7ed-352ca2528831")
 		(at 153.82 98.67 90)
@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "packages:DFN1006-3"
+		(property "Footprint" "package:DFN1006-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
