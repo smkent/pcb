@@ -1522,7 +1522,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+			(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1549,6 +1549,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part" "C22464515"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "XINGLIGHT SMD 1x1 LED RGB diode"
 				(at 0 0 0)
 				(effects
@@ -1558,7 +1567,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "LED*XL?B1010RGBT*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7741,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 184.15 83.82 0)
 			(effects
 				(font
@@ -7760,6 +7769,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22464515"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -11288,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 238.76 138.43 0)
 			(effects
 				(font
@@ -11307,6 +11325,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22464515"
 			(at 238.76 139.7 0)
 			(effects
 				(font
@@ -11636,7 +11663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -11655,6 +11682,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 184.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22464515"
 			(at 184.15 139.7 0)
 			(effects
 				(font
@@ -12834,7 +12870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 238.76 83.82 0)
 			(effects
 				(font
@@ -12853,6 +12889,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 238.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22464515"
 			(at 238.76 85.09 0)
 			(effects
 				(font
@@ -15276,7 +15321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 240.03 25.4 0)
 			(effects
 				(font
@@ -15295,6 +15340,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22464515"
 			(at 238.76 25.4 0)
 			(effects
 				(font
