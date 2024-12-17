@@ -1,4 +1,4 @@
-(footprint "LED-ARRAY-SMD_4P-L3.2-W2.7-TL-CW"
+(footprint "LED_RGB_P4-1209RGBTCA1-0.9T-A_3.2x2.7mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "LED-ARRAY-SMD_4P-L3.2-W2.7-TL-CW"
+	(property "Value" "LED_RGB_P4-1209RGBTCA1-0.9T-A_3.2x2.7mm"
 		(at 0 4.7 0)
 		(layer "F.Fab")
 		(uuid "590a20fa-dc1c-4562-96ab-460a53e737ec")
@@ -63,6 +63,26 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -1.6 -1.45)
+		(end 1.6 -1.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79951d24-c8fb-4350-8f5b-8a93ca4c68ef")
+	)
+	(fp_line
+		(start -1.6 1.45)
+		(end 1.6 1.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e0a2fdd-dbb2-45f1-88a0-6ac758f2b9b2")
+	)
+	(fp_line
 		(start 0.35 -0.55)
 		(end 0.35 -0.85)
 		(stroke
@@ -82,6 +102,16 @@
 		(layer "F.SilkS")
 		(uuid "f24d9345-e135-43d8-b224-cac7ac5d6618")
 	)
+	(fp_line
+		(start 2.25 0.1)
+		(end 2.25 -0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c044034-7851-422d-bb1e-b7f4275693e9")
+	)
 	(fp_poly
 		(pts
 			(xy -0.216 0.381) (xy -0.216 -0.381) (xy 0.292 0)
@@ -95,8 +125,8 @@
 		(uuid "cff53fdb-4d41-4ef9-8aa5-32c8c029fbca")
 	)
 	(fp_rect
-		(start -2.33 -1.52)
-		(end 2.32 1.52)
+		(start -2.5 -1.75)
+		(end 2.5 1.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105,16 +135,16 @@
 		(layer "F.CrtYd")
 		(uuid "a4b9132a-1e9a-48ad-8cef-2a662f454685")
 	)
-	(fp_circle
-		(center -1.6 -1.35)
-		(end -1.57 -1.35)
+	(fp_rect
+		(start -1.6 -1.35)
+		(end 1.6 1.35)
 		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "7ff36169-5afc-4c53-a656-7a3a4818ce4b")
+		(uuid "ab14d687-f641-4555-b027-9507b1859ce1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

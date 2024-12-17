@@ -3247,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L3.2-W2.7-TL-CW"
+		(property "Footprint" "discrete:LED_RGB_P4-1209RGBTCA1-0.9T-A_3.2x2.7mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*P4?1209RGBTCA1*"
 			(at 0 0 0)
 			(effects
 				(font
