@@ -3305,7 +3305,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:LED-SMD_FM-3510RGBA-SG"
+	(footprint "discrete:LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 		(layer "F.Cu")
 		(uuid "92ebb7e7-f639-46b5-b675-a6399999c343")
 		(at 100 51)
@@ -3313,7 +3313,7 @@
 			(at 0 -4.06 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9f29af31-9328-4f0a-ac0d-324dde4d9229")
+			(uuid "4949a961-6498-44b2-a429-ddf5e55ca8bb")
 			(effects
 				(font
 					(size 1 1)
@@ -3324,7 +3324,7 @@
 		(property "Value" "FM-3510RGBA-SG"
 			(at 0 4.06 0)
 			(layer "F.Fab")
-			(uuid "f0e61be5-a8c6-40d0-a815-738ddea4db20")
+			(uuid "5f585b03-2c2d-4f35-b128-56b630075a42")
 			(effects
 				(font
 					(size 1 1)
@@ -3332,11 +3332,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-SMD_FM-3510RGBA-SG"
+		(property "Footprint" "discrete:LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec270063-518c-4045-aa00-c5ed1a769713")
+			(uuid "9a1b671c-43c2-4c0f-834e-c42549130850")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3348,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1cb7a9e-59f0-4367-a45e-532143730c12")
+			(uuid "3a9e6c32-8e69-4758-bf35-2404eaa05184")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3360,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dd8da96-d2ac-4fc7-aa28-e847aaf676aa")
+			(uuid "ed487ab7-061d-444c-b3d8-4ffec2449bca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,11 +3368,74 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "LCSC Part" "C727903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "700209fe-0372-455a-8db0-5990243670d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*FM?3510RGBA*")
 		(path "/fa8821aa-ac07-4061-9465-d3710eb1b25b")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.85 -0.4)
+			(end -1.85 -0.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6c1ff747-782c-4e95-85ae-80aaeb3d5272")
+		)
+		(fp_line
+			(start -1.85 0.45)
+			(end -0.85 0.45)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3ce9d0d3-1ef7-4375-a972-0983842323c9")
+		)
+		(fp_line
+			(start 0 0.35)
+			(end 0.1 0.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a4ee0909-2f19-4f2d-bcdb-8b812f6cbdfc")
+		)
+		(fp_line
+			(start 1.85 -0.4)
+			(end 1.85 -0.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c7b0b029-4bde-4fb8-b3cd-c4b61d93e453")
+		)
+		(fp_line
+			(start 1.85 0.45)
+			(end 0.95 0.45)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9bd649ec-1127-4ee9-89e2-509cdd423d0b")
+		)
 		(fp_poly
 			(pts
 				(xy -1.45 -0.45) (xy -1.6 -0.65) (xy -1.3 -0.65)
@@ -3383,7 +3446,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "2a5de006-e9aa-432c-8384-2cc4bbbd781f")
+			(uuid "3d2ff862-f237-4d54-a757-6510ad3ddcc0")
 		)
 		(fp_line
 			(start -1.8 -0.85)
@@ -3393,7 +3456,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "ad5af2f4-bd3e-44e0-bf76-83b1eeaf3924")
+			(uuid "5a101469-4350-4e3a-a666-77a1119115a7")
 		)
 		(fp_rect
 			(start -1.95 -0.85)
@@ -3404,24 +3467,93 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ebf5aa67-c602-4ef5-9f3e-b3c37f5a7eec")
+			(uuid "a624cc9b-494f-4ebc-afe7-4b343ceae3d1")
 		)
-		(fp_circle
-			(center -1.75 -0.97)
-			(end -1.72 -0.97)
+		(fp_line
+			(start -1.75 -0.85)
+			(end 1.75 -0.85)
 			(stroke
-				(width 0.06)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
-			(fill none)
 			(layer "F.Fab")
-			(uuid "368fc6ad-4bd0-484a-9160-41f91d351f3b")
+			(uuid "a0b2a3ef-54e1-4b64-8803-753e204beb74")
+		)
+		(fp_line
+			(start -1.75 0.35)
+			(end -1.75 -0.85)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "af4e9e03-84a2-4178-8847-8f20bddbfaac")
+		)
+		(fp_line
+			(start -0.65 0.35)
+			(end -1.75 0.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "b07da24d-2546-4370-928b-59c1376a9bdb")
+		)
+		(fp_line
+			(start -0.65 0.35)
+			(end -0.55 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "ad5954e3-a6c5-4745-aa12-24f4b83a2f39")
+		)
+		(fp_line
+			(start -0.55 0.25)
+			(end 0.65 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c756a3fd-9642-4c70-a7f8-fba7713b6d34")
+		)
+		(fp_line
+			(start 0.75 0.35)
+			(end 0.65 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f73e444b-71a9-4539-85fa-13bc61d35c1b")
+		)
+		(fp_line
+			(start 1.75 -0.85)
+			(end 1.75 0.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "73efe123-bc50-4417-ac4f-72a845e9063d")
+		)
+		(fp_line
+			(start 1.75 0.35)
+			(end 0.75 0.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "e28536c2-7b5a-4bb7-b06c-77a3c15ef395")
 		)
 		(fp_text user "PCB Edge"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "8fea5192-30d1-439d-a837-0916ff0197cb")
+			(uuid "07c7de5a-71e2-4586-a81d-5a87fc30544c")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -3434,7 +3566,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "e8c0df1e-8b6d-4259-9ab8-ee7d80eeafaf")
+			(uuid "2f00de3e-cd19-4e27-aa93-6298616aa756")
 			(effects
 				(font
 					(size 1 1)
@@ -3450,7 +3582,7 @@
 			(net 11 "Net-(LED0-RK)")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "a61a5c9c-a08c-4d71-a494-6e591eda5eaf")
+			(uuid "f521ffa3-3f62-4acc-a287-56091a940df4")
 		)
 		(pad "2" smd roundrect
 			(at -0.39 0.12 270)
@@ -3460,7 +3592,7 @@
 			(net 5 "+3V3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "0f6758cf-7eae-4681-b490-458b3074ba9a")
+			(uuid "14ae060a-d037-4c7a-97dd-df8acf43d33b")
 		)
 		(pad "3" smd roundrect
 			(at 0.51 0.12 270)
@@ -3470,7 +3602,7 @@
 			(net 12 "Net-(LED0-GK)")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "dcb51856-984f-4cf4-8e1f-3fdd1dab6974")
+			(uuid "370fb838-b6f6-4238-ac52-ba8dedd4f42b")
 		)
 		(pad "4" smd roundrect
 			(at 1.51 0)
@@ -3480,7 +3612,7 @@
 			(net 3 "Net-(LED0-BK)")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "a307d162-998b-4923-a834-33cd32624d8d")
+			(uuid "9f36d9ad-310a-4d21-9e5f-ad7f932e754e")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_L3.5-W1.0-H1.2-FM-3510RGBA-SG.wrl"
 			(offset
@@ -4884,7 +5016,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/87ec72ca-7b7b-415b-9910-7322aa7fa11c")
+		(path "/fe498901-633f-4cf7-8366-81a3921fd721")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
 		(attr smd)
@@ -6775,7 +6907,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/aa2c8c6c-f575-4004-b150-d0ddf5840ce8")
+		(path "/ec0b2b6c-7485-4124-a5a8-5e426b5db8d5")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
 		(attr smd)
