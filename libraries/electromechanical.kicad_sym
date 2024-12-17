@@ -42,7 +42,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "Switch, single pole double throw, with mounting pin"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,7 +51,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON mounting pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW_*"
 			(at 0 0 0)
 			(effects
 				(font
