@@ -4618,7 +4618,7 @@
 		(descr "Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf")
 		(tags "Power Jack SMT")
 		(property "Reference" "J0"
-			(at -6.5 6.5 360)
+			(at -6.5 6.5 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "535fe3d8-69da-47f8-b33f-8bba5bdec061")
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at -0.5 8.5 360)
+			(at -0.5 8.5 0)
 			(layer "F.Fab")
 			(uuid "eca85ac4-c58a-4e86-ae41-59092ba9ea46")
 			(effects
@@ -4930,7 +4930,7 @@
 			(uuid "806cdc5a-3440-4e7d-9d91-a0d828dfd3cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.5 0.5 360)
+			(at -0.5 0.5 0)
 			(layer "F.Fab")
 			(uuid "1f751969-1153-460a-b517-75643fca8e14")
 			(effects
