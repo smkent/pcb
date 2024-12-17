@@ -1,0 +1,319 @@
+(footprint "LED_IR_SideEmitter_1206_3216Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
+	(tags "LED IR infrared side sideemitter angle")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "6c647290-4805-4165-8a99-d3e469d05921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_IR_SideEmitter_1206_3216Metric"
+		(at 0 1.82 0)
+		(layer "F.Fab")
+		(uuid "5c401b89-4e81-476e-96aa-54b73ca914a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4995c7-2f35-4b16-9f05-31069c0a9ad1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d95818f4-35cb-476a-8508-b388b49aaff8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcfbe825-d9a9-48dd-816f-f44e435153c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.285 -0.25)
+		(end -2.285 0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bc37066-4a40-46a2-bbd5-1d74c5b8db32")
+	)
+	(fp_line
+		(start -0.9 -1.22)
+		(end -0.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8063bb52-2339-417a-ae58-846ba7a4374e")
+	)
+	(fp_line
+		(start -0.9 -1.22)
+		(end -0.8 -1.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22e001a4-340a-45e6-ba4b-e92f93101dc8")
+	)
+	(fp_line
+		(start -0.6 0.3)
+		(end 0.6 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "263f5201-d9e2-4945-b18a-57a97b86aac9")
+	)
+	(fp_line
+		(start 0.8 -1.22)
+		(end 0.9 -1.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "209b2e1e-4010-4b57-a24e-e82232939148")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end 0.9 -1.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c154559-3d04-4bdc-8e84-0ef89b4c347f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.1344 -0.65) (xy 0.1344 -0.15) (xy -0.2 -0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "44579882-1051-4775-9ee8-bef85c2136ad")
+	)
+	(fp_line
+		(start -2.28 -1.12)
+		(end 2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9a35986-acb9-427f-899f-5b6a8171fa3a")
+	)
+	(fp_line
+		(start -2.28 1.12)
+		(end -2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e863f2e6-11ae-4d69-899b-cae2de65d71b")
+	)
+	(fp_line
+		(start 2.28 -1.12)
+		(end 2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ad88416-e426-4600-a10a-928beeebabe9")
+	)
+	(fp_line
+		(start 2.28 1.12)
+		(end -2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ace08ce-1ea5-4f91-8553-b3f0f70680dd")
+	)
+	(fp_line
+		(start -1.6 0.05)
+		(end -1.6 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07ab8861-36db-434a-8706-0e49e0c9df9d")
+	)
+	(fp_line
+		(start -1.6 0.2)
+		(end 1.6 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c49a3126-2e3d-45d1-adc8-ce7c1f74814c")
+	)
+	(fp_line
+		(start -1.35 -0.2)
+		(end -1.6 0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "46080805-0f81-4049-98e2-9961372bc9c8")
+	)
+	(fp_line
+		(start -0.8 -1.12)
+		(end -0.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9ee101ee-ee49-4cd7-9ac3-fe58aaa8e5cc")
+	)
+	(fp_line
+		(start -0.8 -1.12)
+		(end 0.8 -1.12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f4c35f98-feda-41b4-a993-ab7150b7536d")
+	)
+	(fp_line
+		(start -0.8 -0.2)
+		(end -1.35 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "02cbb9a8-a3b6-4b28-9b76-03bfe87f00ba")
+	)
+	(fp_line
+		(start 0.8 -0.2)
+		(end 0.8 -1.12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a475b194-99b0-4627-9c81-fc0893076e55")
+	)
+	(fp_line
+		(start 1.6 -0.2)
+		(end 0.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c07e5748-2fd1-4d70-b89b-78167fdefc0a")
+	)
+	(fp_line
+		(start 1.6 0.2)
+		(end 1.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dfc4cb6a-6454-4691-b9ca-5cbd71522adc")
+	)
+	(fp_arc
+		(start -0.7 -1.12)
+		(mid 0 -1.82)
+		(end 0.7 -1.12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d9515949-4f50-4d97-8c2b-ddb5b2d9a6bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc8ad26a-090d-4ce0-a893-2e41d6533f9f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "56d1c6a2-bdc7-4da5-82c6-650a4bcb00f3")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b3c337f7-9a93-46b2-b1a2-2268f1bd00dd")
+	)
+	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_L3.2-W1.6-R-RD-1.wrl"
+		(offset
+			(xyz 0 -0.2 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
