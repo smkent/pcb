@@ -709,7 +709,7 @@
 			)
 		)
 	)
-	(footprint "custom:RELAY-G3MB-202P-5VDC"
+	(footprint "discrete:Relay_G3MB-202P"
 		(layer "F.Cu")
 		(uuid "6a3dd1a7-7a76-44fc-81c4-3fa20a906589")
 		(at 160 72 180)
@@ -736,7 +736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
+		(property "Footprint" "discrete:Relay_G3MB-202P"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6662,7 +6662,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/1c9c1ded-4046-4d18-9735-754b0825e7b7")
+		(path "/d1ef8141-9fe3-41bf-b73e-d759c9af9baa")
 		(sheetname "Root")
 		(sheetfile "esp-doorbell-dev.kicad_sch")
 		(attr smd)

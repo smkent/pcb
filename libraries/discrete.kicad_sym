@@ -2289,6 +2289,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Relay*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "G3MB-202P-5VDC_0_0"
 			(rectangle
 				(start -0.381 -2.032)

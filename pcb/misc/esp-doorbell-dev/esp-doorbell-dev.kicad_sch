@@ -2618,7 +2618,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
+			(property "Footprint" "discrete:Relay_G3MB-202P"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -7677,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
+		(property "Footprint" "discrete:Relay_G3MB-202P"
 			(at 167.64 123.19 0)
 			(effects
 				(font
