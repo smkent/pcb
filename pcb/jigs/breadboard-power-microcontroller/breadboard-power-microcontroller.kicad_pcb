@@ -98,7 +98,7 @@
 	(net 16 "DC_IN_DIODE")
 	(net 17 "TO_3V3_DIODE")
 	(net 18 "unconnected-(U2-NC-Pad4)")
-	(footprint "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm"
+	(footprint "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm_THT"
 		(layer "F.Cu")
 		(uuid "03e31098-5b40-41db-b085-ea934acd302e")
 		(at 191.008 90.765 -90)
@@ -106,7 +106,7 @@
 			(at 0 -4.4 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "13417716-7f78-428d-851c-c63210694f4b")
+			(uuid "7b08ff08-73c8-4afb-9688-ed24479445bc")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 		(property "Value" "SW_DPDT_x2"
 			(at 0 6 -90)
 			(layer "F.Fab")
-			(uuid "9814734e-7cff-4ec0-be5d-72cc0fda23b5")
+			(uuid "81225085-3015-4400-b5d0-e52a1eab4540")
 			(effects
 				(font
 					(size 1 1)
@@ -125,11 +125,11 @@
 				)
 			)
 		)
-		(property "Footprint" "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm"
+		(property "Footprint" "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm_THT"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "675f626c-8485-40fe-8daf-23f620124a69")
+			(uuid "224b62db-51d7-4075-9119-b9f57b5f4645")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55bfc256-51ed-4b33-99a5-7718d28759fa")
+			(uuid "f7fe1e68-949f-494c-bf3f-8ddab1b03dfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6abb31e0-3614-4972-9080-0852654b37b6")
+			(uuid "c44aa6e6-2381-468b-b6bf-a7b34b901b6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3d5471bc-f73e-48c5-aa86-91a57fd81036")
+			(uuid "3fcaf3ad-70de-4342-af33-9d88d6069571")
 		)
 		(fp_line
 			(start 3.8 -3.8)
@@ -184,7 +184,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7670711e-6181-468f-abc9-9dbc86b1084a")
+			(uuid "609f4447-4c21-4736-a389-d33ea81947a3")
 		)
 		(fp_rect
 			(start -3.6 -3.6)
@@ -195,7 +195,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "94a72324-2c04-469a-927e-0a68af2b1143")
+			(uuid "cc4344b9-ae35-433f-9140-3b955fab1071")
 		)
 		(fp_poly
 			(pts
@@ -207,7 +207,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "cd1a0a1c-4273-49a4-987d-19b1b0f25f74")
+			(uuid "d3acfc69-fe81-4b2f-b5c5-1ca131cc56a3")
 		)
 		(fp_line
 			(start -1.25 3)
@@ -217,7 +217,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "60afe2fb-9ed5-43f2-b1f6-b709d45b90d9")
+			(uuid "1a576635-f611-4f09-b9db-8c4204c8e0a0")
 		)
 		(fp_line
 			(start 1.25 3)
@@ -227,7 +227,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "b52132db-d5c8-48ee-9b31-aa0500467326")
+			(uuid "831039a2-7c06-446a-9892-8592fed676f1")
 		)
 		(fp_line
 			(start 1.25 3)
@@ -237,7 +237,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "a6f5dbfc-3f63-4667-8fee-e5874899e36d")
+			(uuid "2460b6cf-cc15-48e0-8b67-fb1430e2aa01")
 		)
 		(fp_rect
 			(start -3.5 -3.5)
@@ -248,7 +248,7 @@
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "ee608227-05b7-4748-a35c-762e72e81089")
+			(uuid "0d59b929-d403-4214-9dc1-335eaae93986")
 		)
 		(fp_rect
 			(start -3.75 -3.75)
@@ -259,7 +259,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "bf8ef7ba-b788-4340-97c6-09f3cc5bc286")
+			(uuid "bcef0293-73d6-49a6-ac67-1881d485114d")
 		)
 		(fp_circle
 			(center 3.5 -3.5)
@@ -270,12 +270,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "de446819-8222-4a32-a633-42bc24d83868")
+			(uuid "1fca9dde-cabb-426e-8d9e-34435959ac99")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(layer "F.Fab")
-			(uuid "91c82cd1-ff59-45ef-b7c9-6b32877061f7")
+			(uuid "b25e64b0-694a-40bd-9120-13d57aa7ea30")
 			(effects
 				(font
 					(size 1 1)
@@ -293,7 +293,7 @@
 			(net 10 "unconnected-(SW1A-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive+no_connect")
-			(uuid "1c8e225b-a4d5-4dee-954f-5aaeff1dcaeb")
+			(uuid "6740983c-dfb4-4f37-9495-a3983b33f7fa")
 		)
 		(pad "2" thru_hole circle
 			(at 2.5 0)
@@ -304,7 +304,7 @@
 			(net 6 "Net-(Q1-G)")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "000daea2-85be-4b84-8dac-5190f194d66c")
+			(uuid "06175b8a-d6cb-4098-8e86-5fb19e673676")
 		)
 		(pad "3" thru_hole circle
 			(at 2.5 2)
@@ -315,7 +315,7 @@
 			(net 1 "GND")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "18c2a10e-30ca-43ee-9bee-3e74425a1c90")
+			(uuid "3eaa7fc0-d780-4553-bdf0-79a95db13110")
 		)
 		(pad "4" thru_hole circle
 			(at -2.5 -2)
@@ -326,7 +326,7 @@
 			(net 1 "GND")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "264d8263-d04c-4e06-8074-ff5d179dd530")
+			(uuid "7ae09aff-3995-4bb2-95d5-f3582b9292dc")
 		)
 		(pad "5" thru_hole circle
 			(at -2.5 0)
@@ -337,7 +337,7 @@
 			(net 1 "GND")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "fe9e1c64-9559-419f-91bb-c5183533afb4")
+			(uuid "515544cd-3976-4e6a-a94d-5f7cd4aff29e")
 		)
 		(pad "6" thru_hole circle
 			(at -2.5 2)
@@ -348,7 +348,7 @@
 			(net 1 "GND")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "da5001e9-710d-4c37-8697-0ab973c33841")
+			(uuid "142bc0fa-838b-49b3-905f-527fe3d00951")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/SW-TH_6P-L7.0-W7.0-P2.00.wrl"
 			(offset
