@@ -5056,7 +5056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:SW-SMD_3P-P1.50_L2.7-W6.6"
+		(property "Footprint" "electromechanical:SW_SPDT_PCM12"
 			(at 93.98 177.8 0)
 			(effects
 				(font
@@ -7867,7 +7867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:SW-TH_DEALON_SS-12D01-GX_simple"
+		(property "Footprint" "electromechanical:SW_Slide-03_SPDT_P2.50mm_THT"
 			(at 190.5 97.79 0)
 			(effects
 				(font
@@ -8414,7 +8414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:SW-TH_DEALON_SS-12D01-GX_simple"
+		(property "Footprint" "electromechanical:SW_Slide-03_SPDT_P2.50mm_THT"
 			(at 190.5 54.61 0)
 			(effects
 				(font

@@ -1,10 +1,10 @@
-(footprint "ETA6003_QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+(footprint "QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias_ETA6003"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "ETA6003 custom pad, QFN, 16 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
-	(tags "QFN DFN_QFN")
+	(descr "ETA6003 custom pad, QFN, 16 Pin (http://www.cypress.com/file/46236/download)")
+	(tags "QFN DFN_QFN ETA6003")
 	(property "Reference" "REF**"
 		(at 0 -2.8 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ETA6003_QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+	(property "Value" "QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias_ETA6003"
 		(at 0 2.8 0)
 		(layer "F.Fab")
 		(uuid "f4dc0c07-ea73-4e47-b1f5-d84d7f0af0a6")

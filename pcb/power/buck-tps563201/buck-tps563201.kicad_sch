@@ -1031,7 +1031,7 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "electromechanical:SW_SPDT_MountingPin"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1045,7 +1045,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_SPDT_MountingPin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1071,7 +1071,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Description" "Switch, single pole double throw, with mounting pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1080,7 +1080,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON mounting pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1089,7 +1089,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_fp_filters" "SW_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_MountingPin_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -1136,7 +1145,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
+			(symbol "SW_SPDT_MountingPin_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -1146,6 +1155,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1195,6 +1224,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1763,6 +1810,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 67.31) (xy 180.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363d6dfe-b874-4012-822f-908994a039a1")
+	)
+	(wire
+		(pts
 			(xy 81.28 36.83) (xy 83.82 36.83)
 		)
 		(stroke
@@ -1870,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "698ac353-de97-4604-8c4d-9b131cf0576f")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac1a08d-a293-48d4-8f56-647b8904b0a8")
 	)
 	(wire
 		(pts
@@ -3999,6 +4066,82 @@
 		)
 	)
 	(symbol
+		(lib_id "electromechanical:SW_SPDT_MountingPin")
+		(at 187.96 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de133dd-273c-43de-b939-ac3baa7ca132")
+		(property "Reference" "SW1"
+			(at 193.04 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT_MountingPin"
+			(at 193.04 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "electromechanical:SW_SPDT_PCM12"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw, with mounting pin"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "0dce5b95-0764-44dd-9204-3930325297e4")
+		)
+		(pin "2"
+			(uuid "4684f312-ad3b-4020-9106-b4a845391b8f")
+		)
+		(pin "3"
+			(uuid "bd2a7f80-9aa2-43f7-9df8-593e40405e86")
+		)
+		(pin "1"
+			(uuid "a7e59f0c-2739-422c-a866-8eab357dec5a")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 49.53 0)
 		(unit 1)
@@ -4600,79 +4743,6 @@
 			(project "power-dev-buck-tps5x-combo"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 187.96 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cc399a7-9063-49bc-bb35-c3e2abc76734")
-		(property "Reference" "SW1"
-			(at 193.04 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 193.04 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:SW-SMD_3P-P1.50_L2.7-W6.6"
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8160542c-44f1-4b12-855f-fdaae78cc38a")
-		)
-		(pin "1"
-			(uuid "dcdfd540-c520-4322-9db9-2e1df204327c")
-		)
-		(pin "3"
-			(uuid "1d87ab6f-314f-4eb9-9fd2-b839322852dd")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5694,6 +5764,72 @@
 			(project "power-dev-buck-tps5x-combo"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb42b03b-5c62-44fb-b78e-1f14341bb828")
+		(property "Reference" "#PWR022"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19936f3-f112-4b1a-814b-bebd59f556c9")
+		)
+		(instances
+			(project "buck-tps563201"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-(footprint "SENSORS-SMD_TEMT6000X01_HandSolder"
+(footprint "Sensor_TEMT6000X01_HandSolder"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SENSORS-SMD_TEMT6000X01_HandSolder"
+	(property "Value" "Sensor_TEMT6000X01_HandSolder"
 		(at 0 4.56 0)
 		(layer "F.Fab")
 		(uuid "8d7bfb51-b21c-4c1a-a78f-fa2d78f84ca4")
@@ -62,6 +62,16 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2.1 -1.1)
+		(end 2.1 -1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef09a73-420a-4bd8-9b3a-086b889b48e7")
+	)
 	(fp_line
 		(start -1.12 -0.55)
 		(end -0.89 -0.55)
@@ -182,9 +192,19 @@
 		(layer "F.SilkS")
 		(uuid "327dc8e7-7508-434a-a2fc-85c2dc281a90")
 	)
+	(fp_line
+		(start 2.1 1.1)
+		(end -2.1 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad565c69-bc29-458b-b02c-21a73dccacee")
+	)
 	(fp_rect
-		(start -2.6 -1)
-		(end 2.6 1)
+		(start -2.75 -1.35)
+		(end 2.75 1.35)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -193,16 +213,16 @@
 		(layer "F.CrtYd")
 		(uuid "63cc6fa0-4581-47c3-9a39-8519009b7ebd")
 	)
-	(fp_circle
-		(center -2.33 -1.12)
-		(end -2.3 -1.12)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
 		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "98c418a0-784f-48ab-821f-6a69c7b49156")
+		(uuid "51ec3964-0bd6-445e-97de-343f52d9ed71")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
