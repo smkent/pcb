@@ -98,7 +98,7 @@
 	(net 16 "DC_IN_DIODE")
 	(net 17 "TO_3V3_DIODE")
 	(net 18 "unconnected-(U2-NC-Pad4)")
-	(footprint "lcsc:SW_Push_DPDT_Toggle_7.0x7.0mm"
+	(footprint "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm"
 		(layer "F.Cu")
 		(uuid "03e31098-5b40-41db-b085-ea934acd302e")
 		(at 191.008 90.765 -90)
@@ -125,7 +125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SW_Push_DPDT_Toggle_7.0x7.0mm"
+		(property "Footprint" "electromechanical:SW_Push_DPDT_Toggle_7.0x7.0mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
