@@ -10710,7 +10710,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_0402_1005Metric"
+	(footprint "discrete:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e0b21ad9-cfad-4c28-8bf9-6c1fdcac85ae")
 		(at 115 75.5)
@@ -10739,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0402_1005Metric"
+		(property "Footprint" "discrete:LED_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
