@@ -1661,7 +1661,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "486106d3-adcc-4302-b689-22d83c6c8a71")
 		(at 127.55 106.5 90)
@@ -1692,7 +1692,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3265,7 +3265,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "c0eb9fef-9bee-41c0-b36b-137c43c0ad12")
 		(at 130.05 106.5 90)
@@ -3296,7 +3296,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")

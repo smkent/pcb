@@ -91,7 +91,7 @@
 	(net 9 "Net-(LED1-A)")
 	(net 10 "Net-(LED2-A)")
 	(net 11 "unconnected-(RV1-Pad1)")
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "112de5c1-7e21-4a3d-b4e4-8f9dbc7bd47b")
 		(at 135.255 93.599)
@@ -120,7 +120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
