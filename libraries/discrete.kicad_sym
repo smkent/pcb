@@ -5567,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-BR"
+		(property "Footprint" "lcsc:LED_RGB_XL-2012RGBC_2.0x1.2mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -5612,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*XL?2012RGBC*"
 			(at 0 0 0)
 			(effects
 				(font
