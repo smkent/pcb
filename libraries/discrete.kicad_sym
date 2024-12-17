@@ -5069,7 +5069,7 @@
 			)
 		)
 	)
-	(symbol "XL-1615RGBC-RF"
+	(symbol "XL-1615RGBC"
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim no)
@@ -5083,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-1615RGBC-RF"
+		(property "Value" "XL-1615RGBC"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.6-W1.5-BR_XL-1615RGBC-RF"
+		(property "Footprint" "discrete:LED_RGB_XL-1615RGBC_1.6x1.5mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -5136,7 +5136,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_0_0"
+		(property "ki_fp_filters" "LED*XL?1615RGBC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XL-1615RGBC_0_0"
 			(text "B"
 				(at -1.905 -6.35 0)
 				(effects
@@ -5162,7 +5171,7 @@
 				)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_0_1"
+		(symbol "XL-1615RGBC_0_1"
 			(rectangle
 				(start -2.794 8.382)
 				(end 2.794 -7.62)
@@ -5422,7 +5431,7 @@
 				)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_1_1"
+		(symbol "XL-1615RGBC_1_1"
 			(polyline
 				(pts
 					(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
