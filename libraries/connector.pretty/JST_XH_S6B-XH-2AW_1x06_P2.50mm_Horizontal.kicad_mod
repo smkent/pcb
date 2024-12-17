@@ -607,12 +607,12 @@
 		(remove_unused_layers no)
 		(uuid "9e607a77-2178-46a1-b8d8-895f785cfdad")
 	)
-	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-TH_XH2.50-WI-6P.wrl"
+	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/CONN-TH_6P-P2.50_DEALON_XH-W-6A.wrl"
 		(offset
-			(xyz 0 -4.8 -2.4)
+			(xyz 6.25 -3.6 3)
 		)
 		(scale
-			(xyz 0.985 1.03 1)
+			(xyz 1 1.08 1)
 		)
 		(rotate
 			(xyz 0 0 0)
