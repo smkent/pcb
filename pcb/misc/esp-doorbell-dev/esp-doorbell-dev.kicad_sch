@@ -2307,7 +2307,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23?6*"
+			(property "ki_fp_filters" "SOT?363*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2618,7 +2618,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "discrete:Relay_G3MB-202P"
+			(property "Footprint" "custom:RELAY-G3MB-202P-5VDC"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -2649,6 +2649,15 @@
 				)
 			)
 			(property "ki_keywords" "Opto-Triac Opto Triac Zero Cross Solid State Relays"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3619,7 +3628,7 @@
 				(pin passive line
 					(at 12.7 -8.89 180)
 					(length 2.54)
-					(name "A0/GPIO0"
+					(name "ADC/GPIO0"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3637,7 +3646,7 @@
 				(pin passive line
 					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "A1/GPIO1"
+					(name "ADC/GPIO1"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3673,7 +3682,7 @@
 				(pin passive line
 					(at 12.7 -3.81 180)
 					(length 2.54)
-					(name "A2/GPIO2"
+					(name "ADC/~{GPIO2}"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3727,7 +3736,7 @@
 				(pin passive line
 					(at 12.7 -1.27 180)
 					(length 2.54)
-					(name "A3/GPIO3"
+					(name "ADC/GPIO3"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3763,7 +3772,7 @@
 				(pin passive line
 					(at 12.7 1.27 180)
 					(length 2.54)
-					(name "SCK/A4/GPIO4"
+					(name "SCK/ADC/GPIO4"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3781,7 +3790,7 @@
 				(pin passive line
 					(at -12.7 8.89 0)
 					(length 2.54)
-					(name "GPIO5/A5/MISO"
+					(name "GPIO5/MISO"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3853,7 +3862,7 @@
 				(pin passive line
 					(at -12.7 1.27 0)
 					(length 2.54)
-					(name "GPIO8/SDA"
+					(name "~{GPIO8}/SDA"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3871,7 +3880,7 @@
 				(pin passive line
 					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "GPIO9/SCL"
+					(name "~{GPIO9}/SCL"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -7882,74 +7891,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 125.73 83.82 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15321cdb-71f7-4812-bc98-173d0513e9ae")
-		(property "Reference" "R3"
-			(at 125.73 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 125.73 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple"
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47b6fcf1-11a3-4f5f-af5c-025bf9b0dd5a")
-		)
-		(pin "1"
-			(uuid "b4aa6407-b0b4-4751-818f-3204379a6acf")
-		)
-		(instances
-			(project "esp-door"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 182.88 90)
 		(unit 1)
@@ -8722,7 +8663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "package:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 153.035 123.19 0)
 			(effects
 				(font
@@ -9368,6 +9309,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 125.73 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64bb7610-8817-499a-9544-59b7129c6dc9")
+		(property "Reference" "R3"
+			(at 125.73 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 125.73 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88361464-5616-4ca7-b997-5ee85cf93512")
+		)
+		(pin "1"
+			(uuid "a50ab270-2ae3-4816-a26a-234b6dad65a7")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 180.34 90)
 		(unit 1)
@@ -9868,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "package:SOT-363_SC-70-6"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 186.055 154.94 0)
 			(effects
 				(font
@@ -11338,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -12176,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 160.02 0)
 			(effects
 				(font
@@ -12698,7 +12707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "package:SOT-363_SC-70-6"
+		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
 			(at 252.095 154.94 0)
 			(effects
 				(font
