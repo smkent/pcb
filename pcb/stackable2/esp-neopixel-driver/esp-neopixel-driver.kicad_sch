@@ -3305,7 +3305,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:SENSORS-SMD_VEML7700-TR"
+			(property "Footprint" "discrete:Sensor_VEML7700-TR"
 				(at 2.54 -17.78 0)
 				(effects
 					(font
@@ -3332,7 +3332,25 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part" "C504893"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "ambient light sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*VEML7700*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6903,7 +6921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:SENSORS-SMD_VEML7700-TR"
+		(property "Footprint" "discrete:Sensor_VEML7700-TR"
 			(at 35.56 172.72 0)
 			(effects
 				(font
@@ -6922,6 +6940,15 @@
 			)
 		)
 		(property "Description" "High Accuracy Ambient Light Sensor With I2C Interface"
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C504893"
 			(at 33.02 154.94 0)
 			(effects
 				(font
