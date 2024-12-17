@@ -6619,17 +6619,17 @@
 			)
 		)
 	)
-	(footprint "custom:D_SOD-323_HandSoldering_simple"
+	(footprint "package:D_SOD-323_HandSoldering"
 		(layer "B.Cu")
 		(uuid "a030ae39-36f6-4d6b-8367-30ed385b9aa0")
 		(at 201.549 92.583 90)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1"
-			(at 0 1.85 90)
+			(at 0 1.85 -90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7428b248-4a97-4fdb-8ef3-7df6b40228ec")
+			(uuid "d0b19e7f-4fee-49e7-b175-490cb11ca92a")
 			(effects
 				(font
 					(size 1 1)
@@ -6639,9 +6639,9 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 -1.9 90)
+			(at 0.1 -1.9 -90)
 			(layer "B.Fab")
-			(uuid "a13e868a-a85b-4b0b-b471-b33b67972237")
+			(uuid "8ca210ab-5cbc-4985-b398-52ab70147c56")
 			(effects
 				(font
 					(size 1 1)
@@ -6650,12 +6650,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:D_SOD-323_HandSoldering_simple"
+		(property "Footprint" "package:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "403b5d9c-41c9-4aa4-8845-e6900c72cf0b")
+			(uuid "e82acba4-c851-471d-b60c-b4f5fe65ea28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6669,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e23f4146-4211-4bbe-b866-1bb6417f1829")
+			(uuid "f5b7d17f-18e1-4d0e-afa8-04eef4ede6bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6683,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d0e1a6a5-b8b0-42d0-ad60-64297d025d97")
+			(uuid "77a321a8-4b93-414d-811f-01f40099214c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,11 +6693,11 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0def0a54-8a9c-43ce-9e35-c2d91dca84db")
+			(uuid "da9666da-1ff3-4c7a-9ee7-9f03e5da6cee")
 			(effects
 				(font
 					(size 1 1)
@@ -6707,11 +6707,11 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7ce3e08a-4267-4bb0-9c19-2d81cf863abd")
+			(uuid "329f93a1-a477-4263-b712-344b58cb7382")
 			(effects
 				(font
 					(size 1 1)
@@ -6725,6 +6725,16 @@
 		(sheetname "Root")
 		(sheetfile "breadboard-power.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -2 0.3)
+			(end -2 -0.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.SilkS")
+			(uuid "9ccf1f6a-4fce-48e8-8fd4-b4c56d5286b0")
+		)
 		(fp_poly
 			(pts
 				(xy 0.244419 -0.4) (xy -0.337761 0) (xy 0.244419 0.4)
@@ -6735,7 +6745,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "a5e98731-285b-40dc-b1fa-120ed190ff09")
+			(uuid "28569b22-e2b4-4247-9656-12171e5ed111")
 		)
 		(fp_line
 			(start 2 -0.95)
@@ -6745,7 +6755,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a87c09b4-16e9-4b05-9924-480d39703d40")
+			(uuid "2238d1f6-b024-440b-aff5-411d2f2182df")
 		)
 		(fp_line
 			(start 2 -0.95)
@@ -6755,7 +6765,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "907e5e12-feb7-4385-a258-ab30d37e27d8")
+			(uuid "926698e5-4c2e-4b44-80da-26bb2f45f87f")
 		)
 		(fp_line
 			(start -2 -0.95)
@@ -6765,7 +6775,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ffc0ccd2-7495-470e-b968-8ad0fbdb077d")
+			(uuid "6af4bdb3-dd1e-4f26-9cfc-39ddbbd17ab7")
 		)
 		(fp_line
 			(start 2 0.95)
@@ -6775,7 +6785,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "755e1192-303b-48cb-b17e-1285e12949f9")
+			(uuid "db484091-6adc-4b6c-8d39-c94089f09717")
 		)
 		(fp_line
 			(start 0.9 -0.7)
@@ -6785,7 +6795,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a55016ff-940c-4110-9a16-f0e3922bc2bb")
+			(uuid "80520dab-ed53-407d-aef7-604b56cce8cd")
 		)
 		(fp_line
 			(start -0.9 -0.7)
@@ -6795,7 +6805,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ce7f6de3-361e-4e6e-998e-3eca28ed7b6e")
+			(uuid "14133cde-10f6-405c-abaa-e4508b05e68b")
 		)
 		(fp_line
 			(start 0.2 -0.35)
@@ -6805,7 +6815,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f8279973-8ded-4a71-9182-ff29fbd5454f")
+			(uuid "6fb1b8cd-c950-42cc-a19b-ac53345f1ddd")
 		)
 		(fp_line
 			(start -0.3 -0.35)
@@ -6815,7 +6825,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "4c594f51-a554-4ac1-ae17-7431775f267e")
+			(uuid "6671d91c-4d9e-4f05-996b-fb83aa38637b")
 		)
 		(fp_line
 			(start 0.45 0)
@@ -6825,7 +6835,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "db97347a-bc19-402d-9c90-643a0da9d631")
+			(uuid "c0795d95-847f-420a-b570-380ebc0624a9")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -6835,7 +6845,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "75539cba-057e-478a-842b-e694e4647b02")
+			(uuid "e3d56ccf-39a7-4442-aee0-af8cf25649d2")
 		)
 		(fp_line
 			(start -0.5 0)
@@ -6845,7 +6855,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d868760c-fd77-4eaf-a549-6f60cd22a5d4")
+			(uuid "67237aec-a190-492f-a3c2-7bf622587f15")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -6855,7 +6865,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "40d5daf0-bfe3-410f-8260-1ac2055af2e7")
+			(uuid "d7b6f14b-74c9-4c48-b3e3-af6add91bf9e")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -6865,7 +6875,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e59ddeff-22bb-4087-9263-f6ff98117529")
+			(uuid "0d24eb70-ef59-436f-bbd3-4c128a8c8237")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -6875,12 +6885,12 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "483c5644-3693-4d32-a9a6-66d317bff8eb")
+			(uuid "1fadc923-9382-4441-b909-aa298631467a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.85 90)
+			(at 0 1.85 -90)
 			(layer "B.Fab")
-			(uuid "03ab4f41-0a64-4fae-9737-1910cfcefb24")
+			(uuid "59b22a9b-d321-49b7-a637-8e47307a5a97")
 			(effects
 				(font
 					(size 1 1)
@@ -6897,7 +6907,7 @@
 			(net 17 "Net-(D1-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "b7a7eb8b-679a-4c82-ba3b-a0be26c95b69")
+			(uuid "22981165-f421-47d1-b313-fc82f9f0ae88")
 		)
 		(pad "2" smd roundrect
 			(at 1.25 0 90)
@@ -6907,7 +6917,7 @@
 			(net 16 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ec83ee56-6628-406b-a991-589380bcc80a")
+			(uuid "f7890b7d-6236-446b-beda-f80057035e75")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
 			(offset
@@ -7885,17 +7895,17 @@
 			)
 		)
 	)
-	(footprint "custom:D_SOD-323_HandSoldering_simple"
+	(footprint "package:D_SOD-323_HandSoldering"
 		(layer "B.Cu")
 		(uuid "f6c169da-7a14-4fcc-a6b7-060fa08f983a")
 		(at 207.3656 92.583 90)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at 0 1.85 90)
+			(at 0 1.85 -90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "c2156f48-e05b-4ee8-8163-6df671238241")
+			(uuid "bbbc3fae-6fac-4517-9343-3d0be3161a66")
 			(effects
 				(font
 					(size 1 1)
@@ -7905,9 +7915,9 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 -1.9 90)
+			(at 0.1 -1.9 -90)
 			(layer "B.Fab")
-			(uuid "4a499e16-9f38-4553-861b-20648883fe3b")
+			(uuid "bdfb172c-0e74-45d1-abe9-732969989ba7")
 			(effects
 				(font
 					(size 1 1)
@@ -7916,12 +7926,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "custom:D_SOD-323_HandSoldering_simple"
+		(property "Footprint" "package:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1b3ab74d-5480-483d-9918-f375e2c34dac")
+			(uuid "4ec7533b-edda-451c-9d1e-f77f78ae108c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +7945,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "729fe190-7d34-40e8-971b-2c963f215f4e")
+			(uuid "5842732a-105e-4708-97d5-ca3e44b60a12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7959,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6a16b1ec-f57f-4664-8369-1dee11519079")
+			(uuid "693c7558-0e15-4543-bbc1-38911b42d6dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,11 +7969,11 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "007dfef8-4624-4e69-8f1f-70940c14a419")
+			(uuid "d2a18cb2-9659-4c9e-a387-0eaed549dee5")
 			(effects
 				(font
 					(size 1 1)
@@ -7973,11 +7983,11 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e3cd0846-2511-4ef2-941b-cc3df418b3ad")
+			(uuid "7b93c636-b339-4627-bae9-a62f7701d54f")
 			(effects
 				(font
 					(size 1 1)
@@ -7991,6 +8001,16 @@
 		(sheetname "Root")
 		(sheetfile "breadboard-power.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -2 0.3)
+			(end -2 -0.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.SilkS")
+			(uuid "0c53719c-2d58-4ee8-bd08-c8abe4245553")
+		)
 		(fp_poly
 			(pts
 				(xy 0.244419 -0.4) (xy -0.337761 0) (xy 0.244419 0.4)
@@ -8001,7 +8021,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "d0265ebb-35c9-4150-9612-6ec2ffbdc1ad")
+			(uuid "d5ac79b4-b1b4-4124-b557-32a36feeda66")
 		)
 		(fp_line
 			(start 2 -0.95)
@@ -8011,7 +8031,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "38f9cd85-1b85-42fb-a930-8496bb6cc546")
+			(uuid "7168da73-b34c-43bc-905b-4ffc66022276")
 		)
 		(fp_line
 			(start 2 -0.95)
@@ -8021,7 +8041,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "739879b2-4a03-48fa-8f6b-ab968e74e3dc")
+			(uuid "96922e3e-e1eb-4400-934f-972e8fd05a59")
 		)
 		(fp_line
 			(start -2 -0.95)
@@ -8031,7 +8051,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d9c3498c-dbc4-423b-8b3c-c9d4e5adaa18")
+			(uuid "8719226a-09d9-4069-9058-a5e36f3585d6")
 		)
 		(fp_line
 			(start 2 0.95)
@@ -8041,7 +8061,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "bc183b1e-d3b7-42e4-a02f-09e2416a3160")
+			(uuid "6e6593fe-5e16-48df-9dbe-b0d880f1307f")
 		)
 		(fp_line
 			(start 0.9 -0.7)
@@ -8051,7 +8071,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9a80b1bd-4795-4153-bd0c-c0584ae71790")
+			(uuid "dd6e991e-53bd-42b6-95f6-c6fb19cf28a1")
 		)
 		(fp_line
 			(start -0.9 -0.7)
@@ -8061,7 +8081,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b9d4feeb-3972-4b8a-89bb-0e1596424f22")
+			(uuid "adf5126d-b956-4df6-8587-14982a84e6b3")
 		)
 		(fp_line
 			(start 0.2 -0.35)
@@ -8071,7 +8091,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "dcdff926-24c1-4940-b0a9-f45c32fc7135")
+			(uuid "93d73e7c-9bd3-4bc2-8c08-d52c80ab8ca3")
 		)
 		(fp_line
 			(start -0.3 -0.35)
@@ -8081,7 +8101,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "81337dd6-f6b2-4fd8-80cc-0f82ee047119")
+			(uuid "b82ca4a6-e823-49b0-a32e-9d36c09d5877")
 		)
 		(fp_line
 			(start 0.45 0)
@@ -8091,7 +8111,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "35791e49-5e4f-427d-8ca9-7c3f91b255c8")
+			(uuid "54f0c395-b524-488e-8b5f-83f9fafbb81c")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -8101,7 +8121,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "1966fb53-56f2-4074-8b11-69901ae096cd")
+			(uuid "6a213568-8978-4bfd-949b-00e5b7c8df2f")
 		)
 		(fp_line
 			(start -0.5 0)
@@ -8111,7 +8131,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d4177aee-fccc-40a4-840f-bcac00cf4098")
+			(uuid "147bee25-3e4d-40c3-83a1-a744a713a2ee")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -8121,7 +8141,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ccd38370-82c8-4ef4-b823-20d796b970bc")
+			(uuid "18b07cb8-d208-4f09-90f7-445fac560abd")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -8131,7 +8151,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "97cc09e8-1fe5-41fb-ad01-f000133b05ae")
+			(uuid "3f170bd2-3ac3-4978-90a6-86167e6b24b3")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -8141,12 +8161,12 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "34a2bba6-623e-40ae-ba2e-3d6df93993a9")
+			(uuid "e995ce68-970f-49c2-9fac-8b52e27a349a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.85 90)
+			(at 0 1.85 -90)
 			(layer "B.Fab")
-			(uuid "0d96a33a-3993-45f6-aff8-9e45aa00aa30")
+			(uuid "0a66507e-c994-4032-8568-d161707c4266")
 			(effects
 				(font
 					(size 1 1)
@@ -8163,7 +8183,7 @@
 			(net 17 "Net-(D1-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "4bc89b14-0ebc-469f-8a48-1bec742a5f1c")
+			(uuid "95da111a-c4f2-4b11-9697-09b109e18f1c")
 		)
 		(pad "2" smd roundrect
 			(at 1.25 0 90)
@@ -8173,7 +8193,7 @@
 			(net 18 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "5ec5cb0b-2415-4551-a5ff-2afaf49b43ec")
+			(uuid "a25f7bd9-2564-41b5-ae84-16eaf2336179")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
 			(offset
