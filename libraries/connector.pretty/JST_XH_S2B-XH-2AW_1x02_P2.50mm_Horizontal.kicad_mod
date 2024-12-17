@@ -1,4 +1,4 @@
-(footprint "JST_XH_S2B-XH-2AW_1x02_P2.50mm_pad2gnd_trim"
+(footprint "JST_XH_S2B-XH-2AW_1x02_P2.50mm_Horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_XH_S2B-XH-2AW_1x02_P2.50mm_pad2gnd_trim"
+	(property "Value" "JST_XH_S2B-XH-2AW_1x02_P2.50mm_Horizontal"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "95d96118-a780-4715-bf1f-8d87ced00a92")
@@ -75,7 +75,7 @@
 	)
 	(fp_line
 		(start -3.73 0.34)
-		(end -3.73 7)
+		(end -3.73 7.51)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -245,13 +245,23 @@
 	)
 	(fp_line
 		(start 3.73 0.34)
-		(end 3.73 7)
+		(end 3.73 7.51)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "f1949e98-09e4-4f95-a66f-4681df8dd5fa")
+	)
+	(fp_line
+		(start 3.73 7.51)
+		(end -3.73 7.51)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d7520be-9f22-410c-a7e1-11eb787f0385")
 	)
 	(fp_poly
 		(pts
@@ -287,21 +297,21 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "1" thru_hole roundrect
 		(at -1.25 0)
 		(size 1.8 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
 		(uuid "9ec1ca1a-07d6-4a8e-90b3-ef4d3a9397a9")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "2" thru_hole oval
 		(at 1.25 0)
 		(size 1.8 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1388888889)
 		(uuid "063996fe-7bf0-4509-a8ff-4130abe5e2b0")
 	)
 	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/XH2.54-2P_H.wrl"
