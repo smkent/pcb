@@ -3464,7 +3464,7 @@
 			)
 		)
 	)
-	(footprint "custom:RotaryEncoder_Alps_EC11-Switch_Combo_H20mm"
+	(footprint "electromechanical:RotaryEncoder_Alps_EC11-Switch_Combo_H20mm"
 		(layer "F.Cu")
 		(uuid "50225aaa-a5cd-4454-977b-6076a35a7547")
 		(at 97.5 88.2325 90)
@@ -3493,7 +3493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:RotaryEncoder_Alps_EC11-Switch_Combo_H20mm"
+		(property "Footprint" "electromechanical:RotaryEncoder_Alps_EC11-Switch_Combo_H20mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

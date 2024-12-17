@@ -90,7 +90,7 @@
 	(net 8 "Net-(LED1-A)")
 	(net 9 "Net-(LED2-A)")
 	(net 10 "Net-(LED3-A)")
-	(footprint "custom:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+	(footprint "electromechanical:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
 		(uuid "e5f32b22-6821-4455-82bf-0f051aecd4de")
 		(at 182.5 102 -90)
@@ -119,7 +119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "electromechanical:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
