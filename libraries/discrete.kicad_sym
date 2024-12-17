@@ -4181,7 +4181,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "lcsc:LED-SK6812SIDE-A-4x1.6mm"
+		(property "Footprint" "discrete:LED_SK6812SIDE-A_4.0x1.6mm"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -4210,6 +4210,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2890037"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "RGB LED NeoPixel addressable right angle side"
 			(at 0 0 0)
 			(effects
@@ -4219,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+		(property "ki_fp_filters" "LED*SK6812SIDE*"
 			(at 0 0 0)
 			(effects
 				(font
