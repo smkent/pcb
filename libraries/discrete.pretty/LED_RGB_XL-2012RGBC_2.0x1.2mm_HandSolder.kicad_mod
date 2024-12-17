@@ -1,4 +1,4 @@
-(footprint "LED-ARRAY-SMD_4P-L2.0-W1.3-BR_HandSolder"
+(footprint "LED_RGB_XL-2012RGBC_2.0x1.2mm_HandSolder"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "LED-ARRAY-SMD_4P-L2.0-W1.3-BR_HandSolder"
+	(property "Value" "LED_RGB_XL-2012RGBC_2.0x1.2mm_HandSolder"
 		(at 0 4.4 0)
 		(layer "F.Fab")
 		(uuid "262fce8f-02db-4a5c-aede-6a32fceca999")
@@ -63,6 +63,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -0.4 0.75)
+		(end 0.4 0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d14ef389-e20e-48ad-9bca-7123828a43f0")
+	)
+	(fp_line
 		(start 0.1 0)
 		(end 0.1 -0.4)
 		(stroke
@@ -81,6 +91,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "90f10162-0f22-4692-8cf1-5d09a6c83fea")
+	)
+	(fp_line
+		(start 0.4 -0.75)
+		(end -0.4 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "10a877e1-bb54-4653-8177-df4272916f96")
+	)
+	(fp_line
+		(start 1.6 0.1)
+		(end 1.6 -0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f94ef172-9905-4942-847d-6ef948bfefec")
 	)
 	(fp_rect
 		(start -0.3 -0.4)
@@ -105,8 +135,8 @@
 		(uuid "13018701-c894-4078-9dce-33b836727eb1")
 	)
 	(fp_rect
-		(start -1.565 -0.775)
-		(end 1.565 0.775)
+		(start -1.75 -0.9)
+		(end 1.75 0.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -115,16 +145,16 @@
 		(layer "F.CrtYd")
 		(uuid "44b7f166-c3c6-4051-be2b-9bfb6c930f4d")
 	)
-	(fp_circle
-		(center 1 0.63)
-		(end 1.03 0.63)
+	(fp_rect
+		(start -1 -0.65)
+		(end 1 0.65)
 		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "668e9acb-edb6-43c5-a148-b97218bfac8c")
+		(uuid "f345bf86-63f0-468c-ada6-381728e2d630")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

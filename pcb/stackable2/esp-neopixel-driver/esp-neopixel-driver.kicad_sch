@@ -2831,7 +2831,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:LED-SMD_FM-3510RGBA-SG"
+			(property "Footprint" "lcsc:LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -2858,6 +2858,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part" "C727903"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Foshan NationStar LED RGB diode right angle side"
 				(at 0 0 0)
 				(effects
@@ -2867,7 +2876,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "LED*FM?3510RGBA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8538,28 +8547,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5ed")
+			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5ee")
 		)
 		(pin "6"
-			(uuid "397eb9ee-610a-4d54-9327-391f3c254c89")
+			(uuid "397eb9ee-610a-4d54-9327-391f3c254c8a")
 		)
 		(pin "3"
-			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c2")
+			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c3")
 		)
 		(pin "7"
-			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56b")
+			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56c")
 		)
 		(pin "4"
-			(uuid "0ee891c5-a80e-4b60-ace5-5dd199663558")
+			(uuid "0ee891c5-a80e-4b60-ace5-5dd199663559")
 		)
 		(pin "2"
-			(uuid "167074e3-6262-44f2-b8e4-e95c06af743e")
+			(uuid "167074e3-6262-44f2-b8e4-e95c06af743f")
 		)
 		(pin "5"
-			(uuid "093554b4-4730-49c5-9d46-9d1030a9e429")
+			(uuid "093554b4-4730-49c5-9d46-9d1030a9e42a")
 		)
 		(pin "1"
-			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4c")
+			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4d")
 		)
 		(instances
 			(project ""
@@ -9747,28 +9756,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5ed")
+			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5ef")
 		)
 		(pin "6"
-			(uuid "397eb9ee-610a-4d54-9327-391f3c254c89")
+			(uuid "397eb9ee-610a-4d54-9327-391f3c254c8b")
 		)
 		(pin "3"
-			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c2")
+			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c4")
 		)
 		(pin "7"
-			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56b")
+			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56d")
 		)
 		(pin "4"
-			(uuid "0ee891c5-a80e-4b60-ace5-5dd199663558")
+			(uuid "0ee891c5-a80e-4b60-ace5-5dd19966355a")
 		)
 		(pin "2"
-			(uuid "167074e3-6262-44f2-b8e4-e95c06af743e")
+			(uuid "167074e3-6262-44f2-b8e4-e95c06af7440")
 		)
 		(pin "5"
-			(uuid "093554b4-4730-49c5-9d46-9d1030a9e429")
+			(uuid "093554b4-4730-49c5-9d46-9d1030a9e42b")
 		)
 		(pin "1"
-			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4c")
+			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4e")
 		)
 		(instances
 			(project ""
@@ -11462,7 +11471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-SMD_FM-3510RGBA-SG"
+		(property "Footprint" "discrete:LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -11481,6 +11490,15 @@
 			)
 		)
 		(property "Description" "RGB LED, red/anode/green/blue"
+			(at 161.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C727903"
 			(at 161.29 38.1 0)
 			(effects
 				(font
@@ -11652,28 +11670,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5ed")
+			(uuid "aa7b300a-e202-49be-b5e7-bbd8f5eda5f0")
 		)
 		(pin "6"
-			(uuid "397eb9ee-610a-4d54-9327-391f3c254c89")
+			(uuid "397eb9ee-610a-4d54-9327-391f3c254c8c")
 		)
 		(pin "3"
-			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c2")
+			(uuid "fe97f2ab-f550-442d-957d-71b78e9909c5")
 		)
 		(pin "7"
-			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56b")
+			(uuid "4a0e44e7-4607-4043-b6cb-bafba400f56e")
 		)
 		(pin "4"
-			(uuid "0ee891c5-a80e-4b60-ace5-5dd199663558")
+			(uuid "0ee891c5-a80e-4b60-ace5-5dd19966355b")
 		)
 		(pin "2"
-			(uuid "167074e3-6262-44f2-b8e4-e95c06af743e")
+			(uuid "167074e3-6262-44f2-b8e4-e95c06af7441")
 		)
 		(pin "5"
-			(uuid "093554b4-4730-49c5-9d46-9d1030a9e429")
+			(uuid "093554b4-4730-49c5-9d46-9d1030a9e42c")
 		)
 		(pin "1"
-			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4c")
+			(uuid "19bfb27d-07f8-4ffb-baf0-daee50489b4f")
 		)
 		(instances
 			(project ""

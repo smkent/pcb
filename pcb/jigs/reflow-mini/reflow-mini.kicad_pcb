@@ -1163,7 +1163,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+	(footprint "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "2a1c40d3-2d07-448a-97d6-a6ca8f4b0d4e")
 		(at 168.15 97)
@@ -1171,7 +1171,7 @@
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e24310f5-e534-4baf-909c-7e047130ebd1")
+			(uuid "5f313f4f-1828-4e92-8ac1-6dd495d82c1b")
 			(effects
 				(font
 					(size 1 1)
@@ -1182,7 +1182,7 @@
 		(property "Value" "XL-B1010RGBT-HF"
 			(at 0 4.52 0)
 			(layer "F.Fab")
-			(uuid "b0b04631-9bbd-4241-9cc5-a2e00d7061e7")
+			(uuid "38459cf9-50d7-4ac0-bd75-1b5eeb5243cb")
 			(effects
 				(font
 					(size 1 1)
@@ -1190,11 +1190,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88279e7e-2db7-4fb0-b1c1-01898356b878")
+			(uuid "555520d6-5471-41f3-8aa5-aa7352d5a626")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eec5c294-f818-4094-bae1-b456b362525a")
+			(uuid "de32d31b-bd1b-41f2-8d7f-fa8b5f2ab6d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b80a0247-0c6f-43d7-af1d-cf653ef7a259")
+			(uuid "d8ce9f82-ed73-4588-ac6b-26ff835e2e0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "LCSC Part" "C22464515"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc503fa1-d299-4957-9820-629989c88047")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*XL?B1010RGBT*")
 		(path "/d6e5085b-5ae3-42c4-8e72-dd6e1960f3a9")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
@@ -1241,7 +1254,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "e2c727ae-fd38-4919-9415-eed2e05e14f4")
+			(uuid "0a1f93d2-f989-4fc1-8316-97ff39bc5382")
 		)
 		(fp_circle
 			(center 0.32 -0.8)
@@ -1252,7 +1265,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "9b5c0c19-620a-453e-b2f4-92371a67f7ea")
+			(uuid "b93c5c5a-14c7-443b-893c-d8ac297c363b")
 		)
 		(fp_rect
 			(start -0.7 -0.7)
@@ -1263,7 +1276,18 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "412c9284-4b4d-437a-be12-f91e6bdb79a4")
+			(uuid "41517593-6116-4a5d-88c7-91af502fbfee")
+		)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "cc56e287-14fd-48d7-b102-8c0596e647da")
 		)
 		(fp_circle
 			(center 0.5 -0.5)
@@ -1274,12 +1298,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "97973081-ec0c-49fa-a2bd-4b7e688f95e4")
+			(uuid "6e892ce6-2c36-414c-a92b-a6bb4b92e2c8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "55828b70-c77f-43ac-95bc-c70fe7cd3660")
+			(uuid "1eca5fb4-3dab-41bb-a618-053043453904")
 			(effects
 				(font
 					(size 1 1)
@@ -1294,7 +1318,7 @@
 			(net 23 "Net-(LED2-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "99b5463f-2e51-4a63-b6f2-d02a2e1b3918")
+			(uuid "18fe1c81-7690-4d02-ac97-aafa3f444f37")
 		)
 		(pad "2" smd rect
 			(at 0.325 0.325 180)
@@ -1303,7 +1327,7 @@
 			(net 30 "/WS2811_1_RK")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "eda1dfba-1f8d-44f2-b7c9-d685c7f4927e")
+			(uuid "24c5f0b6-b3d7-41bc-91c2-ae9a8475fe7c")
 		)
 		(pad "3" smd rect
 			(at -0.325 0.325 180)
@@ -1312,7 +1336,7 @@
 			(net 31 "/WS2811_1_GK")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "2bea722e-bbda-4b0e-aaef-c4b5d3b9d5ff")
+			(uuid "b682d56e-c36b-4d16-a4d5-3c82ecb1f98a")
 		)
 		(pad "4" smd rect
 			(at -0.325 -0.325 180)
@@ -1321,7 +1345,7 @@
 			(net 29 "/WS2811_1_BK")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "eb814886-22a5-4cfe-ab5e-0ece70b428a9")
+			(uuid "2ea4d3e9-1a60-48c8-817d-a7e52891d1b3")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-H0.9.wrl"
 			(offset
@@ -3170,7 +3194,7 @@
 			(uuid "9bec6c2e-7150-4346-bb43-7e1550557374")
 		)
 	)
-	(footprint "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+	(footprint "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "71af6a66-0911-48c8-a1ad-9db8d09fb81a")
 		(at 172.15 97)
@@ -3178,7 +3202,7 @@
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e57ffac7-bb21-41a6-8515-7b4631c4ab41")
+			(uuid "396934cf-1364-4402-91f7-62c8bce93999")
 			(effects
 				(font
 					(size 1 1)
@@ -3189,7 +3213,7 @@
 		(property "Value" "XL-B1010RGBT-HF"
 			(at 0 4.52 0)
 			(layer "F.Fab")
-			(uuid "062bdab9-e381-42ab-b508-88cd1eb54efd")
+			(uuid "dfc8985a-7985-4f41-a873-18bb4681be1d")
 			(effects
 				(font
 					(size 1 1)
@@ -3197,11 +3221,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e588a638-818a-4349-8ab2-d003c82a81b7")
+			(uuid "60c505d4-8dac-4dc1-a05d-00ccdbc2cac2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3237,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4fde493-dd9d-427f-94c1-13428826a971")
+			(uuid "252638bf-8816-4765-b87f-dfba678896d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3249,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aca8a933-500d-4a93-870a-e789a8e947b7")
+			(uuid "8640a1fb-32da-4179-8916-f085d91f59a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3257,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "LCSC Part" "C22464515"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecba2587-ccd9-4044-b507-962d8af1284b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*XL?B1010RGBT*")
 		(path "/83c9c351-5204-4a7a-beb0-d26c54f71174")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
@@ -3248,7 +3285,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "d69d2a59-811f-421d-8818-0f622117c6b1")
+			(uuid "d176eb34-fb6e-4163-8cde-c784572f46ed")
 		)
 		(fp_circle
 			(center 0.32 -0.8)
@@ -3259,7 +3296,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "de31b36d-d89c-4b22-86fe-45e9fec25583")
+			(uuid "b7b2ac8f-4b53-48c7-9545-406d7e3f7b49")
 		)
 		(fp_rect
 			(start -0.7 -0.7)
@@ -3270,7 +3307,18 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "6168f422-2676-4bbf-b2aa-88ab8fbd95f9")
+			(uuid "cd0406a5-6d99-4e35-9565-726bd69d5541")
+		)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d87f3eed-47fa-4249-9786-0e3dbe4b427d")
 		)
 		(fp_circle
 			(center 0.5 -0.5)
@@ -3281,12 +3329,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f66c5ad1-e289-4ad7-be4b-07dd58a9b488")
+			(uuid "d6fc9dc0-4778-4963-afb3-5262bd47bec4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "613fcd0e-b725-437c-9b3c-d734417a0684")
+			(uuid "783f81d5-871f-4eca-81bf-2e1610164f75")
 			(effects
 				(font
 					(size 1 1)
@@ -3301,7 +3349,7 @@
 			(net 25 "Net-(LED4-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "69ad407d-c0fe-40db-a7e7-dad05d0616a4")
+			(uuid "d661fc56-617c-4e57-8080-bb8b80d87344")
 		)
 		(pad "2" smd rect
 			(at 0.325 0.325 180)
@@ -3310,7 +3358,7 @@
 			(net 30 "/WS2811_1_RK")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "3e46f618-76e4-4462-b07e-3c93496255a8")
+			(uuid "d784e9b2-205a-481f-8062-4fe7b336a57f")
 		)
 		(pad "3" smd rect
 			(at -0.325 0.325 180)
@@ -3319,7 +3367,7 @@
 			(net 31 "/WS2811_1_GK")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "4ac827a0-9a9b-4ea0-9b92-df590c516eff")
+			(uuid "c10857b4-a650-41e8-81c1-506cc1bf2346")
 		)
 		(pad "4" smd rect
 			(at -0.325 -0.325 180)
@@ -3328,7 +3376,7 @@
 			(net 29 "/WS2811_1_BK")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "ea8ab55a-6cfc-40cc-acc3-e0c8e512c08c")
+			(uuid "7f3dd4f2-3ba9-4477-8748-dc35700f8389")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-H0.9.wrl"
 			(offset
@@ -3554,7 +3602,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+	(footprint "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "7c7d4c10-30bf-4c99-b353-d93d2f232bbd")
 		(at 166.15 97)
@@ -3562,7 +3610,7 @@
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3026d60f-4aff-4bb4-b321-519ffa14fc21")
+			(uuid "860c92e8-609a-4c29-ab0a-925d19250495")
 			(effects
 				(font
 					(size 1 1)
@@ -3573,7 +3621,7 @@
 		(property "Value" "XL-B1010RGBT-HF"
 			(at 0 4.52 0)
 			(layer "F.Fab")
-			(uuid "39650c77-fe06-41fb-987c-ad5fea010a05")
+			(uuid "46a563dc-e112-4254-b1f7-9ab9d746cae8")
 			(effects
 				(font
 					(size 1 1)
@@ -3581,11 +3629,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c15518d-f7f6-4887-a981-22336595cce1")
+			(uuid "f65f47b8-a5e8-4713-9996-380ef0ef1904")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3645,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38ca7953-a3d7-471b-b8eb-162e645aa0af")
+			(uuid "6332a75f-04fc-4606-943d-f644c0862ac8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3657,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d8765a7-5d8a-49a7-a838-cd44c1b3a0aa")
+			(uuid "81c370a0-68c5-4633-8383-0ad47dc5ce82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3665,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "LCSC Part" "C22464515"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e60a68fa-49d9-4b86-8507-8cfcd3c9e6c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*XL?B1010RGBT*")
 		(path "/eea4554f-b7a2-4462-8721-e0be5d78a48e")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
@@ -3632,7 +3693,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "f26226ff-0789-4bff-9ee5-b2850cb35314")
+			(uuid "fb028600-c72f-47d4-b13d-c636f1a5a72b")
 		)
 		(fp_circle
 			(center 0.32 -0.8)
@@ -3643,7 +3704,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "6d4b39cf-b578-48f9-b7d9-d4394a5132e6")
+			(uuid "4090d77e-6f7c-497a-8f8e-7c9ac2e4e10a")
 		)
 		(fp_rect
 			(start -0.7 -0.7)
@@ -3654,7 +3715,18 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1ceb77ce-c529-4b0b-94aa-62e0b467494f")
+			(uuid "1a8e2155-3e64-4c3d-8b1e-802e74c3b9dd")
+		)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "333debd5-5b22-4ed4-8124-a263089c003b")
 		)
 		(fp_circle
 			(center 0.5 -0.5)
@@ -3665,12 +3737,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "a9f3afc6-34d5-486c-91ee-086d1c3a7bdc")
+			(uuid "cf473679-11b1-4f01-8bee-b948cf07b029")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2533d8d0-a86d-42e7-a2cd-0a15aba11723")
+			(uuid "1f317efd-f0fa-45c3-8c45-cfb4a693d31d")
 			(effects
 				(font
 					(size 1 1)
@@ -3685,7 +3757,7 @@
 			(net 22 "Net-(LED1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "8d342645-12b6-40b7-9fe4-2c9a6cd28fa5")
+			(uuid "02086e20-454c-485b-9bf2-1971c4baab74")
 		)
 		(pad "2" smd rect
 			(at 0.325 0.325 180)
@@ -3694,7 +3766,7 @@
 			(net 30 "/WS2811_1_RK")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "cf0a80f4-deb5-471f-9aa7-7eaa85417021")
+			(uuid "d248de67-bced-4ed0-a525-5fefdad71bd0")
 		)
 		(pad "3" smd rect
 			(at -0.325 0.325 180)
@@ -3703,7 +3775,7 @@
 			(net 31 "/WS2811_1_GK")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "e4829a45-a93d-4f19-afcc-86a03527a1c3")
+			(uuid "b8eccc5e-b42e-42c9-a3fd-dd13060aa42d")
 		)
 		(pad "4" smd rect
 			(at -0.325 -0.325 180)
@@ -3712,7 +3784,7 @@
 			(net 29 "/WS2811_1_BK")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "a19c37e4-625d-47b2-ac05-c17ff43bfc53")
+			(uuid "583ffc85-4b17-4cf1-9e53-394839177721")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-H0.9.wrl"
 			(offset
@@ -5289,7 +5361,7 @@
 			)
 		)
 	)
-	(footprint "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+	(footprint "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "be086e6f-0180-4150-8c45-913702ee46dc")
 		(at 170.15 97)
@@ -5297,7 +5369,7 @@
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f36558eb-9416-420d-be2f-4bef65efb1f1")
+			(uuid "d739c831-ecb7-4e55-9327-f78a3ca2977e")
 			(effects
 				(font
 					(size 1 1)
@@ -5308,7 +5380,7 @@
 		(property "Value" "XL-B1010RGBT-HF"
 			(at 0 4.52 0)
 			(layer "F.Fab")
-			(uuid "9aed2d75-f44b-4d96-8b61-e10c644da8d0")
+			(uuid "2924bc3b-b1e3-40be-b4f9-cb14a8dd39db")
 			(effects
 				(font
 					(size 1 1)
@@ -5316,11 +5388,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7487e87-20eb-4de1-8f78-fac0bb001a1b")
+			(uuid "adfcfa18-7bb1-4cc2-a135-1b6938368fd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5404,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5379142-23b2-4210-a361-f657e86edbb6")
+			(uuid "619ecc64-bab0-4fab-86ba-48042b6856b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5416,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffdaa238-02ee-4df2-b9f7-3f8524ab370b")
+			(uuid "ea45b9f2-602a-43ba-910d-62177475b451")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5424,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "LCSC Part" "C22464515"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d9014b-b63a-44b9-a627-820e1ac5d69e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*XL?B1010RGBT*")
 		(path "/d122beae-fbb1-46cb-8c97-27b0a4072796")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
@@ -5367,7 +5452,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "fc54ca37-b857-4f39-b852-1a25e0de7832")
+			(uuid "45b8f2ec-d877-4789-9e63-2697455eabd9")
 		)
 		(fp_circle
 			(center 0.32 -0.8)
@@ -5378,7 +5463,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "be43bc12-3e36-4fb7-ae9b-edf2c8926291")
+			(uuid "df79bb57-a198-4e34-9288-1cd3965220ba")
 		)
 		(fp_rect
 			(start -0.7 -0.7)
@@ -5389,7 +5474,18 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "b4d1966a-ce92-49c5-b37c-d897c1053a3d")
+			(uuid "f13f4955-de76-4925-8eb3-0ff2a798701e")
+		)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "c8869ae7-fd49-4e0b-9aeb-96490ab23b99")
 		)
 		(fp_circle
 			(center 0.5 -0.5)
@@ -5400,12 +5496,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "39521453-0b85-4cf4-91c4-396a1c673a05")
+			(uuid "790b8f85-2aef-4530-8013-bf082fd1a37c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8213464a-293d-4560-8c2f-0d9cb2c982dc")
+			(uuid "4c8fcf5d-0b79-441b-9575-26f38e2959c2")
 			(effects
 				(font
 					(size 1 1)
@@ -5420,7 +5516,7 @@
 			(net 24 "Net-(LED3-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "43c13fe1-c3c9-4c73-b774-2d65c1595bfc")
+			(uuid "e39bccef-125b-4cd6-b34f-8aa5942bdc62")
 		)
 		(pad "2" smd rect
 			(at 0.325 0.325 180)
@@ -5429,7 +5525,7 @@
 			(net 30 "/WS2811_1_RK")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "5b5f67e6-a051-4301-8225-08adea8dd422")
+			(uuid "7d5ef503-71d9-4179-80c9-a0d888ab5218")
 		)
 		(pad "3" smd rect
 			(at -0.325 0.325 180)
@@ -5438,7 +5534,7 @@
 			(net 31 "/WS2811_1_GK")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "3a4c348d-07bc-4a7f-94fd-27451805ee90")
+			(uuid "4f8f1a00-0caf-4126-a7bd-8eb4708fa6d9")
 		)
 		(pad "4" smd rect
 			(at -0.325 -0.325 180)
@@ -5447,7 +5543,7 @@
 			(net 29 "/WS2811_1_BK")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "1fc911c1-07c8-460f-b128-4d3c81a8d0ae")
+			(uuid "c089caf8-0fa3-40b3-b502-152bfb7a175f")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-ARRAY-SMD_4P-L1.0-W1.0-H0.9.wrl"
 			(offset

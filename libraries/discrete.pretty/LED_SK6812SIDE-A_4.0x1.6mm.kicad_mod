@@ -1,4 +1,4 @@
-(footprint "LED-SK6812SIDE-A-4x1.6mm"
+(footprint "LED_SK6812SIDE-A_4.0x1.6mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "LED-SK6812SIDE-A-4x1.6mm"
+	(property "Value" "LED_SK6812SIDE-A_4.0x1.6mm"
 		(at 0 4.01 0)
 		(layer "F.Fab")
 		(uuid "ba442d1b-5ff7-4e25-b085-a8f257ad57bc")
@@ -62,6 +62,66 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2 1.36)
+		(end -2 0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdc2f74d-a641-4111-8d44-be5da4154005")
+	)
+	(fp_line
+		(start -1.175 -0.35)
+		(end -0.925 -0.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89ecf7c0-0f2f-4fb5-9915-71307ea39e55")
+	)
+	(fp_line
+		(start 0.05 -0.35)
+		(end 0.2 -0.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e7c504-f15d-4ff3-9cba-44f42e110d6f")
+	)
+	(fp_line
+		(start 0.95 -0.35)
+		(end 1.15 -0.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2984d69e-adf9-4a4b-bfd2-6f85cb538584")
+	)
+	(fp_line
+		(start 2 0.69)
+		(end 2 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8c3c420-2597-4594-a805-5373bb9442bf")
+	)
+	(fp_line
+		(start 2 1.36)
+		(end -2 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33937d97-f6f6-420c-8462-e81fea568f65")
+	)
 	(fp_poly
 		(pts
 			(xy -1.55 0.75) (xy -1.4 0.95) (xy -1.7 0.95)
@@ -135,8 +195,8 @@
 		(uuid "74b7114c-38fb-4ce1-95ad-7b993a1d7897")
 	)
 	(fp_rect
-		(start -2.4 -0.7)
-		(end 2.4 1.4)
+		(start -2.5 -0.75)
+		(end 2.5 1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -144,6 +204,17 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "053105a7-d5e1-45c5-86ee-74c3ecabdd52")
+	)
+	(fp_rect
+		(start -2 -0.29)
+		(end 2 1.31)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4c7c94b3-ce1c-473f-8786-ad4c49deda10")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

@@ -165,7 +165,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/d0ef610d-0165-4fb4-80fd-175925343075")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -433,7 +433,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5123dc00-2501-4285-8409-773ecc322a1a")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -651,7 +651,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c4cd1b41-d0f1-45f9-b2f2-59e01bd12bcf")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -869,7 +869,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/695ed515-9b92-48e6-9bf2-be5dfe57fefd")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -1087,7 +1087,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4938b2a8-cc98-40ae-bafc-31eb065988f0")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -1499,7 +1499,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/6bb5fded-c9c7-4676-bdf2-64dd7ce72aa1")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -1631,15 +1631,14 @@
 			(uuid "b598762e-9ea8-471d-bf0e-a2f8160d1de8")
 		)
 	)
-	(footprint "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-BR_HandSolder"
+	(footprint "discrete:LED_RGB_XL-2012RGBC_2.0x1.2mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f5c3da7d-623d-4151-861b-3294d7f8f3c0")
 		(at 134.075 99.06 180)
 		(property "Reference" "LED0"
-			(at 0 -2 0)
+			(at 0 -2 180)
 			(layer "Dwgs.User")
-			(hide yes)
-			(uuid "7f54b390-4803-4606-98e7-a0f304382a6f")
+			(uuid "85958682-9902-4ecf-bb31-ca430a504ffb")
 			(effects
 				(font
 					(size 1 1)
@@ -1648,9 +1647,9 @@
 			)
 		)
 		(property "Value" "LED_RGAB"
-			(at 0 4.4 0)
+			(at 0 4.4 180)
 			(layer "F.Fab")
-			(uuid "1e169d84-f769-4073-96e6-864fe552805a")
+			(uuid "780591ad-ef91-43e4-ae45-8b598096a9c7")
 			(effects
 				(font
 					(size 1 1)
@@ -1658,11 +1657,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-BR_HandSolder"
-			(at 0 0 0)
+		(property "Footprint" "discrete:LED_RGB_XL-2012RGBC_2.0x1.2mm_HandSolder"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a880ed83-a61c-41dd-9ade-1cf02061176b")
+			(uuid "564f8a90-b814-458c-80b7-fcb606e571e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,10 +1670,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211030000_XINGLIGHT-XL-2012RGBC_C965848.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cf1c3a9-3779-462b-a3a8-e29923da879e")
+			(uuid "6996563b-f34f-4360-a00b-3cc437d11b86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,10 +1682,10 @@
 			)
 		)
 		(property "Description" "RGB LED, red/green/anode/blue"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24a09b89-ec7b-418b-aff8-c2f144ee91b8")
+			(uuid "9b88e5d8-fb65-4f84-b8d2-252c86ec9178")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1698,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70b8a1bf-1781-47a2-ba20-c4e3d2de8a3d")
+			(uuid "9b44c8b6-3bf0-4590-b3c9-e66513b94b04")
 			(effects
 				(font
 					(size 1 1)
@@ -1707,11 +1706,31 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property ki_fp_filters "LED*XL?2012RGBC*")
 		(path "/dfaf9b60-3151-47a5-9012-6052829bbeb5")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 1.6 0.1)
+			(end 1.6 -0.1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "716b91b0-7bad-4b58-82ce-f4bd2756caa0")
+		)
+		(fp_line
+			(start 0.4 -0.75)
+			(end -0.4 -0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d7f538df-f6ac-451b-b8aa-de73987be095")
+		)
 		(fp_line
 			(start 0.1 0)
 			(end 0.43 0)
@@ -1720,7 +1739,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca9f3e6b-3e89-4796-a096-ec50836be472")
+			(uuid "44d1a7cf-8a03-4e90-8550-39fc064dd711")
 		)
 		(fp_line
 			(start 0.1 0)
@@ -1730,7 +1749,17 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "56190d80-7d64-4c00-bfa6-725e16697f9f")
+			(uuid "01dfa3fc-4e2a-4091-8d17-a1bc3eb1b4ba")
+		)
+		(fp_line
+			(start -0.4 0.75)
+			(end 0.4 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0d419d4d-2c56-41d7-a89b-dcf1896d0d2a")
 		)
 		(fp_rect
 			(start -0.3 0.3)
@@ -1741,7 +1770,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "de325418-b61e-424b-aa3a-b5a33e0715e6")
+			(uuid "d61d10e0-573a-4a26-803d-be74d4d7a592")
 		)
 		(fp_rect
 			(start -0.3 -0.4)
@@ -1752,34 +1781,34 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "8e00cdea-3e34-4cb8-a069-5bc84d507dc8")
+			(uuid "6cc13552-2daf-4dd1-847c-bd33c306102f")
 		)
 		(fp_rect
-			(start -1.565 -0.775)
-			(end 1.565 0.775)
+			(start -1.75 -0.9)
+			(end 1.75 0.9)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "5888481e-f82d-43a1-98c3-a2ac965a4bab")
+			(uuid "6338c87c-4bb7-4a2e-a5a6-889dec86f264")
 		)
-		(fp_circle
-			(center 1 0.63)
-			(end 1.03 0.63)
+		(fp_rect
+			(start -1 -0.65)
+			(end 1 0.65)
 			(stroke
-				(width 0.06)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "7b8f42e0-6fc7-435f-a6cb-bcf06f6638fe")
+			(uuid "4ae51d0a-8367-4890-93fe-33f672586aa2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "7b808f3b-bba5-43cb-af1a-01ce7b7541e1")
+			(uuid "25e34864-fced-43db-b870-b79c87b54e11")
 			(effects
 				(font
 					(size 1 1)
@@ -1795,7 +1824,7 @@
 			(net 1 "LED1_RESISTOR")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "2163260e-6d42-4d1f-a89c-8ff53e94ad11")
+			(uuid "f400a42b-54c2-4a02-89b4-18c22aba7383")
 		)
 		(pad "2" smd roundrect
 			(at -0.98 0.4)
@@ -1805,7 +1834,7 @@
 			(net 2 "LED2_RESISTOR")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "157d2a4e-878f-475b-b048-b4adfed6d96e")
+			(uuid "b347e074-23ea-4f38-8c17-c76adcdc569f")
 		)
 		(pad "3" smd roundrect
 			(at 0.98 -0.4)
@@ -1815,7 +1844,7 @@
 			(net 13 "Net-(JP1-B)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "94b004c5-4b19-47c2-882b-cba9ec1ece28")
+			(uuid "7206e2c1-3ef8-4af1-a365-60bf80e6a763")
 		)
 		(pad "4" smd roundrect
 			(at -0.98 -0.4)
@@ -1825,7 +1854,7 @@
 			(net 3 "LED3_RESISTOR")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "9142c2f0-8b1f-4ab6-9cf5-beb0348ae3b2")
+			(uuid "c3e9e5f5-106d-4563-9670-a7976fe11f70")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_4P-L2.0-W1.2-BR.wrl"
 			(offset
@@ -1915,7 +1944,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aa6d8a2d-17d9-44a5-bbba-d587f474afbd")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -2135,7 +2164,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe3a7f26-c2fa-4df8-ac9b-e3db1a46856e")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.8 1.8)
@@ -2371,7 +2400,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f4119eb6-d169-4019-ab38-7686b6587684")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.8 1.8)
@@ -2607,7 +2636,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/52784617-3d54-4d36-8a65-3e7eb78a480a")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -2827,7 +2856,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b0aab611-1234-422c-878d-b47030dcf930")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -3047,7 +3076,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cea1f8ee-41f0-4ba0-af43-5497d3ac5068")
 		(sheetname "Root")
-		(sheetfile "led-jig-mini.kicad_sch")
+		(sheetfile "led-micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)

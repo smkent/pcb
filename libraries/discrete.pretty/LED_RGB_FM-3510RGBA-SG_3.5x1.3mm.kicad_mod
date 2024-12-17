@@ -1,4 +1,4 @@
-(footprint "LED-SMD_FM-3510RGBA-SG"
+(footprint "LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "LED-SMD_FM-3510RGBA-SG"
+	(property "Value" "LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 		(at 0 4.06 0)
 		(layer "F.Fab")
 		(uuid "d8f739de-abc2-4495-9353-4237c2ce136b")
@@ -62,6 +62,56 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -1.85 -0.4)
+		(end -1.85 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c69fb08-9538-4132-ad41-2025d1e6947b")
+	)
+	(fp_line
+		(start -1.85 0.45)
+		(end -0.85 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b384ee-5a39-4240-add9-81d769aa923e")
+	)
+	(fp_line
+		(start 0 0.35)
+		(end 0.1 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac0ce53f-77c8-441b-a1b1-ce40aeebed86")
+	)
+	(fp_line
+		(start 1.85 -0.4)
+		(end 1.85 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3b14669-70e6-42c4-9a27-7be679cc7801")
+	)
+	(fp_line
+		(start 1.85 0.45)
+		(end 0.95 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c53d7689-9047-4661-ac05-d16733fc164b")
+	)
 	(fp_poly
 		(pts
 			(xy -1.45 -0.45) (xy -1.6 -0.65) (xy -1.3 -0.65)
@@ -95,16 +145,85 @@
 		(layer "F.CrtYd")
 		(uuid "29c98e8e-659d-4fb0-b1bc-b01d57a59d2b")
 	)
-	(fp_circle
-		(center -1.75 -0.97)
-		(end -1.72 -0.97)
+	(fp_line
+		(start -1.75 -0.85)
+		(end 1.75 -0.85)
 		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(fill none)
 		(layer "F.Fab")
-		(uuid "099fa1df-3493-4904-9b0c-af51e92edc48")
+		(uuid "6d052cc2-fbe3-418e-8eb3-d3d5d35b860b")
+	)
+	(fp_line
+		(start -1.75 0.35)
+		(end -1.75 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d814c49e-0789-4e3b-901e-bc4017228e51")
+	)
+	(fp_line
+		(start -0.65 0.35)
+		(end -1.75 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d3a42264-2e37-4b96-81d8-66e1b42c9ddc")
+	)
+	(fp_line
+		(start -0.65 0.35)
+		(end -0.55 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "46add36b-95c6-4237-8733-cef385d79e89")
+	)
+	(fp_line
+		(start -0.55 0.25)
+		(end 0.65 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7afe4432-4cc4-494c-962d-542c747024e1")
+	)
+	(fp_line
+		(start 0.75 0.35)
+		(end 0.65 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "59996774-4147-41a9-9c51-ed0408e2f222")
+	)
+	(fp_line
+		(start 1.75 -0.85)
+		(end 1.75 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "48045d08-fb4d-48e3-8489-3e14677d2199")
+	)
+	(fp_line
+		(start 1.75 0.35)
+		(end 0.75 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f8707fda-d1cd-481f-8bae-06c9f25e9bc8")
 	)
 	(fp_text user "PCB Edge"
 		(at 0 -1 0)

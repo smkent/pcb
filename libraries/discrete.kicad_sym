@@ -1370,7 +1370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-SMD_FM-3510RGBA-SG"
+		(property "Footprint" "lcsc:LED_RGB_FM-3510RGBA-SG_3.5x1.3mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -1415,7 +1415,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*FM?3510RGBA*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L3.2-W2.7-TL-CW"
+		(property "Footprint" "discrete:LED_RGB_P4-1209RGBTCA1-0.9T-A_3.2x2.7mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*P4?1209RGBTCA1*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "lcsc:LED-SK6812SIDE-A-4x1.6mm"
+		(property "Footprint" "discrete:LED_SK6812SIDE-A_4.0x1.6mm"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -4210,6 +4210,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2890037"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "RGB LED NeoPixel addressable right angle side"
 			(at 0 0 0)
 			(effects
@@ -4219,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+		(property "ki_fp_filters" "LED*SK6812SIDE*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5060,7 +5069,7 @@
 			)
 		)
 	)
-	(symbol "XL-1615RGBC-RF"
+	(symbol "XL-1615RGBC"
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim no)
@@ -5074,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-1615RGBC-RF"
+		(property "Value" "XL-1615RGBC"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -5082,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.6-W1.5-BR_XL-1615RGBC-RF"
+		(property "Footprint" "discrete:LED_RGB_XL-1615RGBC_1.6x1.5mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -5127,7 +5136,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_0_0"
+		(property "ki_fp_filters" "LED*XL?1615RGBC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XL-1615RGBC_0_0"
 			(text "B"
 				(at -1.905 -6.35 0)
 				(effects
@@ -5153,7 +5171,7 @@
 				)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_0_1"
+		(symbol "XL-1615RGBC_0_1"
 			(rectangle
 				(start -2.794 8.382)
 				(end 2.794 -7.62)
@@ -5413,7 +5431,7 @@
 				)
 			)
 		)
-		(symbol "XL-1615RGBC-RF_1_1"
+		(symbol "XL-1615RGBC_1_1"
 			(polyline
 				(pts
 					(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
@@ -5549,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L2.0-W1.3-BR"
+		(property "Footprint" "lcsc:LED_RGB_XL-2012RGBC_2.0x1.2mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -5594,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*XL?2012RGBC*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6025,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:LED-ARRAY-SMD_4P-L1.0-W1.0-TR-RD"
+		(property "Footprint" "discrete:LED_RGB_XL-B1010RGBT-HF_1.0x1.0mm"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -6052,6 +6070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22464515"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "XINGLIGHT SMD 1x1 LED RGB diode"
 			(at 0 0 0)
 			(effects
@@ -6061,7 +6088,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "ki_fp_filters" "LED*XL?B1010RGBT*"
 			(at 0 0 0)
 			(effects
 				(font
