@@ -3493,7 +3493,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_0603_1608Metric"
+	(footprint "discrete:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "500dde6f-3d9d-44f0-9e31-05bd2e6f7602")
 		(at 100 63)
@@ -3522,7 +3522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0603_1608Metric"
+		(property "Footprint" "discrete:LED_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10710,7 +10710,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_0402_1005Metric"
+	(footprint "discrete:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e0b21ad9-cfad-4c28-8bf9-6c1fdcac85ae")
 		(at 115 75.5)
@@ -10739,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0402_1005Metric"
+		(property "Footprint" "discrete:LED_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11182,7 +11182,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+	(footprint "discrete:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "ea5d4928-63d1-4eb8-a4f9-e23d46bd99ff")
 		(at 94 64 90)
@@ -11211,7 +11211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "discrete:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12593,7 +12593,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+	(footprint "discrete:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "fe4c5c04-e7a0-48af-aceb-fa747fdf87d1")
 		(at 106 64 90)
@@ -12622,7 +12622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "discrete:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

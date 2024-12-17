@@ -877,7 +877,7 @@
 			(uuid "d99ff8ce-df0d-4be8-84fd-97cbc3e9f5df")
 		)
 	)
-	(footprint "led:LED_0603_1608Metric"
+	(footprint "discrete:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "261cf61b-f00a-45e2-9a6f-256b5cbaa016")
 		(at 100.5 75.5 180)
@@ -906,7 +906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0603_1608Metric"
+		(property "Footprint" "discrete:LED_0603_1608Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2269,7 +2269,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_0603_1608Metric"
+	(footprint "discrete:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6ab451db-4868-4ff4-9c9b-e063e32afe64")
 		(at 100 54 -90)
@@ -2298,7 +2298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0603_1608Metric"
+		(property "Footprint" "discrete:LED_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6478,7 +6478,7 @@
 			)
 		)
 	)
-	(footprint "led:LED_0603_1608Metric"
+	(footprint "discrete:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ca15e179-b880-4805-ba85-101b7b1328a5")
 		(at 100.5 77.5 180)
@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led:LED_0603_1608Metric"
+		(property "Footprint" "discrete:LED_0603_1608Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
