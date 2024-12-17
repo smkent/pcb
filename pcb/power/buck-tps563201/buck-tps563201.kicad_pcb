@@ -5123,7 +5123,7 @@
 			(uuid "a2bc50fc-6739-49b2-a133-0295cc1bb1a8")
 		)
 	)
-	(footprint "lcsc:SW-SMD_3P-P1.50_L2.7-W6.6"
+	(footprint "electromechanical:SW-SMD_3P-P1.50_L2.7-W6.6"
 		(layer "B.Cu")
 		(uuid "a1eb89aa-65eb-4b5d-abbc-46b7c1b3ba76")
 		(at 129.7925 66.3)
@@ -5152,7 +5152,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "lcsc:SW-SMD_3P-P1.50_L2.7-W6.6"
+		(property "Footprint" "electromechanical:SW-SMD_3P-P1.50_L2.7-W6.6"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
