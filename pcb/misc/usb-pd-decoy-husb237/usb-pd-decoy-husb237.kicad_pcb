@@ -763,7 +763,7 @@
 			)
 		)
 	)
-	(footprint "custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple"
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "775dc702-f0ff-403b-ade1-1c9988a5f75c")
 		(at 125.25 66.25 90)
@@ -773,7 +773,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f9a8b0e0-d20b-4b6d-afc1-2818af10f150")
+			(uuid "b424a3b2-addb-41c2-8520-6a4e45c4f114")
 			(effects
 				(font
 					(size 1 1)
@@ -784,7 +784,7 @@
 		(property "Value" "75K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "25fded6d-8b97-48b3-8bf2-d745ef3df790")
+			(uuid "8cf15951-a9a2-436c-9a42-a6339e69e3e6")
 			(effects
 				(font
 					(size 1 1)
@@ -792,12 +792,12 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_simple"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67a807d6-af29-451c-9f25-92df68c9c347")
+			(uuid "0ca24686-c38c-4f3a-831e-6fcd79439df1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "056db79b-b92a-4c18-b71a-8dcc51dd0f3c")
+			(uuid "5a131e0a-352c-4a96-88ea-9bd267bb1aeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +823,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d2bddaf-9c58-46df-81ff-65b860cc6fa4")
+			(uuid "52ee00f0-afd8-41be-907e-dccdf0ed40ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,6 +837,26 @@
 		(sheetfile "usb-pd-decoy-husb237.kicad_sch")
 		(attr smd)
 		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ff80c63-da35-436c-a9e6-9570f5e72e9f")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c22f22d-5838-43c2-b045-1eeec80f94c7")
+		)
+		(fp_line
 			(start 1.65 -0.73)
 			(end 1.65 0.73)
 			(stroke
@@ -844,7 +864,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9d6a0e35-1150-4093-b69f-b8435bfe1cca")
+			(uuid "2cd5d2c6-45a0-4498-b637-3159fb2558eb")
 		)
 		(fp_line
 			(start -1.65 -0.73)
@@ -854,7 +874,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7ac805bd-c559-4a3d-90d7-568730d0dad6")
+			(uuid "6e2a9985-8d7e-4af3-b30b-58028a0e40fa")
 		)
 		(fp_line
 			(start 1.65 0.73)
@@ -864,7 +884,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e8668471-3a01-45ff-a347-26f94db737c8")
+			(uuid "91f2e5fa-4b1c-43fb-bdc7-3d5e3b8996b0")
 		)
 		(fp_line
 			(start -1.65 0.73)
@@ -874,7 +894,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5d74b979-f997-479c-be08-03563cf28ef1")
+			(uuid "80c0fbcb-360e-44cb-bad7-f004be2f9fdc")
 		)
 		(fp_line
 			(start 0.8 -0.4125)
@@ -884,7 +904,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6e27ecd-09d9-46a4-9a48-2a6821a52ffd")
+			(uuid "cfbc13bc-2a7e-442f-b7c9-8a53a46f177f")
 		)
 		(fp_line
 			(start -0.8 -0.4125)
@@ -894,7 +914,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "471f6999-87d3-4fd4-a038-05ff34557047")
+			(uuid "0411a138-ee8f-4942-abbd-82c2860de5e8")
 		)
 		(fp_line
 			(start 0.8 0.4125)
@@ -904,7 +924,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ee76c1c3-0d48-433e-82e4-46be5e2456ec")
+			(uuid "ccd1b4a7-e6d8-40df-b14d-4a35959c8af4")
 		)
 		(fp_line
 			(start -0.8 0.4125)
@@ -914,12 +934,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3147a03a-b753-47b5-a600-35e0a8c7b685")
+			(uuid "bd196e57-9cf4-4ede-9fc3-d3638bd313d4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "7675276a-13b3-4060-b0cb-60256201d97c")
+			(uuid "4d14fc08-adf7-4b42-b7e1-d18b89cd4466")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -934,7 +954,7 @@
 			(roundrect_rratio 0.25)
 			(net 11 "9V_SELECT")
 			(pintype "passive")
-			(uuid "298de0f7-430c-4717-8c9b-f06dd849509f")
+			(uuid "534a7850-8c69-45ea-acec-19f15e305cdd")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 90)
@@ -943,7 +963,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "GND")
 			(pintype "passive")
-			(uuid "ec1873a0-e641-4683-b36c-c3a7c2a65cdb")
+			(uuid "5d8f90eb-629a-45e5-92ce-bc6bed8501e5")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
@@ -957,7 +977,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "830c4714-407d-491e-a9d5-78ab36ac88cb")
 		(at 117 66.25 90)
@@ -986,7 +1006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1191,7 +1211,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "90488746-0c78-407e-82af-4c1593c1998f")
 		(at 122.85 66.25 90)
@@ -1220,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1425,7 +1445,7 @@
 			)
 		)
 	)
-	(footprint "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
+	(footprint "connector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "a2465d98-4300-4e85-be1b-73df8345e3b8")
 		(at 110 70 -90)
@@ -1436,7 +1456,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7c3ab4ca-1ff3-4add-8f02-051157776458")
+			(uuid "f83062a5-7291-4fc0-8cba-57b0aa8d8999")
 			(effects
 				(font
 					(size 1 1)
@@ -1448,7 +1468,7 @@
 			(at 0 5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "056c4b09-9a37-4237-891d-889a38b848cb")
+			(uuid "6ed6d0c3-12c0-4793-bfd3-351519013fe5")
 			(effects
 				(font
 					(size 1 1)
@@ -1456,12 +1476,12 @@
 				)
 			)
 		)
-		(property "Footprint" "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
+		(property "Footprint" "connector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41289ae8-2c1c-458b-844c-8722ad381529")
+			(uuid "324af5e3-5318-48b1-99d7-c381ec55fb93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1494,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a0468be-20d6-4f47-b765-a64acd2a4233")
+			(uuid "5c478cfe-1461-4a22-aa41-44f1e3b77568")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5134c654-dd13-4b7c-8475-6e6406f0ac49")
+			(uuid "c758d7f0-4796-4133-9c08-29f6e543cbbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1528,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69f5f8fb-67c0-4fca-b079-44300271efcf")
+			(uuid "bfa00d6e-62e4-44d6-953f-99962877b8f0")
 		)
 		(fp_line
 			(start 4.67 -0.1)
@@ -1518,7 +1538,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af02198e-db7d-4d6d-b2c0-db72eada0d1d")
+			(uuid "c2a89ebb-fc8a-4dc7-b34a-298159d17b47")
 		)
 		(fp_line
 			(start 5 3.675)
@@ -1528,7 +1548,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e132d738-72a7-4a71-9614-e4115d628067")
+			(uuid "562e976c-8ea2-41f8-842d-65a148033600")
 		)
 		(fp_rect
 			(start -5.32 -4.76)
@@ -1539,7 +1559,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "170c0103-1c40-4625-a23e-ccb936c0da88")
+			(uuid "d85b4fc0-5b60-4db0-8b34-56b1d3b5deff")
 		)
 		(fp_rect
 			(start -4.47 -3.675)
@@ -1550,13 +1570,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "75a817c1-d9e2-4ed0-b410-430eac5d5d26")
+			(uuid "043820ce-2165-468c-9d84-5575c1cbf878")
 		)
 		(fp_text user "PCB Edge"
 			(at 0 3.1 -90)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "aad648b3-844c-4852-a616-7679e73ea4a7")
+			(uuid "27473d96-181b-4416-a283-b587d7a8dacf")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1568,7 +1588,7 @@
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fb0841a1-19b0-485f-8dff-b5ac878a0ffc")
+			(uuid "bb66a5f3-4858-4b90-bae7-c61dd01ede2f")
 			(effects
 				(font
 					(size 1 1)
@@ -1581,14 +1601,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "d8982dbc-ea2c-414a-913f-60211b577465")
+			(uuid "93ac277c-2c63-460e-847f-765a72b7a761")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -2.605 270)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "2da4c1be-7b9a-43d5-829e-bf5a2d87092c")
+			(uuid "3c7ba6d1-22ed-4258-a940-2b9e5bba5643")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -3.88 270)
@@ -1598,7 +1618,7 @@
 			(net 12 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a7d34545-7010-4ebb-8831-b00f2e963853")
+			(uuid "f6992843-6964-4bf1-9f5a-2ea61c51ae13")
 		)
 		(pad "A4" smd roundrect
 			(at -2.4 -3.88 270)
@@ -1608,7 +1628,7 @@
 			(net 1 "VCC")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "e150d7cb-4ad2-4379-8141-fbb4f34e474b")
+			(uuid "e99b5c36-65c3-40d9-bffd-4c182a0b4ca3")
 		)
 		(pad "A5" smd roundrect
 			(at -1.25 -3.88 270)
@@ -1618,7 +1638,7 @@
 			(net 2 "Net-(J1-CC1)")
 			(pinfunction "CC1")
 			(pintype "bidirectional")
-			(uuid "91f57d66-7dcf-4973-8428-202e202bc1b8")
+			(uuid "14d52c95-11cb-4e1a-a7f3-c8f2247db7e6")
 		)
 		(pad "A6" smd roundrect
 			(at -0.25 -3.88 270)
@@ -1628,7 +1648,7 @@
 			(net 6 "Net-(U1-D+)")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "c728918e-26f6-48b6-8cfe-9b6478d30ea4")
+			(uuid "c7a3c9e1-d9f2-4090-b830-65e892cca999")
 		)
 		(pad "A7" smd roundrect
 			(at 0.25 -3.88 270)
@@ -1638,7 +1658,7 @@
 			(net 4 "Net-(U1-D-)")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "8d5a1e3a-db9b-4622-a161-4103dd3e1306")
+			(uuid "8588f08f-a45f-4d6f-8837-de50c3bd6136")
 		)
 		(pad "A8" smd roundrect
 			(at 1.25 -3.88 270)
@@ -1648,7 +1668,7 @@
 			(net 5 "unconnected-(J1-SBU1-PadA8)")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
-			(uuid "e38eeb0b-8ea5-40b1-8161-e81049e516ed")
+			(uuid "15bc360d-566b-4a12-b8e2-8c73231df198")
 		)
 		(pad "A9" smd roundrect
 			(at 2.4 -3.88 270)
@@ -1658,7 +1678,7 @@
 			(net 1 "VCC")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "3cc4dc1e-c670-48af-8605-0f02d8206217")
+			(uuid "d64ea8cb-b68e-4549-a367-17481bf2e22d")
 		)
 		(pad "A12" smd roundrect
 			(at 3.2 -3.88 270)
@@ -1668,7 +1688,7 @@
 			(net 12 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "c72e4d44-bad0-441c-9c90-203d5eb55f75")
+			(uuid "66a9234f-5b9c-46a2-b7bf-a637d09aa429")
 		)
 		(pad "B1" smd roundrect
 			(at 3.2 -3.88 270)
@@ -1678,7 +1698,7 @@
 			(net 12 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "65c13932-a049-48c3-99a0-e5500cb68407")
+			(uuid "0b9ab023-2902-42f2-b74e-261d5dfb3730")
 		)
 		(pad "B4" smd roundrect
 			(at 2.4 -3.88 270)
@@ -1688,7 +1708,7 @@
 			(net 1 "VCC")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "be8ebfeb-93e6-4e8d-9427-e60c67b90a32")
+			(uuid "aa7e4837-6690-4ed1-8057-f95d2c34dfbf")
 		)
 		(pad "B5" smd roundrect
 			(at 1.75 -3.88 270)
@@ -1698,7 +1718,7 @@
 			(net 3 "Net-(J1-CC2)")
 			(pinfunction "CC2")
 			(pintype "bidirectional")
-			(uuid "3f22ea45-0b21-40d8-9757-f100dec846f0")
+			(uuid "a719e08b-f0c7-45f4-9063-85f8485a7231")
 		)
 		(pad "B6" smd roundrect
 			(at 0.75 -3.88 270)
@@ -1708,7 +1728,7 @@
 			(net 6 "Net-(U1-D+)")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "5f7ae185-4ebe-4a2c-808c-4e32b6907243")
+			(uuid "4474bae7-1808-4531-9614-75589d72f2c6")
 		)
 		(pad "B7" smd roundrect
 			(at -0.75 -3.88 270)
@@ -1718,7 +1738,7 @@
 			(net 4 "Net-(U1-D-)")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "e15b9530-ffee-4051-ba47-aa39ce9e745a")
+			(uuid "2dee5af7-0adf-4d54-8d9b-e1899780716f")
 		)
 		(pad "B8" smd roundrect
 			(at -1.75 -3.88 270)
@@ -1728,7 +1748,7 @@
 			(net 7 "unconnected-(J1-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
-			(uuid "a27bfdce-7e0c-41bb-ab42-297dd49d591d")
+			(uuid "12729bf6-2cd8-4d80-9395-b530ecc298cf")
 		)
 		(pad "B9" smd roundrect
 			(at -2.4 -3.88 270)
@@ -1738,7 +1758,7 @@
 			(net 1 "VCC")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "efc2ccb5-e46b-4dd8-ad91-f7be93353787")
+			(uuid "f81e8c18-c012-4b59-b5d0-b55fe87c8fc5")
 		)
 		(pad "B12" smd roundrect
 			(at -3.2 -3.88 270)
@@ -1748,7 +1768,7 @@
 			(net 12 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "83cd4161-674e-404c-850f-1e4ab0592192")
+			(uuid "cb1aec8a-3dd4-4a5c-bf59-9afcb11d63ec")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 -3.105 270)
@@ -1759,7 +1779,7 @@
 			(net 12 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b2b4cf95-fb4b-4eb3-9b2d-e3489c63a24d")
+			(uuid "3df285e4-10d9-48cf-a6e4-873f2958a147")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 1.075 270)
@@ -1770,7 +1790,7 @@
 			(net 12 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "0f78014f-69f8-4019-8da8-247233340b46")
+			(uuid "729a6642-d983-4d2f-a97a-ba73c719034c")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 270)
@@ -1781,7 +1801,7 @@
 			(net 12 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "44af68a2-1c7e-4d8d-acff-1b566c0ee522")
+			(uuid "56ae3a8c-c0f4-4030-8d2d-09e502afa75d")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -1792,7 +1812,7 @@
 			(net 12 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "3877f94a-eadf-4bbb-9563-eeed98d27c48")
+			(uuid "baa0b9b6-73ed-4afd-8717-b4b84e95187b")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
 			(offset
@@ -1806,7 +1826,7 @@
 			)
 		)
 	)
-	(footprint "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c06ba1eb-4325-4346-b861-e031119bd8c2")
 		(at 120.5 66.25 90)
@@ -1835,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "discrete:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

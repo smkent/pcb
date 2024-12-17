@@ -4269,7 +4269,7 @@
 			)
 		)
 	)
-	(footprint "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
+	(footprint "connector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "a2465d98-4300-4e85-be1b-73df8345e3b8")
 		(at 110 70 -90)
@@ -4280,7 +4280,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7c3ab4ca-1ff3-4add-8f02-051157776458")
+			(uuid "4a3a04fc-640b-46bc-b4a5-3dcc92960524")
 			(effects
 				(font
 					(size 1 1)
@@ -4292,7 +4292,7 @@
 			(at 0 5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "056c4b09-9a37-4237-891d-889a38b848cb")
+			(uuid "07f56995-435a-402e-bc50-47d4591a423a")
 			(effects
 				(font
 					(size 1 1)
@@ -4300,12 +4300,12 @@
 				)
 			)
 		)
-		(property "Footprint" "connector:USB-C-Receptacle-16P-TopMount-Horizontal"
+		(property "Footprint" "connector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41289ae8-2c1c-458b-844c-8722ad381529")
+			(uuid "37318645-9268-48a2-ac37-29d2c7dc0f47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4318,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a0468be-20d6-4f47-b765-a64acd2a4233")
+			(uuid "c4ce5cb7-a001-40e7-8342-3ed2d40258b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5134c654-dd13-4b7c-8475-6e6406f0ac49")
+			(uuid "e9397858-31e6-483d-b356-d6593b951502")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69f5f8fb-67c0-4fca-b079-44300271efcf")
+			(uuid "c4c66206-7dff-48f1-96d1-c40260601455")
 		)
 		(fp_line
 			(start 4.67 -0.1)
@@ -4362,7 +4362,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af02198e-db7d-4d6d-b2c0-db72eada0d1d")
+			(uuid "0520925d-f647-4e3f-9d72-de7da69c62c2")
 		)
 		(fp_line
 			(start 5 3.675)
@@ -4372,7 +4372,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e132d738-72a7-4a71-9614-e4115d628067")
+			(uuid "b10e5ebc-4b7c-4a61-ba73-5c01416cdf10")
 		)
 		(fp_rect
 			(start -5.32 -4.76)
@@ -4383,7 +4383,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "170c0103-1c40-4625-a23e-ccb936c0da88")
+			(uuid "775fd43f-7f0f-4873-8476-8442ed803531")
 		)
 		(fp_rect
 			(start -4.47 -3.675)
@@ -4394,13 +4394,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "75a817c1-d9e2-4ed0-b410-430eac5d5d26")
+			(uuid "adc1b257-7bcd-4d31-bd15-3a5341b83b2c")
 		)
 		(fp_text user "PCB Edge"
 			(at 0 3.1 -90)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "aad648b3-844c-4852-a616-7679e73ea4a7")
+			(uuid "7095db14-04e9-428f-8add-1ac564ff8cea")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4412,7 +4412,7 @@
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fb0841a1-19b0-485f-8dff-b5ac878a0ffc")
+			(uuid "7b245069-8250-46b0-b052-4ed682bec433")
 			(effects
 				(font
 					(size 1 1)
@@ -4425,14 +4425,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "d8982dbc-ea2c-414a-913f-60211b577465")
+			(uuid "4dd5eef2-ebac-4d9e-b6e1-cc0a236006bf")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -2.605 270)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "2da4c1be-7b9a-43d5-829e-bf5a2d87092c")
+			(uuid "a9cca6a2-aa62-4848-aa98-37498d3ca432")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -3.88 270)
@@ -4442,7 +4442,7 @@
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a7d34545-7010-4ebb-8831-b00f2e963853")
+			(uuid "fb1946f4-039a-43c3-980e-dc45943a0d12")
 		)
 		(pad "A4" smd roundrect
 			(at -2.4 -3.88 270)
@@ -4452,7 +4452,7 @@
 			(net 17 "/VBUS")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "e150d7cb-4ad2-4379-8141-fbb4f34e474b")
+			(uuid "04cc2b15-3457-4613-adc9-c2cb2b62df5b")
 		)
 		(pad "A5" smd roundrect
 			(at -1.25 -3.88 270)
@@ -4462,7 +4462,7 @@
 			(net 8 "CC1")
 			(pinfunction "CC1")
 			(pintype "bidirectional")
-			(uuid "91f57d66-7dcf-4973-8428-202e202bc1b8")
+			(uuid "7d7dd003-8949-4a03-a85d-7713d5772953")
 		)
 		(pad "A6" smd roundrect
 			(at -0.25 -3.88 270)
@@ -4472,7 +4472,7 @@
 			(net 15 "D_P")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "c728918e-26f6-48b6-8cfe-9b6478d30ea4")
+			(uuid "92a944b1-0cec-4f97-8f4c-f2ac5a5757e3")
 		)
 		(pad "A7" smd roundrect
 			(at 0.25 -3.88 270)
@@ -4482,7 +4482,7 @@
 			(net 16 "D_M")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "8d5a1e3a-db9b-4622-a161-4103dd3e1306")
+			(uuid "25034e4e-cdda-4eb5-81e1-eef362978dd1")
 		)
 		(pad "A8" smd roundrect
 			(at 1.25 -3.88 270)
@@ -4492,7 +4492,7 @@
 			(net 3 "unconnected-(J1-SBU1-PadA8)")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
-			(uuid "e38eeb0b-8ea5-40b1-8161-e81049e516ed")
+			(uuid "4db894bf-51fe-46f9-9785-09c34971b451")
 		)
 		(pad "A9" smd roundrect
 			(at 2.4 -3.88 270)
@@ -4502,7 +4502,7 @@
 			(net 17 "/VBUS")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "3cc4dc1e-c670-48af-8605-0f02d8206217")
+			(uuid "e1d66459-1715-419e-ab5a-90b0a6f51184")
 		)
 		(pad "A12" smd roundrect
 			(at 3.2 -3.88 270)
@@ -4512,7 +4512,7 @@
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "c72e4d44-bad0-441c-9c90-203d5eb55f75")
+			(uuid "83139f49-0c2e-4a34-b245-a38455ec89e2")
 		)
 		(pad "B1" smd roundrect
 			(at 3.2 -3.88 270)
@@ -4522,7 +4522,7 @@
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "65c13932-a049-48c3-99a0-e5500cb68407")
+			(uuid "8b9c7bb6-c747-49ed-9d86-6dc73c0f744a")
 		)
 		(pad "B4" smd roundrect
 			(at 2.4 -3.88 270)
@@ -4532,7 +4532,7 @@
 			(net 17 "/VBUS")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "be8ebfeb-93e6-4e8d-9427-e60c67b90a32")
+			(uuid "efeee60e-d9ba-4c03-a658-d852f0367391")
 		)
 		(pad "B5" smd roundrect
 			(at 1.75 -3.88 270)
@@ -4542,7 +4542,7 @@
 			(net 2 "CC2")
 			(pinfunction "CC2")
 			(pintype "bidirectional")
-			(uuid "3f22ea45-0b21-40d8-9757-f100dec846f0")
+			(uuid "32066f23-3cd7-4dd8-abd2-e7d6a7fb40a0")
 		)
 		(pad "B6" smd roundrect
 			(at 0.75 -3.88 270)
@@ -4552,7 +4552,7 @@
 			(net 15 "D_P")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "5f7ae185-4ebe-4a2c-808c-4e32b6907243")
+			(uuid "cb61d9db-7c9e-447a-8032-45b611b2cb7c")
 		)
 		(pad "B7" smd roundrect
 			(at -0.75 -3.88 270)
@@ -4562,7 +4562,7 @@
 			(net 16 "D_M")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "e15b9530-ffee-4051-ba47-aa39ce9e745a")
+			(uuid "d9e3f5af-b465-4e0c-880b-0eb5438acfc4")
 		)
 		(pad "B8" smd roundrect
 			(at -1.75 -3.88 270)
@@ -4572,7 +4572,7 @@
 			(net 4 "unconnected-(J1-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
-			(uuid "a27bfdce-7e0c-41bb-ab42-297dd49d591d")
+			(uuid "0f946f9d-618f-4d38-93f0-65f19d16e6bc")
 		)
 		(pad "B9" smd roundrect
 			(at -2.4 -3.88 270)
@@ -4582,7 +4582,7 @@
 			(net 17 "/VBUS")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "efc2ccb5-e46b-4dd8-ad91-f7be93353787")
+			(uuid "ea054695-d886-4db8-b50b-d2adcadc2905")
 		)
 		(pad "B12" smd roundrect
 			(at -3.2 -3.88 270)
@@ -4592,7 +4592,7 @@
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "83cd4161-674e-404c-850f-1e4ab0592192")
+			(uuid "f478fb7e-58e7-4487-9da0-4fbb3e5302a1")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 -3.105 270)
@@ -4603,7 +4603,7 @@
 			(net 7 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b2b4cf95-fb4b-4eb3-9b2d-e3489c63a24d")
+			(uuid "d2c0c39a-d4d7-4785-b12b-d24682a9e061")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 1.075 270)
@@ -4614,7 +4614,7 @@
 			(net 7 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "0f78014f-69f8-4019-8da8-247233340b46")
+			(uuid "559259ca-0740-4de9-a17e-3eebb5e77a33")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 270)
@@ -4625,7 +4625,7 @@
 			(net 7 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "44af68a2-1c7e-4d8d-acff-1b566c0ee522")
+			(uuid "1f388364-74d3-4db6-a40f-38d342fab6e8")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -4636,7 +4636,7 @@
 			(net 7 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "3877f94a-eadf-4bbb-9563-eeed98d27c48")
+			(uuid "b897ebdb-188e-4436-8238-ffd1cf756933")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
 			(offset

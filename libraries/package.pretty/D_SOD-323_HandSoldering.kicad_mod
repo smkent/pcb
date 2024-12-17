@@ -1,4 +1,4 @@
-(footprint "D_SOD-323_HandSoldering_simple"
+(footprint "D_SOD-323_HandSoldering"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD-323_HandSoldering_simple"
+	(property "Value" "D_SOD-323_HandSoldering"
 		(at 0.1 1.9 0)
 		(layer "F.Fab")
 		(uuid "a6cb4db3-c165-4dbe-8b73-aa779c3382fe")
@@ -67,6 +67,16 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2 0.3)
+		(end -2 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5713df4-b911-4f03-8516-b39b18490504")
+	)
 	(fp_poly
 		(pts
 			(xy 0.244419 0.4) (xy -0.337761 0) (xy 0.244419 -0.4)

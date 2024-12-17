@@ -6528,7 +6528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:D_SOD-323_HandSoldering_simple"
+		(property "Footprint" "package:D_SOD-323_HandSoldering"
 			(at 224.155 58.42 0)
 			(effects
 				(font
@@ -6887,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder_simple"
+		(property "Footprint" "discrete:Fuse_1206_3216Metric"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -7313,7 +7313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "discrete:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 252.4252 74.93 0)
 			(effects
 				(font
@@ -7449,7 +7449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "discrete:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 265.1252 74.93 0)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:SOT-23-5_HandSoldering_simple"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 240.792 80.772 0)
 			(effects
 				(font
@@ -8880,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_handsolder"
+		(property "Footprint" "connector:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_HandSolder"
 			(at 39.37 35.56 0)
 			(effects
 				(font

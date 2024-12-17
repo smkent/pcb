@@ -1,4 +1,4 @@
-(footprint "USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_handsolder"
+(footprint "USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_HandSolder"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_handsolder"
+	(property "Value" "USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_HandSolder"
 		(at 0 4.725 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
