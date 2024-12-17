@@ -9261,7 +9261,7 @@
 			(uuid "72ea385f-f309-4629-a12a-da36badcc428")
 		)
 	)
-	(footprint "lcsc:SENSORS-SMD_VEML7700-TR"
+	(footprint "discrete:Sensor_VEML7700-TR"
 		(layer "F.Cu")
 		(uuid "c9911517-6c4d-46b3-8513-1bee8dea83ee")
 		(at 100 52)
@@ -9269,7 +9269,7 @@
 			(at 0 -3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "db6033de-efb9-4def-be0d-9da4df693dff")
+			(uuid "55417da7-7d3b-40d1-bee2-750707a9847b")
 			(effects
 				(font
 					(size 1 1)
@@ -9280,7 +9280,7 @@
 		(property "Value" "VEML7700"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "6a6caf37-ac4a-4c5e-bbda-6d611d12e0aa")
+			(uuid "3529f9a5-9777-409a-aad0-cb318c7b7366")
 			(effects
 				(font
 					(size 1 1)
@@ -9288,11 +9288,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SENSORS-SMD_VEML7700-TR"
+		(property "Footprint" "discrete:Sensor_VEML7700-TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b65772a-bb63-40a4-88f9-8f5f34c52494")
+			(uuid "0479c343-7bcb-43e5-8513-cf89ceec0c28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9304,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c197da2-97d0-405a-abf5-f11de79c6bd5")
+			(uuid "18d18f2a-c6b8-4cf4-aa8e-150135a0df29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9316,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13713597-ffc4-4814-8eea-2a866acf5272")
+			(uuid "ba661b63-4624-4c2d-b2e6-c862a6a95cf2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,6 +9324,20 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C504893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50cb2cd8-e29a-494f-bcea-f477814cfe4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*VEML7700*")
 		(path "/b5e0e2d2-a054-4723-ac51-c9e3d6bc3e7e")
 		(sheetname "Root")
 		(sheetfile "esp-lcd-dev.kicad_sch")
@@ -9336,7 +9350,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7bf4211f-4cd5-42ea-9756-a37cbe131903")
+			(uuid "b3d8f50a-4229-4e34-92c6-d2e02c883946")
 		)
 		(fp_line
 			(start -2.5 -1.3)
@@ -9346,7 +9360,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c7d00e6a-c8f6-4cae-8b13-cf3c019cd9d0")
+			(uuid "4d3fa06b-a74b-42d8-984e-34295151ab8d")
 		)
 		(fp_line
 			(start 2.5 -1.3)
@@ -9356,18 +9370,31 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "222163e1-6d2b-434f-9a6a-bb2246f9c4b5")
+			(uuid "8115d051-37f0-4052-8ffa-ce4a895251ba")
 		)
-		(fp_rect
-			(start -3.4 -1.84)
-			(end 3.4 0.5)
+		(fp_poly
+			(pts
+				(xy -3.5 -2) (xy 3.5 -2) (xy 3.5 0.3) (xy 2.75 0.3) (xy 2.75 1.25) (xy -2.75 1.25) (xy -2.75 0.3)
+				(xy -3.5 0.3)
+			)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "47e2215a-4f23-4eec-9d37-dded0b747889")
+			(uuid "d2893e95-360d-43db-b89c-813288c987d1")
+		)
+		(fp_rect
+			(start -3.4 -1.84)
+			(end 3.4 0.21)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "b299ef3e-aa7f-45ea-b5ac-53a8825325f7")
 		)
 		(fp_circle
 			(center -3.4 0.5)
@@ -9378,12 +9405,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ae23ad47-5937-4eb0-a4af-4503d1c659d7")
+			(uuid "f94cd03e-1eb2-49bc-b6fd-b6be5da06089")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "247d5c2c-a7b9-44b0-ba59-ac2a8ab5bc69")
+			(uuid "968d2f74-f47c-42c8-b4a6-0fac7029c45d")
 			(effects
 				(font
 					(size 1 1)
@@ -9399,7 +9426,7 @@
 			(net 4 "SCL")
 			(pinfunction "SCL")
 			(pintype "passive")
-			(uuid "60140527-2127-44d8-9cf9-56d2285e3604")
+			(uuid "8b99ca31-07db-4755-ae1c-b51cf763f634")
 		)
 		(pad "2" smd roundrect
 			(at 0.63 0)
@@ -9409,7 +9436,7 @@
 			(net 3 "+3V3")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "042e10f3-3137-4a8c-8a27-d7a00084886c")
+			(uuid "f737806f-be41-4698-a862-9b3eead879ce")
 		)
 		(pad "3" smd roundrect
 			(at -0.63 0)
@@ -9419,7 +9446,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "8d11479a-4dd5-4f0c-8f5a-20731b6377ee")
+			(uuid "0cd49754-08da-4bcb-b450-2bc9deeb1031")
 		)
 		(pad "4" smd roundrect
 			(at -1.91 0)
@@ -9429,7 +9456,7 @@
 			(net 2 "SDA")
 			(pinfunction "SDA")
 			(pintype "passive")
-			(uuid "52cb3ce4-a9f9-4cd8-9719-49513e578162")
+			(uuid "96346a81-3689-4527-a1da-c05975c52320")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_4P-L6.8-W2.4_VEML7700-TR.wrl"
 			(offset
@@ -18974,7 +19001,7 @@
 				(xy 88.698238 53.196091) (xy 88.6995 53.213738) (xy 88.6995 53.543254) (xy 88.705173 53.564424)
 				(xy 88.712381 53.591324) (xy 88.710718 53.661174) (xy 88.671556 53.719036) (xy 88.644442 53.736063)
 				(xy 88.577828 53.766716) (xy 88.577811 53.766726) (xy 87.972907 54.159555) (xy 87.972902 54.159559)
-				(xy 87.937811 54.190376) (xy 87.917483 54.208228) (xy 87.908285 54.223568) (xy 87.853037 54.315708)
+				(xy 87.917484 54.208227) (xy 87.917483 54.208228) (xy 87.904935 54.229156) (xy 87.853037 54.315708)
 				(xy 87.826982 54.438285) (xy 87.826982 54.438288) (xy 87.838296 54.531144) (xy 87.826864 54.600072)
 				(xy 87.802887 54.633822) (xy 87.618586 54.818125) (xy 87.562638 54.874072) (xy 87.562632 54.87408)
 				(xy 87.523079 54.942589) (xy 87.519967 54.950103) (xy 87.517619 54.94913) (xy 87.487851 54.997944)
@@ -19007,11 +19034,11 @@
 				(xy 113.437539 50.520185) (xy 113.483294 50.572989) (xy 113.4945 50.6245) (xy 113.4945 53.00002)
 				(xy 113.494532 53.004861) (xy 113.494546 53.006849) (xy 113.496135 53.124097) (xy 113.496827 53.175201)
 				(xy 113.499958 53.224941) (xy 113.499961 53.224977) (xy 113.537654 53.559509) (xy 113.54715 53.615399)
-				(xy 113.547152 53.615407) (xy 113.547153 53.615412) (xy 113.551761 53.635599) (xy 113.622073 53.943661)
+				(xy 113.547152 53.615407) (xy 113.547153 53.615412) (xy 113.553646 53.64386) (xy 113.622073 53.943661)
 				(xy 113.622074 53.943663) (xy 113.622075 53.943667) (xy 113.637768 53.998139) (xy 113.63777 53.998144)
 				(xy 113.637773 53.998157) (xy 113.748967 54.31593) (xy 113.748977 54.315956) (xy 113.770665 54.368315)
 				(xy 113.916745 54.671653) (xy 113.916754 54.671671) (xy 113.944158 54.721256) (xy 113.944167 54.721272)
-				(xy 113.981054 54.779977) (xy 114.123307 55.00637) (xy 114.123312 55.006377) (xy 114.150758 55.045059)
+				(xy 113.952021 54.733771) (xy 114.123307 55.00637) (xy 114.123312 55.006377) (xy 114.150758 55.045059)
 				(xy 114.15611 55.052601) (xy 114.366037 55.315841) (xy 114.36604 55.315844) (xy 114.403818 55.358117)
 				(xy 114.641882 55.596181) (xy 114.641891 55.596189) (xy 114.684159 55.633963) (xy 114.947399 55.84389)
 				(xy 114.99363 55.876693) (xy 115.237347 56.029831) (xy 115.278727 56.055832) (xy 115.278743 56.055841)

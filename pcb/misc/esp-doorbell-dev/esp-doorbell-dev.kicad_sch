@@ -3926,7 +3926,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:SENSOR-TH_HLK-LD2410C-P"
+			(property "Footprint" "module:HLK-LD2410C-module"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -3963,6 +3963,15 @@
 				)
 			)
 			(property "ki_keywords" "hi-link human presence sensor millimeter wave radar ble uart"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LD2410*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10955,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SENSOR-TH_HLK-LD2410C-P"
+		(property "Footprint" "module:HLK-LD2410C-module"
 			(at 256.54 54.61 0)
 			(effects
 				(font

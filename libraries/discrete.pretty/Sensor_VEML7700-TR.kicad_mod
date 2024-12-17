@@ -1,4 +1,4 @@
-(footprint "SENSORS-SMD_VEML7700-TR"
+(footprint "Sensor_VEML7700-TR"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SENSORS-SMD_VEML7700-TR"
+	(property "Value" "Sensor_VEML7700-TR"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "d8d39258-6103-4d73-aa4c-f9bf484d3b3c")
@@ -93,16 +93,29 @@
 		(layer "F.SilkS")
 		(uuid "5475488c-e26f-41b6-8811-6c01297dd26d")
 	)
-	(fp_rect
-		(start -3.4 -1.84)
-		(end 3.4 0.5)
+	(fp_poly
+		(pts
+			(xy -3.5 -2) (xy 3.5 -2) (xy 3.5 0.3) (xy 2.75 0.3) (xy 2.75 1.25) (xy -2.75 1.25) (xy -2.75 0.3)
+			(xy -3.5 0.3)
+		)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "47031f27-d9c8-4162-a510-ae6a178a2ba6")
+		(uuid "a7d95b07-3d94-4431-8fbe-4e5d8d779e24")
+	)
+	(fp_rect
+		(start -3.4 -1.84)
+		(end 3.4 0.21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f79f2ecc-c3e5-4e0b-bef7-03f80dc7e62b")
 	)
 	(fp_circle
 		(center -3.4 0.5)

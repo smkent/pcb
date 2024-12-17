@@ -6907,7 +6907,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ec0b2b6c-7485-4124-a5a8-5e426b5db8d5")
+		(path "/aa2c8c6c-f575-4004-b150-d0ddf5840ce8")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
 		(attr smd)
@@ -7097,15 +7097,15 @@
 			)
 		)
 	)
-	(footprint "lcsc:SENSORS-SMD_VEML7700-TR"
+	(footprint "discrete:Sensor_VEML7700-TR"
 		(layer "F.Cu")
 		(uuid "d3b61fa5-68b3-4722-912c-4fa74944bc1b")
 		(at 100 88 180)
 		(property "Reference" "U3"
-			(at 0 -3 0)
+			(at 0 -3 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6e99014-5163-4570-aa06-c4c992023e94")
+			(uuid "8866d831-4822-4b7d-bcd2-288a80e1fac6")
 			(effects
 				(font
 					(size 1 1)
@@ -7114,9 +7114,9 @@
 			)
 		)
 		(property "Value" "VEML7700"
-			(at 0 4 0)
+			(at 0 4 180)
 			(layer "F.Fab")
-			(uuid "2ef84b19-f184-4b6f-98ba-291c3b3e31a3")
+			(uuid "da738d4c-69d0-4f4e-bea3-c44e25520aa4")
 			(effects
 				(font
 					(size 1 1)
@@ -7124,11 +7124,11 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SENSORS-SMD_VEML7700-TR"
-			(at 0 0 0)
+		(property "Footprint" "discrete:Sensor_VEML7700-TR"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1ede14b-c499-4eb7-a8d6-3b9f502f69e2")
+			(uuid "c983eb71-7cb7-494d-a1f6-10616de0bcb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,10 +7137,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84286/veml7700.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8dc3c70-0987-45a0-9fb0-403183957460")
+			(uuid "35498b98-66d0-4021-82de-00b25e314fa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,10 +7149,10 @@
 			)
 		)
 		(property "Description" "High Accuracy Ambient Light Sensor With I2C Interface"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26c86053-5366-4feb-a178-d886b5d7a496")
+			(uuid "18755d15-063a-49a1-8308-7eea6a670ba2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,6 +7160,20 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C504893"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906991a3-90d1-499b-8c60-0be59c8a2697")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*VEML7700*")
 		(path "/15eae4ca-278a-4b24-97fa-fd8b65146b74")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
@@ -7172,7 +7186,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1676d03f-ec04-4c75-8663-5522bc34c8cf")
+			(uuid "65990ee0-1724-40f6-bf09-6c414a53da05")
 		)
 		(fp_line
 			(start -2.5 -1.3)
@@ -7182,7 +7196,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "19b19d6f-193f-4462-b00d-0a413bb99b98")
+			(uuid "ffce2111-1612-490c-9512-34c2b87ca440")
 		)
 		(fp_line
 			(start -2.5 -1.3)
@@ -7192,18 +7206,31 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6d60117d-717c-4894-9e14-02991b5f641e")
+			(uuid "9fef33a2-ac0a-4ec5-9484-13b6f3fb2a80")
 		)
-		(fp_rect
-			(start -3.4 -1.84)
-			(end 3.4 0.5)
+		(fp_poly
+			(pts
+				(xy -3.5 -2) (xy 3.5 -2) (xy 3.5 0.3) (xy 2.75 0.3) (xy 2.75 1.25) (xy -2.75 1.25) (xy -2.75 0.3)
+				(xy -3.5 0.3)
+			)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "224ef41b-f22c-4f07-b75b-797fc9d6fc6f")
+			(uuid "5418fbcc-5d57-4430-8f55-71aede145565")
+		)
+		(fp_rect
+			(start -3.4 -1.84)
+			(end 3.4 0.21)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "1c5bd3a2-d9b7-4646-9696-dda8aab68782")
 		)
 		(fp_circle
 			(center -3.4 0.5)
@@ -7214,12 +7241,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "5b842c1c-8170-4eb4-97bb-7ff09fd7ed99")
+			(uuid "780268e4-d1f1-444d-90c8-560b34c2f17a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "c7fb58fb-9b26-4f05-a867-69dc5f7de2b4")
+			(uuid "f33a1bfd-ad3f-4884-91ad-231455a98712")
 			(effects
 				(font
 					(size 1 1)
@@ -7235,7 +7262,7 @@
 			(net 2 "SCL")
 			(pinfunction "SCL")
 			(pintype "passive")
-			(uuid "6c6b23cf-c644-479a-a64a-4611c6f453f5")
+			(uuid "58e0974b-6f4d-4a46-b859-1ec0a3c4e334")
 		)
 		(pad "2" smd roundrect
 			(at 0.63 0 180)
@@ -7245,7 +7272,7 @@
 			(net 5 "+3V3")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "419f8cfc-4295-436d-9045-0cbe7aa780e7")
+			(uuid "b1c9a5e5-b9ab-40a8-bb27-929895955f94")
 		)
 		(pad "3" smd roundrect
 			(at -0.63 0 180)
@@ -7255,7 +7282,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5695db46-da65-4b51-84c5-174e4bc5f51d")
+			(uuid "7694bfab-1081-4d14-a6d8-3bd08886db9b")
 		)
 		(pad "4" smd roundrect
 			(at -1.91 0 180)
@@ -7265,7 +7292,7 @@
 			(net 4 "SDA")
 			(pinfunction "SDA")
 			(pintype "passive")
-			(uuid "c9548bfc-cae6-4084-8b76-8cc0595bd5ca")
+			(uuid "7c3b630c-75c2-44a0-9ebd-899c8cfc50f1")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/LED-SMD_4P-L6.8-W2.4_VEML7700-TR.wrl"
 			(offset

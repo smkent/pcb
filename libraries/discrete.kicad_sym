@@ -4747,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SENSORS-SMD_VEML6030"
+		(property "Footprint" "discrete:Sensor_VEML6030"
 			(at 2.54 -17.78 0)
 			(effects
 				(font
@@ -4784,6 +4784,15 @@
 			)
 		)
 		(property "ki_keywords" "ambient light sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*VEML6030*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4936,7 +4945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SENSORS-SMD_VEML7700-TR"
+		(property "Footprint" "discrete:Sensor_VEML7700-TR"
 			(at 2.54 -17.78 0)
 			(effects
 				(font
@@ -4973,6 +4982,15 @@
 			)
 		)
 		(property "ki_keywords" "ambient light sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*VEML7700*"
 			(at 0 0 0)
 			(effects
 				(font

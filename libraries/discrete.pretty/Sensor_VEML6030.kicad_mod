@@ -1,4 +1,4 @@
-(footprint "SENSORS-SMD_VEML6030"
+(footprint "Sensor_VEML6030"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SENSORS-SMD_VEML6030"
+	(property "Value" "Sensor_VEML6030"
 		(at 0 4.65 0)
 		(layer "F.Fab")
 		(uuid "222763fb-497c-47bb-a091-bcf1546939cb")
@@ -63,6 +63,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -1.1 -1.1)
+		(end 1.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5008243d-e730-45a1-9855-448ca17989a3")
+	)
+	(fp_line
+		(start -1.1 1.1)
+		(end 1.1 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2cd2ecb-93a8-4007-905a-97731bc573fb")
+	)
 	(fp_poly
 		(pts
 			(xy -1.4 -0.65) (xy -1.6 -0.5) (xy -1.6 -0.8)
@@ -85,6 +105,17 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "e9f765a9-6944-49d9-838a-4812ef734f60")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e82fbbf8-0e6f-4cbd-9775-38255187587f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
