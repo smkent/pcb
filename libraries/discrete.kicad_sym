@@ -5565,11 +5565,13 @@
 		)
 	)
 	(symbol "TEMT6000X01"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 6.35 0)
+		(property "Reference" "Q"
+			(at 3.81 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5579,7 @@
 			)
 		)
 		(property "Value" "TEMT6000X01"
-			(at 0 -6.35 0)
+			(at 11.43 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5587,7 @@
 			)
 		)
 		(property "Footprint" "discrete:Sensor_TEMT6000X01_HandSolder"
-			(at 0 -8.89 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/81579/temt6000.pdf"
-			(at 0 -11.43 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ambient Light Sensor"
+		(property "Description" "Ambient light NPN phototransistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5612,7 +5614,7 @@
 			)
 		)
 		(property "LCSC Part" "C94098"
-			(at 0 -13.97 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5622,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ambient light sensor"
+		(property "ki_keywords" "npn phototransistor ambient light photo sensor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5638,24 +5640,118 @@
 				(hide yes)
 			)
 		)
-		(symbol "TEMT6000X01_0_1"
-			(rectangle
-				(start -10.16 3.81)
-				(end 10.16 -3.81)
+		(symbol "TEMT6000X01_1_1"
+			(circle
+				(center -1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 1.27) (xy -5.08 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-		)
-		(symbol "TEMT6000X01_1_1"
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -4.445 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 3.175) (xy -4.445 1.27) (xy -4.445 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.715 4.445) (xy -3.81 2.54) (xy -3.81 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.635) (xy 0 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -1.905 -1.905) (xy -1.905 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778) (xy -1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at 0 -5.08 90)
 				(length 2.54)
-				(name "Emitter"
+				(name "E"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5671,9 +5767,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -2.54 0)
+				(at 0 5.08 270)
 				(length 2.54) hide
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5689,9 +5785,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at 0 5.08 270)
 				(length 2.54)
-				(name "Collector"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
