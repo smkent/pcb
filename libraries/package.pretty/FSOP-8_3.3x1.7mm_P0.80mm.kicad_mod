@@ -1,4 +1,4 @@
-(footprint "FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+(footprint "FSOP-8_3.3x1.7mm_P0.80mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(property "Value" "FSOP-8_3.3x1.7mm_P0.80mm"
 		(at 0 5.26 0)
 		(layer "F.Fab")
 		(uuid "33e82048-3327-443e-82b0-dc27699b281d")
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0.8 -1.63)
-		(end -0.8 -1.63)
+		(start 0.8 -1.75)
+		(end -0.8 -1.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "188f5f84-0048-497e-bb86-73d856ed6eb7")
 	)
 	(fp_line
-		(start 0.8 1.62)
-		(end -0.8 1.62)
+		(start 0.8 1.75)
+		(end -0.8 1.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,20 +94,9 @@
 		(layer "F.SilkS")
 		(uuid "916d9f8a-d42a-4b8c-bb6b-8ae7df50ff61")
 	)
-	(fp_circle
-		(center -1.27 -1.78)
-		(end -1.27 -1.65)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "287bb273-f703-4ace-b99d-56cca9901355")
-	)
 	(fp_rect
-		(start -1.8 -1.63)
-		(end 1.8 1.62)
+		(start -2.05 -1.9)
+		(end 2.05 1.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -116,16 +105,16 @@
 		(layer "F.CrtYd")
 		(uuid "f81473e6-486a-47b3-b1cf-3ee1a3ece7b2")
 	)
-	(fp_circle
-		(center -1.43 -1.62)
-		(end -1.43 -1.59)
+	(fp_rect
+		(start -0.85 -1.65)
+		(end 0.85 1.65)
 		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "e8428d21-87cc-40a6-9fca-63bfb235b05f")
+		(uuid "1e8f7cd3-7e10-4800-a512-9cfa2bbe67e8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

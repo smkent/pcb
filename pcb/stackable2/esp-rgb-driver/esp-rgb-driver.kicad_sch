@@ -4329,7 +4329,7 @@
 					)
 				)
 			)
-			(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+			(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 				(at -7.62 3.81 0)
 				(effects
 					(font
@@ -4366,6 +4366,15 @@
 				)
 			)
 			(property "ki_keywords" "Worldsemi PWM LED driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOP*3.3x1.7mm*P0.80mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11158,7 +11167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -14206,7 +14215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -14875,7 +14884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -18407,7 +18416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 			(at 139.7 135.89 0)
 			(effects
 				(font
