@@ -348,22 +348,6 @@
 			)
 		)
 	)
-	(pad "" thru_hole oval
-		(at -2.15 0)
-		(size 1.5 2.2)
-		(drill oval 0.8 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5ef3a1ae-a001-44df-b40b-ca9cd79171b2")
-	)
-	(pad "" thru_hole oval
-		(at 12.15 0)
-		(size 1.5 2.2)
-		(drill oval 0.8 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d83eedc9-d620-4511-8a8e-f2b95d1d52ad")
-	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.5 1.5)
@@ -412,6 +396,22 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "128f7b69-cc2b-44a8-b537-7eb20f5aa1e2")
+	)
+	(pad "MP" thru_hole oval
+		(at -2.15 0)
+		(size 1.5 2.2)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ef3a1ae-a001-44df-b40b-ca9cd79171b2")
+	)
+	(pad "MP" thru_hole oval
+		(at 12.15 0)
+		(size 1.5 2.2)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d83eedc9-d620-4511-8a8e-f2b95d1d52ad")
 	)
 	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/SW-TH_SS-14D01-GXXX.wrl"
 		(offset
