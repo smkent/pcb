@@ -3130,7 +3130,7 @@
 					(type background)
 				)
 			)
-			(pin output inverted
+			(pin output output_low
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "OUT"
