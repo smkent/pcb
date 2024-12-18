@@ -1908,7 +1908,7 @@
 			(at -0.127 -1.905 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a22256b6-3afd-4d51-bf6c-8489b15d652d")
+			(uuid "74318c1d-53d3-498f-8356-eec87282097f")
 			(effects
 				(font
 					(size 1 1)
@@ -1916,10 +1916,10 @@
 				)
 			)
 		)
-		(property "Value" "DSK36"
+		(property "Value" "DSK34W"
 			(at 0 2.1 -90)
 			(layer "F.Fab")
-			(uuid "937195ed-0522-403a-a659-639bee1f2bf6")
+			(uuid "86562283-6743-4d64-8222-7abf653609ff")
 			(effects
 				(font
 					(size 1 1)
@@ -1932,7 +1932,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56f91523-c3a1-413f-b555-3db6c0c2fb1c")
+			(uuid "c90d5c6d-e3ad-4490-9263-99826ad35196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,12 +1940,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2207111801_FOSAN-DSK34W_C3014041.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69002de8-cb9d-4d54-ae1a-24636e8d9b6a")
+			(uuid "8297adaf-d508-44b0-b2fe-8d9273fad4b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,12 +1953,12 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "40V, 3A, 340 mV, Schottky Diode Rectifier, SOD-123F"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ccbf62b-8203-4f7e-ab4d-50c844e3fc16")
+			(uuid "b5ce368f-d233-42f1-92e3-06d3adeae910")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,11 +1966,34 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/0767fcb8-7367-40a1-b232-cd1f028a591e")
+		(property "LCSC Part" "C3014041"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a039db6-be7b-4dda-8309-03eb5380855f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*SOD?123F*")
+		(path "/7fb1ae1f-09f7-47b9-88e5-229bdf1b45e3")
 		(sheetname "Root")
 		(sheetfile "microboost.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -2.2 0.3)
+			(end -2.2 -0.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7a33059c-523f-4b5d-bb02-80bdcf5018b9")
+		)
 		(fp_poly
 			(pts
 				(xy 0.25 0.4) (xy 0.25 -0.4) (xy -0.35 0)
@@ -1981,7 +2004,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "65ffb27f-8e0b-49a6-beb1-d06c74ed89e4")
+			(uuid "9b97710c-54ac-4d3f-9c05-7cff429bb67b")
 		)
 		(fp_line
 			(start 2.2 1.15)
@@ -1991,7 +2014,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b42950a5-1ee3-4c46-9374-50c0a6e93461")
+			(uuid "53121339-bca6-43ff-8a52-2b1cc715e3a4")
 		)
 		(fp_line
 			(start -2.2 -1.15)
@@ -2001,7 +2024,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d819ae79-d28a-4f21-93b9-bdf034246366")
+			(uuid "eb23a139-e518-418c-8e61-eefb1276e2b4")
 		)
 		(fp_line
 			(start -2.2 -1.15)
@@ -2011,7 +2034,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8dc2a324-25ee-481e-9c2c-3f6281116f3b")
+			(uuid "8a0bd373-63b0-4c46-b99e-fa245cfe79d4")
 		)
 		(fp_line
 			(start 2.2 -1.15)
@@ -2021,7 +2044,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5cf55a37-d1f4-43ee-a88f-19992bb883f9")
+			(uuid "4390838f-2ded-433c-9882-0af478c3bf26")
 		)
 		(fp_line
 			(start -1.4 0.9)
@@ -2031,7 +2054,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2d81dbdc-ea94-497e-81bc-aefb2c11a11d")
+			(uuid "293859aa-b87e-4d12-806b-5fa0ca49ab58")
 		)
 		(fp_line
 			(start 1.4 0.9)
@@ -2041,7 +2064,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "84d4a5b1-16be-4efe-b725-c092f8cb5b6c")
+			(uuid "68a5450c-835d-4d83-8b1f-b339d46acc98")
 		)
 		(fp_line
 			(start 0.25 0.4)
@@ -2051,7 +2074,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b08a0ae2-6ae6-4bbf-b7b4-cf8a73885814")
+			(uuid "5de3fcb1-8fd9-4b8a-b3b6-71a56330d437")
 		)
 		(fp_line
 			(start -0.75 0)
@@ -2061,7 +2084,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "be39527f-8902-44de-9220-8f5d7a5a855e")
+			(uuid "0608368c-3afb-4d8b-8be6-ec104ef0b162")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -2071,7 +2094,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d3441869-78bb-4422-8d33-b470537083f2")
+			(uuid "3d933cb8-4dd5-4e23-b407-dba0a853468f")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -2081,7 +2104,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4c6683e2-ebb1-4dfa-88ff-edea403ff409")
+			(uuid "24357ec0-77b1-4fe1-959f-1d241042d172")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -2091,7 +2114,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b2bd114b-3a79-4aa1-833f-e3435b884331")
+			(uuid "d1109b08-84f8-468c-9a60-d031a523e0dc")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -2101,7 +2124,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a7a37d2-34e1-4f0a-9dba-21aa879e4653")
+			(uuid "d7dfbeed-adfa-4cca-9c65-6f9e244b99a6")
 		)
 		(fp_line
 			(start 0.25 -0.4)
@@ -2111,7 +2134,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6387f43c-1f64-4deb-843d-cc8aa5239f20")
+			(uuid "1de9ef83-05c1-4d2e-b2f4-8efe5ce7df46")
 		)
 		(fp_line
 			(start -1.4 -0.9)
@@ -2121,7 +2144,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c6984873-5594-481e-b916-4ccfeb408591")
+			(uuid "4404aadd-5f5a-4e87-9f26-64894886290b")
 		)
 		(fp_line
 			(start 1.4 -0.9)
@@ -2131,12 +2154,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ff11b084-ae91-4a51-a663-45a3ebc7946f")
+			(uuid "45c8c0e5-a513-4477-9663-41246438e393")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.127 -1.905 -90)
 			(layer "F.Fab")
-			(uuid "cb3a582e-dc7a-4182-8a82-5ae63cd609f2")
+			(uuid "7ca3b466-f5a9-4fc4-bf54-36f7528250a2")
 			(effects
 				(font
 					(size 1 1)
@@ -2152,7 +2175,7 @@
 			(net 3 "VOUT")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "08a41fa3-3bce-4c5e-bb4b-6a1db423f2db")
+			(uuid "a9486149-1cd8-4750-b9fa-6ee2f631a4d2")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 270)
@@ -2162,7 +2185,7 @@
 			(net 4 "/SW")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "e1ce5683-1c89-4c4d-a854-d38b2a773f44")
+			(uuid "2734a27f-9042-42b9-a0eb-49a9ce79c200")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
 			(offset

@@ -1,4 +1,4 @@
-(footprint "D_SOD-123F_simple"
+(footprint "D_SOD-123F"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -67,6 +67,16 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2.2 0.3)
+		(end -2.2 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9cc0e95-fd65-4024-86ee-f0552297b724")
+	)
 	(fp_poly
 		(pts
 			(xy 0.25 0.4) (xy 0.25 -0.4) (xy -0.35 0)
