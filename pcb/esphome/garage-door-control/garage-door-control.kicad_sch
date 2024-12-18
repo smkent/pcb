@@ -3058,12 +3058,12 @@
 		(uuid "0824a8c0-aa77-4f70-ba83-fd88dabf296f")
 	)
 	(no_connect
-		(at 238.76 96.52)
-		(uuid "160a7544-7c49-4907-b94c-2c6349522a7e")
-	)
-	(no_connect
 		(at 62.23 40.64)
 		(uuid "27ad6c98-4a07-49fa-becf-a2dcd654adb9")
+	)
+	(no_connect
+		(at 238.76 93.98)
+		(uuid "4d21bcaf-fce5-4289-a9df-356c7eac32b9")
 	)
 	(no_connect
 		(at 62.23 48.26)
@@ -3163,6 +3163,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 96.52) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203d7b94-8c4c-41b1-bc72-a11ce706321c")
+	)
+	(wire
+		(pts
 			(xy 123.19 41.91) (xy 123.19 39.37)
 		)
 		(stroke
@@ -3230,16 +3240,6 @@
 			(type default)
 		)
 		(uuid "2f4ef365-6d5e-4c76-a241-635878a30d6e")
-	)
-	(wire
-		(pts
-			(xy 236.22 93.98) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f10830-3edd-4c0c-bbeb-64dd1543d07d")
 	)
 	(wire
 		(pts
@@ -5231,73 +5231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 236.22 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b17ddab-f591-49b4-a1f5-022cef8ab5e0")
-		(property "Reference" "#PWR011"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cf8761a-412d-4560-bf9e-fb5ed24ce8f5")
-		)
-		(instances
-			(project "garage-door-control"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 242.57 107.95 0)
 		(unit 1)
@@ -5393,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
+		(property "Footprint" "connector:BarrelJack_DC-050_SMT_Horizontal"
 			(at 245.11 94.996 0)
 			(effects
 				(font
@@ -7920,6 +7853,73 @@
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "SM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2622d2b-4f68-46d3-918e-5a563a1a71c8")
+		(property "Reference" "#PWR011"
+			(at 229.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc457fd-2b73-4d7d-9948-8d3c3eb5a32a")
+		)
+		(instances
+			(project "garage-door-control"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
