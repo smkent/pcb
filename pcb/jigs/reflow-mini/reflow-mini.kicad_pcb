@@ -1689,15 +1689,15 @@
 			(uuid "3523ff80-e99e-436e-87da-695337e1888a")
 		)
 	)
-	(footprint "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+	(footprint "package:FSOP-8_3.3x1.7mm_P0.80mm"
 		(layer "F.Cu")
 		(uuid "34f71954-63fd-4752-90f8-5e23908bfdec")
 		(at 158.15 98 180)
 		(property "Reference" "U1"
-			(at 0 -3 0)
+			(at 0 -3 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7c1cfcbd-90a8-4df2-bd2e-9c735c1db42c")
+			(uuid "7fe188dc-cdd8-4d84-af57-6c94211d9165")
 			(effects
 				(font
 					(size 1 1)
@@ -1706,9 +1706,9 @@
 			)
 		)
 		(property "Value" "WS2811F"
-			(at 0 5.26 0)
+			(at 0 5.26 180)
 			(layer "F.Fab")
-			(uuid "2c2ce7bb-4b87-437d-8079-7f1256b6bf09")
+			(uuid "3ad5c414-ea07-478c-a1a3-7f10d3bcdaaf")
 			(effects
 				(font
 					(size 1 1)
@@ -1716,11 +1716,11 @@
 				)
 			)
 		)
-		(property "Footprint" "package:FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL"
+		(property "Footprint" "package:FSOP-8_3.3x1.7mm_P0.80mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b934038-1b37-44cd-aaff-36b250ac2cb8")
+			(uuid "c0556e2d-95e0-4b0a-a86f-468610aefca7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0eab0841-f1a7-41ff-9bb2-42ba0f958b88")
+			(uuid "6335e142-ee6f-4f37-916e-2bb87cf436d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1744,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7f77dd3-cf76-4751-b657-bc8465784d11")
+			(uuid "612f155a-2f65-4c59-8ee4-cfdfbe3807e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77c8b2dd-96ac-4c38-8115-e5e2d2cd7a5b")
+			(uuid "bd501e58-d1b6-45c6-af97-8b862c89d97f")
 			(effects
 				(font
 					(size 1 1)
@@ -1765,29 +1765,30 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*SOP*3.3x1.7mm*P0.80mm*")
 		(path "/1376743f-e067-4b39-8b91-3f50ba99f86e")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.8 1.62)
-			(end -0.8 1.62)
+			(start 0.8 1.75)
+			(end -0.8 1.75)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ea261002-d191-4a7d-bc09-f241af32dddd")
+			(uuid "bb86f347-cb34-4968-b7d5-7a1302329cc5")
 		)
 		(fp_line
-			(start 0.8 -1.63)
-			(end -0.8 -1.63)
+			(start 0.8 -1.75)
+			(end -0.8 -1.75)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2646b785-8a67-41fe-a1fa-97968ed07fc8")
+			(uuid "30d90d3c-d4d9-490e-9ca8-983c9621ef4b")
 		)
 		(fp_poly
 			(pts
@@ -1799,45 +1800,34 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "0d5e2530-6e28-4374-98ab-f6ba8cb67e62")
-		)
-		(fp_circle
-			(center -1.27 -1.78)
-			(end -1.27 -1.65)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "8edacd76-1dab-4798-958b-14970bb1b6c2")
+			(uuid "5481abd0-5103-4e04-a9c4-a76014cb5e94")
 		)
 		(fp_rect
-			(start -1.8 -1.63)
-			(end 1.8 1.62)
+			(start -2.05 -1.9)
+			(end 2.05 1.9)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "d36dabe5-a058-4f49-b01e-a02df5cc205f")
+			(uuid "d075a779-19ed-473f-bb9c-758ef5c73919")
 		)
-		(fp_circle
-			(center -1.43 -1.62)
-			(end -1.43 -1.59)
+		(fp_rect
+			(start -0.85 -1.65)
+			(end 0.85 1.65)
 			(stroke
-				(width 0.06)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "227adde7-761b-494a-bb09-83513b59cfe6")
+			(uuid "aecf79e7-d695-4633-97ac-5c56248a3390")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "b7f5e717-3441-4f68-bbd2-747614bf818c")
+			(uuid "bdcbd95c-68e3-4c18-9b96-61295e71ef57")
 			(effects
 				(font
 					(size 1 1)
@@ -1853,7 +1843,7 @@
 			(net 26 "/WS2811_1_OUTR")
 			(pinfunction "OUTR")
 			(pintype "output")
-			(uuid "4e8ba1f2-5bf1-42d5-9d7b-735118042d80")
+			(uuid "868ff86c-d9a7-41b6-a634-d372548f3e20")
 		)
 		(pad "2" smd roundrect
 			(at -1.31 -0.4 270)
@@ -1863,7 +1853,7 @@
 			(net 27 "/WS2811_1_OUTG")
 			(pinfunction "OUTG")
 			(pintype "output")
-			(uuid "e26d1a7b-21c1-494a-92d9-43f8bc462175")
+			(uuid "87b4f525-ff7e-4e56-a96f-166992a9f2ff")
 		)
 		(pad "3" smd roundrect
 			(at -1.31 0.4 270)
@@ -1873,7 +1863,7 @@
 			(net 28 "/WS2811_1_OUTB")
 			(pinfunction "OUTB")
 			(pintype "output")
-			(uuid "9076d6a4-39b1-43c9-91b2-7a3fe15fcf6b")
+			(uuid "f7120fc4-c5bf-47eb-b390-31c9aa5fa37c")
 		)
 		(pad "4" smd roundrect
 			(at -1.31 1.2 270)
@@ -1883,7 +1873,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5a0f17fa-4d5d-485c-82f8-0b4cc477477e")
+			(uuid "c97b21aa-8eef-469f-84a1-f3752697ccb2")
 		)
 		(pad "5" smd roundrect
 			(at 1.31 1.2 270)
@@ -1893,7 +1883,7 @@
 			(net 11 "WS2811_OUT_5V")
 			(pinfunction "DO")
 			(pintype "output")
-			(uuid "9b58152a-323f-4833-86dc-bf312a289457")
+			(uuid "3a1e4bdd-818a-4164-a281-506907cec815")
 		)
 		(pad "6" smd roundrect
 			(at 1.31 0.4 270)
@@ -1903,7 +1893,7 @@
 			(net 12 "WS2811_IN_5V")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "68f1c692-29ca-4a7a-8282-a97cbf624a9c")
+			(uuid "cc72fa81-a8a8-4634-b915-953262d213b4")
 		)
 		(pad "7" smd roundrect
 			(at 1.31 -0.4 270)
@@ -1913,7 +1903,7 @@
 			(net 2 "unconnected-(U1-NC-Pad7)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(uuid "d410f676-faa7-4753-9401-eb8671c6f93c")
+			(uuid "c2d90d9d-57b2-4e85-8f63-b59b0533fd9c")
 		)
 		(pad "8" smd roundrect
 			(at 1.31 -1.2 270)
@@ -1923,7 +1913,7 @@
 			(net 6 "+5V")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "f0567cff-2ef7-447c-a3ca-c200fea0862e")
+			(uuid "379bd868-fc25-4d01-86a0-7cf50af54e3b")
 		)
 		(model "${KIPRJMOD}/libraries/lcsc.3dshapes/FSOP-8_L3.3-W1.7-P0.80-LS2.9-BL.wrl"
 			(offset
@@ -6079,7 +6069,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/f5575fed-1215-42a3-b100-7f314a88a1a3")
+		(path "/82e6ff50-cc5f-4d56-bc2e-455f0f4e5d07")
 		(sheetname "Root")
 		(sheetfile "reflow-mini.kicad_sch")
 		(attr smd)
