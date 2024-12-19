@@ -457,7 +457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 20.32 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +465,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_SP4T_MountingPin"
-			(at 0 17.78 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 1.27 90)
+			(at 0.254 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +519,7 @@
 		)
 		(symbol "SW_Slide_SP4T_MountingPin_0_0"
 			(circle
-				(center 4.445 -12.7)
+				(center 4.445 -6.35)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -530,7 +530,7 @@
 				)
 			)
 			(circle
-				(center 4.445 -2.54)
+				(center 4.445 -1.27)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -541,7 +541,7 @@
 				)
 			)
 			(circle
-				(center 4.445 2.54)
+				(center 4.445 1.27)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -552,7 +552,7 @@
 				)
 			)
 			(circle
-				(center 4.445 7.62)
+				(center 4.445 3.81)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -563,7 +563,7 @@
 				)
 			)
 			(circle
-				(center 4.445 12.7)
+				(center 4.445 6.35)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -576,8 +576,8 @@
 		)
 		(symbol "SW_Slide_SP4T_MountingPin_0_1"
 			(rectangle
-				(start -5.08 15.24)
-				(end 5.08 -15.24)
+				(start -5.08 8.89)
+				(end 5.08 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -588,7 +588,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 2.54) (xy 2.54 2.54)
+					(xy -3.556 1.27) (xy 2.794 1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -600,7 +600,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 12.7) (xy -3.81 2.54)
+					(xy -3.556 6.35) (xy -3.556 1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -612,7 +612,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 12.7) (xy 2.54 12.7)
+					(xy -3.556 6.35) (xy 2.794 6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -624,7 +624,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy 0 -2.54)
+					(xy -2.286 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -636,7 +636,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 7.62) (xy -2.54 -2.54)
+					(xy -2.286 3.81) (xy -2.286 -1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -648,7 +648,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 7.62) (xy 2.54 7.62)
+					(xy -2.286 3.81) (xy 2.794 3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -660,7 +660,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -7.62) (xy 2.54 -7.62)
+					(xy -1.016 -3.81) (xy 2.794 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -672,7 +672,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy -1.27 -7.62)
+					(xy -1.016 1.27) (xy -1.016 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -684,7 +684,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -12.7) (xy 2.54 -12.7)
+					(xy 0.254 -6.35) (xy 2.794 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -696,7 +696,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 0 -12.7)
+					(xy 0.254 -1.27) (xy 0.254 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -708,7 +708,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 2.54 -2.54)
+					(xy 0.254 -1.27) (xy 2.794 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -720,19 +720,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -12.7) (xy 1.27 -12.065) (xy 1.27 -13.335) (xy 2.54 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -7.62) (xy 1.27 -6.985) (xy 1.27 -8.255) (xy 2.54 -7.62)
+					(xy 2.794 -6.35) (xy 1.524 -5.715) (xy 1.524 -6.985) (xy 2.794 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -744,7 +732,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 1.27 -1.905) (xy 1.27 -3.175) (xy 2.54 -2.54)
+					(xy 2.794 -3.81) (xy 1.524 -3.175) (xy 1.524 -4.445) (xy 2.794 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -756,7 +744,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 1.27 3.175) (xy 1.27 1.905) (xy 2.54 2.54)
+					(xy 2.794 -1.27) (xy 1.524 -0.635) (xy 1.524 -1.905) (xy 2.794 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -768,7 +756,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 7.62) (xy 1.27 8.255) (xy 1.27 6.985) (xy 2.54 7.62)
+					(xy 2.794 1.27) (xy 1.524 1.905) (xy 1.524 0.635) (xy 2.794 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -780,7 +768,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 12.7) (xy 1.27 13.335) (xy 1.27 12.065) (xy 2.54 12.7)
+					(xy 2.794 3.81) (xy 1.524 4.445) (xy 1.524 3.175) (xy 2.794 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 6.35) (xy 1.524 6.985) (xy 1.524 5.715) (xy 2.794 6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -791,7 +791,7 @@
 				)
 			)
 			(circle
-				(center 4.445 -7.62)
+				(center 4.445 -3.81)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -805,7 +805,7 @@
 		(symbol "SW_Slide_SP4T_MountingPin_1_1"
 			(polyline
 				(pts
-					(xy -1.016 -15.875) (xy 1.016 -15.875)
+					(xy -1.016 -9.652) (xy 1.016 -9.652)
 				)
 				(stroke
 					(width 0.1524)
@@ -816,7 +816,7 @@
 				)
 			)
 			(text "Mounting"
-				(at 0 -15.494 0)
+				(at 0 -9.271 0)
 				(effects
 					(font
 						(size 0.381 0.381)
@@ -824,7 +824,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -12.7 180)
+				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -842,7 +842,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -7.62 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -860,7 +860,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -878,7 +878,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -896,7 +896,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "E"
 					(effects
@@ -914,7 +914,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 12.7 180)
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "F"
 					(effects
@@ -932,8 +932,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -18.415 90)
-				(length 2.54)
+				(at 0 -12.7 90)
+				(length 3.048)
 				(name "MountPin"
 					(effects
 						(font
@@ -1027,7 +1027,7 @@
 	(symbol "SS-14D01-G020"
 		(extends "SW_Slide_SP4T_MountingPin")
 		(property "Reference" "SW"
-			(at 0 20.32 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_SP4T_MountingPin"
-			(at 0 17.78 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
