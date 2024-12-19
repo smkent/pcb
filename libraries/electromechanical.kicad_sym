@@ -457,7 +457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 15.24 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +465,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_SP4T_MountingPin"
-			(at 0 12.7 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1.27 5.08 0)
+			(at 0 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -7.62 5.08 90)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +519,7 @@
 		)
 		(symbol "SW_Slide_SP4T_MountingPin_0_0"
 			(circle
-				(center -12.7 0.508)
+				(center 4.445 -12.7)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -530,7 +530,7 @@
 				)
 			)
 			(circle
-				(center -2.54 0.508)
+				(center 4.445 -2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -541,7 +541,7 @@
 				)
 			)
 			(circle
-				(center 2.54 0.508)
+				(center 4.445 2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -552,7 +552,7 @@
 				)
 			)
 			(circle
-				(center 7.62 0.508)
+				(center 4.445 7.62)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -563,7 +563,7 @@
 				)
 			)
 			(circle
-				(center 12.7 0.508)
+				(center 4.445 12.7)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -576,8 +576,8 @@
 		)
 		(symbol "SW_Slide_SP4T_MountingPin_0_1"
 			(rectangle
-				(start -15.24 10.16)
-				(end 15.24 0)
+				(start -5.08 15.24)
+				(end 5.08 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -586,8 +586,212 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 12.7) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 12.7) (xy 2.54 12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 7.62) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 7.62) (xy 2.54 7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -7.62) (xy 2.54 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -12.7) (xy 2.54 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -12.7) (xy 1.27 -12.065) (xy 1.27 -13.335) (xy 2.54 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -7.62) (xy 1.27 -6.985) (xy 1.27 -8.255) (xy 2.54 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 1.27 -1.905) (xy 1.27 -3.175) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 1.27 3.175) (xy 1.27 1.905) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 7.62) (xy 1.27 8.255) (xy 1.27 6.985) (xy 2.54 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 12.7) (xy 1.27 13.335) (xy 1.27 12.065) (xy 2.54 12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
-				(center -7.62 0.508)
+				(center 4.445 -7.62)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -597,227 +801,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -12.7 5.08) (xy -12.7 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 6.35) (xy -7.62 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 5.08) (xy -12.7 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 5.08) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 7.62) (xy -2.54 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 6.35) (xy -7.62 6.35)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 8.89) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 7.62) (xy -2.54 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 7.62) (xy 7.62 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 8.89) (xy 2.54 8.89)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 8.89) (xy 12.7 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 0) (xy 17.78 5.08) (xy 15.24 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 2.54) (xy -12.065 3.81) (xy -13.335 3.81) (xy -12.7 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -6.985 3.81) (xy -8.255 3.81) (xy -7.62 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.54) (xy -1.905 3.81) (xy -3.175 3.81) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 3.175 3.81) (xy 1.905 3.81) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 2.54) (xy 8.255 3.81) (xy 6.985 3.81) (xy 7.62 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 13.335 3.81) (xy 12.065 3.81) (xy 12.7 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 		)
 		(symbol "SW_Slide_SP4T_MountingPin_1_1"
 			(polyline
 				(pts
-					(xy 16.764 5.334) (xy 18.796 5.334)
+					(xy -1.016 -15.875) (xy 1.016 -15.875)
 				)
 				(stroke
 					(width 0.1524)
@@ -828,7 +816,7 @@
 				)
 			)
 			(text "Mounting"
-				(at 17.78 5.715 0)
+				(at 0 -15.494 0)
 				(effects
 					(font
 						(size 0.381 0.381)
@@ -836,7 +824,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 90)
+				(at 7.62 -12.7 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -854,7 +842,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 90)
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -872,7 +860,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 90)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -890,7 +878,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -2.54 90)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -908,7 +896,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 90)
+				(at 7.62 7.62 180)
 				(length 2.54)
 				(name "E"
 					(effects
@@ -926,7 +914,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 90)
+				(at 7.62 12.7 180)
 				(length 2.54)
 				(name "F"
 					(effects
@@ -944,7 +932,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -2.54 90)
+				(at 0 -18.415 90)
 				(length 2.54)
 				(name "MountPin"
 					(effects
@@ -1039,7 +1027,7 @@
 	(symbol "SS-14D01-G020"
 		(extends "SW_Slide_SP4T_MountingPin")
 		(property "Reference" "SW"
-			(at 0 15.24 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1035,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_SP4T_MountingPin"
-			(at 0 12.7 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
