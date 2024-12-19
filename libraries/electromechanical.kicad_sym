@@ -473,7 +473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0.254 1.27 90)
+			(at 0.254 -1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,6 +530,17 @@
 				)
 			)
 			(circle
+				(center 4.445 -3.81)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
 				(center 4.445 -1.27)
 				(radius 0.508)
 				(stroke
@@ -542,17 +553,6 @@
 			)
 			(circle
 				(center 4.445 1.27)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 4.445 3.81)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -588,7 +588,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 1.27) (xy 2.794 1.27)
+					(xy -3.556 -6.35) (xy -3.556 -1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -600,7 +600,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 6.35) (xy -3.556 1.27)
+					(xy -3.556 -6.35) (xy 2.794 -6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -612,7 +612,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 6.35) (xy 2.794 6.35)
+					(xy -3.556 -1.27) (xy 2.794 -1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -624,7 +624,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 -1.27) (xy 0.254 -1.27)
+					(xy -2.286 -3.81) (xy -2.286 1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -636,7 +636,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 3.81) (xy -2.286 -1.27)
+					(xy -2.286 -3.81) (xy 2.794 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -648,7 +648,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 3.81) (xy 2.794 3.81)
+					(xy -2.286 1.27) (xy 0.254 1.27)
 				)
 				(stroke
 					(width 0.127)
@@ -660,7 +660,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -3.81) (xy 2.794 -3.81)
+					(xy -1.016 -1.27) (xy -1.016 3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -672,7 +672,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 1.27) (xy -1.016 -3.81)
+					(xy -1.016 3.81) (xy 2.794 3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -684,7 +684,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -6.35) (xy 2.794 -6.35)
+					(xy 0.254 1.27) (xy 0.254 6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -696,7 +696,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.27) (xy 0.254 -6.35)
+					(xy 0.254 1.27) (xy 2.794 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -708,7 +708,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.27) (xy 2.794 -1.27)
+					(xy 0.254 6.35) (xy 2.794 6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -720,19 +720,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -6.35) (xy 1.524 -5.715) (xy 1.524 -6.985) (xy 2.794 -6.35)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.794 -3.81) (xy 1.524 -3.175) (xy 1.524 -4.445) (xy 2.794 -3.81)
+					(xy 2.794 -6.35) (xy 1.524 -6.985) (xy 1.524 -5.715) (xy 2.794 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -744,7 +732,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -1.27) (xy 1.524 -0.635) (xy 1.524 -1.905) (xy 2.794 -1.27)
+					(xy 2.794 -3.81) (xy 1.524 -4.445) (xy 1.524 -3.175) (xy 2.794 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -756,7 +744,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 1.27) (xy 1.524 1.905) (xy 1.524 0.635) (xy 2.794 1.27)
+					(xy 2.794 -1.27) (xy 1.524 -1.905) (xy 1.524 -0.635) (xy 2.794 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -768,7 +756,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 3.81) (xy 1.524 4.445) (xy 1.524 3.175) (xy 2.794 3.81)
+					(xy 2.794 1.27) (xy 1.524 0.635) (xy 1.524 1.905) (xy 2.794 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -780,7 +768,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 6.35) (xy 1.524 6.985) (xy 1.524 5.715) (xy 2.794 6.35)
+					(xy 2.794 3.81) (xy 1.524 3.175) (xy 1.524 4.445) (xy 2.794 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 6.35) (xy 1.524 5.715) (xy 1.524 6.985) (xy 2.794 6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -791,7 +791,7 @@
 				)
 			)
 			(circle
-				(center 4.445 -3.81)
+				(center 4.445 3.81)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -824,7 +824,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -6.35 180)
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -842,7 +842,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -860,7 +860,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -878,7 +878,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -896,7 +896,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "E"
 					(effects
@@ -914,7 +914,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 6.35 180)
+				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "F"
 					(effects
