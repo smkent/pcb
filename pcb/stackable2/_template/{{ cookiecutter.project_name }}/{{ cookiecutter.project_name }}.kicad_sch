@@ -319,8 +319,8 @@
 		)
 	)
 	(image
-		(at 162.56 179.07)
-		(scale 0.37481)
+		(at 277.876 172.466)
+		(scale 0.1691)
 		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
 			"AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAACA"
@@ -1027,10 +1027,10 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 162.56 195.072 0)
+		(at 277.495 180.34 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.016 1.016)
 				(thickness 0.4)
 				(bold yes)
 				(color 0 153 176 1)
@@ -1106,73 +1106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 27.94 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "603e48a5-d10b-4448-b7ea-4a731c8b02ed")
-		(property "Reference" "#PWR06"
-			(at 24.13 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 31.75 189.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 27.94 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "125dcd9a-a6af-4739-83ac-7a7806655442")
-		)
-		(instances
-			(project "{{ cookiecutter.project_name }}"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 194.31 90)
 		(unit 1)
@@ -1234,6 +1167,73 @@
 			(project "{{ cookiecutter.project_name }}"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 27.94 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84dd4ed7-62db-410f-8264-3fa706eeba13")
+		(property "Reference" "#PWR03"
+			(at 24.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 27.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "875a7ddd-f9d1-406b-b714-8283b98c5041")
+		)
+		(instances
+			(project "{{ cookiecutter.project_name }}"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1315,7 +1315,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bac63755-4b65-4d58-987a-c108f338e104")
+		(uuid "a0811778-c55c-4ec3-9024-34f90782f395")
 		(property "Reference" "#FLG03"
 			(at 26.035 189.23 0)
 			(effects
@@ -1362,7 +1362,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "338132ec-164a-4d7f-849c-263884c6f62a")
+			(uuid "7a4bd4bf-b61d-408a-950a-d4cac4fa1ebd")
 		)
 		(instances
 			(project "{{ cookiecutter.project_name }}"
