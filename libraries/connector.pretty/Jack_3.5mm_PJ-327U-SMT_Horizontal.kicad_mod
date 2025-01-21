@@ -316,6 +316,7 @@
 		(size 1.8 2.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "b84c3455-e57c-4b83-93b9-419cfdc65ec0")
 	)
 	(pad "S" smd roundrect
@@ -323,6 +324,7 @@
 		(size 1.8 2.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "6d24cf1e-b273-4a95-bbfb-04bbab136289")
 	)
 	(pad "S" smd roundrect
@@ -330,6 +332,7 @@
 		(size 1.8 2.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "90b1fe51-61a4-4178-bc44-940531b8edc1")
 	)
 	(pad "T" smd roundrect
@@ -337,6 +340,7 @@
 		(size 1.8 2.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "535ea3f3-e145-4caf-a272-9b804d2dd8cc")
 	)
 	(pad "TN" smd roundrect
@@ -344,6 +348,7 @@
 		(size 1.8 2.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "01f4db7e-506d-4b2c-add2-e328c93cc335")
 	)
 	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/AUDIO-SMD_L12.0-W6.0-H5.7-5P.wrl"
