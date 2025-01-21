@@ -164,6 +164,7 @@
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "6e3ebec7-83a3-4d91-8905-4b765cecbe9a")
 	)
 	(pad "A4" smd roundrect
@@ -220,6 +221,7 @@
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
 		(uuid "9186e189-4f60-4225-9538-5b0db14606e6")
 	)
 	(pad "B4" smd roundrect
@@ -277,6 +279,7 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "f5592606-4e9d-4b62-afac-565ec9879275")
 	)
 	(pad "S1" thru_hole oval
@@ -285,6 +288,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "35603db2-7858-452d-90f0-c991ba6d7717")
 	)
 	(pad "S1" thru_hole oval
@@ -293,6 +297,7 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "6a8af92a-66ec-4429-b364-6c69de6a7f23")
 	)
 	(pad "S1" thru_hole oval
@@ -301,6 +306,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "78dd2ee1-deea-4d54-83ce-33895a8fe3a2")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
