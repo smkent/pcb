@@ -1,9 +1,9 @@
-(footprint "Jack_3.5mm_PJ-327U-SMT_Horizontal"
+(footprint "Jack_3.5mm_PJ-327U-SMT_Horizontal_EdgeCut"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "TRS 3.5mm, horizontal, SMD")
+	(descr "TRS 3.5mm, horizontal, SMD, with edge cuts")
 	(tags "TRS audio jack stereo horizontal")
 	(property "Reference" "REF**"
 		(at 0 -10 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_3.5mm_PJ-327U-SMT_Horizontal"
+	(property "Value" "Jack_3.5mm_PJ-327U-SMT_Horizontal_EdgeCut"
 		(at 0 8.4 0)
 		(layer "F.Fab")
 		(uuid "e690e8ec-c87e-4fbf-94de-7cd052013873")
@@ -86,7 +86,7 @@
 	)
 	(fp_line
 		(start -3.1 -5.44)
-		(end -3.1 -6.04)
+		(end -3.1 -6.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,6 +125,16 @@
 		(uuid "117cc703-efb7-4fcd-9116-1f272604c882")
 	)
 	(fp_line
+		(start -2.4 -6.7)
+		(end -3.1 -6.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee7a4f5a-d404-4443-a75d-3f032110465d")
+	)
+	(fp_line
 		(start 3.05 5.75)
 		(end 3.05 5.55)
 		(stroke
@@ -133,6 +143,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9fd14e49-2f15-447d-beac-f5daabc1bd88")
+	)
+	(fp_line
+		(start 3.1 -6.7)
+		(end 2.4 -6.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ebe0334-0373-475b-8ffe-416a50253a0d")
+	)
+	(fp_line
+		(start 3.1 -6.7)
+		(end 3.1 -6.04)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4de56b46-8dbd-49af-9dc2-69e065616200")
 	)
 	(fp_line
 		(start 3.1 -6.04)
@@ -175,14 +205,98 @@
 		(uuid "14ef8753-6f96-403f-a8fe-01d68a4feb96")
 	)
 	(fp_line
-		(start -2.85 -6.6)
-		(end 2.85 -6.6)
+		(start -2.6 -8)
+		(end -5 -8)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
-		(layer "Cmts.User")
-		(uuid "9151310f-1954-4ee3-9e5d-7c1f90409e82")
+		(layer "Edge.Cuts")
+		(uuid "f879a514-72bc-44e3-a360-e629cc86a41d")
+	)
+	(fp_line
+		(start -2.2 -6.65)
+		(end -2.2 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "748a8416-ddf8-4fcb-89e1-ab7d705e5e34")
+	)
+	(fp_line
+		(start -1.8 -6.25)
+		(end 1.8 -6.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "75594e1c-cba9-4f4f-9846-a2020efbbdf7")
+	)
+	(fp_line
+		(start 2.2 -6.65)
+		(end 2.2 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bfc89e5f-5948-442a-b6c4-4f302dce246e")
+	)
+	(fp_line
+		(start 2.6 -8)
+		(end 5 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f48b5d87-67bb-4545-a675-421d887a35af")
+	)
+	(fp_arc
+		(start -2.6 -8)
+		(mid -2.317157 -7.882843)
+		(end -2.2 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "934ace99-cf4e-4607-ac83-27d7b5248198")
+	)
+	(fp_arc
+		(start -1.8 -6.25)
+		(mid -2.082843 -6.367157)
+		(end -2.2 -6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ecc0641-dc84-435e-a131-daff3199ab3b")
+	)
+	(fp_arc
+		(start 2.2 -7.6)
+		(mid 2.317157 -7.882843)
+		(end 2.6 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "151aa699-1c19-4cd8-9521-bf0545309c8e")
+	)
+	(fp_arc
+		(start 2.2 -6.65)
+		(mid 2.082843 -6.367157)
+		(end 1.8 -6.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc751bca-bc53-4f2a-ab13-3cde536fbad4")
 	)
 	(fp_poly
 		(pts
@@ -198,16 +312,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "4477c868-da00-4977-99a6-b2d15c9f146a")
-	)
-	(fp_line
-		(start -2.85 -6.6)
-		(end 2.85 -6.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "7973656a-5b37-43ea-a255-7f0ef6c0eac5")
 	)
 	(fp_circle
 		(center 0 -3.6)
@@ -243,17 +347,16 @@
 		(layer "F.Fab")
 		(uuid "1f2bd2e1-e109-49dd-af1b-2ada79eb35bd")
 	)
-	(fp_text user "Inset"
-		(at 0 -6.25 0)
-		(layer "Cmts.User")
-		(uuid "b416ffe5-391c-4d20-be83-693c7db1cbde")
+	(fp_text user "PCB edge"
+		(at 0 -7.15 180)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "dc340fd3-0b9e-41ee-a4db-f154bab76d69")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify top)
 		)
 	)
 	(fp_text user "${REFERENCE}"
