@@ -22,7 +22,7 @@ class MainBuilder:
     def env_vars(self) -> dict[str, str]:
         if self.is_ci:
             return os.environ
-        return {v: os.environ[v] for v in ["DISPLAY", "PATH"]}
+        return {v: os.environ[v] for v in ["DISPLAY", "HOME", "PATH"]}
 
     @functools.cached_property
     def env(self) -> SConsEnvironment:
