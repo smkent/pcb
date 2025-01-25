@@ -1926,19 +1926,19 @@
 		(uuid "fabecc11-efe3-4101-823d-48140262558f")
 	)
 	(no_connect
-		(at 256.54 80.01)
+		(at 261.62 80.01)
 		(uuid "01397f0a-ba0a-45a7-9523-22279555e271")
 	)
 	(no_connect
-		(at 256.54 100.33)
+		(at 261.62 100.33)
 		(uuid "79c9db33-e35d-49f3-b6eb-ae29a65bb123")
 	)
 	(no_connect
-		(at 256.54 59.69)
+		(at 261.62 59.69)
 		(uuid "a153c5c7-afd0-4af3-8e41-b08b7d6efeb5")
 	)
 	(no_connect
-		(at 256.54 120.65)
+		(at 261.62 120.65)
 		(uuid "ea73c79d-c5ab-4a78-83ac-3d1a3d4b6513")
 	)
 	(wire
@@ -2093,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 52.07) (xy 256.54 52.07)
+			(xy 242.57 52.07) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 72.39) (xy 256.54 72.39)
+			(xy 242.57 72.39) (xy 261.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 113.03) (xy 256.54 113.03)
+			(xy 242.57 113.03) (xy 261.62 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 92.71) (xy 256.54 92.71)
+			(xy 242.57 92.71) (xy 261.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2385,7 @@
 		(uuid "65dacbdc-f19a-4d2e-a7a2-98a17cd8b573")
 	)
 	(label "TX1_5V_J"
-		(at 247.65 52.07 0)
+		(at 242.57 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,7 +2405,7 @@
 		(uuid "a57489ae-045a-46e7-8ce4-e01c536afaf6")
 	)
 	(label "TX4_5V_J"
-		(at 247.65 113.03 0)
+		(at 242.57 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2415,7 @@
 		(uuid "dcc96743-b311-454c-bad7-491947c3bd9a")
 	)
 	(label "TX2_5V_J"
-		(at 247.65 72.39 0)
+		(at 242.57 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 		(uuid "dda5af3a-cbb6-4c77-b098-0bb50b9561ca")
 	)
 	(label "TX3_5V_J"
-		(at 247.65 92.71 0)
+		(at 242.57 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2446,7 +2446,7 @@
 	)
 	(global_label "TX1_A"
 		(shape input)
-		(at 256.54 57.15 180)
+		(at 261.62 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2456,7 +2456,7 @@
 		)
 		(uuid "19759f49-b80c-4e7f-8092-0dce2831274a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.6001 57.15 0)
+			(at 251.6801 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 	)
 	(global_label "TX3_A"
 		(shape input)
-		(at 256.54 97.79 180)
+		(at 261.62 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2478,7 +2478,7 @@
 		)
 		(uuid "1a6bde9e-6c61-46f4-b1ac-658ce04655dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.6001 97.79 0)
+			(at 251.6801 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2578,7 @@
 	)
 	(global_label "TX2_A"
 		(shape input)
-		(at 256.54 77.47 180)
+		(at 261.62 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2588,7 +2588,7 @@
 		)
 		(uuid "93ffb49d-29c3-43fb-86d6-dd998e71e588")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.6001 77.47 0)
+			(at 251.6801 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 	)
 	(global_label "TX4_A"
 		(shape input)
-		(at 256.54 118.11 180)
+		(at 261.62 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,7 +2676,7 @@
 		)
 		(uuid "dc1e49dd-92bd-4e6e-add7-044d0f436064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.6001 118.11 0)
+			(at 251.6801 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 110.49 270)
+		(at 261.62 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2888,7 +2888,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a0e9d98-38ac-4b1a-9928-e6156acbc555")
 		(property "Reference" "#PWR090"
-			(at 250.19 110.49 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 110.4899 90)
+			(at 257.81 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 90.17 270)
+		(at 261.62 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3025,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f86df38-e576-4678-b5c8-2e40a1fd34a4")
 		(property "Reference" "#PWR089"
-			(at 250.19 90.17 0)
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 90.1699 90)
+			(at 257.81 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 90.17 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 90.17 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 90.17 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "connector:AudioJack3_SwitchT_PJ-327U")
-		(at 261.62 113.03 0)
+		(at 266.7 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3299,7 +3299,7 @@
 		(dnp no)
 		(uuid "1878f2bf-afd8-4166-a479-570ea9e1452d")
 		(property "Reference" "J9"
-			(at 263.525 105.41 0)
+			(at 268.605 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3307,7 @@
 			)
 		)
 		(property "Value" "PJ-327U"
-			(at 263.525 107.95 0)
+			(at 268.605 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "Footprint" "connector:Jack_3.5mm_PJ-327U-SMT_Horizontal"
-			(at 261.62 113.03 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 113.03 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 261.62 113.03 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "LCSC Part" "C397453"
-			(at 261.62 113.03 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3443,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 243.84 92.71 0)
+		(at 238.76 92.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3452,7 +3452,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d7f62e7-05aa-436a-b860-79990877787c")
 		(property "Reference" "JP3"
-			(at 243.84 87.63 0)
+			(at 238.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 243.84 90.17 0)
+			(at 238.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 243.84 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3486,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 243.84 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 49.53 270)
+		(at 261.62 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3520,7 +3520,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ecbcfde-b4d1-483f-a337-f064d3e91882")
 		(property "Reference" "#PWR085"
-			(at 250.19 49.53 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 49.5299 90)
+			(at 257.81 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 49.53 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 49.53 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 49.53 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3918,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 240.03 92.71 90)
+		(at 234.95 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,7 +3927,7 @@
 		(fields_autoplaced yes)
 		(uuid "482f2c06-4fb7-49c9-a99e-5517b480f93e")
 		(property "Reference" "#PWR080"
-			(at 243.84 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 236.22 92.7099 90)
+			(at 231.14 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 92.71 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 92.71 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 92.71 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 243.84 113.03 0)
+		(at 238.76 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4064,7 +4064,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ce9234-48cd-4980-a110-e15207b1010b")
 		(property "Reference" "JP4"
-			(at 243.84 107.95 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4072,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 243.84 110.49 0)
+			(at 238.76 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4080,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 243.84 113.03 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 113.03 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4098,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 243.84 113.03 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 	)
 	(symbol
 		(lib_id "connector:AudioJack3_SwitchT_PJ-327U")
-		(at 261.62 72.39 0)
+		(at 266.7 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4132,7 +4132,7 @@
 		(dnp no)
 		(uuid "55f9338c-1c74-4cd3-b3f6-e4b80aa490ed")
 		(property "Reference" "J7"
-			(at 263.525 64.77 0)
+			(at 268.605 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Value" "PJ-327U"
-			(at 263.525 67.31 0)
+			(at 268.605 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4148,7 @@
 			)
 		)
 		(property "Footprint" "connector:Jack_3.5mm_PJ-327U-SMT_Horizontal"
-			(at 261.62 72.39 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 72.39 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4166,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 261.62 72.39 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4175,7 @@
 			)
 		)
 		(property "LCSC Part" "C397453"
-			(at 261.62 72.39 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4416,7 @@
 	)
 	(symbol
 		(lib_id "connector:AudioJack3_SwitchT_PJ-327U")
-		(at 261.62 92.71 0)
+		(at 266.7 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4425,7 +4425,7 @@
 		(dnp no)
 		(uuid "7e96f0a3-d3ef-42bf-bf56-413a463b38bc")
 		(property "Reference" "J8"
-			(at 263.525 85.09 0)
+			(at 268.605 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4433,7 @@
 			)
 		)
 		(property "Value" "PJ-327U"
-			(at 263.525 87.63 0)
+			(at 268.605 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4441,7 @@
 			)
 		)
 		(property "Footprint" "connector:Jack_3.5mm_PJ-327U-SMT_Horizontal"
-			(at 261.62 92.71 0)
+			(at 266.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 92.71 0)
+			(at 266.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 261.62 92.71 0)
+			(at 266.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "LCSC Part" "C397453"
-			(at 261.62 92.71 0)
+			(at 266.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4499,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 240.03 72.39 90)
+		(at 234.95 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4508,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "821e56d4-35d5-44d6-91b9-4790e54b2b7c")
 		(property "Reference" "#PWR075"
-			(at 243.84 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4517,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 236.22 72.3899 90)
+			(at 231.14 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 72.39 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 72.39 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 72.39 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5044,7 @@
 	)
 	(symbol
 		(lib_id "connector:AudioJack3_SwitchT_PJ-327U")
-		(at 261.62 52.07 0)
+		(at 266.7 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5053,7 +5053,7 @@
 		(dnp no)
 		(uuid "a23842a7-739f-4f59-a788-eff8f1a89b28")
 		(property "Reference" "J6"
-			(at 263.525 44.45 0)
+			(at 268.605 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5061,7 @@
 			)
 		)
 		(property "Value" "PJ-327U"
-			(at 263.525 46.99 0)
+			(at 268.605 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5069,7 @@
 			)
 		)
 		(property "Footprint" "connector:Jack_3.5mm_PJ-327U-SMT_Horizontal"
-			(at 261.62 52.07 0)
+			(at 266.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 52.07 0)
+			(at 266.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5087,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 261.62 52.07 0)
+			(at 266.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5096,7 @@
 			)
 		)
 		(property "LCSC Part" "C397453"
-			(at 261.62 52.07 0)
+			(at 266.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5637,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 240.03 113.03 90)
+		(at 234.95 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5646,7 +5646,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5e58718-0cb6-4dd9-b6ce-777503f6ca63")
 		(property "Reference" "#PWR082"
-			(at 243.84 113.03 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +5655,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 236.22 113.0299 90)
+			(at 231.14 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 113.03 0)
+			(at 234.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 113.03 0)
+			(at 234.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 113.03 0)
+			(at 234.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5704,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 69.85 270)
+		(at 261.62 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5713,7 +5713,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa42165-81c6-4314-ba46-d52cecf2cec4")
 		(property "Reference" "#PWR088"
-			(at 250.19 69.85 0)
+			(at 255.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 69.8499 90)
+			(at 257.81 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 69.85 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 69.85 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 69.85 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5841,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 243.84 72.39 0)
+		(at 238.76 72.39 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5850,7 +5850,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e6b932-30fb-4e4c-996c-f598345c736a")
 		(property "Reference" "JP2"
-			(at 243.84 67.31 0)
+			(at 238.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5858,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 243.84 69.85 0)
+			(at 238.76 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 243.84 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5884,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 243.84 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5909,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 240.03 52.07 90)
+		(at 234.95 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5918,7 +5918,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d99451-5368-4720-9e6e-49d18445ad89")
 		(property "Reference" "#PWR074"
-			(at 243.84 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 236.22 52.0699 90)
+			(at 231.14 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 52.07 0)
+			(at 234.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 52.07 0)
+			(at 234.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 52.07 0)
+			(at 234.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5976,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 243.84 52.07 0)
+		(at 238.76 52.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5985,7 +5985,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd8845c9-1b7d-4699-a00d-da8160b0e30e")
 		(property "Reference" "JP1"
-			(at 243.84 46.99 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5993,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 243.84 49.53 0)
+			(at 238.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 243.84 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6019,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 243.84 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
