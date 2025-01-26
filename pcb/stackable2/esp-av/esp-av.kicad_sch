@@ -2821,6 +2821,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "connector:STEMMA-Signal"
 			(pin_numbers hide)
 			(pin_names
@@ -10985,6 +11130,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 168.91 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "377d09f9-9f57-4f45-8fc3-76eaacf61bfd")
+		(property "Reference" "SW2"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Boot"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20335d06-f966-4599-a4a2-b01550aaf069")
+		)
+		(pin "1"
+			(uuid "95295285-6c3c-4741-b4e9-68ff269a3530")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 223.52 132.08 0)
 		(unit 1)
@@ -12137,7 +12350,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 96.52 58.42 0)
+		(at 119.38 88.9 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12146,7 +12359,7 @@
 		(fields_autoplaced yes)
 		(uuid "60696ec4-2d2d-4c2c-ad3a-beb0d52d6aec")
 		(property "Reference" "RN3"
-			(at 99.06 57.1499 0)
+			(at 121.92 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12368,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 99.06 59.6899 0)
+			(at 121.92 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,7 +12377,7 @@
 			)
 		)
 		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
-			(at 94.488 58.42 90)
+			(at 117.348 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,7 +12386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 58.42 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +12395,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 96.52 58.42 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,72 +12607,6 @@
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "637fa378-2ddd-4bc5-91fb-5b079b2dd0f0")
-		(property "Reference" "#PWR019"
-			(at 168.91 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f383fd11-5475-42c6-a691-b9185a9339db")
-		)
-		(instances
-			(project "esp-av"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15606,77 +15753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "electromechanical:SW_Push_MountingPin")
-		(at 168.91 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de9e39ae-c28d-4f15-9fa6-a4ad25790535")
-		(property "Reference" "SW2"
-			(at 168.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Boot"
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "electromechanical:SW_Push_1P1T_NO_3.3x3.3mm_MP"
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and mounting pin(s)"
-			(at 168.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "b237b56a-1e47-47fd-bed3-a8af9b255154")
-		)
-		(pin "1"
-			(uuid "c2e5c22e-7edf-4c0b-851e-869d06a66eef")
-		)
-		(pin "2"
-			(uuid "7f0d40ae-1691-4cf1-932b-23febee81f6f")
-		)
-		(instances
-			(project "esp-av"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 102.87 0)
 		(unit 1)
@@ -16714,7 +16790,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 119.38 88.9 0)
+		(at 96.52 58.42 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16723,7 +16799,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe96d20b-bed8-4ae9-a468-43650a709854")
 		(property "Reference" "RN3"
-			(at 121.92 87.6299 0)
+			(at 99.06 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16732,7 +16808,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 121.92 90.1699 0)
+			(at 99.06 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16741,7 +16817,7 @@
 			)
 		)
 		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
-			(at 117.348 88.9 90)
+			(at 94.488 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,7 +16826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 88.9 0)
+			(at 96.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,7 +16835,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 119.38 88.9 0)
+			(at 96.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
