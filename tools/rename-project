@@ -33,7 +33,7 @@ class KiCADProjectRename:
             # Update file name instances within project files
             if dest.suffix.startswith(".kicad_"):
                 file_contents = dest.read_text().replace(
-                    self.args.source.stem, self.args.destination.stem
+                    self.args.source.name, self.args.destination.name
                 )
                 dest.write_text(file_contents)
         subprocess.run(["git", "add", "-u", self.args.destination], check=True)
@@ -60,8 +60,8 @@ class KiCADProjectRename:
     def enumerate_project_files(self) -> Iterator[Path]:
         in_dir = self.args.source if self.args.copy else self.args.destination
         for kicad_extension in ["pcb", "pro", "sch"]:
-            source_fn = f"{self.args.source.stem}.kicad_{kicad_extension}"
-            dest_fn = f"{self.args.destination.stem}.kicad_{kicad_extension}"
+            source_fn = f"{self.args.source.name}.kicad_{kicad_extension}"
+            dest_fn = f"{self.args.destination.name}.kicad_{kicad_extension}"
             yield [
                 in_dir / source_fn,
                 self.args.destination / dest_fn,
