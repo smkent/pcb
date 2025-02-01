@@ -9168,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-1606UBC"
+		(property "Value" "XL-1606UWC"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "b8c8cb3e-9d79-4ed0-acd3-1e3ef74b9578")
@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UWC_C965866.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9203,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, Blue, Side-Emitter package"
+		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9215,7 +9215,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965865"
+		(property "LCSC Part" "C965866"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13612,7 +13612,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/d5e87c23-6572-4672-aeef-9df5a9fcb882")
+		(path "/61bd3ae4-30c6-473e-b026-53bdeb3e2a7c")
 		(sheetname "Root")
 		(sheetfile "esp-3dp.kicad_sch")
 		(attr smd)

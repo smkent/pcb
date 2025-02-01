@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(symbol "discrete:XL-1606UBC"
+		(symbol "discrete:XL-1606UWC"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -4852,7 +4852,7 @@
 					)
 				)
 			)
-			(property "Value" "XL-1606UBC"
+			(property "Value" "XL-1606UWC"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -4869,7 +4869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UWC_C965866.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4878,7 +4878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, Blue, Side-Emitter package"
+			(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4887,7 +4887,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C965865"
+			(property "LCSC Part" "C965866"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4914,7 +4914,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XL-1606UBC_0_1"
+			(symbol "XL-1606UWC_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -4952,7 +4952,7 @@
 					)
 				)
 			)
-			(symbol "XL-1606UBC_1_1"
+			(symbol "XL-1606UWC_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -4975,7 +4975,7 @@
 					)
 					(fill
 						(type color)
-						(color 0 0 255 0.5)
+						(color 255 255 194 0.5)
 					)
 				)
 				(pin passive line
@@ -16566,7 +16566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "discrete:XL-1606UBC")
+		(lib_id "discrete:XL-1606UWC")
 		(at 182.88 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16583,7 +16583,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-1606UBC"
+		(property "Value" "XL-1606UWC"
 			(at 184.4675 114.3 0)
 			(effects
 				(font
@@ -16600,7 +16600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UWC_C965866.pdf"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -16609,7 +16609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, Blue, Side-Emitter package"
+		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -16618,7 +16618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965865"
+		(property "LCSC Part" "C965866"
 			(at 182.88 119.38 0)
 			(effects
 				(font
