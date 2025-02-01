@@ -118,7 +118,10 @@ class MainBuilder:
                 if link.readlink() == target:
                     return
             with suppress(FileNotFoundError):
-                link.unlink()
+                try:
+                    link.unlink()
+                except IsADirectoryError:
+                    link.rmdir()
             print(f"Resetting symlink {link}")
             link.symlink_to(target)
 
