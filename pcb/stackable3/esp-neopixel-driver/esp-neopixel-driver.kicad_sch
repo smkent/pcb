@@ -549,6 +549,163 @@
 				)
 			)
 		)
+		(symbol "Device:R_Pack02_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack02_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack02_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack02_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack02_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Pack04_Split"
 			(pin_names
 				(offset 0) hide)
@@ -5378,6 +5535,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack02_Split")
+		(at 57.15 149.86 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "000a894a-0376-4cfb-b3b2-1a1e02e42ab6")
+		(property "Reference" "RN2"
+			(at 59.69 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K36"
+			(at 59.69 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0402"
+			(at 55.118 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 resistor network, parallel topology, split"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " C425352"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "21a96c05-72a9-413d-925b-939c91723457")
+		)
+		(pin "4"
+			(uuid "8ad88f0f-1023-497f-ac43-d3455f02e148")
+		)
+		(pin "1"
+			(uuid "f6547372-b22d-436a-b7ad-f67f9575a82d")
+		)
+		(pin "2"
+			(uuid "be444b38-1afd-4b12-874a-d54d3008e092")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 72.39 97.79 270)
 		(unit 1)
@@ -6400,6 +6642,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack02_Split")
+		(at 49.53 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "604e5927-5433-43be-bc8e-9560de774acb")
+		(property "Reference" "RN2"
+			(at 52.07 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K36"
+			(at 52.07 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0402"
+			(at 47.498 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 resistor network, parallel topology, split"
+			(at 49.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " C425352"
+			(at 49.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "21a96c05-72a9-413d-925b-939c91723457")
+		)
+		(pin "4"
+			(uuid "8ad88f0f-1023-497f-ac43-d3455f02e148")
+		)
+		(pin "1"
+			(uuid "f6547372-b22d-436a-b7ad-f67f9575a82d")
+		)
+		(pin "2"
+			(uuid "be444b38-1afd-4b12-874a-d54d3008e092")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 72.39 82.55 0)
 		(unit 4)
@@ -6892,85 +7219,6 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76fc9e7a-b87e-42ad-9df5-3547b538713c")
-		(property "Reference" "R2"
-			(at 59.69 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 59.69 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.372 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 57.15 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc14fe74-0aee-49be-99af-66e6a017f3d5")
-		)
-		(pin "2"
-			(uuid "f7ffc1cb-e750-4561-aa3d-ed08ab9e6c16")
-		)
-		(instances
-			(project "esp-neopixel-driver"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8276,85 +8524,6 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb7bd2bb-3dee-4878-ba74-f714120c4a5c")
-		(property "Reference" "R1"
-			(at 52.07 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 52.07 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.752 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 49.53 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c72ec217-ad57-4c59-8343-c93841f202f2")
-		)
-		(pin "2"
-			(uuid "0509554f-7eb7-4b9c-80b1-3269dea263d4")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "R1")
 					(unit 1)
 				)
 			)
