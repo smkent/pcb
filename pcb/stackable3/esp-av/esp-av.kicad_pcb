@@ -5361,7 +5361,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+		(property "Description" "Light emitting diode, White, Side-Emitter package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11680,7 +11680,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/e544680d-5c9b-4d9c-8e52-97a4797d2354")
+		(path "/fe96d20b-bed8-4ae9-a468-43650a709854")
 		(sheetname "Root")
 		(sheetfile "esp-av.kicad_sch")
 		(attr smd)
@@ -14867,7 +14867,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+		(property "Description" "Light emitting diode, White, Side-Emitter package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27448,7 +27448,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "ba623e91-3de8-447c-9832-e503fce7a4e6")
@@ -27494,6 +27494,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c70d616-50e4-4887-a8a6-7dc17eaf5aa4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33852,7 +33865,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/946f2ecc-793a-4629-b727-c691fe1272cb/f9c864c9-0644-40a9-80b4-568a1520aaea")
+		(path "/946f2ecc-793a-4629-b727-c691fe1272cb/23ef7980-397a-4292-b2bc-aa86c7899946")
 		(sheetname "Indicator LEDs")
 		(sheetfile "led.kicad_sch")
 		(attr smd)
@@ -34049,7 +34062,7 @@
 		(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J15"
-			(at 0 -2.77 360)
+			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5bba7fd1-34c1-4d5c-8d8e-4d67da04508d")
@@ -34061,7 +34074,7 @@
 			)
 		)
 		(property "Value" "Pin Socket"
-			(at 0 7.85 360)
+			(at 0 7.85 0)
 			(layer "F.Fab")
 			(uuid "c3f30bb6-4a01-4c04-9959-ffadc49b6954")
 			(effects
@@ -37177,7 +37190,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/946f2ecc-793a-4629-b727-c691fe1272cb/60b57f4f-7ae8-4108-8e2e-99e4a46672bc")
+		(path "/946f2ecc-793a-4629-b727-c691fe1272cb/53d39f07-db84-483d-89d5-938ead1fc840")
 		(sheetname "Indicator LEDs")
 		(sheetfile "led.kicad_sch")
 		(attr smd)

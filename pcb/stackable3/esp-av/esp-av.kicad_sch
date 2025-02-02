@@ -18597,7 +18597,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 62.23 137.16 90)
 			(effects
 				(font
@@ -18625,6 +18625,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 62.23 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)

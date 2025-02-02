@@ -1706,7 +1706,7 @@
 		(uuid "40b96176-7435-4676-899d-a4e61410ff40")
 		(at 112.65 48.65 180)
 		(property "Reference" "LED2"
-			(at 0 -2.35 360)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f66dc701-23d9-48c3-a008-562ff4b00ef0")
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "Value" "XL-1606UGC"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "90e0ce29-4968-429d-ad94-aca3df78be46")
 			(effects
@@ -1729,7 +1729,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e351c12-ab33-4daa-91f0-08237ee42885")
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1606UGC_C965863.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7664fdce-8e6a-424d-835d-e0c9adb7d9bd")
@@ -1753,7 +1753,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Green, Side-Emitter package"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d85cf40-065f-4161-98d0-a302ab3e69b9")
@@ -1861,7 +1861,7 @@
 			(uuid "53a5e824-f12a-4209-9e91-c5781818d422")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "77bf38af-c673-429f-8eb0-6cdbdc9f96fd")
 			(effects
@@ -4182,7 +4182,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/a5eac970-dda8-45ab-bd9c-63b27e20aa9f")
+		(path "/60531453-f66f-4d5d-aca7-e7fa43837b03")
 		(sheetname "Root")
 		(sheetfile "esp-neopixel-driver.kicad_sch")
 		(clearance 0.15)
@@ -4791,7 +4791,7 @@
 		(uuid "7fafaab4-9a5a-487c-b871-fdae8a326e7d")
 		(at 95.35 48.65 180)
 		(property "Reference" "LED1"
-			(at 0 -2.35 360)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20762174-36c9-41db-a02c-dac67d44cafd")
@@ -4803,7 +4803,7 @@
 			)
 		)
 		(property "Value" "XL-1606UBC"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "87b97918-31fc-4fb7-bbed-85c7cc5b0c3a")
 			(effects
@@ -4814,7 +4814,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03a1957d-d546-4d38-afb6-ba6b2e2ce0fb")
@@ -4826,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ae8ebd6-cf1c-4310-a95e-848756f47f44")
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Blue, Side-Emitter package"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15a31751-3651-458a-a849-6799cdf65ae2")
@@ -4946,7 +4946,7 @@
 			(uuid "21d27ae2-7864-483d-a951-1682510d282b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e830a543-a792-4a65-8247-4d0ccf1ba59e")
 			(effects
@@ -5039,7 +5039,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+		(property "Description" "Light emitting diode, White, Side-Emitter package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5197,7 +5197,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "965e9a88-5752-4bf5-ac10-29ee6b6d46a0")
@@ -5209,7 +5209,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "744da1d3-8916-493c-82f8-123cf97a0c92")
 			(effects
@@ -5377,7 +5377,7 @@
 			(uuid "cf4d25b5-efb1-4d8c-b7c9-722bc6475bfd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "566829db-1c75-4689-8dd8-5c4d1661b70c")
 			(effects
@@ -5424,7 +5424,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "80907a3e-8c26-4e15-8c70-d359148ecc4c")
@@ -5435,8 +5435,8 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
-			(at 0 1.17 360)
+		(property "Value" "10K"
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "28d5a448-daa2-4012-a32c-660a5169f552")
 			(effects
@@ -5485,7 +5485,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25905"
+		(property "LCSC Part" "C25744"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5604,7 +5604,7 @@
 			(uuid "50ae5ab2-a634-47dd-84ee-1e7217a95acb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "76c96f8d-cb69-4ffd-9b69-dec2c0f3e2eb")
 			(effects
