@@ -4878,7 +4878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+			(property "Description" "Light emitting diode, White, Side-Emitter package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6209,7 +6209,7 @@
 		)
 	)
 	(junction
-		(at 119.38 172.72)
+		(at 120.65 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c58151b-3138-44f6-80ff-91861d5c1b0c")
@@ -6239,7 +6239,7 @@
 		(uuid "21af3fef-e3af-41ce-9473-377e780ccd20")
 	)
 	(junction
-		(at 111.76 157.48)
+		(at 113.03 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f0e30d0-d574-4014-a3ea-211a7f23350a")
@@ -6263,7 +6263,7 @@
 		(uuid "482b3c0e-625c-4cfa-8037-370f8d81fc8c")
 	)
 	(junction
-		(at 132.08 120.65)
+		(at 133.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58ea2454-d41a-4d45-aacf-1353ff57a31f")
@@ -6287,7 +6287,7 @@
 		(uuid "6d1d6798-f504-44d5-bcae-5238963be192")
 	)
 	(junction
-		(at 119.38 129.54)
+		(at 120.65 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f2b34ec-fa09-469c-b939-8888310dc4dd")
@@ -6317,7 +6317,7 @@
 		(uuid "7eda386d-a88b-4923-b71f-3f695f324dad")
 	)
 	(junction
-		(at 132.08 129.54)
+		(at 133.35 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87aa670d-80c3-4330-9817-d78949b95426")
@@ -6395,7 +6395,7 @@
 		(uuid "e667e396-d878-4519-a054-85f0d3a13829")
 	)
 	(junction
-		(at 119.38 137.16)
+		(at 120.65 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8cca7d4-1e11-4f5f-902a-f1e12210d653")
@@ -6466,7 +6466,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 111.76 172.72)
+			(xy 113.03 170.18) (xy 113.03 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6566,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 157.48) (xy 111.76 162.56)
+			(xy 113.03 157.48) (xy 113.03 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6706,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 132.08 120.65)
+			(xy 120.65 120.65) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6816,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 119.38 121.92)
+			(xy 120.65 120.65) (xy 120.65 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6846,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 137.16) (xy 124.46 137.16)
+			(xy 120.65 137.16) (xy 125.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6866,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 132.08 120.65)
+			(xy 133.35 119.38) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6876,7 +6876,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 120.65) (xy 132.08 129.54)
+			(xy 133.35 120.65) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6946,7 +6946,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 137.16)
+			(xy 120.65 129.54) (xy 120.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6956,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 162.56) (xy 119.38 172.72)
+			(xy 120.65 162.56) (xy 120.65 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7006,7 +7006,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 144.78) (xy 119.38 152.4)
+			(xy 120.65 144.78) (xy 120.65 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7116,7 +7116,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 172.72) (xy 119.38 172.72)
+			(xy 113.03 172.72) (xy 120.65 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7176,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 121.92 129.54)
+			(xy 120.65 129.54) (xy 123.19 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7266,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 127) (xy 119.38 129.54)
+			(xy 120.65 127) (xy 120.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7296,7 +7296,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 172.72) (xy 119.38 173.99)
+			(xy 120.65 172.72) (xy 120.65 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7356,7 +7356,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 153.67) (xy 111.76 157.48)
+			(xy 113.03 153.67) (xy 113.03 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7436,7 +7436,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 132.08 132.08)
+			(xy 133.35 129.54) (xy 133.35 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7556,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 129.54) (xy 132.08 129.54)
+			(xy 130.81 129.54) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7596,7 +7596,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 146.05) (xy 132.08 142.24)
+			(xy 133.35 146.05) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8535,7 +8535,7 @@
 		(uuid "2f56df9d-e72f-4143-a195-bef32576c939")
 	)
 	(label "P_GATE_1"
-		(at 119.38 134.62 0)
+		(at 120.65 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8595,7 +8595,7 @@
 		(uuid "a1f4ce05-5058-4b34-835c-31ffaa361133")
 	)
 	(label "N_DRAIN_1"
-		(at 119.38 149.86 0)
+		(at 120.65 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8615,7 +8615,7 @@
 		(uuid "c654a8b4-6834-4936-bf32-be1d24723073")
 	)
 	(label "N_GATE_1"
-		(at 111.76 161.29 180)
+		(at 113.03 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8834,7 +8834,7 @@
 	)
 	(global_label "LIGHT_PWM_3V3"
 		(shape input)
-		(at 111.76 146.05 90)
+		(at 113.03 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8844,7 +8844,7 @@
 		)
 		(uuid "30862a27-18c2-4ddc-bf94-43ee13aefc7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 132.7234 90)
+			(at 113.03 132.7234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9098,7 @@
 	)
 	(global_label "LIGHT_OUT"
 		(shape output)
-		(at 132.08 146.05 270)
+		(at 133.35 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9108,7 +9108,7 @@
 		)
 		(uuid "81ae0207-f2c5-484d-a9c1-55993124dad4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 159.3766 90)
+			(at 133.35 159.3766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 173.99 0)
+		(at 120.65 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9933,7 +9933,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a028137-d163-4e1a-9d8c-b3b6ffe51fef")
 		(property "Reference" "#PWR019"
-			(at 119.38 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +9942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +9950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,7 +9959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +9968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10742,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 119.38 140.97 180)
+		(at 120.65 140.97 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10751,7 +10751,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a5ef3ea-3b37-4e90-8ccc-8c09a2c908ec")
 		(property "Reference" "RN1"
-			(at 121.92 139.6999 0)
+			(at 123.19 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +10760,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 121.92 142.2399 0)
+			(at 123.19 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10769,7 @@
 			)
 		)
 		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
-			(at 121.412 140.97 90)
+			(at 122.682 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,7 +10787,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,7 +10796,7 @@
 			)
 		)
 		(property "LCSC Part" "C110924"
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11843,7 +11843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 119.38 124.46 0)
+		(at 120.65 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11852,7 +11852,7 @@
 		(dnp no)
 		(uuid "59c9746e-d5cb-4a11-a1cd-161abdb06977")
 		(property "Reference" "R12"
-			(at 116.84 123.1899 0)
+			(at 118.11 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11861,7 @@
 			)
 		)
 		(property "Value" "17K4"
-			(at 116.84 125.7299 0)
+			(at 118.11 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11870,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,7 +11879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11888,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 111.76 149.86 0)
+		(at 113.03 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12201,7 +12201,7 @@
 		(dnp no)
 		(uuid "5e52127b-463d-491b-997b-1fac4204ea1c")
 		(property "Reference" "RN2"
-			(at 118.11 149.86 90)
+			(at 119.38 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12209,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 115.57 149.86 90)
+			(at 116.84 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12217,7 @@
 			)
 		)
 		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
-			(at 109.728 149.86 90)
+			(at 110.998 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 149.86 0)
+			(at 113.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12235,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 111.76 149.86 0)
+			(at 113.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12244,7 @@
 			)
 		)
 		(property "LCSC Part" "C270393"
-			(at 111.76 149.86 90)
+			(at 113.03 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +12983,7 @@
 	)
 	(symbol
 		(lib_id "discrete:2N7002DW")
-		(at 116.84 157.48 0)
+		(at 118.11 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12992,7 +12992,7 @@
 		(fields_autoplaced yes)
 		(uuid "72e739ca-8406-4da4-be5b-36cf5db7792f")
 		(property "Reference" "Q1"
-			(at 123.19 156.2099 0)
+			(at 124.46 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +13001,7 @@
 			)
 		)
 		(property "Value" "2N7002DW"
-			(at 123.19 158.7499 0)
+			(at 124.46 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,7 +13010,7 @@
 			)
 		)
 		(property "Footprint" "package:SOT-363_SC-70-6_HandSolder"
-			(at 121.92 159.385 0)
+			(at 123.19 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13021,7 +13021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n7002dw-d.pdf"
-			(at 121.92 161.29 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13031,7 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, Dual N-Channel MOSFET, SOT-23-6"
-			(at 116.84 157.48 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +13040,7 @@
 			)
 		)
 		(property "LCSC Part" "C5190214"
-			(at 116.84 157.48 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,7 +13049,7 @@
 			)
 		)
 		(property "JLCPCB_CORRECTION" "0; 0; 270"
-			(at 116.84 157.48 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14287,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 129.54 137.16 0)
+		(at 130.81 137.16 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14296,7 +14296,7 @@
 		(dnp no)
 		(uuid "91962b6e-db68-472a-807c-3b9ec97e3d4a")
 		(property "Reference" "Q3"
-			(at 135.89 138.4301 0)
+			(at 137.16 138.4301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,7 +14305,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 135.89 135.8901 0)
+			(at 137.16 135.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +14314,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 135.255 0)
+			(at 135.89 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14325,7 +14325,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 134.62 133.35 0)
+			(at 135.89 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,7 +14335,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 129.54 137.16 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,7 +14363,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 125.73 129.54 180)
+		(at 127 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14372,7 +14372,7 @@
 		(fields_autoplaced yes)
 		(uuid "920202e1-3f2e-4d53-984a-1231b0e064d6")
 		(property "Reference" "D3"
-			(at 125.73 123.19 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14380,7 @@
 			)
 		)
 		(property "Value" "10V"
-			(at 125.73 125.73 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,7 +14388,7 @@
 			)
 		)
 		(property "Footprint" "package:D_SOD-523"
-			(at 125.73 129.54 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 129.54 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14406,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 125.73 129.54 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +14415,7 @@
 			)
 		)
 		(property "LCSC Part" "C2832579"
-			(at 125.73 129.54 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,7 +15284,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 111.76 166.37 0)
+		(at 113.03 166.37 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -15294,7 +15294,7 @@
 		(fields_autoplaced yes)
 		(uuid "a96ef15f-2be8-464e-9291-8b64704617bf")
 		(property "Reference" "RN1"
-			(at 115.57 167.6401 0)
+			(at 116.84 167.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15303,7 +15303,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 115.57 165.1001 0)
+			(at 116.84 165.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15312,7 +15312,7 @@
 			)
 		)
 		(property "Footprint" "discrete:R_Array_Convex_4x0603_HandSolder"
-			(at 109.728 166.37 90)
+			(at 110.998 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +15321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 166.37 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15330,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 111.76 166.37 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15339,7 @@
 			)
 		)
 		(property "LCSC Part" "C110924"
-			(at 111.76 166.37 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16609,7 +16609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+		(property "Description" "Light emitting diode, White, Side-Emitter package"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 128.27 35.56 90)
 			(effects
 				(font
@@ -17791,7 +17791,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 132.08 119.38 0)
+		(at 133.35 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17800,7 +17800,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee30d448-25bd-4222-b1cf-a8614bd3f1bf")
 		(property "Reference" "#PWR023"
-			(at 132.08 123.19 0)
+			(at 133.35 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17809,7 +17809,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 132.08 114.3 0)
+			(at 133.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,7 +17817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 119.38 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17826,7 +17826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 119.38 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17835,7 +17835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 132.08 119.38 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
+		(property "Description" "Light emitting diode, White, Side-Emitter package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1404,7 +1404,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/e050faf4-9ea5-4075-9270-b41b492dd66e")
+		(path "/80b425c8-80f9-4cd1-9ef9-b2e4af5fcc82")
 		(sheetname "Root")
 		(sheetfile "esp-cwww.kicad_sch")
 		(attr smd)
@@ -5451,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "1K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6bf2b37b-ca62-46fd-9f4f-9914b5a9be39")
