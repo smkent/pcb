@@ -2575,6 +2575,364 @@
 				)
 			)
 		)
+		(symbol "discrete:XL-1606UBC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL-1606UBC"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, Blue, Side-Emitter package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C965865"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode side emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SideEmitter*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL-1606UBC_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XL-1606UBC_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 0.5)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "discrete:XL-1606UGC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL-1606UGC"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1606UGC_C965863.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, Green, Side-Emitter package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C965863"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode side emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SideEmitter*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL-1606UGC_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XL-1606UGC_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 255 0 0.5019607843)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "discrete:XL-1606UWC"
 			(pin_numbers hide)
 			(pin_names
@@ -3735,14 +4093,6 @@
 		(color 0 0 0 0)
 		(uuid "f9a9648f-f863-4d19-a0ce-4d8991b1565e")
 	)
-	(no_connect
-		(at 44.45 49.53)
-		(uuid "85de1295-e9cf-45f0-9f2c-9109bcd649f4")
-	)
-	(no_connect
-		(at 69.85 39.37)
-		(uuid "a184a4c2-f7a3-4e50-ae4c-4a086cfc6318")
-	)
 	(wire
 		(pts
 			(xy 45.72 157.48) (xy 57.15 157.48)
@@ -3795,7 +4145,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 83.82) (xy 133.35 83.82)
+			(xy 132.08 78.74) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3845,6 +4195,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352f2f35-0f8f-4dbe-b06e-0667dda32744")
+	)
+	(wire
+		(pts
 			(xy 72.39 78.74) (xy 72.39 77.47)
 		)
 		(stroke
@@ -3862,6 +4222,16 @@
 			(type default)
 		)
 		(uuid "46ea5b06-d49e-4a63-b676-f4956ffd68ae")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba2c5ac-1e22-4dd0-8910-99e15bd89d9a")
 	)
 	(wire
 		(pts
@@ -4065,13 +4435,33 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 142.24 83.82)
+			(xy 140.97 78.74) (xy 142.24 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2f54132-036a-4899-a68f-736022478fce")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e653abc1-f073-4840-8607-c129514aa422")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e1c51a-4f73-4ee8-803d-9a9ff3302c38")
 	)
 	(wire
 		(pts
@@ -4940,6 +5330,28 @@
 			)
 		)
 	)
+	(global_label "GPIO21"
+		(shape input)
+		(at 132.08 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "082015cc-f1a5-4080-a018-d4eb84edca6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4316 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCODER_CLK"
 		(shape input)
 		(at 205.74 36.83 180)
@@ -5270,6 +5682,28 @@
 			)
 		)
 	)
+	(global_label "GPIO4"
+		(shape input)
+		(at 132.08 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72ccf43c-642e-4fc9-8552-b9496dac461a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4316 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO3/CLK"
 		(shape bidirectional)
 		(at 238.76 36.83 180)
@@ -5288,6 +5722,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO4"
+		(shape output)
+		(at 69.85 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84b1f0dc-caee-43a1-b510-c1d8185bbbd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5402,9 +5858,31 @@
 			)
 		)
 	)
+	(global_label "GPIO21"
+		(shape output)
+		(at 44.45 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55e5756-a2e9-4274-a526-78c91cac777c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STATUS_LED"
 		(shape input)
-		(at 132.08 83.82 180)
+		(at 132.08 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5414,7 +5892,7 @@
 		)
 		(uuid "c902b5f5-c77a-4b4e-b836-38abf1b0fbee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4316 83.82 0)
+			(at 113.4316 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 83.82 90)
+		(at 137.16 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5697,7 +6175,7 @@
 		(fields_autoplaced yes)
 		(uuid "07adabdc-e5fe-4ca8-a054-ec8ca6143a6e")
 		(property "Reference" "R0"
-			(at 137.16 77.47 90)
+			(at 137.16 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +6183,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 137.16 80.01 90)
+			(at 137.16 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +6191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 85.598 90)
+			(at 137.16 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +6200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 83.82 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +6209,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 83.82 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +6218,7 @@
 			)
 		)
 		(property "LCSC Part" "C25905"
-			(at 137.16 83.82 90)
+			(at 137.16 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +6243,7 @@
 	)
 	(symbol
 		(lib_id "discrete:XL-1606UWC")
-		(at 146.05 83.82 180)
+		(at 146.05 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5774,7 +6252,7 @@
 		(fields_autoplaced yes)
 		(uuid "1201e89c-0487-4b9f-85f3-e9133cfdd03b")
 		(property "Reference" "LED0"
-			(at 147.6375 76.2 0)
+			(at 147.6375 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +6260,7 @@
 			)
 		)
 		(property "Value" "XL-1606UWC"
-			(at 147.6375 78.74 0)
+			(at 147.6375 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +6268,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 146.05 83.82 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6277,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UWC_C965866.pdf"
-			(at 146.05 83.82 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +6286,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Warm white, Side-Emitter package"
-			(at 146.05 83.82 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6295,7 @@
 			)
 		)
 		(property "LCSC Part" "C965866"
-			(at 146.05 83.82 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,6 +6459,83 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "discrete:XL-1606UGC")
+		(at 146.05 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2117a573-00f5-4b9e-8cf2-e4b854878755")
+		(property "Reference" "LED2"
+			(at 147.6375 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1606UGC"
+			(at 147.6375 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1606UGC_C965863.pdf"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, Green, Side-Emitter package"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965863"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc1cd70-a926-4140-8944-a77e58e8b74a")
+		)
+		(pin "2"
+			(uuid "c1ab6ac2-0ef5-47d2-8d16-cb43a521784c")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -6484,8 +7039,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 137.16 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "521f1465-8d2d-4461-ae04-682eb7992a5b")
+		(property "Reference" "R1"
+			(at 137.16 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 137.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "875fa9b3-4669-4b66-b92b-3b1a4bf11a4b")
+		)
+		(pin "2"
+			(uuid "f5533af5-7cba-49b4-8da7-2b646d2ed5a4")
+		)
+		(instances
+			(project "esp-neopixel-driver"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 149.86 83.82 90)
+		(at 149.86 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6494,7 +7126,7 @@
 		(fields_autoplaced yes)
 		(uuid "55de9683-e59b-459c-b1c8-fc2d8e048113")
 		(property "Reference" "#PWR015"
-			(at 156.21 83.82 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +7135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 83.8199 90)
+			(at 153.67 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +7144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 83.82 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +7153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 83.82 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +7162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 83.82 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,6 +7177,73 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561f3f7c-b741-4f73-b596-802fbfc54bf9")
+		(property "Reference" "#PWR018"
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc70ab6-ef87-4532-a86a-89e8b4a82c7e")
+		)
+		(instances
+			(project "esp-neopixel-driver"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6706,16 +7405,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "21a96c05-72a9-413d-925b-939c91723457")
+			(uuid "21a96c05-72a9-413d-925b-939c91723458")
 		)
 		(pin "4"
-			(uuid "8ad88f0f-1023-497f-ac43-d3455f02e148")
+			(uuid "8ad88f0f-1023-497f-ac43-d3455f02e149")
 		)
 		(pin "1"
-			(uuid "f6547372-b22d-436a-b7ad-f67f9575a82d")
+			(uuid "f6547372-b22d-436a-b7ad-f67f9575a82e")
 		)
 		(pin "2"
-			(uuid "be444b38-1afd-4b12-874a-d54d3008e092")
+			(uuid "be444b38-1afd-4b12-874a-d54d3008e093")
 		)
 		(instances
 			(project ""
@@ -7445,6 +8144,83 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "discrete:XL-1606UBC")
+		(at 146.05 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9365c624-b62a-4ac3-b5f0-f9cfa9122921")
+		(property "Reference" "LED1"
+			(at 147.6375 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1606UBC"
+			(at 147.6375 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, Blue, Side-Emitter package"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965865"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e95d072-bfcb-488d-870c-1197281fb034")
+		)
+		(pin "2"
+			(uuid "218a5a89-0bd9-4662-830e-66f8341e7a63")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -8530,6 +9306,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 137.16 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1ee0799-c2bd-4789-b746-aee87e907500")
+		(property "Reference" "R2"
+			(at 137.16 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 137.16 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e5146db-09cf-4405-a907-850d94ee8653")
+		)
+		(pin "2"
+			(uuid "e74a59c2-908e-4b4f-af11-1e34ed426f11")
+		)
+		(instances
+			(project "esp-neopixel-driver"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 31.75 90)
 		(unit 1)
@@ -8591,6 +9444,73 @@
 			(project "esp-neopixel-driver"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da3e94b7-fb5d-476c-812a-f00e29687be6")
+		(property "Reference" "#PWR017"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b027ac05-368b-49df-b06e-ba112998db4b")
+		)
+		(instances
+			(project "esp-neopixel-driver"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
