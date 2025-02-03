@@ -10218,6 +10218,28 @@
 			)
 		)
 	)
+	(global_label "SR_SER"
+		(shape output)
+		(at 153.67 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4671e250-83d0-4bea-bd88-d903088263c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.7308 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO8/SDA"
 		(shape bidirectional)
 		(at 266.7 125.73 180)
@@ -10323,28 +10345,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SR_SER"
-		(shape output)
-		(at 123.19 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "553b57e2-9f2e-43f1-9b58-5ca97a964a47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1292 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10515,28 +10515,6 @@
 		(uuid "7000fb8d-8940-4103-8b99-9b582898f7bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.7695 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIXEL_DATA_3V3"
-		(shape output)
-		(at 153.67 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "715d7df4-fa68-44a3-bde3-6ebfb7bef011")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.7742 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,8 +11377,8 @@
 		)
 	)
 	(global_label "TX_3V3"
-		(shape input)
-		(at 153.67 48.26 0)
+		(shape output)
+		(at 153.67 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11410,7 +11388,7 @@
 		)
 		(uuid "e3c9bb80-cc90-4084-8da6-08d8238c620e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3075 48.26 0)
+			(at 163.3075 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,6 +11433,28 @@
 		(uuid "e4aec7fe-f17c-4358-9e4c-7f169a13e394")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.6607 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PIXEL_DATA_3V3"
+		(shape output)
+		(at 123.19 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8c6cecb-42e9-4c1e-9184-205939557e2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0858 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
