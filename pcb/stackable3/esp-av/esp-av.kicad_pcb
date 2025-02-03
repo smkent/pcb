@@ -34598,7 +34598,7 @@
 		(uuid "ef97a4ea-0ead-4aac-a486-55eafadf2f2b")
 		(at 200.5 55)
 		(property "Reference" "LED0"
-			(at 0 -2.35 360)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1a34764-bf56-48c7-b17e-80d381e20f01")
@@ -34610,7 +34610,7 @@
 			)
 		)
 		(property "Value" "XL-1606SURC"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "4e9fac6d-1993-4883-8a0f-ccb0bff7c6e9")
 			(effects
@@ -34621,7 +34621,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf204faa-4ace-4e6a-a14f-bde48a73c57f")
@@ -34633,7 +34633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1606SURC_C965860.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a73515c8-b2cd-458d-adb7-57f73fa4cbca")
@@ -34645,7 +34645,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Red, Side-Emitter package"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62c1e95d-9a4e-48e7-8c32-d6ef28a98538")
@@ -34753,7 +34753,7 @@
 			(uuid "1e785139-34f7-468e-8c8a-a1e3281e04a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0af94413-e655-41d8-8b7b-46f698fdd471")
 			(effects
@@ -38151,7 +38151,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Mode"
+	(gr_text "Inv"
 		(at 164 70.75 0)
 		(layer "F.SilkS")
 		(uuid "21fafbad-98b7-410c-a487-3851dad36822")
@@ -38203,7 +38203,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "RX-TX Enable\nRX1 Mode\nRX2 Mode\nRX3 Mode\nRX4 Mode\nMode LEDs\nTX1 R_{5V} Enable\nTX2 R_{5V} Enable\nTX3 R_{5V} Enable\nTX4 R_{5V} Enable"
+	(gr_text "RX-TX Enable\nRX1 Invert\nRX2 Invert\nRX3 Invert\nRX4 Invert\nDiagnostic LEDs\nTX1 R_{5V} Enable\nTX2 R_{5V} Enable\nTX3 R_{5V} Enable\nTX4 R_{5V} Enable"
 		(at 179.75 85.75 0)
 		(layer "F.SilkS")
 		(uuid "3b769adc-1b32-48e7-84eb-f1f4cf4ad41e")
@@ -38216,7 +38216,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Mode"
+	(gr_text "Inv"
 		(at 188 70.75 0)
 		(layer "F.SilkS")
 		(uuid "41171f79-7447-4031-bba3-41173c0954c9")
@@ -38454,7 +38454,7 @@
 			)
 		)
 	)
-	(gr_text "14"
+	(gr_text "13"
 		(at 218.25 106.92 0)
 		(layer "F.SilkS")
 		(uuid "7398e60e-e54e-445c-bdd4-46a4cd9fb8c7")
@@ -38480,7 +38480,7 @@
 		)
 	)
 	(gr_text "595 Registers"
-		(at 182.25 85 0)
+		(at 182.75 85 0)
 		(layer "F.SilkS")
 		(uuid "77c41cd7-47e5-4c4a-b059-7b5156b6b09d")
 		(effects
@@ -38581,7 +38581,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "16"
+	(gr_text "15"
 		(at 218.25 112 0)
 		(layer "F.SilkS")
 		(uuid "917eb485-864d-43b1-8d37-b12b858230a7")
@@ -38713,7 +38713,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
+	(gr_text "0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
 		(at 179.25 85.75 0)
 		(layer "F.SilkS")
 		(uuid "99880ad6-f022-436b-9089-a8b900e9c735")
@@ -38751,7 +38751,7 @@
 			)
 		)
 	)
-	(gr_text "11"
+	(gr_text "10"
 		(at 218.25 99.3 0)
 		(layer "F.SilkS")
 		(uuid "9e4a6f83-ca50-4641-86b8-5615bddca04a")
@@ -38764,7 +38764,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "Mode"
+	(gr_text "Inv"
 		(at 176 71 0)
 		(layer "F.SilkS")
 		(uuid "a0a0004b-f2ad-4c54-8cfd-ffec999f9a35")
@@ -38841,7 +38841,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "15"
+	(gr_text "14"
 		(at 218.25 109.46 0)
 		(layer "F.SilkS")
 		(uuid "baadf00b-d471-428c-80e6-02344247e7da")
@@ -38866,7 +38866,7 @@
 			)
 		)
 	)
-	(gr_text "12"
+	(gr_text "11"
 		(at 218.25 101.84 0)
 		(layer "F.SilkS")
 		(uuid "be3bd53d-4c53-4248-9c50-6a9a9092f81b")
@@ -38956,7 +38956,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Mode\nLEDs"
+	(gr_text "Diagnostic\nLEDs"
 		(at 157.75 84 0)
 		(layer "F.SilkS")
 		(uuid "d6646c5a-7a44-42ed-8885-5bf2817172c1")
@@ -38969,7 +38969,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "13"
+	(gr_text "12"
 		(at 218.25 104.38 0)
 		(layer "F.SilkS")
 		(uuid "d6b896ef-4d81-42b7-8d3f-74e28c2427d8")
@@ -38982,7 +38982,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "10|PIXEL"
+	(gr_text "10|RGB"
 		(at 141 77 90)
 		(layer "F.SilkS")
 		(uuid "d9d1b4be-2cc8-4d91-865f-aa27b0bf8a8f")
@@ -39487,7 +39487,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "!!"
+	(gr_text "Fuse\nTrip"
 		(at 200.5 56.25 180)
 		(layer "F.SilkS")
 		(uuid "f0cfdf72-603a-4dd1-ab6c-2e85de95c856")
@@ -39497,9 +39497,10 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify bottom)
 		)
 	)
-	(gr_text "Mode"
+	(gr_text "Inv"
 		(at 152 70.75 0)
 		(layer "F.SilkS")
 		(uuid "f387bee7-86a0-440c-b7fa-110c04efcecc")
