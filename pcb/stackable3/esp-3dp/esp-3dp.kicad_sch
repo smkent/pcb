@@ -8311,7 +8311,7 @@
 			"MDI0LTAzLTIyVDIzOjQ2OjMyLTA3OjAwYlcYiwAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "12V DC buck converter"
+	(text_box "24V to 12V DC buck converter"
 		(exclude_from_sim no)
 		(at 152.4 15.24 0)
 		(size 129.54 40.64)
@@ -8395,7 +8395,7 @@
 		)
 		(uuid "274b901e-593b-4e2d-bc07-97cb7b7888b8")
 	)
-	(text_box "5V DC buck converter"
+	(text_box "12V to 5V DC buck converter"
 		(exclude_from_sim no)
 		(at 152.4 58.42 0)
 		(size 129.54 40.64)
