@@ -38202,7 +38202,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "RX-TX Enable\nRX1 Invert\nRX2 Invert\nRX3 Invert\nRX4 Invert\nDiagnostic LEDs\nTX1 R_{5V} Enable\nTX2 R_{5V} Enable\nTX3 R_{5V} Enable\nTX4 R_{5V} Enable"
+	(gr_text "IR Repeater Enable\nRX1 Invert\nRX2 Invert\nRX3 Invert\nRX4 Invert\nDiagnostic LEDs\nTX1 R_{5V} Enable\nTX2 R_{5V} Enable\nTX3 R_{5V} Enable\nTX4 R_{5V} Enable"
 		(at 179.75 85.75 0)
 		(layer "F.SilkS")
 		(uuid "3b769adc-1b32-48e7-84eb-f1f4cf4ad41e")
@@ -38335,19 +38335,6 @@
 					(xy 180.343318 80.622971) (xy 180.704553 80.622971)
 				)
 			)
-		)
-	)
-	(gr_text "INT"
-		(at 157.25 118.25 0)
-		(layer "F.SilkS")
-		(uuid "5726ab3a-6844-4e26-b46b-4915148254e8")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-			(justify bottom)
 		)
 	)
 	(gr_text "2|SYS LED"
@@ -39460,8 +39447,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "RX-TX"
-		(at 157.25 117 0)
+	(gr_text "No\nRepeat"
+		(at 157.25 118.25 0)
 		(layer "F.SilkS")
 		(uuid "e79ef7ed-6b32-444b-8444-1934dee5b7ee")
 		(effects
