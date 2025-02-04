@@ -38074,7 +38074,7 @@
 			)
 		)
 	)
-	(gr_text "R_{5V}"
+	(gr_text "TX3\nR_{5V}"
 		(at 183 103.5 0)
 		(layer "F.SilkS")
 		(uuid "0bab8dc1-c91f-446d-8e55-99ddf3d43138")
@@ -38254,7 +38254,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "R_{5V}"
+	(gr_text "TX1\nR_{5V}"
 		(at 207.25 103.5 0)
 		(layer "F.SilkS")
 		(uuid "4571d81d-eafc-4036-8b19-0089050ec7b1")
@@ -38878,7 +38878,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "R_{5V}"
+	(gr_text "TX4\nR_{5V}"
 		(at 171 103.5 0)
 		(layer "F.SilkS")
 		(uuid "c7ecdfa0-1cec-43ec-a7cb-e0d32876f8c6")
@@ -39434,7 +39434,7 @@
 			)
 		)
 	)
-	(gr_text "R_{5V}"
+	(gr_text "TX2\nR_{5V}"
 		(at 195 103.5 0)
 		(layer "F.SilkS")
 		(uuid "e3a521cc-b744-45d7-9bd1-8739e108a70a")
@@ -39458,6 +39458,19 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "RX-TX"
+		(at 157.25 117 0)
+		(layer "F.SilkS")
+		(uuid "e79ef7ed-6b32-444b-8444-1934dee5b7ee")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "0|SW/DATA"
