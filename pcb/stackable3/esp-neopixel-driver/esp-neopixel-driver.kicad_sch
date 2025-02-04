@@ -5726,28 +5726,6 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
-		(shape output)
-		(at 69.85 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84b1f0dc-caee-43a1-b510-c1d8185bbbd3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.52 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape output)
 		(at 44.45 41.91 180)
@@ -5902,6 +5880,28 @@
 			)
 		)
 	)
+	(global_label "NEOPIXEL_2_DATA_3V3"
+		(shape output)
+		(at 69.85 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d63eaa4b-9d1d-4204-a240-ac38d6d6ddef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9413 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STATUS_LED"
 		(shape output)
 		(at 69.85 44.45 0)
@@ -5946,7 +5946,7 @@
 			)
 		)
 	)
-	(global_label "NEOPIXEL_2_DATA_3V3"
+	(global_label "GPIO4"
 		(shape output)
 		(at 44.45 46.99 180)
 		(fields_autoplaced yes)
@@ -5956,9 +5956,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f25ab009-8322-4cd8-a88e-0dac5e76a1ea")
+		(uuid "ecd65291-0d71-443f-8715-3cb264e27a89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 46.99 0)
+			(at 35.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
