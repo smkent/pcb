@@ -11376,7 +11376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7b86b2-a9ed-4c9c-895f-6dd3e00db883")
-		(property "Reference" "SW1"
+		(property "Reference" "SW0"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -11443,7 +11443,7 @@
 		(instances
 			(project "shift-registers-74hc595"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "SW1")
+					(reference "SW0")
 					(unit 1)
 				)
 			)
