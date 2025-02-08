@@ -7750,7 +7750,7 @@
 			(justify top mirror)
 		)
 	)
-	(gr_text "github.com/smkent/pcb"
+	(gr_text "pcb.smkent.net"
 		(at 114 75.25 0)
 		(layer "B.SilkS")
 		(uuid "74de047d-3cdf-4a3a-821c-5d409e0fc077")
@@ -7814,14 +7814,14 @@
 			)
 		)
 	)
-	(gr_text "github.com/smkent/pcb"
+	(gr_text "pcb.smkent.net"
 		(at 113.875 74.25 0)
 		(layer "F.SilkS")
 		(uuid "3dda9ee8-aa57-4f49-a315-a7596ab7fecb")
 		(effects
 			(font
-				(size 0.6 0.55)
-				(thickness 0.12)
+				(size 0.7 0.7)
+				(thickness 0.14)
 				(bold yes)
 			)
 			(justify bottom)
