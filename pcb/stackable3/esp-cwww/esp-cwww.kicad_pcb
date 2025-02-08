@@ -17418,7 +17418,7 @@
 			(justify top mirror)
 		)
 	)
-	(gr_text "0|PIXELS"
+	(gr_text "0|RGB"
 		(at 112.5 37.16 0)
 		(layer "B.SilkS")
 		(uuid "2b62d3f2-167d-4a91-a10e-d283ecb80785")
@@ -17496,7 +17496,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "1|EXT PIXELS"
+	(gr_text "1|EXT RGB"
 		(at 112.5 34.62 0)
 		(layer "B.SilkS")
 		(uuid "5d3eb94e-c5f7-4afb-846e-260c221e27b4")
@@ -22090,8 +22090,8 @@
 		(polygon
 			(pts
 				(xy 99.5 38.5) (xy 99.5 39.75) (xy 100.75 41) (xy 107 41) (xy 109 39) (xy 109 37.75) (xy 109.5 37)
-				(xy 109.5 35.75) (xy 109 35.25) (xy 108 35.25) (xy 107.5 35.75) (xy 107.5 35.75) (xy 107 36.25)
-				(xy 107 38.75) (xy 106.25 39.5) (xy 101.25 39.5) (xy 100.25 38.5)
+				(xy 109.5 35.75) (xy 109 35.25) (xy 108 35.25) (xy 107.5 35.75) (xy 107 36.25) (xy 107 38.75) (xy 106.25 39.5)
+				(xy 101.25 39.5) (xy 100.25 38.5)
 			)
 		)
 		(filled_polygon
