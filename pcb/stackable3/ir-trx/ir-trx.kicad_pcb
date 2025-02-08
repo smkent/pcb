@@ -110,7 +110,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "be44607d-f348-476b-ab2e-270cf7cd3670")
@@ -122,7 +122,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "0dc115d5-6e13-4747-97d3-9a60b1c1d3e2")
 			(effects
@@ -277,7 +277,7 @@
 			(uuid "40111e14-3889-4e5d-8a91-03642bbe1b3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a8d125e-7092-4d06-8bdd-a7879848a133")
 			(effects
@@ -324,7 +324,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d4449edb-84bf-49ca-ad1d-5740142d55d1")
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "8ad00762-0b79-4d1a-baa9-8d9903c871fa")
 			(effects
@@ -491,7 +491,7 @@
 			(uuid "89b3d281-e618-4d56-859b-5b2c806f2eac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "57cc2ac6-a671-4542-87f3-7e0979a95935")
 			(effects
@@ -1879,7 +1879,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED IR infrared side sideemitter angle")
 		(property "Reference" "LED6"
-			(at 0 -2.75 360)
+			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b3bc8a2a-32cd-4881-aa65-4ab2df505ae2")
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(property "Value" "XYC-IR26C-LX4"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "cc887211-749b-4e0e-945f-785718aa4682")
 			(effects
@@ -2143,7 +2143,7 @@
 			(uuid "9c14fc0c-a234-434b-8473-305a9cf40049")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d3966514-5c40-422f-aa7c-c55a6d719eff")
 			(effects
@@ -2190,7 +2190,7 @@
 		(uuid "2fbd9567-49fa-48e2-89a4-495a23d74c5c")
 		(at 32 51 180)
 		(property "Reference" "LED11"
-			(at 0 -2.35 360)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7d1d61f4-611e-40e5-86fc-8c0530b6e56e")
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Value" "XL-1606SURC"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "874899a7-fef9-4450-b05c-6cfe9c65c8fe")
 			(effects
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69ecd73a-ce7c-4b5d-8f30-5a017f27deb0")
@@ -2225,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1606SURC_C965860.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfaf065d-f032-4a7e-97b9-f29e125a1416")
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Red, Side-Emitter package"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a10bf92-9d05-4dfc-a67b-951889105f7b")
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property ki_fp_filters "LED*SideEmitter*")
-		(path "/3a056c8b-bc49-4c99-97cf-d14607d41090")
+		(path "/622a5767-1c72-4da3-91d4-0f93cff14eb8")
 		(sheetname "Root")
 		(sheetfile "ir-trx.kicad_sch")
 		(attr smd)
@@ -2345,7 +2345,7 @@
 			(uuid "bfa96ca5-c4d6-4a51-b88c-a7842412f6d5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5289a074-729e-48f6-82cc-8e245be7c904")
 			(effects
@@ -2387,7 +2387,7 @@
 			)
 		)
 	)
-	(footprint "discrete:R_0603_1608Metric"
+	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "304f9042-c733-42f3-bcb4-ae9e710476b9")
 		(at 29.5 36 90)
@@ -2397,7 +2397,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c065d5f-5b15-41ed-b695-f93f6f06ba44")
+			(uuid "395dca18-3f1a-4440-8105-9c1542b8cc35")
 			(effects
 				(font
 					(size 1 1)
@@ -2408,7 +2408,7 @@
 		(property "Value" "100R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "c2ced361-f8aa-48b0-ac14-80ae1f943a32")
+			(uuid "751817e1-0054-40b0-a821-000ba3cdd94f")
 			(effects
 				(font
 					(size 1 1)
@@ -2416,12 +2416,12 @@
 				)
 			)
 		)
-		(property "Footprint" "discrete:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb2f91d4-915f-479b-a2ef-1991f9249673")
+			(uuid "f80b57fa-ddcd-436e-96a6-0c7504863e5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c7943f2-9db1-46e0-8a17-9714de47cf63")
+			(uuid "f6f04cdd-e7a5-48de-b766-2680be1bd39e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11afada9-6e2f-4ca3-bad7-6af051df7a5d")
+			(uuid "88270f7b-8cab-4709-a421-9d2a6a233c61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,6 +2461,26 @@
 		(sheetfile "ir-trx.kicad_sch")
 		(attr smd)
 		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3b1e855-8195-4602-bb57-c22ee2563bc9")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f3ffb9fb-8429-408c-b6fe-5e762f9903c0")
+		)
+		(fp_line
 			(start 1.48 -0.73)
 			(end 1.48 0.73)
 			(stroke
@@ -2468,7 +2488,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "10f458d6-3fee-45cf-89dc-f53d08a60a08")
+			(uuid "a5767e78-8cf7-44a7-8264-24fabe565ac2")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -2478,7 +2498,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f5df00bf-2d4a-4b85-8126-ab9d4254ef4f")
+			(uuid "a49bed0e-da7a-4e1e-a617-86a8307ae901")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -2488,7 +2508,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "835036e2-7ea7-4c61-bbc3-79a4da23b355")
+			(uuid "b4b403b5-1879-4780-9651-03926d0cd34e")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -2498,7 +2518,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9207b239-701f-466c-9264-0ce8f6a9649c")
+			(uuid "bcbf360a-9375-465f-a6f2-a256d093c13f")
 		)
 		(fp_line
 			(start 0.8 -0.4125)
@@ -2508,7 +2528,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8973eac5-1466-42cb-ad0a-ae4190cf6fc5")
+			(uuid "f0b25344-ff6a-438f-935f-3f4ff06bb70d")
 		)
 		(fp_line
 			(start -0.8 -0.4125)
@@ -2518,7 +2538,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ff41017a-d2b4-43bc-acb5-72d60d15d67a")
+			(uuid "f07205ec-0f82-4617-ab01-e3ff7fb5e488")
 		)
 		(fp_line
 			(start 0.8 0.4125)
@@ -2528,7 +2548,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b2a540b1-f71f-4f76-a240-9508ac1012e2")
+			(uuid "a508a2c8-779b-42ce-be58-b4e466a9e09d")
 		)
 		(fp_line
 			(start -0.8 0.4125)
@@ -2538,12 +2558,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "991d3e5b-5196-4c01-9cfd-689cf8099560")
+			(uuid "ec8bf185-f1f1-4875-b0a1-9dd8e85c95c8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "bf781f50-bc22-40e9-b4fa-c48cd15aa0ef")
+			(uuid "c18f2316-2df9-4592-88fb-3a83262b5ff7")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2558,7 +2578,7 @@
 			(roundrect_rratio 0.25)
 			(net 8 "IR_SELECT")
 			(pintype "passive")
-			(uuid "238111bb-bc19-41b6-8299-0c2267fe4ccb")
+			(uuid "78aa6b8a-2c96-44f7-a932-33c8a94289c5")
 		)
 		(pad "2" smd roundrect
 			(at 0.825 0 90)
@@ -2567,7 +2587,7 @@
 			(roundrect_rratio 0.25)
 			(net 10 "Net-(SW1-B)")
 			(pintype "passive")
-			(uuid "01347dc2-5cbe-4de1-81c5-51046683e756")
+			(uuid "60c4c960-6a59-4423-8fb0-774e691cc7e7")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
@@ -2933,7 +2953,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6b2fa325-5840-473f-9bb7-2bb1143a3ce3")
@@ -2945,7 +2965,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "7037c43a-372f-4b41-b025-9ce4004f6ec5")
 			(effects
@@ -2995,7 +3015,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8173b605-2931-4994-b348-38d749443244")
+		(path "/db1304c0-49b2-4643-b3bd-c100b1670893")
 		(sheetname "Root")
 		(sheetfile "ir-trx.kicad_sch")
 		(attr smd)
@@ -3100,7 +3120,7 @@
 			(uuid "b02cd519-9a14-45a7-8b0d-39c0ad34f8a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ef55b600-a278-4b8e-bcde-40605a417adb")
 			(effects
@@ -3147,7 +3167,7 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "REF**"
-			(at 0 -4.2 360)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1cb772fc-3365-46e0-927e-bea5618afbde")
@@ -3159,7 +3179,7 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3_5.4mm_Pad_Via_corner"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea2a0ae5-6fab-4286-90c1-964bbc3bd8fc")
@@ -3379,7 +3399,7 @@
 			(uuid "06660b1d-879d-4de5-b55c-3095957b332d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "799c2b44-d181-4946-9135-a33ea73b127e")
 			(effects
@@ -3492,7 +3512,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a2d5105a-5ddd-46c8-a72a-973a98105ad4")
@@ -3504,7 +3524,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "9c177768-cc31-4805-bea5-8801e2b1761d")
 			(effects
@@ -3659,7 +3679,7 @@
 			(uuid "26f58f0c-7615-4611-b4f1-622193eb7c82")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8a6d5504-dd37-4270-8d1d-64b61484bade")
 			(effects
@@ -4247,7 +4267,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED IR infrared side sideemitter angle")
 		(property "Reference" "LED1"
-			(at 0 -2.75 360)
+			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a1ce958d-908c-4988-b6fc-9a9be5e0c84f")
@@ -4259,7 +4279,7 @@
 			)
 		)
 		(property "Value" "XYC-IR26C-LX4"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "9ac6d166-e4cb-46f9-9029-5b6ee1eba3e6")
 			(effects
@@ -4511,7 +4531,7 @@
 			(uuid "61ba7474-776c-4f06-92fb-6d23567f608b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7681702e-00a5-4817-838d-1d401c33e1e5")
 			(effects
@@ -4905,7 +4925,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "92880f7f-1454-458e-a952-90f02fabccf9")
@@ -4917,7 +4937,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "9a7999a2-f567-468a-8e12-23a286079301")
 			(effects
@@ -5072,7 +5092,7 @@
 			(uuid "ae25b8e2-0792-4794-b548-ceeb2a1e4040")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "69dff96f-85e4-4ccc-a1f3-631849f0a755")
 			(effects
@@ -5397,7 +5417,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, infrared, grey, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf, generated by kicad-footprint-generator")
 		(tags "LED IR")
 		(property "Reference" "LED7"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f8c59fc1-5372-4339-8c7c-77652e793404")
@@ -5409,7 +5429,7 @@
 			)
 		)
 		(property "Value" "DY-IR333-A"
-			(at 1.27 3.96 360)
+			(at 1.27 3.96 0)
 			(layer "F.Fab")
 			(uuid "3d98918d-860d-488f-bdf9-ea27b5f04ec1")
 			(effects
@@ -5420,7 +5440,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d1b37e3-c58a-445e-af6f-055f58c914cc")
@@ -5432,7 +5452,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_TONYU-DY-IR333-A_C396674.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32590df3-a01f-4d22-9ce3-e706038d5eb2")
@@ -5444,7 +5464,7 @@
 			)
 		)
 		(property "Description" "940nm IR LED, 5mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "137b599d-c731-43a1-ac03-a6d4fb57274a")
@@ -5589,7 +5609,7 @@
 			(uuid "004957fb-f6b3-4f09-b22d-7ddbfd766a16")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "2000d471-58ec-48d9-9422-1fb5d0a86d22")
 			(effects
@@ -5640,7 +5660,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2504d462-e192-4b37-a9e4-80d1c5203ace")
@@ -5652,7 +5672,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f5cf8765-5c26-45e5-bd7f-e188ce0a7f95")
 			(effects
@@ -5702,7 +5722,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/141215d6-1bf8-4df7-ad9e-31af9806f9f9")
+		(path "/21654132-ebe3-4d6e-b927-f334d6dd64bf")
 		(sheetname "Root")
 		(sheetfile "ir-trx.kicad_sch")
 		(attr smd)
@@ -5807,7 +5827,7 @@
 			(uuid "046aa331-742d-4488-9af0-9275d9e3b134")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6fd2c423-9ba3-44f1-8cd8-166cbb4209ec")
 			(effects
@@ -6260,7 +6280,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e33ee2a0-957a-4c67-b741-5d52e4fd9bb3")
@@ -6272,7 +6292,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "c31f44a2-ba71-4069-a095-8a58f7d1cf3d")
 			(effects
@@ -6427,7 +6447,7 @@
 			(uuid "da36ea5a-65d0-4895-9790-45d5f01787cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4899f017-20d4-4bca-b152-1bbe27009522")
 			(effects
@@ -6688,7 +6708,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED IR infrared side sideemitter angle")
 		(property "Reference" "LED3"
-			(at 0 -2.75 360)
+			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f5a16749-e42a-4e32-b8fc-204f60970d3c")
@@ -6700,7 +6720,7 @@
 			)
 		)
 		(property "Value" "XYC-IR26C-LX4"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "e4c61e92-5a98-42cf-98a5-2122137008f6")
 			(effects
@@ -6952,7 +6972,7 @@
 			(uuid "81963b43-9b4f-49d4-b8d5-f42cb9c37253")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "42d0bb30-6c17-4e07-bda3-74213680bea0")
 			(effects
@@ -7001,7 +7021,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, infrared, grey, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf, generated by kicad-footprint-generator")
 		(tags "LED IR")
 		(property "Reference" "LED10"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "69fcfc0e-5d01-4c4b-a07e-13dd16e59aa7")
@@ -7013,7 +7033,7 @@
 			)
 		)
 		(property "Value" "DY-IR333-A"
-			(at 1.27 3.96 360)
+			(at 1.27 3.96 0)
 			(layer "F.Fab")
 			(uuid "195f16c2-0203-4212-b12e-25d292ca565e")
 			(effects
@@ -7024,7 +7044,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b58894e-5c7c-43d1-97f4-a7ba9156695f")
@@ -7036,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_TONYU-DY-IR333-A_C396674.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1bfaa128-79a7-4847-9d6b-37b4eeeb49c0")
@@ -7048,7 +7068,7 @@
 			)
 		)
 		(property "Description" "940nm IR LED, 5mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64be5705-41e5-44ff-9839-01f83a94f178")
@@ -7193,7 +7213,7 @@
 			(uuid "eefbac4d-c73f-4ac2-97db-5988b05a8cc9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "9744a218-b1d0-4732-9061-2a49a95b6348")
 			(effects
@@ -7242,7 +7262,7 @@
 		(uuid "9a3f9ae4-2d97-4d6c-8dab-e4f1e075f833")
 		(at 40 51 180)
 		(property "Reference" "LED0"
-			(at 0 -2.35 360)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1389fe6b-2e8a-40ba-92e5-c88df63b2203")
@@ -7254,7 +7274,7 @@
 			)
 		)
 		(property "Value" "XL-1606UBC"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "f71d1350-7d34-454d-a53c-3c5c001d5cfa")
 			(effects
@@ -7265,7 +7285,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_SideEmitter_1.7x1.1mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61cafe1f-b271-4755-9e85-335c5090fc86")
@@ -7277,7 +7297,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402181506_XINGLIGHT-XL-1606UBC_C965865.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67c76a00-31b3-4dfb-ba20-9d32d8d80233")
@@ -7289,7 +7309,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, Blue, Side-Emitter package"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1d270ee-6432-4608-ac84-4df23cd184e2")
@@ -7397,7 +7417,7 @@
 			(uuid "1ec7bf25-9f0e-4179-9100-17beacbcd580")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b282950b-724d-4e53-a036-7fabb38ae380")
 			(effects
@@ -7647,7 +7667,7 @@
 			(uuid "41125e64-3479-4531-8aa9-c9b2672006ce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "420ed1d6-ad78-415a-9a13-cff11e58049a")
 			(effects
@@ -8736,7 +8756,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "781700c1-3897-46bc-acf2-0afc8ad1a781")
@@ -8748,7 +8768,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "00f2db89-c277-4ef9-a59e-7b35535689f2")
 			(effects
@@ -8903,7 +8923,7 @@
 			(uuid "3c9b960a-a8c1-47fd-90b8-954318a628db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "577252db-92df-4d2a-87f3-f2f753547fec")
 			(effects
@@ -8950,7 +8970,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, infrared, grey, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf, generated by kicad-footprint-generator")
 		(tags "LED IR")
 		(property "Reference" "LED9"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "342c0b1b-8f73-484d-ba51-c0b9229982e2")
@@ -8962,7 +8982,7 @@
 			)
 		)
 		(property "Value" "DY-IR333-A"
-			(at 1.27 3.96 360)
+			(at 1.27 3.96 0)
 			(layer "F.Fab")
 			(uuid "55e8506e-a067-418d-ab68-3b04829cab65")
 			(effects
@@ -8973,7 +8993,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af4bf072-948c-46c3-a32e-fdaf39c08e9d")
@@ -8985,7 +9005,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_TONYU-DY-IR333-A_C396674.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19692914-7e28-40c4-ab44-58528cf136c5")
@@ -8997,7 +9017,7 @@
 			)
 		)
 		(property "Description" "940nm IR LED, 5mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41dd38e0-f702-4137-9964-b0764027383b")
@@ -9142,7 +9162,7 @@
 			(uuid "9de7d259-9096-4918-a300-7b767fa2ff85")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "aa85f756-7682-487b-bd40-b0d778bce048")
 			(effects
@@ -9405,7 +9425,7 @@
 		(uuid "da9a50aa-2348-4eae-a7fd-56829ac59af1")
 		(at 36 47.75)
 		(property "Reference" "U1"
-			(at 0 5.5 360)
+			(at 0 5.5 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30880fe0-a4f1-40f6-9168-500fcbeec194")
@@ -9417,7 +9437,7 @@
 			)
 		)
 		(property "Value" "DY-IRMHA384"
-			(at 0 5 360)
+			(at 0 5 0)
 			(layer "F.Fab")
 			(uuid "c6945a52-f1b1-4739-8977-6bbb21f95510")
 			(effects
@@ -9428,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" "package:IRM_5.0mmx4.2mm_P1.27mm_Horizontal"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37c35774-a542-489c-92d0-b1acc37b88e7")
@@ -9440,7 +9460,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2306011403_TONYU-DY-IRMHA384-T05-2KB_C6071554.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bda14907-888b-479e-beca-a8caf6a559d7")
@@ -9452,7 +9472,7 @@
 			)
 		)
 		(property "Description" "38kHz 18m ±45° 2.7V-5.5V Infrared Receiver Module (IRM)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08f77acc-589b-43f1-a639-5af34c0406a1")
@@ -9587,7 +9607,7 @@
 			(uuid "6bedb8f3-e699-45e3-8371-162dd42277e0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "07661ab2-58d1-402f-a398-c02c93963267")
 			(effects
@@ -10173,7 +10193,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, infrared, grey, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf, generated by kicad-footprint-generator")
 		(tags "LED IR")
 		(property "Reference" "LED8"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1d7e109a-613b-4506-8c9e-b0c59b177138")
@@ -10185,7 +10205,7 @@
 			)
 		)
 		(property "Value" "DY-IR333-A"
-			(at 1.27 3.96 360)
+			(at 1.27 3.96 0)
 			(layer "F.Fab")
 			(uuid "a7b61c35-4c84-4cd5-abbb-d9c7b36af1de")
 			(effects
@@ -10196,7 +10216,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b5f5d7f-dae9-410b-9fe2-b6a88cf0d9e4")
@@ -10208,7 +10228,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_TONYU-DY-IR333-A_C396674.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f82f370-df82-4e08-8e30-4c48395c60b9")
@@ -10220,7 +10240,7 @@
 			)
 		)
 		(property "Description" "940nm IR LED, 5mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9b9a5c1-d3b7-47de-b6e2-4ac4efa73d8e")
@@ -10365,7 +10385,7 @@
 			(uuid "7099f8a1-0d97-4da8-9542-b1128623473a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "ebff85b4-8fae-485f-9ca4-7abaf3c33e35")
 			(effects
@@ -10416,7 +10436,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "beb1346e-9377-4903-ba1f-e55f08e1fa08")
@@ -10428,7 +10448,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e247fb40-5e12-4954-b6bc-6134e9b83dd1")
 			(effects
@@ -10583,7 +10603,7 @@
 			(uuid "f8070109-dda3-4592-b1c6-2e217ae02c1f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c506ee1c-9b60-46df-9c82-1906778395d4")
 			(effects
@@ -10630,7 +10650,7 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "REF**"
-			(at 0 -4.2 360)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e79ba8c4-60be-44c7-98fe-610ab83e2786")
@@ -10642,7 +10662,7 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3_5.4mm_Pad_Via_corner"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2dec3e2c-567d-4e89-a999-4f2ca4eebadd")
@@ -10862,7 +10882,7 @@
 			(uuid "2b5976f7-5201-42cd-be0a-12984a7ae421")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4222d71a-f5af-4bc1-b498-a75891abd897")
 			(effects
@@ -10975,7 +10995,7 @@
 		(descr "TRS 3.5mm, horizontal, SMD, with edge cuts")
 		(tags "TRS audio jack stereo horizontal")
 		(property "Reference" "J1"
-			(at 0 -10 360)
+			(at 0 -10 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "003efd0b-1b7d-4634-b8a0-6166fa04e46d")
@@ -10987,7 +11007,7 @@
 			)
 		)
 		(property "Value" "PJ-327U"
-			(at 0 8.4 360)
+			(at 0 8.4 0)
 			(layer "F.Fab")
 			(uuid "39a88680-7edc-4553-baa6-9dbb24e9d88c")
 			(effects
@@ -10998,7 +11018,7 @@
 			)
 		)
 		(property "Footprint" "connector:Jack_3.5mm_PJ-327U-SMT_Horizontal_EdgeCut"
-			(at 0 -0.25 360)
+			(at 0 -0.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eda09673-45c1-4767-a459-9d9c99da8b95")
@@ -11010,7 +11030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -0.25 360)
+			(at 0 -0.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0c68082-ec08-4f77-895f-1805c9251614")
@@ -11022,7 +11042,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 0 -0.25 360)
+			(at 0 -0.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c65ce6f8-cb2b-4bc7-adca-1c18c8ef3d4c")
@@ -11348,7 +11368,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.25 360)
+			(at 0 -0.25 0)
 			(layer "F.Fab")
 			(uuid "ddaaf207-480e-4fe9-acb2-ef0cba0cb322")
 			(effects
@@ -11441,7 +11461,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R0"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5ff6cc8e-299c-43ff-9f29-5ae18543e7d5")
@@ -11453,7 +11473,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "96001be8-21fb-4564-8dc3-b547cc1cb024")
 			(effects
@@ -11608,7 +11628,7 @@
 			(uuid "d4549d80-872d-4dcc-b848-caa4caea3b7f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0993d607-f557-4718-843d-3c697ed16f67")
 			(effects
@@ -11655,7 +11675,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED IR infrared side sideemitter angle")
 		(property "Reference" "LED4"
-			(at 0 -2.75 360)
+			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "747b6166-53fc-4469-a026-341c2b584f88")
@@ -11667,7 +11687,7 @@
 			)
 		)
 		(property "Value" "XYC-IR26C-LX4"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "f74beef3-f873-456d-9879-83bc9fa473fd")
 			(effects
@@ -11919,7 +11939,7 @@
 			(uuid "8ec4a563-ed1e-41f9-bfc1-5203999064da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a40a79b-526d-4a0b-bdff-3793bb387828")
 			(effects
