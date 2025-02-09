@@ -14356,6 +14356,19 @@
 			(justify top)
 		)
 	)
+	(gr_text "OFF"
+		(at 72.75 48.25 0)
+		(layer "F.SilkS")
+		(uuid "2cd564f5-b13e-4adf-8172-efeb5a4c5f51")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Register"
 		(at 78.25 27.75 0)
 		(layer "F.SilkS")
@@ -14712,6 +14725,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "LEDs"
+		(at 69.25 48.25 0)
+		(layer "F.SilkS")
+		(uuid "745a4276-9953-4134-b997-321c5117a178")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "LOAD"
 		(at 83.5 33.46 90)
 		(layer "F.SilkS")
@@ -14788,6 +14814,19 @@
 				(bold yes)
 			)
 			(justify top)
+		)
+	)
+	(gr_text "ON"
+		(at 67.25 48.25 0)
+		(layer "F.SilkS")
+		(uuid "b2e9e438-4c24-44ee-aa58-d2d7b4f85918")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "6"
@@ -18992,14 +19031,6 @@
 		(uuid "f58fa987-e050-468f-85bf-7a04964caa67")
 	)
 	(segment
-		(start 71.03 48.17)
-		(end 70.75 48.17)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 27)
-		(uuid "22ab9ec3-6e0a-4e3d-b72a-596b4e2197c2")
-	)
-	(segment
 		(start 81.7 36.75)
 		(end 82.01 36.44)
 		(width 0.1)
@@ -19022,6 +19053,14 @@
 		(layer "F.Cu")
 		(net 27)
 		(uuid "780db546-6a7a-4b95-a3ec-13f347dcf01e")
+	)
+	(segment
+		(start 70.75 48.17)
+		(end 71.03 48.17)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 27)
+		(uuid "ce438dd8-e335-49d5-b121-683fe879241f")
 	)
 	(segment
 		(start 81.7 36.75)
