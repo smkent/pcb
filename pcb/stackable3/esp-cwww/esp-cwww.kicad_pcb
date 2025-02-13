@@ -15991,6 +15991,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" "C5343396"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bcda9829-f0e2-4a85-8c43-58dade71f84e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/d661c635-03f8-4557-bd16-f06ffaa09c8e")
 		(sheetname "Root")
