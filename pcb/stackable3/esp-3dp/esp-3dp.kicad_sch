@@ -7687,7 +7687,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 146.05) (xy 133.35 142.24)
+			(xy 133.35 143.51) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8778,8 +8778,30 @@
 			)
 		)
 	)
-	(global_label "LIGHT_CLK"
-		(shape output)
+	(global_label "ENC2_BUTTON"
+		(shape input)
+		(at 200.66 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11555e48-7a19-4422-ada6-3225caf1567b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4781 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC2_CLK"
+		(shape input)
 		(at 33.02 41.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8822,8 +8844,30 @@
 			)
 		)
 	)
-	(global_label "LIGHT_DT"
-		(shape output)
+	(global_label "ENC2_CLK"
+		(shape input)
+		(at 200.66 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18fc6629-279a-452b-bc1e-e41bb27703fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4781 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC2_DT"
+		(shape input)
 		(at 33.02 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8866,9 +8910,9 @@
 			)
 		)
 	)
-	(global_label "FAN_CLK"
+	(global_label "ENC1_CLK"
 		(shape input)
-		(at 200.66 153.67 180)
+		(at 168.91 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8878,7 +8922,7 @@
 		)
 		(uuid "26b4fddb-f3b9-4fdc-bb61-8269123367e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4781 153.67 0)
+			(at 158.7281 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,8 +8954,8 @@
 			)
 		)
 	)
-	(global_label "LIGHT_BUTTON"
-		(shape output)
+	(global_label "ENC2_BUTTON"
+		(shape input)
 		(at 33.02 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8954,30 +8998,8 @@
 			)
 		)
 	)
-	(global_label "LIGHT_CLK"
+	(global_label "ENC1_CLK"
 		(shape input)
-		(at 171.45 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32c6d172-3a85-4bf8-9496-1c5092f366ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2681 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAN_CLK"
-		(shape output)
 		(at 33.02 29.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9064,8 +9086,30 @@
 			)
 		)
 	)
-	(global_label "FAN_DT"
-		(shape output)
+	(global_label "ENC2_DT"
+		(shape input)
+		(at 200.66 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49afe32e-5bfd-4514-b7e9-6bfbaac293e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4781 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC1_DT"
+		(shape input)
 		(at 33.02 31.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9086,8 +9130,8 @@
 			)
 		)
 	)
-	(global_label "FAN_BUTTON"
-		(shape output)
+	(global_label "ENC1_BUTTON"
+		(shape input)
 		(at 33.02 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9198,7 +9242,7 @@
 	)
 	(global_label "LIGHT_OUT"
 		(shape output)
-		(at 133.35 146.05 270)
+		(at 133.35 143.51 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9208,7 +9252,7 @@
 		)
 		(uuid "81ae0207-f2c5-484d-a9c1-55993124dad4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 159.3766 90)
+			(at 133.35 156.8366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,9 +9262,9 @@
 			)
 		)
 	)
-	(global_label "FAN_DT"
+	(global_label "ENC1_DT"
 		(shape input)
-		(at 200.66 151.13 180)
+		(at 168.91 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9230,7 +9274,7 @@
 		)
 		(uuid "98919fd8-0921-4472-9f22-2087e22e1831")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4781 151.13 0)
+			(at 158.7281 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,50 +9504,6 @@
 			)
 		)
 	)
-	(global_label "LIGHT_BUTTON"
-		(shape input)
-		(at 171.45 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9cead2b-e51a-46a9-8b45-3e319e3b8857")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2681 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LIGHT_DT"
-		(shape input)
-		(at 171.45 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eafea17c-f9f2-499c-acd9-1a8166b49fbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2681 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FAN_PWM_3V3"
 		(shape output)
 		(at 58.42 39.37 0)
@@ -9526,9 +9526,9 @@
 			)
 		)
 	)
-	(global_label "FAN_BUTTON"
+	(global_label "ENC1_BUTTON"
 		(shape input)
-		(at 200.66 148.59 180)
+		(at 168.91 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9538,7 +9538,7 @@
 		)
 		(uuid "f288e4c4-6148-42b6-9f15-92cd870072e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4781 148.59 0)
+			(at 158.7281 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,72 +10371,6 @@
 			(project "esp-3dp"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6e233c-4d7a-4a25-800c-0fdebeb1b4e4")
-		(property "Reference" "#PWR036"
-			(at 176.53 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b282359-c6c4-43cf-9e33-85a1283aed61")
-		)
-		(instances
-			(project "esp-3dp"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12650,97 +12584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "connector:JST_SH_01x05_RotaryEncoder")
-		(at 176.53 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5befc3fa-b412-424a-8f6b-b9945f97d638")
-		(property "Reference" "J2"
-			(at 179.07 147.6755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST SH"
-			(at 179.07 150.2155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
-			(at 176.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST SH connector for rotary encoder"
-			(at 176.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7433426"
-			(at 176.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f894d181-ade5-43ee-b5ec-c4197104c8e6")
-		)
-		(pin "2"
-			(uuid "0f963d96-c21a-47ec-b533-a5e62938507f")
-		)
-		(pin "5"
-			(uuid "f06c30aa-dc27-4532-9b30-b207f440133b")
-		)
-		(pin "4"
-			(uuid "50639245-23e1-4371-96b9-02edc1fa18b3")
-		)
-		(pin "MP"
-			(uuid "493411a6-7b2c-486b-b3f8-e008cf33ad25")
-		)
-		(pin "1"
-			(uuid "dd684150-580a-4dc1-89d1-671056b3053d")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 113.03 149.86 0)
 		(unit 2)
@@ -13634,6 +13477,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.74 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73e7cddb-5ae5-4eb6-9a97-dd6ba1682b6b")
+		(property "Reference" "#PWR036"
+			(at 205.74 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ca8fab-5f5e-4380-a328-d0473a87a839")
+		)
+		(instances
+			(project "esp-3dp"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 59.69 58.42 270)
 		(mirror x)
@@ -14038,6 +13947,73 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 200.66 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81759579-77df-4b8f-ba45-82d411fe44e8")
+		(property "Reference" "#PWR034"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e4a6a57-c8a4-4e9a-8391-4d18cf4f291d")
+		)
+		(instances
+			(project "esp-3dp"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 134.62 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14104,7 +14080,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 200.66 146.05 90)
+		(at 168.91 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14113,7 +14089,7 @@
 		(fields_autoplaced yes)
 		(uuid "83168991-d400-4f1d-9e16-0e262279d6fb")
 		(property "Reference" "#PWR043"
-			(at 204.47 146.05 0)
+			(at 172.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,7 +14098,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 196.85 146.0499 90)
+			(at 165.1 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,7 +14107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 146.05 0)
+			(at 168.91 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +14116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 146.05 0)
+			(at 168.91 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +14125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 200.66 146.05 0)
+			(at 168.91 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14405,6 +14381,97 @@
 			(project "esp-3dp"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connector:JST_SH_01x05_RotaryEncoder")
+		(at 205.74 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5c2ea9-1284-4b30-b7bc-fee94e920c13")
+		(property "Reference" "J3"
+			(at 208.28 147.6755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST SH"
+			(at 208.28 150.2155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH connector for rotary encoder"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7433426"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79e2dd3f-e76f-420c-b117-5c2be9e6ad5d")
+		)
+		(pin "2"
+			(uuid "edbb6d84-88c5-4af3-9220-89dbbebcbd9b")
+		)
+		(pin "5"
+			(uuid "25145384-586f-4f51-9fb0-fde2a6be8039")
+		)
+		(pin "4"
+			(uuid "e3aa4c41-4a42-499a-a9cd-35778ca151d9")
+		)
+		(pin "MP"
+			(uuid "a94c95db-e746-4228-b60d-dd66df403d68")
+		)
+		(pin "1"
+			(uuid "fa91bcd8-0e7d-4f8a-8f53-0da1b3d64e5b")
+		)
+		(instances
+			(project "esp-3dp"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15997,73 +16064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 171.45 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaf61f84-9264-4c03-91b6-e408c37ea6aa")
-		(property "Reference" "#PWR034"
-			(at 175.26 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 167.64 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f85e9d3-a431-41a7-8d69-da920f9a3824")
-		)
-		(instances
-			(project "esp-3dp"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 243.84 35.56 0)
 		(unit 1)
@@ -16214,7 +16214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 158.75 0)
+		(at 173.99 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16223,7 +16223,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae085b69-4653-41b9-af7a-f8db025ca862")
 		(property "Reference" "#PWR046"
-			(at 205.74 165.1 0)
+			(at 173.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16232,7 +16232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 163.83 0)
+			(at 173.99 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 158.75 0)
+			(at 173.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 158.75 0)
+			(at 173.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16258,7 +16258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 158.75 0)
+			(at 173.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,6 +16616,73 @@
 			(project "esp-3dp"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b8b083-608c-4130-9a8b-0eeb99bd5892")
+		(property "Reference" "#PWR033"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22a1507-8c2d-4981-90b9-6a0e4d109a8f")
+		)
+		(instances
+			(project "esp-3dp"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17025,7 +17092,7 @@
 	)
 	(symbol
 		(lib_id "connector:JST_SH_01x05_RotaryEncoder")
-		(at 205.74 148.59 0)
+		(at 173.99 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17033,8 +17100,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d9b9b7-5ef4-4633-b45b-c03309e31589")
-		(property "Reference" "J3"
-			(at 208.28 147.6755 0)
+		(property "Reference" "J2"
+			(at 176.53 147.6755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +17110,7 @@
 			)
 		)
 		(property "Value" "JST SH"
-			(at 208.28 150.2155 0)
+			(at 176.53 150.2155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,7 +17119,7 @@
 			)
 		)
 		(property "Footprint" "connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
-			(at 205.74 148.59 0)
+			(at 173.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17061,7 +17128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 148.59 0)
+			(at 173.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +17137,7 @@
 			)
 		)
 		(property "Description" "JST SH connector for rotary encoder"
-			(at 205.74 148.59 0)
+			(at 173.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17079,7 +17146,7 @@
 			)
 		)
 		(property "LCSC Part" "C7433426"
-			(at 205.74 148.59 0)
+			(at 173.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17175,7 @@
 		(instances
 			(project "esp-3dp"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17560,73 +17627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc86a86b-0758-473b-9602-8073b6db9da4")
-		(property "Reference" "#PWR033"
-			(at 165.1 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f6c124b-71d1-4fdd-99e9-4533d237d7ef")
-		)
-		(instances
-			(project "esp-3dp"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 27.94 186.69 270)
 		(unit 1)
@@ -17914,7 +17914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 143.51 270)
+		(at 168.91 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17923,7 +17923,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8264e99-64ea-4b8d-a640-5d311bd9fe25")
 		(property "Reference" "#PWR042"
-			(at 194.31 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17932,7 +17932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 143.5099 90)
+			(at 165.1 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17941,7 +17941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 143.51 0)
+			(at 168.91 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17950,7 +17950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 143.51 0)
+			(at 168.91 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17959,7 +17959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 143.51 0)
+			(at 168.91 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
