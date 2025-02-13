@@ -728,7 +728,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/b8f7024f-bacf-4dbd-a667-9a605ca2231b")
+		(path "/b20a2a6d-653d-4f37-a870-b1415c5b5f34")
 		(sheetname "Root")
 		(sheetfile "power-selector-dev.kicad_sch")
 		(clearance 0.15)
@@ -834,7 +834,7 @@
 			(uuid "73f14474-9b09-44c1-8ed1-e4597177e429")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "694fcb61-b7a8-424d-9260-d1f09ef5a200")
 			(effects
@@ -943,7 +943,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b53e9a9d-57cf-4aad-8c7a-a6dc30558315")
@@ -955,7 +955,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "24300a08-1130-456a-b8c2-cb8d2fddd9a4")
 			(effects
@@ -966,7 +966,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75d74186-9a04-429a-8f10-b38239c5d4c6")
@@ -978,7 +978,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d32d51b5-8073-4e2c-92a4-843e65ffbce7")
@@ -990,7 +990,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f0ad8e5-185f-4742-80bb-920cbe2f0c1f")
@@ -1149,7 +1149,7 @@
 			(uuid "d03a52ed-bce7-4e8e-a03c-6ec048177c95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9b77899b-c481-4253-88a4-9ca3124d156b")
 			(effects
@@ -1208,7 +1208,7 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "REF**"
-			(at 0 -4.2 360)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "12aa4e87-76bd-43c3-80e1-a8f74e0b3ec7")
@@ -1220,7 +1220,7 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3_5.4mm_Pad_Via_corner"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "341059b1-8f61-4872-a7b8-c94ef6e5dee6")
@@ -1440,7 +1440,7 @@
 			(uuid "0ebdc761-27b1-4026-a538-b3e9028b139a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "77e98cde-442d-4e47-b3ab-1ca092d3f5b7")
 			(effects
@@ -1898,7 +1898,7 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "REF**"
-			(at 0 -4.2 360)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "70a1ae35-0bd8-48b2-b805-c8ff3d5fbcde")
@@ -1910,7 +1910,7 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3_5.4mm_Pad_Via_corner"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69cf47b0-77a6-47b3-b584-ebc9010f0ca1")
@@ -2130,7 +2130,7 @@
 			(uuid "9fac333e-85ed-41be-ac29-3ebc8c6288f1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "59bc37c5-35f6-4e68-b935-cf5813d94850")
 			(effects
@@ -3216,7 +3216,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "56c52062-df4b-4838-9b60-775cc8387e8d")
@@ -3228,7 +3228,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "4d5d45e7-556c-4bdd-89e3-6dcd00fbb226")
 			(effects
@@ -3239,7 +3239,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57327247-52f1-4f6d-a425-41e07c6abfbf")
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8143d7e-133d-4e89-b017-f73e8489c542")
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7cff343-2abc-496b-acea-9a0b85281c64")
@@ -3422,7 +3422,7 @@
 			(uuid "cd8c8992-60c9-44c8-8ac4-804968044460")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0de8e5d5-bc52-4da9-ac95-80a300ad17b4")
 			(effects
@@ -3940,7 +3940,7 @@
 			(uuid "8f8d4b30-0315-4da2-b8f3-4acb4747dab0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2982f602-d54f-4efb-8863-e3bcbd6d3e99")
 			(effects
@@ -4049,7 +4049,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c2ad28c9-b28c-4c98-aeb3-e89de6af367f")
@@ -4061,7 +4061,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "9775aae8-de0d-4ff4-b94c-78385b641f86")
 			(effects
@@ -4072,7 +4072,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c382bb8-59a8-4f9c-8448-36d823de33fe")
@@ -4084,7 +4084,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae747d47-e888-40ea-9357-fe71c087895b")
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2008a3d1-1abf-4c71-97e5-e5ffdb6ba743")
@@ -4255,7 +4255,7 @@
 			(uuid "dd19045b-e0ca-4540-8122-8ce0e14f7a35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c39c097c-59e3-447e-ac9e-06ca66a6e557")
 			(effects
@@ -5473,7 +5473,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8dd36530-cad8-4f4c-9750-40777c6ae58f")
@@ -5485,7 +5485,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "b3e72788-f363-4223-8b09-e904abaf5f5e")
 			(effects
@@ -5496,7 +5496,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f17ed94-2830-4008-9d04-77724dc177a4")
@@ -5508,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09564747-1e2d-4e51-bc44-6eaee4a2ef32")
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2f3ba0e-62b8-4009-82d6-2a942afb989a")
@@ -5679,7 +5679,7 @@
 			(uuid "77def428-0490-414e-9a73-de42df791170")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2b953f48-5634-4469-9a1d-d7617704d3a9")
 			(effects
@@ -7514,7 +7514,7 @@
 			(uuid "e1ec404b-9e03-4461-9564-8ae23670aad7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "d94bf042-4470-4118-80a6-830a64b93263")
 			(effects
@@ -7566,7 +7566,7 @@
 		(descr "JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J4"
-			(at 0 5.8 360)
+			(at 0 5.8 0)
 			(layer "Dwgs.User")
 			(uuid "6706dac2-b966-4574-83f4-210fb4ff5bc3")
 			(effects
@@ -7577,7 +7577,7 @@
 			)
 		)
 		(property "Value" "JST PH"
-			(at 0 -5.8 360)
+			(at 0 -5.8 0)
 			(layer "B.Fab")
 			(uuid "4d120a9a-da24-4e0e-abb5-2febbf822ada")
 			(effects
@@ -7876,7 +7876,7 @@
 			(uuid "6d3fbd47-856c-4d44-80f7-3e7537587708")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "B.Fab")
 			(uuid "ccfe31b0-44d8-4235-8e4e-92ecedd5b874")
 			(effects
@@ -10143,7 +10143,7 @@
 		(descr "JST PH series connector, S4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J3"
-			(at 0 5.8 360)
+			(at 0 5.8 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "ba85f138-4111-4e12-91ab-f17408557daa")
@@ -10156,7 +10156,7 @@
 			)
 		)
 		(property "Value" "JST PH"
-			(at 0 -5.8 360)
+			(at 0 -5.8 0)
 			(layer "B.Fab")
 			(uuid "3ec85567-6e89-4d26-8000-96000a8b31f3")
 			(effects
@@ -10455,7 +10455,7 @@
 			(uuid "b8971780-ef88-4a4f-ab17-f3eee4f40561")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "B.Fab")
 			(uuid "29dca7e9-4187-41ec-9278-031008bbb513")
 			(effects
@@ -10545,7 +10545,7 @@
 		(descr "Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf")
 		(tags "Power Jack SMT")
 		(property "Reference" "J2"
-			(at -6.5 -6.5 360)
+			(at -6.5 -6.5 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "dd8899c0-e547-4d14-b737-20ce04d706ae")
@@ -10558,7 +10558,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at -0.5 -8.5 360)
+			(at -0.5 -8.5 0)
 			(layer "B.Fab")
 			(uuid "3dcfbe39-220d-46dc-870a-99c5257c7d35")
 			(effects
@@ -10862,7 +10862,7 @@
 			(uuid "97817a7f-21e7-44b3-afe5-709bda9b0c3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.5 -0.5 360)
+			(at -0.5 -0.5 0)
 			(layer "B.Fab")
 			(uuid "60ca9e84-8a58-45fe-adce-fcdc89141bb3")
 			(effects
@@ -11106,7 +11106,7 @@
 			(uuid "f0e5b0d2-9fa1-476b-9223-797173a4527d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "f05e3985-2748-409b-a618-dc95728a02ee")
 			(effects
