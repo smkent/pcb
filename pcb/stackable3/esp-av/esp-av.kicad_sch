@@ -6981,7 +6981,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 121.92) (xy 232.41 121.92)
+			(xy 234.95 121.92) (xy 237.49 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7061,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 95.25) (xy 233.68 95.25)
+			(xy 232.41 95.25) (xy 234.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7081,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 97.79) (xy 204.47 97.79)
+			(xy 203.2 97.79) (xy 205.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7131,7 +7131,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 124.46) (xy 232.41 124.46)
+			(xy 234.95 124.46) (xy 237.49 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7381,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 232.41 116.84)
+			(xy 234.95 116.84) (xy 237.49 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7481,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 114.3) (xy 232.41 114.3)
+			(xy 234.95 114.3) (xy 237.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7491,7 +7491,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 95.25) (xy 204.47 95.25)
+			(xy 203.2 95.25) (xy 205.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7671,7 +7671,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 204.47 92.71)
+			(xy 203.2 92.71) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7731,7 +7731,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 114.3) (xy 261.62 114.3)
+			(xy 264.16 114.3) (xy 266.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7781,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 100.33) (xy 204.47 100.33)
+			(xy 203.2 100.33) (xy 205.74 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7871,7 +7871,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 119.38) (xy 232.41 119.38)
+			(xy 234.95 119.38) (xy 237.49 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7951,7 +7951,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 127) (xy 232.41 127)
+			(xy 234.95 127) (xy 237.49 127)
 		)
 		(stroke
 			(width 0)
@@ -7981,7 +7981,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 92.71) (xy 233.68 92.71)
+			(xy 232.41 92.71) (xy 234.95 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8830,7 +8830,7 @@
 	(text_box "Connectors"
 		(exclude_from_sim no)
 		(at 15.24 157.48 0)
-		(size 157.48 27.94)
+		(size 160.02 27.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -9114,7 +9114,7 @@
 		)
 	)
 	(global_label "IO0/SW/DATA"
-		(shape output)
+		(shape input)
 		(at 153.67 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9137,7 +9137,7 @@
 	)
 	(global_label "RX_3V3"
 		(shape output)
-		(at 233.68 95.25 0)
+		(at 234.95 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9147,7 +9147,7 @@
 		)
 		(uuid "0853451c-a00d-4550-bd77-4f8544a4b978")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.1447 95.25 0)
+			(at 240.4147 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +9465,7 @@
 	)
 	(global_label "TX_3V3"
 		(shape input)
-		(at 229.87 114.3 180)
+		(at 234.95 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9475,7 +9475,7 @@
 		)
 		(uuid "1e2e01f3-9248-4e0b-bf17-1c6a597829f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.4053 114.3 0)
+			(at 229.4853 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +9531,7 @@
 	)
 	(global_label "TX2_5V_EN"
 		(shape input)
-		(at 229.87 121.92 180)
+		(at 234.95 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9541,7 +9541,7 @@
 		)
 		(uuid "33cbae17-263b-4eeb-93bf-e78e0c97136d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.7854 121.92 0)
+			(at 221.8654 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9619,7 @@
 	)
 	(global_label "RX1_MODE"
 		(shape input)
-		(at 201.93 92.71 180)
+		(at 203.2 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9629,7 +9629,7 @@
 		)
 		(uuid "45ccc22b-a941-42eb-bdf4-e181c40d2cc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0873 92.71 0)
+			(at 190.3573 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,7 +9706,7 @@
 	)
 	(global_label "RX2_MODE"
 		(shape input)
-		(at 201.93 95.25 180)
+		(at 203.2 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9716,7 +9716,7 @@
 		)
 		(uuid "5357f0ae-e658-4159-9c97-5fcf0a7cf217")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0873 95.25 0)
+			(at 190.3573 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10034,7 @@
 	)
 	(global_label "TX3_5V_EN"
 		(shape input)
-		(at 229.87 124.46 180)
+		(at 234.95 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10044,7 +10044,7 @@
 		)
 		(uuid "8cf9b227-c0f8-45ff-b555-8653981d9491")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.7854 124.46 0)
+			(at 221.8654 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10077,7 @@
 	)
 	(global_label "RX"
 		(shape output)
-		(at 233.68 92.71 0)
+		(at 234.95 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10087,7 +10087,7 @@
 		)
 		(uuid "90528543-497e-4322-b7d6-50babf3b046f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.1447 92.71 0)
+			(at 240.4147 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10163,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 229.87 116.84 180)
+		(at 234.95 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10173,7 +10173,7 @@
 		)
 		(uuid "9adabad3-c103-47cf-ab80-a90a99166e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.4053 116.84 0)
+			(at 229.4853 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,7 +10229,7 @@
 	)
 	(global_label "RX_TX_EN"
 		(shape input)
-		(at 261.62 114.3 0)
+		(at 266.7 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10239,7 +10239,7 @@
 		)
 		(uuid "9da2e7e1-8c83-42f2-bcda-f38ed04492c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6765 114.3 0)
+			(at 278.7565 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10295,7 @@
 	)
 	(global_label "RX4_MODE"
 		(shape input)
-		(at 201.93 100.33 180)
+		(at 203.2 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10305,7 +10305,7 @@
 		)
 		(uuid "a0be9768-4eec-4b48-a528-ffea78052e75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0873 100.33 0)
+			(at 190.3573 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10339,7 @@
 	)
 	(global_label "RX3_MODE"
 		(shape input)
-		(at 201.93 97.79 180)
+		(at 203.2 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10349,7 +10349,7 @@
 		)
 		(uuid "b643d249-3a64-4aeb-9314-2571be3ddbe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0873 97.79 0)
+			(at 190.3573 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10689,7 @@
 	)
 	(global_label "TX4_5V_EN"
 		(shape input)
-		(at 229.87 127 180)
+		(at 234.95 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10699,7 +10699,7 @@
 		)
 		(uuid "d8a5dba9-18c6-4b37-9b9d-31b89d812ccd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.7854 127 0)
+			(at 221.8654 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10755,7 @@
 	)
 	(global_label "TX1_5V_EN"
 		(shape input)
-		(at 229.87 119.38 180)
+		(at 234.95 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10765,7 +10765,7 @@
 		)
 		(uuid "e2f1cb04-7fda-466a-a3d2-feaba4f9a11f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.7854 119.38 0)
+			(at 221.8654 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19502,7 +19502,7 @@
 		)
 	)
 	(sheet
-		(at 204.47 90.17)
+		(at 205.74 90.17)
 		(size 26.67 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -19514,7 +19514,7 @@
 		)
 		(uuid "e8262eb2-ccf0-4025-8b8b-53ca3c94ff25")
 		(property "Sheetname" "Infrared Receiver"
-			(at 204.47 89.4584 0)
+			(at 205.74 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19523,7 @@
 			)
 		)
 		(property "Sheetfile" "rx.kicad_sch"
-			(at 204.47 108.5346 0)
+			(at 205.74 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,7 +19532,7 @@
 			)
 		)
 		(pin "RX" output
-			(at 231.14 92.71 0)
+			(at 232.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19542,7 +19542,7 @@
 			(uuid "6ce3e4f1-5963-42cb-a199-999b9219e180")
 		)
 		(pin "RX_3V3" output
-			(at 231.14 95.25 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19552,7 +19552,7 @@
 			(uuid "d79edb89-8b6b-4732-acb0-9afd39789b6d")
 		)
 		(pin "RX1_MODE" input
-			(at 204.47 92.71 180)
+			(at 205.74 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +19562,7 @@
 			(uuid "204f17c1-1837-45c8-a0ff-c3ea66c61369")
 		)
 		(pin "RX2_MODE" input
-			(at 204.47 95.25 180)
+			(at 205.74 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19572,7 +19572,7 @@
 			(uuid "53e99e4d-d1c9-44b3-b3a3-33592916170c")
 		)
 		(pin "RX4_MODE" input
-			(at 204.47 100.33 180)
+			(at 205.74 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19582,7 +19582,7 @@
 			(uuid "cc56986e-131e-42be-be94-f300b0bb27cd")
 		)
 		(pin "RX3_MODE" input
-			(at 204.47 97.79 180)
+			(at 205.74 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,7 +19600,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 111.76)
+		(at 237.49 111.76)
 		(size 26.67 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -19612,7 +19612,7 @@
 		)
 		(uuid "fc897f16-897a-4bb1-aee8-c8677226982e")
 		(property "Sheetname" "Infrared Transmitter"
-			(at 232.41 111.0484 0)
+			(at 237.49 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19621,7 +19621,7 @@
 			)
 		)
 		(property "Sheetfile" "tx.kicad_sch"
-			(at 232.41 130.1246 0)
+			(at 237.49 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19630,7 +19630,7 @@
 			)
 		)
 		(pin "TX_3V3" input
-			(at 232.41 114.3 180)
+			(at 237.49 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19640,7 +19640,7 @@
 			(uuid "ffa35185-4033-497b-9ae7-498fcac623f7")
 		)
 		(pin "TX1_5V_EN" input
-			(at 232.41 119.38 180)
+			(at 237.49 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19650,7 @@
 			(uuid "3be400d8-78dc-4969-ba0b-13fb8a513d20")
 		)
 		(pin "TX2_5V_EN" input
-			(at 232.41 121.92 180)
+			(at 237.49 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19660,7 +19660,7 @@
 			(uuid "a193e90b-836d-4310-aa5a-4b446d600b28")
 		)
 		(pin "TX3_5V_EN" input
-			(at 232.41 124.46 180)
+			(at 237.49 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19670,7 +19670,7 @@
 			(uuid "d8b26a34-78fa-4e3c-8e88-685caacf4673")
 		)
 		(pin "TX4_5V_EN" input
-			(at 232.41 127 180)
+			(at 237.49 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +19680,7 @@
 			(uuid "babe1f9d-6d4a-4549-9e34-52d03c8305a8")
 		)
 		(pin "RX" input
-			(at 232.41 116.84 180)
+			(at 237.49 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19690,7 +19690,7 @@
 			(uuid "5bebba1a-cbc5-4ddf-ab2d-92b51c4a3486")
 		)
 		(pin "RX_TX_EN" input
-			(at 259.08 114.3 0)
+			(at 264.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
