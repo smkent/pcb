@@ -9336,7 +9336,7 @@
 		)
 	)
 	(global_label "DT"
-		(shape input)
+		(shape output)
 		(at 71.12 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9512,7 +9512,7 @@
 		)
 	)
 	(global_label "CLK"
-		(shape input)
+		(shape output)
 		(at 71.12 167.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9622,7 +9622,7 @@
 		)
 	)
 	(global_label "BUTTON"
-		(shape input)
+		(shape output)
 		(at 71.12 162.56 180)
 		(fields_autoplaced yes)
 		(effects
