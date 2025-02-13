@@ -8821,7 +8821,7 @@
 		)
 	)
 	(global_label "ENC2_BUTTON"
-		(shape input)
+		(shape output)
 		(at 200.66 148.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8887,7 +8887,7 @@
 		)
 	)
 	(global_label "ENC2_CLK"
-		(shape input)
+		(shape output)
 		(at 200.66 153.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8953,7 +8953,7 @@
 		)
 	)
 	(global_label "ENC1_CLK"
-		(shape input)
+		(shape output)
 		(at 168.91 153.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9107,7 +9107,7 @@
 		)
 	)
 	(global_label "ENC2_DT"
-		(shape input)
+		(shape output)
 		(at 200.66 151.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9305,7 +9305,7 @@
 		)
 	)
 	(global_label "ENC1_DT"
-		(shape input)
+		(shape output)
 		(at 168.91 151.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9569,7 +9569,7 @@
 		)
 	)
 	(global_label "ENC1_BUTTON"
-		(shape input)
+		(shape output)
 		(at 168.91 148.59 180)
 		(fields_autoplaced yes)
 		(effects
