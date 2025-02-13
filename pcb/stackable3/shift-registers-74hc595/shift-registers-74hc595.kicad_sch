@@ -3297,6 +3297,12 @@
 		(uuid "6db8a0d9-c1c2-49f2-bd2f-5bd84fba43fc")
 	)
 	(junction
+		(at 229.87 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e72cc4a-1c61-4c6c-b2a5-4a2d2555af00")
+	)
+	(junction
 		(at 229.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3337,6 +3343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb2decda-10c7-40a0-88e9-988885786077")
+	)
+	(junction
+		(at 267.97 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5b02fc-991f-4bd3-89f4-9b7761bdac68")
 	)
 	(junction
 		(at 267.97 48.26)
@@ -3433,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "0b427667-69a9-4a53-a65f-6151f8deaf2e")
+	)
+	(wire
+		(pts
+			(xy 266.7 99.06) (xy 267.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1cb129-8e4c-4bad-91e7-1a91007299cb")
 	)
 	(wire
 		(pts
@@ -3543,6 +3565,16 @@
 			(type default)
 		)
 		(uuid "2f30d9e2-db90-4ebf-a299-dd94177ef3fd")
+	)
+	(wire
+		(pts
+			(xy 229.87 99.06) (xy 229.87 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3029dc52-7a9b-4633-995f-1aee7d8d3d38")
 	)
 	(wire
 		(pts
@@ -3676,16 +3708,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 99.06) (xy 267.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd1a5f3-3012-47fc-b8a2-3fb624f446ad")
-	)
-	(wire
-		(pts
 			(xy 243.84 48.26) (xy 245.11 48.26)
 		)
 		(stroke
@@ -3743,6 +3765,16 @@
 			(type default)
 		)
 		(uuid "697095e9-fc93-41a1-9258-65b3b1386ee8")
+	)
+	(wire
+		(pts
+			(xy 267.97 99.06) (xy 267.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dda1b4d-84e1-40b2-b3f3-98b0b56accbe")
 	)
 	(wire
 		(pts
@@ -4056,13 +4088,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 99.06) (xy 228.6 99.06)
+			(xy 228.6 99.06) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cef982a3-b62a-44c0-960f-f9b0f4787e64")
+		(uuid "cdb626b7-5ab4-47a8-94ef-197fc17eb4fd")
 	)
 	(wire
 		(pts
@@ -5858,7 +5890,7 @@
 	)
 	(global_label "LED_GND"
 		(shape output)
-		(at 267.97 99.06 270)
+		(at 267.97 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5868,7 +5900,7 @@
 		)
 		(uuid "572815d0-7af6-4c79-bcb4-83a522bd7a26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.97 107.9113 90)
+			(at 267.97 109.1813 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6659,7 @@
 	)
 	(global_label "LED_GND"
 		(shape output)
-		(at 229.87 99.06 270)
+		(at 229.87 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6637,7 +6669,7 @@
 		)
 		(uuid "c66f2a78-68d6-4fc9-9ff2-06e8841c430e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 107.9113 90)
+			(at 229.87 109.1813 90)
 			(effects
 				(font
 					(size 1.27 1.27)
