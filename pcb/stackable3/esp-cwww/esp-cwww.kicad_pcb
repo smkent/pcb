@@ -13504,7 +13504,7 @@
 				)
 			)
 		)
-		(property "Value" "56K"
+		(property "Value" "57K6"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0d3e3438-ffdd-46b9-8db9-f011ed9e042d")
@@ -13550,6 +13550,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C23082"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bbd2266-26d2-48de-9d32-f6668f604ef4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
