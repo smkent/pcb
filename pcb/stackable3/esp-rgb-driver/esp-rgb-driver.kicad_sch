@@ -11677,7 +11677,7 @@
 				)
 			)
 		)
-		(property "Value" "13K3"
+		(property "Value" "13K"
 			(at 267.97 48.26 90)
 			(effects
 				(font
@@ -11705,6 +11705,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22797"
+			(at 265.43 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)

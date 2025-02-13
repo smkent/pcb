@@ -13556,7 +13556,7 @@
 				)
 			)
 		)
-		(property "Value" "13K3"
+		(property "Value" "13K"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "f68c1847-1810-40dc-b663-10e963261bcf")
@@ -13602,6 +13602,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C22797"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c78de5-14c4-4115-a029-14601cd7ad07")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
