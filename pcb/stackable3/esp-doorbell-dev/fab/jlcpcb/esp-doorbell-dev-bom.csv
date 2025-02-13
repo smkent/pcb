@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,LCSC
+22u,"C1,C2,C3,C4",discrete:C_0603_1608Metric,
+BSS84,"Q1,Q2,Q3",package:SOT-23,
+5K1,RN3,discrete:R_Array_Convex_4x0603_HandSolder,
+G3MB-202P-5VDC,U2,discrete:Relay_G3MB-202P,
+10K,"RN1,RN2",discrete:R_Array_Convex_4x0603_HandSolder,
+100u,C5,Capacitor_SMD:CP_Elec_5x5.4,C4054379
+Qwiic,J7,connector:Qwiic-SMD-horizontal-logo,C19270571
+USB_C_Receptacle_PowerOnly_6P,J6,connector:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_HandSolder,C2927029
+DFR0299,SM2,module:DFPlayer-Mini-DFR0299-module,
+2N7002DW,Q4,package:SOT-363_SC-70-6_HandSolder,C5190214
+G2N7002X,Q5,package:SOT-523,C5258971
+HLK-LD2410C,SM4,module:HLK-LD2410C-module,C19723500
+LED,"LED1,LED3",custom:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple,
+JST PH,J4,connector:STEMMA-Signal-SMD-horizontal,
+STEMMA,J3,connector:STEMMA-I2C-SMD-horizontal,
+3.5mm screw terminal,J2,"connector:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+WS2811F,U1,package:FSOP-8_3.3x1.7mm_P0.80mm,C5446692
+JST PH,J1,connector:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,
+JST PH,J5,connector:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,
+~,SM1,module:ESP32-C3-Super-Mini-Pins,

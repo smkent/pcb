@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+5K1,"R7,R8",Resistor_SMD:R_0402_1005Metric,
+PDNM6ET20V05,"Q1,Q6",Package_TO_SOT_SMD:SOT-563,C918811
+10K,"RN2,RN3",discrete:R_Array_Convex_4x0402,
+1N5819WT,"D1,D2",package:D_SOD-523,C20754784
+Barrel_Jack_Switch,J2,connector:BarrelJack_DC-050_SMT_Horizontal,
+5K1,"R2,R3,R4,R5,R6",Resistor_SMD:R_0603_1608Metric,
+LED,"LED1,LED2,LED3,LED4,LED5",discrete:LED_0603_1608Metric,
+Pin headers,"J5,J6",custom:PinHeader_1x02_P2.54mm_Vertical_simple,
+10K,R1,Resistor_SMD:R_0402_1005Metric,
+AO3401A,"Q2,Q3,Q4,Q5",Package_TO_SOT_SMD:SOT-23,
+USB_C_Receptacle_PowerOnly_6P,J1,connector:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal_HandSolder,C2927029
+JST PH,J4,connector:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,
+JST PH,J3,connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,
+5K36,RN1,Resistor_SMD:R_Array_Convex_2x0402,
