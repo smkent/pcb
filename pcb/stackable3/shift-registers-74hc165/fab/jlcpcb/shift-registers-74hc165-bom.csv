@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+Tactile 3.3mm,"SW2,SW3,SW4,SW5,SW6,SW7",electromechanical:SW_Push_1P1T_NO_3.3x3.3mm_MP,
+LED,"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",discrete:LED_0402_1005Metric,
+AO3401A,Q1,Package_TO_SOT_SMD:SOT-23,
+74HC165,U1,Package_SO:SO-16_3.9x9.9mm_P1.27mm,
+JST SH,"J6,J7",connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+10K,"RN3,RN4",discrete:R_Array_Convex_4x0402,C7422173
+"Tactile, right-angle","SW1,SW8",electromechanical:SW_Push_1P1T-MP_NO_4.6x3mm_Horizontal,C2888932
+10K,RN0,discrete:R_Array_Convex_4x0603_HandSolder,C110924
+SW_SPDT_MountingPin,SW0,electromechanical:SW_SPDT_PCM12,C319020
+10K,R1,Resistor_SMD:R_0402_1005Metric,
+Pin headers,J1,connector:PinHeader_1x07_P2.54mm_Horizontal,
+5K1,"RN1,RN2",discrete:R_Array_Convex_4x0402,C425290
+Pin socket,J2,connector:PinSocket_1x07_P2.54mm_Horizontal,
+Pin headers,J3,connector:PinHeader_2x08_P2.54mm_Vertical,

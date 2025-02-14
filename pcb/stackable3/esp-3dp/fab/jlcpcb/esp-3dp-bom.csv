@@ -1,0 +1,36 @@
+Comment,Designator,Footprint,LCSC
+0u1,"C3,C4,C10,C11",discrete:C_0402_1005Metric,
+SN74LVC1T45Z6,"U4,U5",Package_TO_SOT_SMD:SOT-563,C441819
+22u,L1,discrete:L_Power_7.0x6.6mm_0630,
+SK6812SIDE-A,"PIX1,PIX2,PIX3,PIX4,PIX5",discrete:LED_SK6812SIDE-A_4.0x1.6mm,C2890037
+TPS563201,U2,Package_TO_SOT_SMD:SOT-23-6,C116592
+DC-005,"J0,J1",connector:BarrelJack_DC-005_THT_Horizontal,
+22u,"C5,C6",discrete:C_0805_2012Metric,
+~,SM1,module:ESP32-C3-Super-Mini-Castellated-SMD,
+100u,"C14,C16",Capacitor_SMD:CP_Elec_5x5.4,C4054379
+XL-1606SURC,LED2,discrete:LED_SideEmitter_1.7x1.1mm,C965860
+5K1,"R0,R2",Resistor_SMD:R_0603_1608Metric,
+4u7,L2,discrete:L_1008_2520Metric,C22471106
+57K6,R4,Resistor_SMD:R_0603_1608Metric,C23082
+10u,"C1,C2,C8,C9",discrete:C_0603_1608Metric,
+Qwiic,J5,connector:Qwiic-SMD-horizontal,C19270571
+17K4,R12,Resistor_SMD:R_0603_1608Metric,C22819
+100R,RN2,discrete:R_Array_Convex_4x0603_HandSolder,C270393
+2N7002DW,Q1,package:SOT-363_SC-70-6_HandSolder,C5190214
+10K,RN1,discrete:R_Array_Convex_4x0603_HandSolder,C110924
+30V 2A,F1,Fuse:Fuse_1812_4532Metric,C22366122
+JST SH,"J2,J3",connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+DSK34W,D1,package:D_SOD-123F,C3014041
+470u,C7,Capacitor_SMD:CP_Elec_8x10,C7471889
+100K,R1,Resistor_SMD:R_0603_1608Metric,
+AO3401A,Q3,Package_TO_SOT_SMD:SOT-23,
+10V,D3,package:D_SOD-523,C2832579
+TPS54202DDCR,U1,Package_TO_SOT_SMD:SOT-23-6,C191884
+1000u,C15,Capacitor_SMD:CP_Elec_8x10,C311227
+22u,"C12,C13",discrete:C_0603_1608Metric,
+D_TVS,D2,package:D_SOD-123F,C7473232
+10K,"R6,R7",Resistor_SMD:R_0603_1608Metric,
+KF2510,M1,connector:FanPinHeader_1x04_P2.54mm_Horizontal,
+XL-1606UWC,LED1,discrete:LED_SideEmitter_1.7x1.1mm,C965866
+STEMMA-Signal,J4,connector:STEMMA-Signal-SMD-horizontal,C5372880
+1K,R3,Resistor_SMD:R_0603_1608Metric,

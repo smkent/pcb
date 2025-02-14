@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+JST SH,"J4,J5",connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+5K1,"R0,R1",Resistor_SMD:R_0402_1005Metric,C25905
+XL-1606UWC,LED0,discrete:LED_SideEmitter_1.7x1.1mm,C965866
+100u,C1,Capacitor_SMD:CP_Elec_5x5.4,C4054379
+XL-1606UGC,LED2,discrete:LED_SideEmitter_1.7x1.1mm,C965863
+Qwiic,J1,connector:Qwiic-SMD-horizontal-logo,C19270571
+~,SM1,module:ESP32-C3-Super-Mini-Castellated-SMD-only,
+5K36,RN2,Resistor_SMD:R_Array_Convex_2x0402, C425352
+XL-1606UBC,LED1,discrete:LED_SideEmitter_1.7x1.1mm,C965865
+10K,RN1,Resistor_SMD:R_Array_Convex_4x0402,C7422173
+STEMMA-Signal,"J2,J3",connector:STEMMA-Signal-SMD-horizontal,C5372880
+PDNM6ET20V05,Q1,Package_TO_SOT_SMD:SOT-563,C918811
+VEML7700,U1,discrete:Sensor_VEML7700-TR,C504893
+10K,R2,Resistor_SMD:R_0402_1005Metric,C25744

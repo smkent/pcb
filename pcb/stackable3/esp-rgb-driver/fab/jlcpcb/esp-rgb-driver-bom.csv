@@ -1,0 +1,31 @@
+Comment,Designator,Footprint,LCSC
+SN74LVC1T45Z6,"U2,U6",Package_TO_SOT_SMD:SOT-563,C441819
+10K,RN1,discrete:R_Array_Convex_4x0603_HandSolder,C110924
+30V 2A,F1,Fuse:Fuse_1812_4532Metric,C22366122
+DC-005,J0,connector:BarrelJack_DC-005_THT_Horizontal,
+13K,R2,Resistor_SMD:R_0603_1608Metric,C22797
+22u,"C5,C6,C7",discrete:C_0603_1608Metric,
+5K1,"R3,R6",Resistor_SMD:R_0402_1005Metric,
+JST PH,"J1,J2",connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,C5343396
+STEMMA-Signal,"J5,J6",connector:STEMMA-Signal-SMD-horizontal,C5372880
+ZC010DNG,"Q1,Q2,Q3",package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2,C36499170
+Ice Blue,LED1,discrete:LED_0603_1608Metric,
+22u,L1,discrete:L_Power_7.0x6.6mm_0630,
+NC7WZ14P6X,"U7,U8,U9",package:SOT-363_SC-70-6_HandSolder,C5207816
+Red,LED2,discrete:LED_0402_1005Metric,
+Pink,LED3,discrete:LED_0402_1005Metric,
+Qwiic,J8,connector:Qwiic-SMD-horizontal-logo-bottom-pinout,C19270571
+~,SM1,module:ESP32-C3-Super-Mini-Castellated-SMD,
+JST SH,J3,connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+10u,"C1,C2",discrete:C_0603_1608Metric,
+100K,R1,Resistor_SMD:R_0603_1608Metric,
+3.3mm,"SW2,SW3,SW4,SW5",electromechanical:SW_Push_1P1T_NO_3.3x3.3mm_MP,
+0u1,"C3,C4",discrete:C_0402_1005Metric,
+IRM,U5,package:IRM_5.0x5.0mm_SIP-3_P1.27mm_THT,C7433078
+10K,"R5,R7",Resistor_SMD:R_0402_1005Metric,
+1K,R4,Resistor_SMD:R_0402_1005Metric,
+D_TVS,D1,package:D_SOD-123F,C7473232
+470u,C0,Capacitor_SMD:CP_Elec_8x10,C7471889
+SW_Push,SW1,Button_Switch_SMD:SW_SPST_PTS647_Sx50,C22459537
+TPS54202DDCR,U1,Package_TO_SOT_SMD:SOT-23-6,C191884
+WS2811F,"U3,U4",package:FSOP-8_3.3x1.7mm_P0.80mm,C5446692
