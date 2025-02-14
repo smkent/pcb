@@ -1,0 +1,36 @@
+Comment,Designator,Footprint,LCSC
+STEMMA-Signal,J5,connector:STEMMA-Signal-SMD-horizontal,C5372880
+100u,C12,Capacitor_SMD:CP_Elec_5x5.4,C4054379
+XL-1606UWC,LED0,discrete:LED_SideEmitter_1.7x1.1mm,C965866
+D_TVS,D1,package:D_SOD-123F,C7473216
+JST SH,J3,connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+~,SM1,module:ESP32-C3-Super-Mini-Castellated-SMD,
+2N7002DW,Q2,package:SOT-363_SC-70-6_HandSolder,C5190214
+SK6812SIDE-A,"PIX1,PIX2,PIX3,PIX4,PIX5,PIX6",discrete:LED_SK6812SIDE-A_4.0x1.6mm,C2890037
+57K6,R1,Resistor_SMD:R_0603_1608Metric,C23082
+0u1,"C3,C4",discrete:C_0603_1608Metric,
+5K1,R0,Resistor_SMD:R_0603_1608Metric,
+10K,"RN1,RN2",discrete:R_Array_Convex_4x0603_HandSolder,C110924
+0u1,C9,discrete:C_0402_1005Metric,C152814
+10u,"C1,C2",discrete:C_0603_1608Metric,
+16V 2A,F1,discrete:Fuse_1206_3216Metric,C2982271
+DC-005,J0,connector:BarrelJack_DC-005_THT_Horizontal,
+22u,"C5,C6",discrete:C_0603_1608Metric,
+10n,"C7,C8",discrete:C_0603_1608Metric,
+Qwiic,J2,connector:Qwiic-SMD-horizontal-logo,C19270571
+INA226,U2,Package_SO:VSSOP-10_3x3mm_P0.5mm,C49851
+10R,"R6,R7",Resistor_SMD:R_0402_1005Metric,C25077
+4u7,L1,discrete:L_1008_2520Metric,C22471106
+XL-1606SURC,LED1,discrete:LED_SideEmitter_1.7x1.1mm,C965860
+R020,SR1,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,C5375467
+470u,C11,Capacitor_SMD:CP_Elec_8x10,C7471889
+JST PH,J1,connector:STEMMA-Signal-SMD-horizontal,C5372880
+1K,R8,Resistor_SMD:R_0603_1608Metric,
+ZC010DNG,Q1,package:PDFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP2,C36499170
+10K,"R4,R5",Resistor_SMD:R_0402_1005Metric,
+10K,"R2,R3",Resistor_SMD:R_0603_1608Metric,
+JST PH,J6,connector:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,C5343396
+JST PH,J4,connector:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,C7433652
+RotaryEncoder_Switch_MP,SW1,electromechanical:RotaryEncoder_Alps_EC11-Switch_Horizontal_H20mm,
+TPS563201,U1,package:SOT-23-6,C116592
+1u,C10,discrete:C_0402_1005Metric,
