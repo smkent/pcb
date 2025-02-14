@@ -8851,7 +8851,7 @@
 		)
 	)
 	(global_label "ENCODER_CLK"
-		(shape input)
+		(shape output)
 		(at 176.53 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9555,7 +9555,7 @@
 		)
 	)
 	(global_label "ENCODER_BUTTON"
-		(shape input)
+		(shape output)
 		(at 176.53 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9599,7 +9599,7 @@
 		)
 	)
 	(global_label "ENCODER_DT"
-		(shape input)
+		(shape output)
 		(at 176.53 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11677,7 +11677,7 @@
 				)
 			)
 		)
-		(property "Value" "13K3"
+		(property "Value" "13K"
 			(at 267.97 48.26 90)
 			(effects
 				(font
@@ -11705,6 +11705,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22797"
+			(at 265.43 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
