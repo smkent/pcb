@@ -390,6 +390,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C110924"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1f432b5-b507-4379-9118-cb117a8494e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/e55bcbb6-ebe4-4e61-95a6-40f059d430ee")
 		(sheetname "Root")
@@ -2467,7 +2480,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "eef22e80-80bf-4c82-8c5f-e41aa35001ad")
@@ -2517,8 +2530,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7422173"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd2ee63e-9603-484e-b8ad-2cb276c05f7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/b98fc5c1-b4a0-41d5-96cc-9a2faae36b51")
+		(path "/768f8fa9-d625-4a36-b0c3-032a51a4412c")
 		(sheetname "Root")
 		(sheetfile "shift-registers-74hc165.kicad_sch")
 		(clearance 0.1)
@@ -5204,7 +5230,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "5K1"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "23f8da99-9240-4588-8960-ca1e1740b91a")
@@ -5250,6 +5276,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C425290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b11aab-5e06-4857-82c9-0e531f5a023a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6982,7 +7021,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "32b10c9d-2abd-4954-8a25-f7bbba4d2079")
@@ -7032,8 +7071,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7422173"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0045570-c817-4430-8ae0-cd2f445c6613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/803d483f-7216-4fe4-81a0-4ffc863fea49")
+		(path "/8f3b3875-2e07-4dfc-a4e0-cea5618a9523")
 		(sheetname "Root")
 		(sheetfile "shift-registers-74hc165.kicad_sch")
 		(clearance 0.1)
@@ -10492,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "5K1"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "436c54fd-02a8-4bd7-ba47-65aeba02ebb4")
@@ -10542,8 +10594,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C425290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07899333-f3fc-4c80-ba93-3f2a51fa13d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ef9c678c-8c6e-49b4-ab97-49afc1a8c748")
+		(path "/934c6a24-4944-4341-ae76-c0016e69367c")
 		(sheetname "Root")
 		(sheetfile "shift-registers-74hc165.kicad_sch")
 		(attr smd)
