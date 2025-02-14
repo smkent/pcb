@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+74HC595,"U1,U2",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,
+LED,"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",discrete:LED_0603_1608Metric,
+JST SH,"J3,J4",connector:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C7433426
+2K2,"RN1,RN2,RN3,RN4",discrete:R_Array_Convex_4x0603_HandSolder,
+10K,RN0,discrete:R_Array_Convex_4x0402,C110924
+Pin headers,J1,connector:PinHeader_1x07_P2.54mm_Horizontal,
+10K,R1,Resistor_SMD:R_0402_1005Metric,
+DMG6968U,Q1,Package_TO_SOT_SMD:SOT-23,C150759
+Pin socket,J2,connector:PinSocket_1x07_P2.54mm_Horizontal,
+SW_SPDT_MountingPin,SW0,electromechanical:SW_SPDT_PCM12,C319020
+Pin socket,J5,connector:PinHeader_2x10_P2.54mm_Vertical,
+G2N7002X,Q2,package:SOT-523,C5258971
