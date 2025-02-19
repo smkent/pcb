@@ -1171,7 +1171,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -1186,7 +1186,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
+			(property "Value" "SolderJumper_2_Bridged"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1212,7 +1212,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1230,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1239,7 +1239,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start -0.254 1.016)
 					(mid -1.2656 0)
@@ -1313,7 +1324,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1954,6 +1965,12 @@
 		(uuid "354e7c5b-d042-402f-baba-90d8f08481ec")
 	)
 	(junction
+		(at 99.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68467984-cd27-43e4-bdb3-91f7c66e1146")
+	)
+	(junction
 		(at 121.92 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,31 +1988,15 @@
 		(color 0 0 0 0)
 		(uuid "dc29aed4-ccc3-448d-bba8-c8d2d1f741dd")
 	)
-	(junction
-		(at 97.79 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df18c1a7-59de-4521-9f39-6f1144713d24")
-	)
 	(wire
 		(pts
-			(xy 81.28 90.17) (xy 97.79 90.17)
+			(xy 81.28 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0409dd0c-9028-446b-ae9a-5918a8c712c6")
-	)
-	(wire
-		(pts
-			(xy 97.79 114.3) (xy 97.79 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c133905-d55e-4a77-86cb-340a25472125")
 	)
 	(wire
 		(pts
@@ -2019,13 +2020,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 97.79 97.79)
+			(xy 189.23 78.74) (xy 189.23 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38c3da81-310f-4f28-be9a-92903f41538f")
+		(uuid "344944b7-920d-4c7d-a9d0-20790cdad784")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c3eb81-ce02-40e3-bb5f-014736e11f71")
 	)
 	(wire
 		(pts
@@ -2089,6 +2100,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 80.01) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9819e78c-7320-48bc-b2b4-84a929ca4298")
+	)
+	(wire
+		(pts
 			(xy 160.02 85.09) (xy 189.23 85.09)
 		)
 		(stroke
@@ -2096,16 +2117,6 @@
 			(type default)
 		)
 		(uuid "9d06561d-cdb0-4712-97e8-8ed5a814e1bc")
-	)
-	(wire
-		(pts
-			(xy 85.09 114.3) (xy 85.09 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a479ed34-030b-4472-9d8e-bdf742dbc17b")
 	)
 	(wire
 		(pts
@@ -2139,26 +2150,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 85.09 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84458a4-3631-4e8f-a72e-f0fcf6ed1335")
-	)
-	(wire
-		(pts
-			(xy 97.79 90.17) (xy 121.92 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb0c0d7-79e2-4fc1-bdd0-8727bb03cf87")
-	)
-	(wire
-		(pts
 			(xy 121.92 90.17) (xy 121.92 92.71)
 		)
 		(stroke
@@ -2169,13 +2160,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 189.23 97.79)
+			(xy 85.09 80.01) (xy 85.09 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3f954d3-d028-4730-bd19-b63cf62e6d33")
+		(uuid "dc70af5f-f502-42bf-a86a-e381f5ab7c64")
 	)
 	(wire
 		(pts
@@ -2907,24 +2898,24 @@
 		)
 		(uuid "2f56df9d-e72f-4143-a195-bef32576c939")
 	)
-	(global_label "LED_GND"
+	(global_label "LED_VCC"
 		(shape input)
-		(at 189.23 113.03 270)
+		(at 189.23 63.5 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "04da70c1-665e-4a86-b488-df5eeee0bed3")
+		(uuid "18d8b940-a41b-4402-a2e4-16059fade5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 124.3004 90)
+			(at 189.23 52.4715 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2951,24 +2942,24 @@
 			)
 		)
 	)
-	(global_label "LED_GND"
+	(global_label "LED_VCC"
 		(shape input)
-		(at 110.49 146.05 180)
+		(at 118.11 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "28151912-3b32-496c-8861-bfc842ac9d46")
+		(uuid "26597c02-6392-4556-ba27-c932779cae47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2196 146.05 0)
+			(at 129.1385 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3061,28 +3052,6 @@
 			)
 		)
 	)
-	(global_label "LED_GND"
-		(shape input)
-		(at 85.09 114.3 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ac3c342-94e5-4ba8-a5c2-23ebd3983b36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 125.5704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTON"
 		(shape input)
 		(at 81.28 171.45 180)
@@ -3101,6 +3070,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_VCC"
+		(shape input)
+		(at 85.09 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afd8675b-30bc-4090-80bc-c2b50693a841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 53.7415 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3171,25 +3162,95 @@
 			)
 		)
 	)
-	(global_label "LED_GND"
+	(global_label "LED_VCC"
 		(shape input)
-		(at 97.79 114.3 270)
+		(at 99.06 64.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c554894d-b2e3-43a8-a1d8-e417ba597722")
+		(uuid "e3e85c38-fee3-466d-93c2-1a85e308fe62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 125.5704 90)
+			(at 99.06 53.7415 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03c22621-432e-4e42-adcf-65501ed2883e")
+		(property "Reference" "LED3"
+			(at 193.04 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 193.04 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb1e548-b663-4e50-a49c-837c3410bd61")
+		)
+		(pin "2"
+			(uuid "265be374-8870-4473-854c-a71077e59685")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3409,76 +3470,6 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "RN1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 160.02 78.74 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09ff8f0c-40de-4d28-8fb0-e7f07b2c6924")
-		(property "Reference" "JP1"
-			(at 162.56 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 162.56 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:SolderJumper-2_P1.0mm_Open_Pad"
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df396053-0d95-41df-b5ac-97c6459c7771")
-		)
-		(pin "2"
-			(uuid "6e55f4ab-eef2-4ea5-b2cc-7d69fe34267e")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "JP1")
-					(unit 1)
 				)
 			)
 		)
@@ -3719,73 +3710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1be406fe-ce2f-4542-9f7c-704f52af90e4")
-		(property "Reference" "#PWR021"
-			(at 124.46 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6ec6bef-d219-4516-8dcf-66c89f71ead9")
-		)
-		(instances
-			(project "rotary-encoder-module"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 121.92 78.74 0)
 		(unit 4)
@@ -3867,6 +3791,76 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "RN1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 85.09 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28fd8c2b-d64c-4316-b07a-6d5ea4b5eaac")
+		(property "Reference" "LED1"
+			(at 88.9 68.8974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 88.9 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c85a2cc-6ae9-416f-bd4f-38e72a26aa38")
+		)
+		(pin "2"
+			(uuid "fede59b5-8ac7-44ac-bcd5-89a6b96c9f01")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED1")
+					(unit 1)
 				)
 			)
 		)
@@ -4000,6 +3994,76 @@
 			(project "rotary-encoder-module"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d98028e-d2f4-4519-836e-bf761ca15528")
+		(property "Reference" "LED2"
+			(at 102.87 68.8974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 102.87 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b590c9-07c0-4fa4-8117-efc6156fcf60")
+		)
+		(pin "2"
+			(uuid "f9db81e2-1093-4274-9c41-24c7a63d64cd")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4271,74 +4335,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 114.3 146.05 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c014647-f969-4353-a5d8-440864dadec0")
-		(property "Reference" "JP2"
-			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 114.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:SolderJumper-2_P1.0mm_Open_Pad"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bef7861-a972-4b56-9964-0b382cc5438b")
-		)
-		(pin "2"
-			(uuid "6a925e03-a195-4bea-8408-00ce98beb597")
-		)
-		(instances
-			(project "rotary-encoder-module"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 27.94 191.77 270)
 		(unit 1)
@@ -4400,6 +4396,94 @@
 			(project "rotary-encoder-module"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 85.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5267dc0a-5e22-4a9c-ba95-97184887398a")
+		(property "Reference" "RN2"
+			(at 87.63 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 87.63 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 83.058 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eed77d75-7dc2-493b-84ff-877c798fc156")
+		)
+		(pin "4"
+			(uuid "d45223e0-8179-4e05-838c-000d0fa33478")
+		)
+		(pin "3"
+			(uuid "33eb6493-26e5-4b89-9c01-c2e5d62e66aa")
+		)
+		(pin "2"
+			(uuid "87a97097-f9d7-4448-b4f9-3f1c538ab9c9")
+		)
+		(pin "8"
+			(uuid "a8fc4052-c374-4d5b-ac70-fdd7f02488f0")
+		)
+		(pin "1"
+			(uuid "d71a6cec-0904-418f-976c-c8b3ae46644d")
+		)
+		(pin "5"
+			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb744")
+		)
+		(pin "7"
+			(uuid "92099c6d-eec3-4a6d-9f14-957a14faeb66")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -4491,76 +4575,6 @@
 			(project ""
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 85.09 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c861d87-6bdb-40c4-a0a0-aed9b5709e4e")
-		(property "Reference" "LED1"
-			(at 88.9 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 88.9 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "731ea375-5432-4179-a36d-6d50844992be")
-		)
-		(pin "2"
-			(uuid "793d4f2a-9363-4376-b48d-fd3a20abc002")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4722,164 +4736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 97.79 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b99c3e1-b3f0-40af-abbe-c39b9529105d")
-		(property "Reference" "LED2"
-			(at 101.6 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 101.6 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "266207cc-09a2-4aaf-99da-459d05ebd3a9")
-		)
-		(pin "2"
-			(uuid "f37b1d8f-d04d-41f3-9254-aab9cdddaccf")
-		)
-		(instances
-			(project "rotary-encoder-module"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 85.09 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c1dd3a6-22fd-4abf-af3d-6ab102eaef48")
-		(property "Reference" "RN2"
-			(at 87.63 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 87.63 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 87.122 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 85.09 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "eed77d75-7dc2-493b-84ff-877c798fc156")
-		)
-		(pin "4"
-			(uuid "d45223e0-8179-4e05-838c-000d0fa33478")
-		)
-		(pin "3"
-			(uuid "33eb6493-26e5-4b89-9c01-c2e5d62e66aa")
-		)
-		(pin "2"
-			(uuid "87a97097-f9d7-4448-b4f9-3f1c538ab9c9")
-		)
-		(pin "8"
-			(uuid "2e0e3448-a6d9-4fdb-9288-c5eaaeae0b0c")
-		)
-		(pin "1"
-			(uuid "ffa38cbc-69b4-4f41-af6d-2e817f060171")
-		)
-		(pin "5"
-			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb744")
-		)
-		(pin "7"
-			(uuid "92099c6d-eec3-4a6d-9f14-957a14faeb66")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 194.31 90)
 		(unit 1)
@@ -5028,6 +4884,182 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "RN2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 189.23 74.93 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7914ff4f-9a6f-415b-8af4-9d00801fd73f")
+		(property "Reference" "RN2"
+			(at 191.77 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 191.77 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 187.198 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6b7604da-0c79-4f2e-a2b6-dd98feebc0f9")
+		)
+		(pin "4"
+			(uuid "d45223e0-8179-4e05-838c-000d0fa3347b")
+		)
+		(pin "3"
+			(uuid "099e9bb4-1e6a-4224-9c10-693d1ef427a3")
+		)
+		(pin "2"
+			(uuid "87a97097-f9d7-4448-b4f9-3f1c538ab9cc")
+		)
+		(pin "8"
+			(uuid "2e0e3448-a6d9-4fdb-9288-c5eaaeae0b0f")
+		)
+		(pin "1"
+			(uuid "ffa38cbc-69b4-4f41-af6d-2e817f060174")
+		)
+		(pin "5"
+			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb747")
+		)
+		(pin "7"
+			(uuid "92099c6d-eec3-4a6d-9f14-957a14faeb69")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 99.06 76.2 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799b4fdf-ef23-4949-8126-3468e3852274")
+		(property "Reference" "RN2"
+			(at 101.6 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 101.6 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 97.028 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eed77d75-7dc2-493b-84ff-877c798fc158")
+		)
+		(pin "4"
+			(uuid "d45223e0-8179-4e05-838c-000d0fa3347a")
+		)
+		(pin "3"
+			(uuid "33eb6493-26e5-4b89-9c01-c2e5d62e66ac")
+		)
+		(pin "2"
+			(uuid "a7a6ef63-99fa-4aca-aee9-5a1eda195f29")
+		)
+		(pin "8"
+			(uuid "2e0e3448-a6d9-4fdb-9288-c5eaaeae0b0e")
+		)
+		(pin "1"
+			(uuid "ffa38cbc-69b4-4f41-af6d-2e817f060173")
+		)
+		(pin "5"
+			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb746")
+		)
+		(pin "7"
+			(uuid "5837eb1d-e587-4a9e-bea5-60cb651395aa")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "RN2")
+					(unit 2)
 				)
 			)
 		)
@@ -5232,6 +5264,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 160.02 78.74 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9c661c-e20f-4441-b4f6-8f6f612274c4")
+		(property "Reference" "JP1"
+			(at 162.56 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 162.56 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c99b5249-14bb-49bc-a17d-221fb29d97ab")
+		)
+		(pin "1"
+			(uuid "9bae95ae-58c9-4544-a9d0-ec626199020c")
+		)
+		(instances
+			(project ""
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 111.76 74.93 0)
 		(unit 1)
@@ -5292,6 +5394,73 @@
 			(project "rotary-encoder-module"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 110.49 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d15ac7-10d2-4a6a-b182-17d8409b2b45")
+		(property "Reference" "#PWR021"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 106.68 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee6e879-2a3f-4c6f-abe8-d308db8b01fc")
+		)
+		(instances
+			(project "rotary-encoder-module"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5430,94 +5599,6 @@
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "C2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 97.79 101.6 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3505ad1-335c-41ca-ab26-7717a4e031e2")
-		(property "Reference" "RN2"
-			(at 100.33 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 100.33 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 99.822 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "eed77d75-7dc2-493b-84ff-877c798fc158")
-		)
-		(pin "4"
-			(uuid "d45223e0-8179-4e05-838c-000d0fa3347a")
-		)
-		(pin "3"
-			(uuid "33eb6493-26e5-4b89-9c01-c2e5d62e66ac")
-		)
-		(pin "2"
-			(uuid "87a97097-f9d7-4448-b4f9-3f1c538ab9cb")
-		)
-		(pin "8"
-			(uuid "2e0e3448-a6d9-4fdb-9288-c5eaaeae0b0e")
-		)
-		(pin "1"
-			(uuid "ffa38cbc-69b4-4f41-af6d-2e817f060173")
-		)
-		(pin "5"
-			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb746")
-		)
-		(pin "7"
-			(uuid "92099c6d-eec3-4a6d-9f14-957a14faeb68")
-		)
-		(instances
-			(project ""
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "RN2")
-					(unit 2)
 				)
 			)
 		)
@@ -5716,76 +5797,6 @@
 			(project "rotary-encoder-module"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 189.23 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6fbc36c-f699-435a-bf0b-a273289a7748")
-		(property "Reference" "LED3"
-			(at 193.04 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 193.04 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 189.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fb660e5-2add-4e8e-8b4a-ab692f33d684")
-		)
-		(pin "2"
-			(uuid "c598fc16-8aa6-490c-9d4e-826528f78085")
-		)
-		(instances
-			(project "rotary-encoder-module"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -6063,35 +6074,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 189.23 101.6 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 114.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9bd7bde-3131-4db4-84e2-c654823e9cb0")
-		(property "Reference" "RN2"
-			(at 191.77 100.3299 0)
+		(uuid "dd212297-996b-4a9a-ba73-751315c60b04")
+		(property "Reference" "JP2"
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 191.77 102.8699 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 191.262 101.6 90)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 101.6 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,44 +6117,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 189.23 101.6 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "6"
-			(uuid "eed77d75-7dc2-493b-84ff-877c798fc159")
-		)
-		(pin "4"
-			(uuid "d45223e0-8179-4e05-838c-000d0fa3347b")
-		)
-		(pin "3"
-			(uuid "33eb6493-26e5-4b89-9c01-c2e5d62e66ad")
 		)
 		(pin "2"
-			(uuid "87a97097-f9d7-4448-b4f9-3f1c538ab9cc")
-		)
-		(pin "8"
-			(uuid "2e0e3448-a6d9-4fdb-9288-c5eaaeae0b0f")
+			(uuid "f74b3bc0-34cd-415b-94f4-1ecb931f1199")
 		)
 		(pin "1"
-			(uuid "ffa38cbc-69b4-4f41-af6d-2e817f060174")
-		)
-		(pin "5"
-			(uuid "518d14dd-edf1-4ddd-8df1-abc52b5bb747")
-		)
-		(pin "7"
-			(uuid "92099c6d-eec3-4a6d-9f14-957a14faeb69")
+			(uuid "81fb1863-d861-4d73-b056-741d51933fe6")
 		)
 		(instances
-			(project ""
+			(project "rotary-encoder-module"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "RN2")
-					(unit 3)
+					(reference "JP2")
+					(unit 1)
 				)
 			)
 		)
