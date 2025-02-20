@@ -2822,7 +2822,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0u1"
+		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "b64d540a-f82b-45a9-a124-cc04632d7a63")
@@ -5559,7 +5559,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "0u1"
+	(gr_text "1u"
 		(at 185.5 102.75 0)
 		(layer "B.SilkS")
 		(uuid "2bd85758-5aea-4b97-a8f4-94e502fe338a")
