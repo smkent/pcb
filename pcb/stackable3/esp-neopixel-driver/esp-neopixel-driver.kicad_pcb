@@ -8889,7 +8889,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "4|LED"
+	(gr_text "4|"
 		(at 93.5 34 0)
 		(layer "B.SilkS")
 		(uuid "22e39d5f-a030-4118-a017-5638474c581c")
@@ -8967,8 +8967,8 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "CH1"
-		(at 116.75 39.58 0)
+	(gr_text "CH2"
+		(at 92 34.5 0)
 		(layer "B.SilkS")
 		(uuid "5c4738ad-5e2c-42a9-b91b-1228a18c52c1")
 		(effects
@@ -8977,7 +8977,7 @@
 				(thickness 0.16)
 				(bold yes)
 			)
-			(justify right mirror)
+			(justify left mirror)
 		)
 	)
 	(gr_text "3|GPIO"
@@ -8994,7 +8994,7 @@
 		)
 	)
 	(gr_text "RGB"
-		(at 116.75 41.04 0)
+		(at 116.75 38.5 0)
 		(layer "B.SilkS")
 		(uuid "6e2b7198-70d5-409f-a86f-9497de56a7e6")
 		(effects
@@ -9020,7 +9020,7 @@
 		)
 	)
 	(gr_text "RGB"
-		(at 116.75 38.5 0)
+		(at 92 33.42 0)
 		(layer "B.SilkS")
 		(uuid "8028b43c-c0dd-4940-8387-d352be7f83d9")
 		(effects
@@ -9029,7 +9029,7 @@
 				(thickness 0.14)
 				(bold yes)
 			)
-			(justify right mirror)
+			(justify left mirror)
 		)
 	)
 	(gr_text "CLK|7"
@@ -9058,7 +9058,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "|20"
+	(gr_text "GPIO|20"
 		(at 114.5 41.62 0)
 		(layer "B.SilkS")
 		(uuid "afaf24fb-eff8-44cd-b1d6-4cd1f59d00a6")
@@ -9071,8 +9071,8 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "CH2"
-		(at 116.75 42.12 0)
+	(gr_text "CH1"
+		(at 116.75 39.58 0)
 		(layer "B.SilkS")
 		(uuid "c1402511-38ff-47e6-925e-2192d43eb82d")
 		(effects
@@ -9422,7 +9422,7 @@
 			)
 		)
 	)
-	(gr_text "RGB\nIO20"
+	(gr_text "RGB\nIO4"
 		(at 109.75 33.5 0)
 		(layer "F.SilkS")
 		(uuid "7fbaffde-1795-4b04-8c94-8933f3547b64")
@@ -9850,7 +9850,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "IO4"
+	(gr_text "IO20"
 		(at 95.35 49.75 0)
 		(layer "F.SilkS")
 		(uuid "ca612849-50cd-4f34-b1e6-1224689a0c08")
@@ -9957,15 +9957,6 @@
 		(uuid "07137b50-d572-4dfa-8884-3f746dbb7cdb")
 	)
 	(via
-		(at 90.5 33.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "0d3016d8-f3ce-44ca-9dd3-ae4e599b6aca")
-	)
-	(via
 		(at 93.5 37.75)
 		(size 1)
 		(drill 0.5)
@@ -9984,6 +9975,15 @@
 		(uuid "2466130d-07d7-4a99-ba0f-8afbb0c4ae8e")
 	)
 	(via
+		(at 89.75 40.5)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "2ad7a07c-5ec4-4892-b6e5-31c57de601d8")
+	)
+	(via
 		(at 117.5 32.5)
 		(size 1)
 		(drill 0.5)
@@ -9991,15 +9991,6 @@
 		(free yes)
 		(net 1)
 		(uuid "368795f4-ccfe-4025-84db-e29cc1e96431")
-	)
-	(via
-		(at 117.5 29.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "5188c936-076e-4096-a5c2-9132108e23a4")
 	)
 	(via
 		(at 104 40.5)
@@ -10047,15 +10038,6 @@
 		(uuid "7888a4b8-bb9c-40e6-b3ae-4ffac193dc8b")
 	)
 	(via
-		(at 117.5 31.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "8ada3300-25d1-494a-be7e-ea6034fc49db")
-	)
-	(via
 		(at 117.5 30.5)
 		(size 1)
 		(drill 0.5)
@@ -10065,13 +10047,13 @@
 		(uuid "92417356-e114-405c-9a6a-fee2f3aec1fd")
 	)
 	(via
-		(at 90.5 31.5)
+		(at 89.75 42.5)
 		(size 1)
 		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 1)
-		(uuid "9d3ce205-1039-45cc-9dc0-bd8038b0ddc4")
+		(uuid "b328785b-7ce1-4a75-81cc-79fdb7dc7d54")
 	)
 	(via
 		(at 104 25.25)
@@ -10081,15 +10063,6 @@
 		(free yes)
 		(net 1)
 		(uuid "bef9e7f6-fac6-450d-a9b5-7994e8effbdd")
-	)
-	(via
-		(at 89.75 41.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "c0b0b02b-d272-4dc3-999a-86f8f6053a24")
 	)
 	(via
 		(at 90.5 30.5)
@@ -10119,15 +10092,6 @@
 		(uuid "ca06d573-ec6d-490d-98aa-f072660e765b")
 	)
 	(via
-		(at 90.5 29.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "cad6ae7b-c83f-469c-912f-d3a759163e9e")
-	)
-	(via
 		(at 103 25.25)
 		(size 1)
 		(drill 0.5)
@@ -10135,15 +10099,6 @@
 		(free yes)
 		(net 1)
 		(uuid "cdda40bb-a123-4c46-94cc-798f4b656e8f")
-	)
-	(via
-		(at 117.5 33.5)
-		(size 1)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "d3c25b58-78aa-4171-b115-2c940678e138")
 	)
 	(via
 		(at 112.65 47.75)
