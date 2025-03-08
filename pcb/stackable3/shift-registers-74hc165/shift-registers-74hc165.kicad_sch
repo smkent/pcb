@@ -6821,6 +6821,7 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 198.12 128.27 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6829,7 +6830,7 @@
 		(fields_autoplaced yes)
 		(uuid "16dbdf68-e812-4866-8d2f-fcd15644845e")
 		(property "Reference" "Q1"
-			(at 204.47 126.9999 0)
+			(at 204.47 129.5401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6839,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 204.47 129.5399 0)
+			(at 204.47 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 203.2 130.175 0)
+			(at 203.2 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6859,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 203.2 132.08 0)
+			(at 203.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
