@@ -1746,6 +1746,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" "C1589"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e01fe565-41d7-4293-a27e-4e8d42ac6dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c2684fad-7f3a-41af-805c-79aac8c34f47")
 		(sheetname "Root")
@@ -1981,6 +1995,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1589"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01dc11b8-a882-46c5-ac14-d9b203e2bc88")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2876,6 +2904,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" "C5199872"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "56a3a71b-aace-4f5b-bf8b-c60ab5c199aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ffa91273-1fbb-47bf-85ca-c04c9593e4b9")
 		(sheetname "Root")
@@ -3062,7 +3104,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "f54ffb92-58b2-451d-bc61-d726aa8c4ce7")
@@ -3111,6 +3153,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ec4e0a0-9688-4410-8993-48c9429d79ef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3295,7 +3351,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "e43e39fa-561d-4bf9-88af-ca7b1eaeb887")
@@ -3344,6 +3400,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C20613596"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91dd90a1-96e3-4ecf-9200-7890579c1f43")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3830,6 +3900,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" "C110924"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ff0f9f3-92bd-45e9-8ed2-26cf28536832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/5ef54901-1c27-45a0-b569-957df98d6024")
 		(sheetname "Root")
@@ -4071,7 +4155,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "20c1b664-ef25-4e02-b1cc-f4b6fe6d2919")
@@ -4120,6 +4204,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C7496801"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3eed735b-524d-4c1b-aa8a-2ccce36fd829")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4840,6 +4938,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C110924"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24e661c3-f1eb-46eb-88ea-59f972d5c0fc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
