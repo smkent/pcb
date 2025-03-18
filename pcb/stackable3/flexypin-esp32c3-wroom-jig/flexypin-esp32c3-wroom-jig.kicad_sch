@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "ESP32-C3-WROOM-02 FlexyPin Adapter")
+		(date "2025-03-18")
+		(rev "v1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -4517,7 +4522,7 @@
 		(uuid "fc84fcad-d332-41a4-8f2e-37ac4bde1112")
 	)
 	(image
-		(at 277.876 172.466)
+		(at 277.241 172.466)
 		(scale 0.1691)
 		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -5351,7 +5356,7 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 277.495 180.34 0)
+		(at 276.86 180.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)

@@ -4344,7 +4344,7 @@
 			(uuid "ef02b15c-7678-4cf9-800d-7abd086aa7c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "23080881-dfed-4ade-adfe-8efda161856a")
 			(effects
@@ -8232,7 +8232,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/d1f62815-a8f8-44d8-af44-21dc00a8e39c")
+		(path "/ad5c8cd9-1973-4a28-b647-5057494bba40")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
@@ -10532,7 +10532,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/c51f7c84-d2d1-4371-9f1a-41fe14f794d3")
+		(path "/f3b30afb-44a2-4e94-a713-9b7639c2ec0f")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
