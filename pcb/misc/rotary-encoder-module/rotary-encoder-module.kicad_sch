@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "Rotary Encoder Module")
+		(date "2025-03-18")
+		(rev "v2")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
@@ -2179,9 +2184,9 @@
 		(uuid "f2df3a75-58cf-4f9c-a091-1cb5bf3f4d5d")
 	)
 	(image
-		(at 162.56 179.07)
-		(scale 0.37481)
-		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
+		(at 277.241 172.466)
+		(scale 0.1691)
+		(uuid "c277ea1a-0bb7-4332-bf43-87bb77b9a81f")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
 			"AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAACA"
 			"AElEQVR42uzdd7QkVb238YchIzkHATMgwYNZMKBgFi3ErChiKLzmnNM1p1dMFzYqCpgAkS0IRhDF"
@@ -2887,16 +2892,16 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 162.56 195.072 0)
+		(at 276.86 180.34 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.016 1.016)
 				(thickness 0.4)
 				(bold yes)
 				(color 0 153 176 1)
 			)
 		)
-		(uuid "2f56df9d-e72f-4143-a195-bef32576c939")
+		(uuid "fbfd36c8-4875-4d9f-8d61-9d804efc7539")
 	)
 	(global_label "LED_VCC"
 		(shape input)
