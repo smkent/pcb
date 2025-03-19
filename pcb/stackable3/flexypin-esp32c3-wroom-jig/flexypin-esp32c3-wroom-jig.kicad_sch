@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "ESP32-C3-WROOM-02 FlexyPin Adapter")
+		(date "2025-03-18")
+		(rev "v1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -4517,7 +4522,7 @@
 		(uuid "fc84fcad-d332-41a4-8f2e-37ac4bde1112")
 	)
 	(image
-		(at 277.876 172.466)
+		(at 277.241 172.466)
 		(scale 0.1691)
 		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -5351,7 +5356,7 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 277.495 180.34 0)
+		(at 276.86 180.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -7160,16 +7165,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 247.65 62.23 90)
+		(at 257.81 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10d05a03-e80f-46be-8adf-ecca586b4e76")
-		(property "Reference" "LED5"
-			(at 251.46 62.5474 90)
+		(uuid "0e25ad2c-ea4a-4d68-a219-cb420531b079")
+		(property "Reference" "LED6"
+			(at 261.62 62.5474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,8 +7182,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 251.46 65.0874 90)
+		(property "Value" "Ice Blue"
+			(at 261.62 65.0874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7192,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 247.65 62.23 0)
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 62.23 0)
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7210,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 247.65 62.23 0)
+			(at 257.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 257.81 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,15 +7228,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1cb53eb-c65f-40cf-be6d-1d6349c0aad0")
+			(uuid "3e667c04-7e3d-4909-af39-da59ed5cfc89")
 		)
 		(pin "1"
-			(uuid "9d403742-28df-4318-9971-6b7703404500")
+			(uuid "07f9929f-b8c5-4ca4-bfdc-3e3f8940f682")
 		)
 		(instances
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED5")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -7504,6 +7518,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C315248"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -7842,16 +7865,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 62.23 90)
+		(at 195.58 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "243c8ac1-a7f0-4fef-b483-a7035f4175e3")
-		(property "Reference" "LED7"
-			(at 271.78 62.5474 90)
+		(uuid "26f2c621-e384-4e59-bae2-2cfd92da6a17")
+		(property "Reference" "LED9"
+			(at 199.39 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,8 +7882,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 271.78 65.0874 90)
+		(property "Value" "Ice Blue"
+			(at 199.39 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 267.97 62.23 0)
+			(at 195.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +7901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 62.23 0)
+			(at 195.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +7910,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 62.23 0)
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 195.58 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,85 +7928,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cbe7da55-400f-492c-808d-d3223df374f5")
+			(uuid "325a56d3-561d-488b-af35-4e72f78c9708")
 		)
 		(pin "1"
-			(uuid "7f0990f1-67ff-4bf7-bfe2-db0d65af6db8")
+			(uuid "89b2d12d-a0d6-4847-aa29-cf54de83d598")
 		)
 		(instances
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 267.97 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26e178f7-84b4-4b67-8c54-28407fa22bb7")
-		(property "Reference" "LED16"
-			(at 271.78 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 271.78 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc669962-26ba-4a76-8454-611231ae0603")
-		)
-		(pin "1"
-			(uuid "e6aa6f14-dc7f-41fa-bcfd-64fcbdf37daf")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED16")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -8136,6 +8098,85 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 195.58 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "350d9dc5-aa7f-4691-b3d8-d66a5215297f")
+		(property "Reference" "LED8"
+			(at 199.39 29.5274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 199.39 32.0674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 195.58 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7b2341f-b543-437c-b105-96ceca4378e0")
+		)
+		(pin "1"
+			(uuid "bb501bf0-020a-4545-ad2f-9f0b1859ccc4")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 226.06 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8153,7 +8194,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 229.87 96.8374 90)
 			(effects
 				(font
@@ -8182,6 +8223,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C20613596"
+			(at 226.06 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,6 +8633,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C82942"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74ae08ca-e760-4774-939e-2b7f1888f9a7")
 		)
@@ -8602,6 +8661,85 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d6b072-1f33-4e51-b8b7-b767684f5d5d")
+		(property "Reference" "LED7"
+			(at 271.78 62.5474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 271.78 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 267.97 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47d3b388-6ab9-49ae-ad77-87a36a56d470")
+		)
+		(pin "1"
+			(uuid "6d471055-2b87-42ff-ae8d-fdbc3102bf27")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -8668,76 +8806,6 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 247.65 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bd80b35-2e55-4a6f-8f5e-cdde55ae0058")
-		(property "Reference" "LED14"
-			(at 251.46 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 251.46 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1c80766-476c-4c67-bbbb-384af0564832")
-		)
-		(pin "1"
-			(uuid "bf0aa251-6c0f-400c-91e0-86defa715f7a")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -8912,6 +8980,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 247.65 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620a6b6f-14c6-4700-844b-3c2edc269280")
+		(property "Reference" "LED5"
+			(at 251.46 62.5474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 251.46 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 247.65 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02a38178-f1ed-4811-af58-eb33a906efe9")
+		)
+		(pin "1"
+			(uuid "e13d3b74-1774-43b0-938b-5c0d46a80a15")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 237.49 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62be1f2a-ae11-4e20-b1bb-704f1dc24f46")
+		(property "Reference" "LED4"
+			(at 241.3 62.5474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 241.3 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 237.49 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13e48dca-8afd-48b5-9a04-9bf46d4eebc9")
+		)
+		(pin "1"
+			(uuid "6473da8c-0f84-496c-a5b3-4ff617314d1c")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 60.96 64.77 0)
 		(unit 1)
@@ -8966,6 +9192,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C23186"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "deeb0938-68d7-476c-b0aa-d826297250db")
 		)
@@ -8976,6 +9211,85 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 215.9 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ca44ee3-d845-47fa-81c4-df556e99820a")
+		(property "Reference" "LED11"
+			(at 219.71 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 219.71 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 215.9 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c27cbaa-014a-4222-8d0c-3486c3d97404")
+		)
+		(pin "1"
+			(uuid "d69ce633-ac51-4d01-ab1b-6b6378a0168c")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -9592,6 +9906,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110374"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a7c4a9c9-08a8-4fab-a713-a3ac69591ccc")
 		)
@@ -9791,76 +10114,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 205.74 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85d0315d-dc75-4d41-bbcd-66ceeb185d89")
-		(property "Reference" "LED10"
-			(at 209.55 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 209.55 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 205.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2751140-ab14-449f-a270-08e34bd27d88")
-		)
-		(pin "1"
-			(uuid "52feff35-7f9d-425d-8d34-97ffe2c7d680")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 195.58 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9878,7 +10131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pink"
 			(at 199.39 65.0874 90)
 			(effects
 				(font
@@ -9914,6 +10167,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C779449"
+			(at 195.58 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f74123e-5fa6-4791-b693-0af9a19e87af")
 		)
@@ -9924,76 +10186,6 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "LED0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 257.81 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "920c800f-cffa-476a-9b9c-7500ca61e6cd")
-		(property "Reference" "LED6"
-			(at 261.62 62.5474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 261.62 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 257.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 257.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35f7d716-df31-4c56-bd03-b296b81cdeb4")
-		)
-		(pin "1"
-			(uuid "9cfbf5fd-dfae-4078-8592-2a1f95196be8")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 219.71 65.0874 90)
 			(effects
 				(font
@@ -10113,6 +10305,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 215.9 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,6 +10383,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 52.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 52.07 64.77 0)
 			(effects
 				(font
@@ -10406,6 +10616,85 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 226.06 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a286f78a-683c-4744-88f6-f709f534870f")
+		(property "Reference" "LED3"
+			(at 229.87 62.5474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 229.87 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 226.06 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "020d7c9b-b9ac-4f82-a4e3-56b916725335")
+		)
+		(pin "1"
+			(uuid "71512413-b843-4e41-9a71-9c9b9913600b")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 205.74 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10423,7 +10712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pink"
 			(at 209.55 65.0874 90)
 			(effects
 				(font
@@ -10459,6 +10748,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C779449"
+			(at 205.74 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03894d8e-de7d-4546-9df4-abc63ffb6fe9")
 		)
@@ -10476,16 +10774,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 215.9 93.98 90)
+		(at 247.65 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a513dbb6-d789-4250-9d68-9bd96ec60151")
-		(property "Reference" "LED11"
-			(at 219.71 94.2974 90)
+		(uuid "a51d7a11-5f1c-464c-8049-e5fab5c011f7")
+		(property "Reference" "LED14"
+			(at 251.46 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,8 +10791,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 219.71 96.8374 90)
+		(property "Value" "Ice Blue"
+			(at 251.46 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10801,7 @@
 			)
 		)
 		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 215.9 93.98 0)
+			(at 247.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 93.98 0)
+			(at 247.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10819,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 215.9 93.98 0)
+			(at 247.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 247.65 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,15 +10837,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d857fc3-807e-448e-a503-a2a1fe7f400f")
+			(uuid "873f4f6a-577c-422b-99ec-42b3778ea19f")
 		)
 		(pin "1"
-			(uuid "a2434419-e6fd-4870-9af1-37222c21c528")
+			(uuid "f7c7151d-6d3b-4886-8d2b-c18323d443eb")
 		)
 		(instances
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED11")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -10611,76 +10918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 195.58 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a80244db-cf59-4978-a1c4-aae744bea4d4")
-		(property "Reference" "LED8"
-			(at 199.39 29.5274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 199.39 32.0674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 195.58 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 195.58 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bfd2b28-f56c-4b12-bdc7-b25c2e1602da")
-		)
-		(pin "1"
-			(uuid "d878732c-5fa8-4146-9660-461fedc2e4c4")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 195.58 36.83 0)
 		(unit 1)
@@ -10727,6 +10964,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -10811,76 +11057,6 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 257.81 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa29a353-98b0-48cf-827e-b0238aaf51e0")
-		(property "Reference" "LED15"
-			(at 261.62 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 261.62 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f3ee7e4-c317-4e02-b602-8bfa6420b702")
-		)
-		(pin "1"
-			(uuid "c75c65d6-f4e2-4600-8e71-ae6a67b1dc98")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -11130,6 +11306,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C315248"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -11438,6 +11623,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25804"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ef4f659-6d0f-45e0-8f75-c6ffed64132e")
 		)
@@ -11514,76 +11708,6 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 195.58 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1798eae-2e16-4ca1-8772-4d79a7632cd0")
-		(property "Reference" "LED9"
-			(at 199.39 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 199.39 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18232faf-1095-4865-ba71-5750c75088ea")
-		)
-		(pin "1"
-			(uuid "85090b5c-e746-4489-9da7-3710c463f4d7")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -11710,6 +11834,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110374"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a7c4a9c9-08a8-4fab-a713-a3ac69591cce")
 		)
@@ -11762,7 +11895,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 241.3 96.8374 90)
 			(effects
 				(font
@@ -11791,6 +11924,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C20613596"
+			(at 237.49 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,6 +12070,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C29780639"
 			(at 69.85 45.72 0)
 			(effects
 				(font
@@ -12162,6 +12313,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c284da05-d0d0-450b-a047-3b99e55994d3")
+		(property "Reference" "LED16"
+			(at 271.78 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 271.78 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 267.97 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab319c79-260c-4ed4-8d68-a19e2e9c414a")
+		)
+		(pin "1"
+			(uuid "88ded026-288e-4827-abe5-beae7b35fe67")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 205.74 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2be2365-1a1d-4251-a38e-472ae322b4fd")
+		(property "Reference" "LED10"
+			(at 209.55 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 209.55 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 205.74 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3daa2de8-6ae6-48cd-a2c5-b83aa6896aec")
+		)
+		(pin "1"
+			(uuid "b229cee9-823b-420a-9218-692e233b08a9")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 170.18 54.61 0)
 		(unit 1)
@@ -12208,6 +12517,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C110374"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -12450,76 +12768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 226.06 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccb8fc3d-4824-4da9-a5ff-6717d84a362c")
-		(property "Reference" "LED3"
-			(at 229.87 62.5474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 229.87 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac6bf305-012f-4f12-93bc-e4e7edb0d7f6")
-		)
-		(pin "1"
-			(uuid "da2ce4af-086b-4467-b3f7-ff4f8419ffb8")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 195.58 69.85 0)
 		(unit 1)
@@ -12671,6 +12919,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25804"
+			(at 148.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c11c17ce-aba1-4c98-a215-7186e879fc1c")
 		)
@@ -12747,6 +13004,85 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 257.81 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6e6ad6-c231-43aa-88bf-63d96d3a85ae")
+		(property "Reference" "LED15"
+			(at 261.62 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Ice Blue"
+			(at 261.62 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "discrete:LED_0402_1005Metric"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 257.81 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a0f038-7efb-47da-ac4d-acfd7492aa98")
+		)
+		(pin "1"
+			(uuid "11d8d039-cac6-49a2-8f34-9fc41154b9cc")
+		)
+		(instances
+			(project "flexypin-esp32c3-wroom-jig"
+				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -12896,6 +13232,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -13106,6 +13451,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110374"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b0fa4a41-148a-486d-9a5a-0635ff812654")
 		)
@@ -13200,76 +13554,6 @@
 			(project "flexypin-esp32c3-wroom-jig"
 				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 237.49 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f558b00c-730a-4ec7-ad09-0c7d40463045")
-		(property "Reference" "LED4"
-			(at 241.3 62.5474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 241.3 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "discrete:LED_0402_1005Metric"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "684e00e8-fc2c-41d8-a44e-36cde02eb7dd")
-		)
-		(pin "1"
-			(uuid "e9d05cc0-a3cf-4ca2-af04-f4208d62adb7")
-		)
-		(instances
-			(project "flexypin-esp32c3-wroom-jig"
-				(path "/76a56607-25e2-40a3-9282-ff279b153f75"
-					(reference "LED4")
 					(unit 1)
 				)
 			)

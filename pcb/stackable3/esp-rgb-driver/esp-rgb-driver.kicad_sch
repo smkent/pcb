@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "ESPHome 24v RGB LED strip driver")
+		(date "2025-03-18")
+		(rev "v3")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names hide)
@@ -8143,6 +8148,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110924"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8d9ad752-e80a-4dcd-be15-6403e84027cb")
 		)
@@ -9249,6 +9263,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04f4fe81-8873-41fb-9f52-48a2980f7c40")
 		)
@@ -9311,6 +9334,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 68.58 137.16 0)
 			(effects
 				(font
@@ -10066,7 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C52923"
 			(at 185.42 96.52 0)
 			(effects
 				(font
@@ -10454,6 +10486,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7496823"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb5fa919-5cc0-4381-9d45-a1b7b9b45796")
 		)
@@ -10521,7 +10562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C5832391"
 			(at 233.68 34.29 90)
 			(effects
 				(font
@@ -10664,6 +10705,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C779449"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8bfd3d7f-07e8-400d-bd61-dce805e66f35")
 		)
@@ -10726,6 +10776,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 68.58 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,6 +11350,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22367825"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1029f352-2542-4343-9a46-4abcfa24c9cf")
 		)
@@ -11420,6 +11488,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22367825"
 			(at 172.72 36.83 0)
 			(effects
 				(font
@@ -11634,6 +11711,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25803"
+			(at 265.43 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1df320a-76dc-4e0c-ad4d-c9f12fe83987")
 		)
@@ -11696,6 +11782,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C110924"
 			(at 50.8 77.47 0)
 			(effects
 				(font
@@ -12127,6 +12222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110924"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8d9ad752-e80a-4dcd-be15-6403e84027d1")
 		)
@@ -12273,6 +12377,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C152814"
+			(at 226.06 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,6 +12654,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C86295"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -13051,6 +13173,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C11702"
+			(at 151.13 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c570a36-5a7d-477f-b573-d2bc45ae013f")
 		)
@@ -13344,6 +13475,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C110924"
+			(at 59.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b52ba506-6f12-457d-8308-d20eea8002a6")
 		)
@@ -13424,6 +13564,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C152814"
 			(at 190.5 36.83 0)
 			(effects
 				(font
@@ -13581,7 +13730,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7471889"
+		(property "LCSC Part" "C5379947"
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -13984,6 +14133,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C86295"
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -14472,6 +14630,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 78.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
