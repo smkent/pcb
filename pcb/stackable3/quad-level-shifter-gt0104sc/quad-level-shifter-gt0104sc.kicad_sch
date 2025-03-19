@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "GT0104SC quad level shifter")
+		(date "2025-03-18")
+		(rev "v1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
@@ -3769,7 +3774,7 @@
 		(uuid "fc171a9c-3288-4e6d-9cb5-5008106ea79e")
 	)
 	(image
-		(at 277.876 172.466)
+		(at 277.241 172.466)
 		(scale 0.1691)
 		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -4624,7 +4629,7 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 277.495 180.34 0)
+		(at 276.86 180.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6674,13 +6679,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b39")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3a")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9040")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9041")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb5")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb6")
 		)
 		(pin "8"
 			(uuid "fd3eae8e-33a7-4fb7-9461-534ed40983b9")
@@ -6689,13 +6694,13 @@
 			(uuid "67648faf-2297-40ac-89a8-b12ef392b1c9")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a1")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a2")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5014")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b5015")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee8")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee9")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -7029,13 +7034,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3b")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3c")
 		)
 		(pin "3"
 			(uuid "33920805-acb3-4fc8-bc94-61048fe0dc49")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb7")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb8")
 		)
 		(pin "8"
 			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25031")
@@ -7044,10 +7049,10 @@
 			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b8")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a3")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a4")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5016")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b5017")
 		)
 		(pin "6"
 			(uuid "7d7017e4-cebd-48fa-8590-f6f907fd3c7b")
@@ -7442,25 +7447,25 @@
 			(uuid "1ac40aae-dff9-42ec-b0e9-739acf121d5b")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9041")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9045")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb6")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdba")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25030")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25033")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b7")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94ba")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a2")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a6")
 		)
 		(pin "4"
 			(uuid "8a874c86-2ae9-4779-b249-b86b2bd7adc2")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee9")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0feed")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -7874,25 +7879,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3b")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3d")
 		)
 		(pin "3"
 			(uuid "cdd55df9-03db-4f49-8af0-f762de152d26")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb7")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdbb")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25031")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25034")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b8")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94bb")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a3")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a7")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5016")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b5018")
 		)
 		(pin "6"
 			(uuid "3aeb6e1c-6eef-451e-89b1-0c05e830e917")
@@ -8250,13 +8255,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3a")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3e")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9041")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9046")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb6")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdbc")
 		)
 		(pin "8"
 			(uuid "7e44d428-2430-4179-9be0-745112395126")
@@ -8265,13 +8270,13 @@
 			(uuid "7f40d1d6-d71c-41d8-a682-a5d1483a43d1")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a2")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a8")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5015")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b5019")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee9")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0feee")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -8565,28 +8570,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b38")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3f")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed903f")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9047")
 		)
 		(pin "7"
 			(uuid "4a2152e1-7f4e-45fa-8c6f-71db1d02bd2a")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc2502e")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25035")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b5")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94bc")
 		)
 		(pin "2"
 			(uuid "f9ccac8d-ff51-4b24-81d2-343a708c8800")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5013")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b501a")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee7")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0feef")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -9011,13 +9016,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b39")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b40")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9040")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9048")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb5")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdbd")
 		)
 		(pin "8"
 			(uuid "abbd9b20-2e30-4081-b4dd-5f77e2265b04")
@@ -9026,13 +9031,13 @@
 			(uuid "dc75edeb-fc8c-4294-a951-d538706d18d9")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a1")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a9")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5014")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b501b")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee8")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fef0")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -9111,25 +9116,25 @@
 			(uuid "e88f1047-3b83-4f5e-8f0a-cc623236a8ad")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9041")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed9049")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb6")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdbe")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25030")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25036")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b7")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94bd")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a2")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8aa")
 		)
 		(pin "4"
 			(uuid "534203cd-b0bc-45a0-a192-d8645e0669f4")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee9")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fef1")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
@@ -9338,25 +9343,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3c")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b41")
 		)
 		(pin "3"
 			(uuid "dcc7a003-75a8-4b79-9603-87bbee730b8f")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdb8")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdbf")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25031")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25037")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b8")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94be")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a4")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8ab")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5017")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b501c")
 		)
 		(pin "6"
 			(uuid "cc6900b0-a9d9-464b-8c89-8703ec737e5c")
@@ -9435,25 +9440,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b3d")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b42")
 		)
 		(pin "3"
 			(uuid "509300e4-075b-44df-8a9e-9f0896aaf8ae")
 		)
 		(pin "7"
-			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdba")
+			(uuid "e05a25e7-8b38-44d6-a941-f74da622bdc0")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25033")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25038")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94ba")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94bf")
 		)
 		(pin "2"
-			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8a6")
+			(uuid "005f26ad-8c21-4dc9-b18e-e4067137c8ac")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5018")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b501d")
 		)
 		(pin "6"
 			(uuid "b3f1c18a-b33d-4eec-8901-3b999f07572e")
@@ -10565,28 +10570,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b38")
+			(uuid "8e2bec36-9146-4d20-99f3-7e8750158b43")
 		)
 		(pin "3"
-			(uuid "3ea74555-714a-4297-b801-f0cbc4ed903f")
+			(uuid "3ea74555-714a-4297-b801-f0cbc4ed904a")
 		)
 		(pin "7"
 			(uuid "31172c9a-657a-42cc-987f-fdea6fe276f1")
 		)
 		(pin "8"
-			(uuid "e68e42b1-c081-417b-9b15-e13dbdc2502e")
+			(uuid "e68e42b1-c081-417b-9b15-e13dbdc25039")
 		)
 		(pin "1"
-			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94b5")
+			(uuid "7fec67fb-77d8-481b-830c-2f5d2b0b94c0")
 		)
 		(pin "2"
 			(uuid "18158b29-17d3-4750-8945-5f43acad7bdd")
 		)
 		(pin "4"
-			(uuid "8de956cd-2d55-4706-a07b-eac2570b5013")
+			(uuid "8de956cd-2d55-4706-a07b-eac2570b501e")
 		)
 		(pin "6"
-			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fee7")
+			(uuid "d1b5281b-4110-428e-9400-44c3f6b0fef2")
 		)
 		(instances
 			(project "quad-level-shifter-gt0104sc"
