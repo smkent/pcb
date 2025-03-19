@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "76a56607-25e2-40a3-9282-ff279b153f75")
 	(paper "A4")
+	(title_block
+		(title "ESPHome 5V CWWW LED driver")
+		(date "2025-03-18")
+		(rev "v1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
@@ -5052,7 +5057,7 @@
 		(uuid "ff265078-a977-44fc-86da-1a0e9149b428")
 	)
 	(image
-		(at 277.876 172.466)
+		(at 277.241 172.466)
 		(scale 0.1691)
 		(uuid "af8b2cc8-fcce-4ad9-92ef-af5c12be3178")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAvkAAAMgCAYAAAC5+n0rAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -5907,7 +5912,7 @@
 	)
 	(text "CERN-OHL-P v2"
 		(exclude_from_sim no)
-		(at 277.495 180.34 0)
+		(at 276.86 180.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
