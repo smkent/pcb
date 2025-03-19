@@ -143,7 +143,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "dbc575b8-9fe1-40b2-aeb0-bfbf1d8747ed")
@@ -193,8 +193,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c7eb614-f459-4321-81d5-5bb745a16a12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/ccb8fc3d-4824-4da9-a5ff-6717d84a362c")
+		(path "/a286f78a-683c-4744-88f6-f709f534870f")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -427,6 +440,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C29780639"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b011c9c-4919-45e6-8162-8876738084d6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1272,6 +1298,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C315248"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94ec726c-0989-441f-b418-0a3eb87b3495")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2682,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e0fa6aba-0a39-4057-bbf5-b803c736f5ec")
@@ -2732,8 +2771,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4f237a9-b602-40dd-9a87-ad6eab138896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/920c800f-cffa-476a-9b9c-7500ca61e6cd")
+		(path "/0e25ad2c-ea4a-4d68-a219-cb420531b079")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -3171,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "44799283-c70c-4570-9716-422804abd97b")
@@ -3221,8 +3273,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7db77f2-20a7-4964-bef1-8b7a56e7984d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/a80244db-cf59-4978-a1c4-aae744bea4d4")
+		(path "/350d9dc5-aa7f-4691-b3d8-d66a5215297f")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -4759,7 +4824,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "88a7ac54-d981-4b4d-a3af-f2da3ed167b5")
@@ -4809,8 +4874,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc6f0776-e128-41c3-9607-81edf07ca0e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/243c8ac1-a7f0-4fef-b483-a7035f4175e3")
+		(path "/51d6b072-1f33-4e51-b8b7-b767684f5d5d")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -4997,7 +5075,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "619af61b-8cde-45b8-8e17-1b3fe96d22d9")
@@ -5043,6 +5121,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34eb83ee-c546-4fda-9ecb-75047cae6b2e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5644,6 +5735,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efadeddc-319b-4a45-b231-4b6e9b4278d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d58cd7a4-dd2d-4ff0-a480-860097b9d6c3")
 		(sheetname "Root")
@@ -5808,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "75c87e35-6d54-45dd-828a-d6471ee8a1bb")
@@ -5858,8 +5962,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b27e2e92-ce63-46b8-9589-dab0d0a63078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/aa29a353-98b0-48cf-827e-b0238aaf51e0")
+		(path "/da6e6ad6-c231-43aa-88bf-63d96d3a85ae")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -6096,6 +6213,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25905"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa26cefa-a549-4926-abac-66cdf0e7b38d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a92b4fef-100d-4e78-8504-bfd6e9fdc9c8")
 		(sheetname "Root")
@@ -6260,7 +6390,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "843efcdb-8533-4e0f-a10b-9103a5dc172c")
@@ -6310,8 +6440,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20b00d43-851a-4310-99b2-a5ed06dddb60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/26e178f7-84b4-4b67-8c54-28407fa22bb7")
+		(path "/c284da05-d0d0-450b-a047-3b99e55994d3")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -6498,7 +6641,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "30583f79-76da-4ad0-8fee-1fe5e9934d8e")
@@ -6548,8 +6691,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde4865c-c4a2-4b2a-8849-cbca007ff155")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/a513dbb6-d789-4250-9d68-9bd96ec60151")
+		(path "/6ca44ee3-d845-47fa-81c4-df556e99820a")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -6786,6 +6942,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C315248"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6429a37b-a209-4b0b-b586-54eca8b7d611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/17d2e265-290b-4d9e-aa9c-15452ee0a7ae")
 		(sheetname "Root")
@@ -6950,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "ae29b4da-758c-4d51-a0c6-b595b1ac9da7")
@@ -7000,8 +7169,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b721e36-c5ba-4dca-88b2-976f8ebe5b23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/b1798eae-2e16-4ca1-8772-4d79a7632cd0")
+		(path "/26f2c621-e384-4e59-bae2-2cfd92da6a17")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -7478,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pink"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "049233ae-d926-4dfb-9878-1cb077648bfc")
@@ -7524,6 +7706,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C779449"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "957b6d16-d6d5-47d8-b9e7-043d174bc336")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7716,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "0d63a4c3-d141-4ef6-82d7-46b40906547b")
@@ -7762,6 +7957,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C20613596"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b3409e6-e432-4742-8e1d-18defb551b78")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8004,6 +8212,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9827ad1-8d04-468d-81c5-c506dcd2bef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/aeafee59-009e-4490-a3e2-58a04945e13a")
 		(sheetname "Root")
@@ -8232,7 +8453,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ad5c8cd9-1973-4a28-b647-5057494bba40")
+		(path "/d1f62815-a8f8-44d8-af44-21dc00a8e39c")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
@@ -8508,6 +8729,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C23186"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25c825e6-9b6c-4d94-8320-6d01e6684ecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/98c7ff87-77f4-43b4-a97e-573e36f12653")
 		(sheetname "Root")
@@ -8722,6 +8956,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C23186"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1768090c-cf98-4107-a941-e8374a11708d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/646db680-c65a-464d-adcc-5b2d931a81e5")
 		(sheetname "Root")
@@ -8886,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a8c873de-54f4-4455-9f4b-5d75e60841d2")
@@ -8932,6 +9179,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C20613596"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2380b14f-b412-4126-9999-2c1432d01540")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10255,7 +10515,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/fe6f78b7-e689-4a6a-b32c-059708383014")
+		(path "/fd3f48dd-3411-4b07-829a-187860648215")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
@@ -10531,8 +10791,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C110374"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a1d1417-cc4b-47c7-b504-1db97b942663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/f3b30afb-44a2-4e94-a713-9b7639c2ec0f")
+		(path "/b329fbf8-518c-4a97-aa27-bc31f3b1d111")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
@@ -11422,7 +11695,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "8b302be7-62ee-41ff-91d7-dfde07691e7a")
@@ -11472,8 +11745,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d82fe45-36d3-452d-91a6-9880678d3ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/5bd80b35-2e55-4a6f-8f5e-cdde55ae0058")
+		(path "/a51d7a11-5f1c-464c-8049-e5fab5c011f7")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -11660,7 +11946,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Pink"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "ccbf8b7a-7b76-4e0f-b964-a60e1df7a3a9")
@@ -11706,6 +11992,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C779449"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14591861-b56f-43c6-8c61-44cd3a9ad53f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11898,7 +12197,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "4069b699-91e5-414a-8106-e83979a29338")
@@ -11948,8 +12247,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7905855-2d4f-4466-9453-1e2476b1403e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/85d0315d-dc75-4d41-bbcd-66ceeb185d89")
+		(path "/c2be2365-1a1d-4251-a38e-472ae322b4fd")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -12182,6 +12494,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "948fcdd1-8ee2-436f-a50a-6dcec9d9015d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12709,7 +13034,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d1b471eb-e3b9-4e9e-bfb2-108a1c479029")
@@ -12759,8 +13084,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81974ce6-d50f-4626-84e2-c742d5420ac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/10d05a03-e80f-46be-8adf-ecca586b4e76")
+		(path "/620a6b6f-14c6-4700-844b-3c2edc269280")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
@@ -12990,6 +13328,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C82942"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c392e7e6-8fa8-491e-90bf-1486a56c9b97")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13296,7 +13647,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/3ffd2de1-8d41-47bf-85d2-c8dc2cd93532")
+		(path "/83d35035-c5fe-45d9-8278-0ebf7a524674")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(clearance 0.15)
@@ -13522,7 +13873,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Ice Blue"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "282fbab9-1381-46ba-8a2f-f2aeabe32027")
@@ -13572,8 +13923,21 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7496805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdce688e-33f9-4f52-91ba-e6562139e166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/f558b00c-730a-4ec7-ad09-0c7d40463045")
+		(path "/62be1f2a-ae11-4e20-b1bb-704f1dc24f46")
 		(sheetname "Root")
 		(sheetfile "flexypin-esp32c3-wroom-jig.kicad_sch")
 		(attr smd)
