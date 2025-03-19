@@ -18,6 +18,10 @@ class MainBuilder:
     def is_ci(self) -> bool:
         return os.environ.get("CI", "") != ""
 
+    @classmethod
+    def ibom_exe(self) -> str:
+        return os.environ.get("IBOM") or "generate_interactive_bom"
+
     @functools.cached_property
     def env_vars(self) -> dict[str, str]:
         if self.is_ci:
@@ -232,7 +236,7 @@ class MainBuilder:
         ]
         cls._run(
             [
-                "generate_interactive_bom",
+                cls.ibom_exe(),
                 "--no-browser",
                 "--dark-mode",
                 "--include-tracks",
