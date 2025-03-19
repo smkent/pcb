@@ -1638,6 +1638,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04400956-4052-4ded-b943-4e037b6648d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bcd4d8cc-19a5-4dbd-ab41-42dafd45e70d")
 		(sheetname "Root")
@@ -2481,7 +2494,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R0"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3e60f4d5-8f6f-4f92-8c12-350902d93f23")
@@ -2493,7 +2506,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "04525ddd-61e4-484b-bc03-49ca4cdbe793")
 			(effects
@@ -2538,6 +2551,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "012e31b9-a08c-492a-af65-4582529c7011")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2648,7 +2674,7 @@
 			(uuid "5d05cd4f-c0e1-41e5-a90e-a6628c557abf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9f600644-61d0-45c4-9086-54862e3d1585")
 			(effects
@@ -2752,6 +2778,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bde79c44-2ff2-46b8-946b-7947d6f947d5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2966,6 +3005,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42f0306-5cfd-4356-a26d-a0c928993fd4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3695,6 +3747,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "058b3c19-7d1f-44d2-b6f9-536d5e339914")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6338,6 +6403,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C60133"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21a72f4f-1ca4-4e11-b1b9-f57dfaa54e82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f760a4ea-2f27-4a78-8dd2-49833a2b83de")
 		(sheetname "Root")
@@ -6897,7 +6975,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7351,7 +7429,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C7422173"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7471,7 +7549,7 @@
 			(uuid "a31f24c6-ba84-48cd-bdfd-2b9e04344b5c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2fcac439-72b8-4ea0-b7c1-11676039b699")
 			(effects
@@ -8045,6 +8123,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C60133"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df62e162-d4a2-4d85-a285-2d2e18471062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/459bf4f6-bf42-4999-be81-af1ede3d3aad")
 		(sheetname "Root")
@@ -8466,8 +8557,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.725 0.28125)
-					(end 0.275 -0.13125)
+					(start -0.725 -0.13125)
+					(end 0.275 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -8484,8 +8575,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.65625 0.35)
-					(end 0.275 -0.2)
+					(start -0.65625 -0.2)
+					(end 0.275 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -8538,8 +8629,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.28125)
-					(end 0.725 -0.13125)
+					(start -0.275 -0.13125)
+					(end 0.725 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -8556,8 +8647,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.35)
-					(end 0.65625 -0.2)
+					(start -0.275 -0.2)
+					(end 0.65625 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -8851,8 +8942,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.725 0.28125)
-					(end 0.275 -0.13125)
+					(start -0.725 -0.13125)
+					(end 0.275 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -8869,8 +8960,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.65625 0.35)
-					(end 0.275 -0.2)
+					(start -0.65625 -0.2)
+					(end 0.275 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -8923,8 +9014,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.28125)
-					(end 0.725 -0.13125)
+					(start -0.275 -0.13125)
+					(end 0.725 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -8941,8 +9032,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.35)
-					(end 0.65625 -0.2)
+					(start -0.275 -0.2)
+					(end 0.65625 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -9236,8 +9327,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.725 0.28125)
-					(end 0.275 -0.13125)
+					(start -0.725 -0.13125)
+					(end 0.275 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -9254,8 +9345,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.65625 0.35)
-					(end 0.275 -0.2)
+					(start -0.65625 -0.2)
+					(end 0.275 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -9308,8 +9399,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.28125)
-					(end 0.725 -0.13125)
+					(start -0.275 -0.13125)
+					(end 0.725 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -9326,8 +9417,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.35)
-					(end 0.65625 -0.2)
+					(start -0.275 -0.2)
+					(end 0.65625 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -9819,8 +9910,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.725 0.28125)
-					(end 0.275 -0.13125)
+					(start -0.725 -0.13125)
+					(end 0.275 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -9837,8 +9928,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.65625 0.35)
-					(end 0.275 -0.2)
+					(start -0.65625 -0.2)
+					(end 0.275 0.35)
 					(width 0)
 					(fill yes)
 				)
@@ -9891,8 +9982,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.28125)
-					(end 0.725 -0.13125)
+					(start -0.275 -0.13125)
+					(end 0.725 0.28125)
 					(width 0)
 					(fill yes)
 				)
@@ -9909,8 +10000,8 @@
 					(fill yes)
 				)
 				(gr_rect
-					(start -0.275 0.35)
-					(end 0.65625 -0.2)
+					(start -0.275 -0.2)
+					(end 0.65625 0.35)
 					(width 0)
 					(fill yes)
 				)
