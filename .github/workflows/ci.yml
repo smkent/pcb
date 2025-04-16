@@ -19,7 +19,7 @@ jobs:
 
     runs-on: ${{ matrix.os }}-latest
     container:
-      image: kicad/kicad:8.0.7
+      image: kicad/kicad:9.0
       options: --user root
     steps:
       - name: 💾 Check out repository
@@ -30,7 +30,7 @@ jobs:
         run: |
           apt update && apt install -y python3-pip
           python3 -m pip install --break-system-packages --upgrade scons
-          ln -snvf ~kicad/.config/kicad/8.0/*-lib-table /root/.config/kicad/8.0/
+          ln -snvf ~kicad/.config/kicad/9.0/*-lib-table /root/.config/kicad/9.0/
 
       - name: 🏗️ Run all project checks
         shell: bash
