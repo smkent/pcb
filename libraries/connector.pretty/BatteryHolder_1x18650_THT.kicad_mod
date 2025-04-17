@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_1x18650_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "18650 Battery Holder")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5793c565-c407-4605-b854-aec1c30c01e4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,8 +58,8 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "Cmts.User")
 		(uuid "7fb3292c-8428-4b87-84db-27b3aa435b5d")
 	)
 	(fp_rect
@@ -81,7 +69,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3543a97c-ab04-4942-8c12-aa066cec512e")
 	)
@@ -92,7 +80,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5c93b7e7-07ac-40b8-a415-8fa1a0fe5a25")
 	)
@@ -103,7 +91,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3e74c462-10e3-493a-9d3e-7114a551175e")
 	)
@@ -148,6 +136,7 @@
 		(remove_unused_layers no)
 		(uuid "d21305cb-e96e-402f-abd4-4aed1e25d9a2")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/lcsc.3dshapes/BAT-TH_18650-A5BJ001.wrl"
 		(offset
 			(xyz 0 -0 0)
